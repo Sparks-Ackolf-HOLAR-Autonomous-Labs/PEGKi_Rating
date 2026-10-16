@@ -1,0 +1,75 @@
+{
+  "payoff_matrix": {
+    "study_types": [
+      "gga_band_gap_difference_theoretical",
+      "gga_band_gap_intersection_theoretical",
+      "mbj_band_gap_theoretical",
+      "optb88vdw_band_gap_theoretical",
+      "snumat_gga_band_gap_theoretical",
+      "snumat_hse_band_gap_theoretical"
+    ],
+    "matrix": [
+      [
+        0.0,
+        0.4774810794860316,
+        0.47392368539870816,
+        0.5054172686926887,
+        0.2308852204119364,
+        0.3866982194332821
+      ],
+      [
+        0.5535265244247723,
+        0.0,
+        0.46816468118635385,
+        0.5284633562772008,
+        0.3392240497115139,
+        0.431734313752178
+      ],
+      [
+        0.5341511486857115,
+        0.5152334903638948,
+        0.0,
+        0.5078239641775272,
+        0.3629976839082291,
+        0.492601360375927
+      ],
+      [
+        0.5829254345412852,
+        0.525728098868699,
+        0.5135863214089457,
+        0.0,
+        0.34367990198077114,
+        0.46150665452756784
+      ],
+      [
+        0.5270988984956917,
+        0.4581798266303829,
+        0.4450641562809602,
+        0.4336195601381596,
+        0.0,
+        0.4815555583366365
+      ],
+      [
+        0.4546087866495373,
+        0.49852862818094906,
+        0.4671481638556759,
+        0.4317486886673852,
+        0.4605501203188506,
+        0.0
+      ]
+    ]
+  },
+  "nash_routing": {
+    "strategy": {
+      "gga_band_gap_difference_theoretical": 0.021599750224469593,
+      "gga_band_gap_intersection_theoretical": 0.28360612240430233,
+      "mbj_band_gap_theoretical": 0.23943931159158954,
+      "optb88vdw_band_gap_theoretical": 0.2577549483531793,
+      "snumat_gga_band_gap_theoretical": 0.0,
+      "snumat_hse_band_gap_theoretical": 0.19759986742645924
+    },
+    "game_value": 0.3676988341040381,
+    "interpretation": "Probability distribution over knowledge spaces for optimal query routing",
+    "method": "linprog_zero_sum"
+  }
+}

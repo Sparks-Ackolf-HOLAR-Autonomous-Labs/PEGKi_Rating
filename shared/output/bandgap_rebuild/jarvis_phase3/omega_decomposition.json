@@ -1,0 +1,242 @@
+{
+  "gga_band_gap_difference_theoretical->gga_band_gap_intersection_theoretical": {
+    "omega_total": 0.03941480930486431,
+    "omega_reversal": 0.0,
+    "omega_magnitude": 0.03941480930486431,
+    "trajectory_coverage_delta": 0.4774810794860316,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_difference_theoretical->mbj_band_gap_theoretical": {
+    "omega_total": 0.08638332234811613,
+    "omega_reversal": 0.3333333333333333,
+    "omega_magnitude": 0.1295749835221742,
+    "trajectory_coverage_delta": 0.47392368539870816,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_difference_theoretical->optb88vdw_band_gap_theoretical": {
+    "omega_total": 0.03941480930486431,
+    "omega_reversal": 0.0,
+    "omega_magnitude": 0.03941480930486431,
+    "trajectory_coverage_delta": 0.5054172686926887,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_difference_theoretical->snumat_gga_band_gap_theoretical": {
+    "omega_total": 0.17268013775328775,
+    "omega_reversal": 0.3333333333333333,
+    "omega_magnitude": 0.25902020662993164,
+    "trajectory_coverage_delta": 0.2308852204119364,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_difference_theoretical->snumat_hse_band_gap_theoretical": {
+    "omega_total": 0.16148489449289397,
+    "omega_reversal": 0.3333333333333333,
+    "omega_magnitude": 0.24222734173934096,
+    "trajectory_coverage_delta": 0.3866982194332821,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_intersection_theoretical->gga_band_gap_difference_theoretical": {
+    "omega_total": 0.0,
+    "omega_reversal": 0.0,
+    "omega_magnitude": 0.0,
+    "trajectory_coverage_delta": 0.5535265244247723,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_intersection_theoretical->mbj_band_gap_theoretical": {
+    "omega_total": 0.04155905798648445,
+    "omega_reversal": 0.2,
+    "omega_magnitude": 0.062338586979726676,
+    "trajectory_coverage_delta": 0.46816468118635385,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_intersection_theoretical->optb88vdw_band_gap_theoretical": {
+    "omega_total": 0.0,
+    "omega_reversal": 0.0,
+    "omega_magnitude": 0.0,
+    "trajectory_coverage_delta": 0.5284633562772008,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_intersection_theoretical->snumat_gga_band_gap_theoretical": {
+    "omega_total": 0.0791422629744856,
+    "omega_reversal": 0.26666666666666666,
+    "omega_magnitude": 0.1582845259489712,
+    "trajectory_coverage_delta": 0.3392240497115139,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "gga_band_gap_intersection_theoretical->snumat_hse_band_gap_theoretical": {
+    "omega_total": 0.08192777017228775,
+    "omega_reversal": 0.13333333333333333,
+    "omega_magnitude": 0.1638555403445755,
+    "trajectory_coverage_delta": 0.431734313752178,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "mbj_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+    "omega_total": 0.046281127404601684,
+    "omega_reversal": 0.3333333333333333,
+    "omega_magnitude": 0.13884338221380504,
+    "trajectory_coverage_delta": 0.5341511486857115,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "mbj_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+    "omega_total": 0.032739659145924915,
+    "omega_reversal": 0.2,
+    "omega_magnitude": 0.09821897743777475,
+    "trajectory_coverage_delta": 0.5152334903638948,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "mbj_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+    "omega_total": 0.032739659145924915,
+    "omega_reversal": 0.2,
+    "omega_magnitude": 0.09821897743777475,
+    "trajectory_coverage_delta": 0.5078239641775272,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "mbj_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+    "omega_total": 0.04436701679587781,
+    "omega_reversal": 0.2,
+    "omega_magnitude": 0.08873403359175562,
+    "trajectory_coverage_delta": 0.3629976839082291,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "mbj_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+    "omega_total": 0.044515039306144345,
+    "omega_reversal": 0.06666666666666667,
+    "omega_magnitude": 0.08903007861228869,
+    "trajectory_coverage_delta": 0.492601360375927,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "optb88vdw_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+    "omega_total": 0.0,
+    "omega_reversal": 0.0,
+    "omega_magnitude": 0.0,
+    "trajectory_coverage_delta": 0.5829254345412852,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "optb88vdw_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+    "omega_total": 0.0,
+    "omega_reversal": 0.0,
+    "omega_magnitude": 0.0,
+    "trajectory_coverage_delta": 0.525728098868699,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "optb88vdw_band_gap_theoretical->mbj_band_gap_theoretical": {
+    "omega_total": 0.04155905798648445,
+    "omega_reversal": 0.2,
+    "omega_magnitude": 0.062338586979726676,
+    "trajectory_coverage_delta": 0.5135863214089457,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "optb88vdw_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+    "omega_total": 0.0791422629744856,
+    "omega_reversal": 0.26666666666666666,
+    "omega_magnitude": 0.1582845259489712,
+    "trajectory_coverage_delta": 0.34367990198077114,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "optb88vdw_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+    "omega_total": 0.08192777017228775,
+    "omega_reversal": 0.13333333333333333,
+    "omega_magnitude": 0.1638555403445755,
+    "trajectory_coverage_delta": 0.46150665452756784,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_gga_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+    "omega_total": 0.04384390921801764,
+    "omega_reversal": 0.3333333333333333,
+    "omega_magnitude": 0.1315317276540529,
+    "trajectory_coverage_delta": 0.5270988984956917,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_gga_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+    "omega_total": 0.0734844809284365,
+    "omega_reversal": 0.26666666666666666,
+    "omega_magnitude": 0.146968961856873,
+    "trajectory_coverage_delta": 0.4581798266303829,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_gga_band_gap_theoretical->mbj_band_gap_theoretical": {
+    "omega_total": 0.047528633590388246,
+    "omega_reversal": 0.2,
+    "omega_magnitude": 0.09505726718077649,
+    "trajectory_coverage_delta": 0.4450641562809602,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_gga_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+    "omega_total": 0.0734844809284365,
+    "omega_reversal": 0.26666666666666666,
+    "omega_magnitude": 0.146968961856873,
+    "trajectory_coverage_delta": 0.4336195601381596,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_gga_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+    "omega_total": 0.020007805033673644,
+    "omega_reversal": 0.13333333333333333,
+    "omega_magnitude": 0.04001561006734729,
+    "trajectory_coverage_delta": 0.4815555583366365,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_hse_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+    "omega_total": 0.06386294016833337,
+    "omega_reversal": 0.3333333333333333,
+    "omega_magnitude": 0.19158882050500012,
+    "trajectory_coverage_delta": 0.4546087866495373,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_hse_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+    "omega_total": 0.07186932019791974,
+    "omega_reversal": 0.13333333333333333,
+    "omega_magnitude": 0.14373864039583947,
+    "trajectory_coverage_delta": 0.49852862818094906,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_hse_band_gap_theoretical->mbj_band_gap_theoretical": {
+    "omega_total": 0.04327598817233588,
+    "omega_reversal": 0.06666666666666667,
+    "omega_magnitude": 0.08655197634467177,
+    "trajectory_coverage_delta": 0.4671481638556759,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_hse_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+    "omega_total": 0.07186932019791974,
+    "omega_reversal": 0.13333333333333333,
+    "omega_magnitude": 0.14373864039583947,
+    "trajectory_coverage_delta": 0.4317486886673852,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  },
+  "snumat_hse_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+    "omega_total": 0.01560713710535479,
+    "omega_reversal": 0.13333333333333333,
+    "omega_magnitude": 0.03121427421070958,
+    "trajectory_coverage_delta": 0.4605501203188506,
+    "trajectory_sigma": null,
+    "gamut_coverage_rho": null
+  }
+}

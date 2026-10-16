@@ -1,0 +1,549 @@
+{
+  "study_types": {
+    "gga_band_gap_difference_theoretical": "theoretical",
+    "gga_band_gap_intersection_theoretical": "hybrid_overlap",
+    "mbj_band_gap_theoretical": "theoretical",
+    "optb88vdw_band_gap_theoretical": "theoretical",
+    "snumat_gga_band_gap_theoretical": "theoretical",
+    "snumat_hse_band_gap_theoretical": "theoretical"
+  },
+  "engine_databases": [
+    "mbj_band_gap_theoretical",
+    "optb88vdw_band_gap_theoretical",
+    "snumat_gga_band_gap_theoretical",
+    "snumat_hse_band_gap_theoretical"
+  ],
+  "set_op_databases": [
+    "gga_band_gap_difference_theoretical",
+    "gga_band_gap_intersection_theoretical"
+  ],
+  "performance_vector_dimensions": [
+    "gga_band_gap_difference_theoretical",
+    "gga_band_gap_intersection_theoretical",
+    "mbj_band_gap_theoretical",
+    "optb88vdw_band_gap_theoretical",
+    "snumat_gga_band_gap_theoretical",
+    "snumat_hse_band_gap_theoretical"
+  ],
+  "transfer_deltas": {
+    "gga_band_gap_difference_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.4774810794860316,
+      "structural_compatibility": 0.0786054950406824,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.43829039375021345,
+      "transfer_overhead": 0.03941480930486431,
+      "omega_reversal": 0.0,
+      "omega_magnitude": 0.03941480930486431,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4774810794860316
+    },
+    "gga_band_gap_difference_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.47392368539870816,
+      "structural_compatibility": 0.07750394062100643,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4828030671258179,
+      "transfer_overhead": 0.08638332234811613,
+      "omega_reversal": 0.3333333333333333,
+      "omega_magnitude": 0.1295749835221742,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.47392368539870816
+    },
+    "gga_band_gap_difference_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.5054172686926887,
+      "structural_compatibility": 0.07883442653546402,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.46599765146208894,
+      "transfer_overhead": 0.03941480930486431,
+      "omega_reversal": 0.0,
+      "omega_magnitude": 0.03941480930486431,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5054172686926887
+    },
+    "gga_band_gap_difference_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.2308852204119364,
+      "structural_compatibility": 0.06008158423616068,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.3434837739290635,
+      "transfer_overhead": 0.17268013775328775,
+      "omega_reversal": 0.3333333333333333,
+      "omega_magnitude": 0.25902020662993164,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.2308852204119364
+    },
+    "gga_band_gap_difference_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.3866982194332821,
+      "structural_compatibility": 0.07166996973880557,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.47651314418737045,
+      "transfer_overhead": 0.16148489449289397,
+      "omega_reversal": 0.3333333333333333,
+      "omega_magnitude": 0.24222734173934096,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.3866982194332821
+    },
+    "gga_band_gap_intersection_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5535265244247723,
+      "structural_compatibility": 0.08369801597763207,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4698285084471403,
+      "transfer_overhead": 0.0,
+      "omega_reversal": 0.0,
+      "omega_magnitude": 0.0,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5535265244247723
+    },
+    "gga_band_gap_intersection_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.46816468118635385,
+      "structural_compatibility": 0.07871443633639287,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.43100930283644545,
+      "transfer_overhead": 0.04155905798648445,
+      "omega_reversal": 0.2,
+      "omega_magnitude": 0.062338586979726676,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.46816468118635385
+    },
+    "gga_band_gap_intersection_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.5284633562772008,
+      "structural_compatibility": 0.08361001672250697,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.44485333955469375,
+      "transfer_overhead": 0.0,
+      "omega_reversal": 0.0,
+      "omega_magnitude": 0.0,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5284633562772008
+    },
+    "gga_band_gap_intersection_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.3392240497115139,
+      "structural_compatibility": 0.06607088836925923,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.3522954243167402,
+      "transfer_overhead": 0.0791422629744856,
+      "omega_reversal": 0.26666666666666666,
+      "omega_magnitude": 0.1582845259489712,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.3392240497115139
+    },
+    "gga_band_gap_intersection_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.431734313752178,
+      "structural_compatibility": 0.07716098880725894,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4365010951172068,
+      "transfer_overhead": 0.08192777017228775,
+      "omega_reversal": 0.13333333333333333,
+      "omega_magnitude": 0.1638555403445755,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.431734313752178
+    },
+    "mbj_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5341511486857115,
+      "structural_compatibility": 0.08146746835359962,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.49896480773671353,
+      "transfer_overhead": 0.046281127404601684,
+      "omega_reversal": 0.3333333333333333,
+      "omega_magnitude": 0.13884338221380504,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5341511486857115
+    },
+    "mbj_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.5152334903638948,
+      "structural_compatibility": 0.07763656947479153,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.47033658003502815,
+      "transfer_overhead": 0.032739659145924915,
+      "omega_reversal": 0.2,
+      "omega_magnitude": 0.09821897743777475,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5152334903638948
+    },
+    "mbj_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.5078239641775272,
+      "structural_compatibility": 0.07755997442088194,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4630036489025702,
+      "transfer_overhead": 0.032739659145924915,
+      "omega_reversal": 0.2,
+      "omega_magnitude": 0.09821897743777475,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5078239641775272
+    },
+    "mbj_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.3629976839082291,
+      "structural_compatibility": 0.057803757178537,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.3495609435255699,
+      "transfer_overhead": 0.04436701679587781,
+      "omega_reversal": 0.2,
+      "omega_magnitude": 0.08873403359175562,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.3629976839082291
+    },
+    "mbj_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.492601360375927,
+      "structural_compatibility": 0.07353656568857093,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.46357983399350045,
+      "transfer_overhead": 0.044515039306144345,
+      "omega_reversal": 0.06666666666666667,
+      "omega_magnitude": 0.08903007861228869,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.492601360375927
+    },
+    "optb88vdw_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5829254345412852,
+      "structural_compatibility": 0.08382347687311566,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4991019576681695,
+      "transfer_overhead": 0.0,
+      "omega_reversal": 0.0,
+      "omega_magnitude": 0.0,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5829254345412852
+    },
+    "optb88vdw_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.525728098868699,
+      "structural_compatibility": 0.0835357915172108,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4421923073514882,
+      "transfer_overhead": 0.0,
+      "omega_reversal": 0.0,
+      "omega_magnitude": 0.0,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.525728098868699
+    },
+    "optb88vdw_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.5135863214089457,
+      "structural_compatibility": 0.07856696768755013,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.47657841170787996,
+      "transfer_overhead": 0.04155905798648445,
+      "omega_reversal": 0.2,
+      "omega_magnitude": 0.062338586979726676,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5135863214089457
+    },
+    "optb88vdw_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.34367990198077114,
+      "structural_compatibility": 0.06167710857127026,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.3611450563839865,
+      "transfer_overhead": 0.0791422629744856,
+      "omega_reversal": 0.26666666666666666,
+      "omega_magnitude": 0.1582845259489712,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.34367990198077114
+    },
+    "optb88vdw_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.46150665452756784,
+      "structural_compatibility": 0.07428591740016174,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4691485072996939,
+      "transfer_overhead": 0.08192777017228775,
+      "omega_reversal": 0.13333333333333333,
+      "omega_magnitude": 0.1638555403445755,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.46150665452756784
+    },
+    "snumat_gga_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5270988984956917,
+      "structural_compatibility": 0.06344222080422274,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.5075005869094866,
+      "transfer_overhead": 0.04384390921801764,
+      "omega_reversal": 0.3333333333333333,
+      "omega_magnitude": 0.1315317276540529,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.5270988984956917
+    },
+    "snumat_gga_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.4581798266303829,
+      "structural_compatibility": 0.06576822305449388,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4658960845043255,
+      "transfer_overhead": 0.0734844809284365,
+      "omega_reversal": 0.26666666666666666,
+      "omega_magnitude": 0.146968961856873,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4581798266303829
+    },
+    "snumat_gga_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.4450641562809602,
+      "structural_compatibility": 0.05833780477054305,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.43425498510080535,
+      "transfer_overhead": 0.047528633590388246,
+      "omega_reversal": 0.2,
+      "omega_magnitude": 0.09505726718077649,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4450641562809602
+    },
+    "snumat_gga_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.4336195601381596,
+      "structural_compatibility": 0.06144912256305453,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.44565491850354155,
+      "transfer_overhead": 0.0734844809284365,
+      "omega_reversal": 0.26666666666666666,
+      "omega_magnitude": 0.146968961856873,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4336195601381596
+    },
+    "snumat_gga_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.4815555583366365,
+      "structural_compatibility": 0.07860247173226678,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4229608916380434,
+      "transfer_overhead": 0.020007805033673644,
+      "omega_reversal": 0.13333333333333333,
+      "omega_magnitude": 0.04001561006734729,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4815555583366365
+    },
+    "snumat_hse_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.4546087866495373,
+      "structural_compatibility": 0.07526374304766664,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4432079837702041,
+      "transfer_overhead": 0.06386294016833337,
+      "omega_reversal": 0.3333333333333333,
+      "omega_magnitude": 0.19158882050500012,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4546087866495373
+    },
+    "snumat_hse_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.49852862818094906,
+      "structural_compatibility": 0.07656366038757036,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4938342879912984,
+      "transfer_overhead": 0.07186932019791974,
+      "omega_reversal": 0.13333333333333333,
+      "omega_magnitude": 0.14373864039583947,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.49852862818094906
+    },
+    "snumat_hse_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.4671481638556759,
+      "structural_compatibility": 0.07398033613028922,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4364438158977226,
+      "transfer_overhead": 0.04327598817233588,
+      "omega_reversal": 0.06666666666666667,
+      "omega_magnitude": 0.08655197634467177,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4671481638556759
+    },
+    "snumat_hse_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.4317486886673852,
+      "structural_compatibility": 0.07377634115864919,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.4298416677066558,
+      "transfer_overhead": 0.07186932019791974,
+      "omega_reversal": 0.13333333333333333,
+      "omega_magnitude": 0.14373864039583947,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4317486886673852
+    },
+    "snumat_hse_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.4605501203188506,
+      "structural_compatibility": 0.07835291258162964,
+      "source_quality": 0.0,
+      "mapping_efficiency": 0.39780434484257576,
+      "transfer_overhead": 0.01560713710535479,
+      "omega_reversal": 0.13333333333333333,
+      "omega_magnitude": 0.03121427421070958,
+      "trajectory_sigma": null,
+      "gamut_coverage_rho": null,
+      "trajectory_coverage_delta": 0.4605501203188506
+    }
+  },
+  "conjecture_asymmetry": {
+    "conjecture": "Design Conjecture 2.1 (Asymmetric Transfer Principle)",
+    "result": "PARTIALLY_SUPPORTED",
+    "pairs_checked": 15,
+    "asymmetric_pairs": 13,
+    "details": [
+      {
+        "pair": "gga_band_gap_difference_theoretical<->gga_band_gap_intersection_theoretical",
+        "delta_ab": 0.4774810794860316,
+        "delta_ba": 0.5535265244247723,
+        "asymmetry": 0.07604544493874077,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "gga_band_gap_difference_theoretical<->mbj_band_gap_theoretical",
+        "delta_ab": 0.47392368539870816,
+        "delta_ba": 0.5341511486857115,
+        "asymmetry": 0.06022746328700329,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "gga_band_gap_difference_theoretical<->optb88vdw_band_gap_theoretical",
+        "delta_ab": 0.5054172686926887,
+        "delta_ba": 0.5829254345412852,
+        "asymmetry": 0.07750816584859654,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "gga_band_gap_difference_theoretical<->snumat_gga_band_gap_theoretical",
+        "delta_ab": 0.2308852204119364,
+        "delta_ba": 0.5270988984956917,
+        "asymmetry": 0.2962136780837553,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "gga_band_gap_difference_theoretical<->snumat_hse_band_gap_theoretical",
+        "delta_ab": 0.3866982194332821,
+        "delta_ba": 0.4546087866495373,
+        "asymmetry": 0.06791056721625521,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "gga_band_gap_intersection_theoretical<->mbj_band_gap_theoretical",
+        "delta_ab": 0.46816468118635385,
+        "delta_ba": 0.5152334903638948,
+        "asymmetry": 0.047068809177540916,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "gga_band_gap_intersection_theoretical<->optb88vdw_band_gap_theoretical",
+        "delta_ab": 0.5284633562772008,
+        "delta_ba": 0.525728098868699,
+        "asymmetry": 0.002735257408501779,
+        "conjecture_holds": false
+      },
+      {
+        "pair": "gga_band_gap_intersection_theoretical<->snumat_gga_band_gap_theoretical",
+        "delta_ab": 0.3392240497115139,
+        "delta_ba": 0.4581798266303829,
+        "asymmetry": 0.11895577691886905,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "gga_band_gap_intersection_theoretical<->snumat_hse_band_gap_theoretical",
+        "delta_ab": 0.431734313752178,
+        "delta_ba": 0.49852862818094906,
+        "asymmetry": 0.06679431442877104,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical",
+        "delta_ab": 0.5078239641775272,
+        "delta_ba": 0.5135863214089457,
+        "asymmetry": 0.005762357231418491,
+        "conjecture_holds": false
+      },
+      {
+        "pair": "mbj_band_gap_theoretical<->snumat_gga_band_gap_theoretical",
+        "delta_ab": 0.3629976839082291,
+        "delta_ba": 0.4450641562809602,
+        "asymmetry": 0.08206647237273107,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "mbj_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+        "delta_ab": 0.492601360375927,
+        "delta_ba": 0.4671481638556759,
+        "asymmetry": 0.025453196520251076,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "optb88vdw_band_gap_theoretical<->snumat_gga_band_gap_theoretical",
+        "delta_ab": 0.34367990198077114,
+        "delta_ba": 0.4336195601381596,
+        "asymmetry": 0.08993965815738847,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "optb88vdw_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+        "delta_ab": 0.46150665452756784,
+        "delta_ba": 0.4317486886673852,
+        "asymmetry": 0.029757965860182645,
+        "conjecture_holds": true
+      },
+      {
+        "pair": "snumat_gga_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+        "delta_ab": 0.4815555583366365,
+        "delta_ba": 0.4605501203188506,
+        "asymmetry": 0.02100543801778587,
+        "conjecture_holds": true
+      }
+    ]
+  },
+  "conjecture_hybrid_superiority": {
+    "conjecture": "Design Conjecture 2.2 (Hybrid Superiority Principle)",
+    "result": "NOT_SUPPORTED",
+    "details": [
+      {
+        "source": "gga_band_gap_difference_theoretical",
+        "source_type": "theoretical",
+        "best_target": "optb88vdw_band_gap_theoretical",
+        "best_target_type": "theoretical",
+        "best_delta": 0.5054172686926887,
+        "conjecture_holds": false
+      },
+      {
+        "source": "mbj_band_gap_theoretical",
+        "source_type": "theoretical",
+        "best_target": "gga_band_gap_difference_theoretical",
+        "best_target_type": "theoretical",
+        "best_delta": 0.5341511486857115,
+        "conjecture_holds": false
+      },
+      {
+        "source": "optb88vdw_band_gap_theoretical",
+        "source_type": "theoretical",
+        "best_target": "gga_band_gap_difference_theoretical",
+        "best_target_type": "theoretical",
+        "best_delta": 0.5829254345412852,
+        "conjecture_holds": false
+      },
+      {
+        "source": "snumat_gga_band_gap_theoretical",
+        "source_type": "theoretical",
+        "best_target": "gga_band_gap_difference_theoretical",
+        "best_target_type": "theoretical",
+        "best_delta": 0.5270988984956917,
+        "conjecture_holds": false
+      },
+      {
+        "source": "snumat_hse_band_gap_theoretical",
+        "source_type": "theoretical",
+        "best_target": "gga_band_gap_intersection_theoretical",
+        "best_target_type": "hybrid_overlap",
+        "best_delta": 0.49852862818094906,
+        "conjecture_holds": true
+      }
+    ]
+  }
+}

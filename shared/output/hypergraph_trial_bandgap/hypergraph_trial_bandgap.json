@@ -1,0 +1,331 @@
+{
+  "channels": {
+    "expt_zhuo": {
+      "classes": [
+        "boride",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "mean_edge_residual": 0.22487301587301584,
+      "n_hyperedges": 300,
+      "pairwise_cyclic_energy_fraction": 0.032876565196896024,
+      "pl_log_strengths": {
+        "boride": 0.19913895118550867,
+        "chalcogenide": -0.5135298384059769,
+        "halide": 1.1199574117438782,
+        "nitride": 0.8874877583617814,
+        "other": -1.503865399811242,
+        "oxide": 0.999480179478678,
+        "pnictide": -1.1886690625526275
+      },
+      "pl_ranking": [
+        "halide",
+        "oxide",
+        "nitride",
+        "boride",
+        "chalcogenide",
+        "pnictide",
+        "other"
+      ],
+      "tau_pl_vs_mean_value_order": 1.0
+    },
+    "jarvis_mbj": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "mean_edge_residual": 0.32565079365079364,
+      "n_hyperedges": 300,
+      "pairwise_cyclic_energy_fraction": 0.03743330726609006,
+      "pl_log_strengths": {
+        "boride": 0.417464698381723,
+        "carbide": -0.08927414690979692,
+        "chalcogenide": -0.29756763705368694,
+        "halide": 0.5393292593875281,
+        "nitride": 0.37249266540625925,
+        "other": -0.6829735496659822,
+        "oxide": 0.6162471784183118,
+        "pnictide": -0.875718467964356
+      },
+      "pl_ranking": [
+        "oxide",
+        "halide",
+        "boride",
+        "nitride",
+        "carbide",
+        "chalcogenide",
+        "other",
+        "pnictide"
+      ],
+      "tau_pl_vs_mean_value_order": 0.6428571428571429
+    },
+    "jarvis_optb88vdw": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "mean_edge_residual": 0.3859047619047619,
+      "n_hyperedges": 300,
+      "pairwise_cyclic_energy_fraction": 0.02833974881531417,
+      "pl_log_strengths": {
+        "boride": 0.19710731830052158,
+        "carbide": 0.25593946679800494,
+        "chalcogenide": -0.26582437436427375,
+        "halide": 0.33492851604204,
+        "nitride": 0.2299903148821987,
+        "other": -0.3479974183443783,
+        "oxide": 0.23674790956468358,
+        "pnictide": -0.640891732878797
+      },
+      "pl_ranking": [
+        "halide",
+        "carbide",
+        "oxide",
+        "nitride",
+        "boride",
+        "chalcogenide",
+        "other",
+        "pnictide"
+      ],
+      "tau_pl_vs_mean_value_order": 0.5714285714285714
+    },
+    "mp_gga": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "mean_edge_residual": 0.36904761904761907,
+      "n_hyperedges": 300,
+      "pairwise_cyclic_energy_fraction": 0.03447698344339171,
+      "pl_log_strengths": {
+        "boride": 0.2292940425443421,
+        "carbide": 0.06506205717412065,
+        "chalcogenide": -0.04787670419095363,
+        "halide": 0.46839564640156967,
+        "nitride": 0.07895753074926205,
+        "other": -0.6405276404105679,
+        "oxide": 0.28550403634797167,
+        "pnictide": -0.43880896861574414
+      },
+      "pl_ranking": [
+        "halide",
+        "oxide",
+        "boride",
+        "nitride",
+        "carbide",
+        "chalcogenide",
+        "pnictide",
+        "other"
+      ],
+      "tau_pl_vs_mean_value_order": 0.7142857142857143
+    },
+    "mp_gga_expsynth": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "mean_edge_residual": 0.2972619047619047,
+      "n_hyperedges": 300,
+      "pairwise_cyclic_energy_fraction": 0.0282706148617671,
+      "pl_log_strengths": {
+        "boride": 0.5867187701679656,
+        "carbide": 0.132242078717488,
+        "chalcogenide": -0.30597026560136403,
+        "halide": 0.4473025788031528,
+        "nitride": 0.3610262083175412,
+        "other": -0.7337355576298907,
+        "oxide": 0.3648171752504539,
+        "pnictide": -0.8524009880253464
+      },
+      "pl_ranking": [
+        "boride",
+        "halide",
+        "oxide",
+        "nitride",
+        "carbide",
+        "chalcogenide",
+        "other",
+        "pnictide"
+      ],
+      "tau_pl_vs_mean_value_order": 0.8571428571428571
+    },
+    "mp_r2scan": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "mean_edge_residual": 0.34523809523809523,
+      "n_hyperedges": 300,
+      "pairwise_cyclic_energy_fraction": 0.0411422040520401,
+      "pl_log_strengths": {
+        "boride": 0.17277056863654394,
+        "carbide": 0.13385807203300476,
+        "chalcogenide": -0.1659274186449612,
+        "halide": 0.4768275412171023,
+        "nitride": 0.26725090882151303,
+        "other": -0.49535188677469794,
+        "oxide": 0.47836521825306266,
+        "pnictide": -0.8677930035415675
+      },
+      "pl_ranking": [
+        "oxide",
+        "halide",
+        "nitride",
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "other",
+        "pnictide"
+      ],
+      "tau_pl_vs_mean_value_order": 0.5714285714285714
+    },
+    "snumat_gga": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "mean_edge_residual": 0.34821428571428575,
+      "n_hyperedges": 300,
+      "pairwise_cyclic_energy_fraction": 0.0693549205704715,
+      "pl_log_strengths": {
+        "boride": 0.27478024229424786,
+        "carbide": 0.09802773281973476,
+        "chalcogenide": -0.24702025859332513,
+        "halide": 0.40349059257479514,
+        "nitride": 0.5902746318102748,
+        "other": -0.6893897444268711,
+        "oxide": 0.4223387774170452,
+        "pnictide": -0.852501973895902
+      },
+      "pl_ranking": [
+        "nitride",
+        "oxide",
+        "halide",
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "other",
+        "pnictide"
+      ],
+      "tau_pl_vs_mean_value_order": 0.5714285714285714
+    },
+    "snumat_hse": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "mean_edge_residual": 0.31666666666666665,
+      "n_hyperedges": 300,
+      "pairwise_cyclic_energy_fraction": 0.02246923734417081,
+      "pl_log_strengths": {
+        "boride": -0.05321196112023648,
+        "carbide": 0.04380396754417364,
+        "chalcogenide": -0.28185377905795056,
+        "halide": 0.6361149805345434,
+        "nitride": 0.6540017983767921,
+        "other": -0.7633858008335881,
+        "oxide": 0.7051457665685407,
+        "pnictide": -0.9406149720122746
+      },
+      "pl_ranking": [
+        "oxide",
+        "nitride",
+        "halide",
+        "carbide",
+        "boride",
+        "chalcogenide",
+        "other",
+        "pnictide"
+      ],
+      "tau_pl_vs_mean_value_order": 0.6428571428571429
+    }
+  },
+  "config": {
+    "max_bridges": 4000,
+    "min_class_size": 30,
+    "n_events": 300,
+    "output_dir": "output/hypergraph_trial_bandgap",
+    "universe": "output/bandgap_archive_build/bandgap_universe.jsonl"
+  },
+  "pooled": {
+    "channel_offsets_sorted": {
+      "expt_zhuo": 1.4412514517026038,
+      "jarvis_mbj": 1.4339319094917728,
+      "jarvis_optb88vdw": -1.5049900639238294,
+      "mp_gga": -1.5766139472969263,
+      "mp_gga_expsynth": -0.9433646329329306,
+      "mp_r2scan": 0.4429524806783565,
+      "snumat_gga": -1.4811805100948623,
+      "snumat_hse": 2.188013312375815
+    },
+    "class_log_strengths": {
+      "boride": 0.24325020654421123,
+      "carbide": 0.09801167288841228,
+      "chalcogenide": -0.24775957481768832,
+      "halide": 0.5286480492680022,
+      "nitride": 0.4020199578407592,
+      "other": -0.7101866988826939,
+      "oxide": 0.48801204926203184,
+      "pnictide": -0.801995662103034
+    },
+    "combined_class_ranking": [
+      "halide",
+      "oxide",
+      "nitride",
+      "boride",
+      "carbide",
+      "chalcogenide",
+      "other",
+      "pnictide"
+    ],
+    "converged": true,
+    "n_bridge_events": 4000,
+    "n_within_events": 2400
+  }
+}

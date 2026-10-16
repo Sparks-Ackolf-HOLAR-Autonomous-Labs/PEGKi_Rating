@@ -1,0 +1,1570 @@
+{
+  "conjecture": "Design Conjecture 6.1 (Transfer Convergence)",
+  "result": "NOT_SUPPORTED",
+  "n_pairs": 30,
+  "n_converged": 3,
+  "stability_threshold": 0.2,
+  "pair_results": {
+    "gga_band_gap_difference_theoretical->gga_band_gap_intersection_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.40684686481691595,
+        0.34629578106756237,
+        0.343445319407515,
+        0.4774810794860317
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.40684686481691595,
+          "structural_compatibility": 0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3276195732220113,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.34629578106756237,
+          "structural_compatibility": 0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3276195732220113,
+          "transfer_overhead": 0.06055108374935358
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.343445319407515,
+          "structural_compatibility": 0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3276195732220113,
+          "transfer_overhead": 0.06340154540940099
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4774810794860317,
+          "structural_compatibility": 0.0786054950406824,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.43829039375021345,
+          "transfer_overhead": 0.039414809304864164
+        }
+      ],
+      "full_delta": 0.4774810794860317,
+      "delta_range": 0.1340357600785167,
+      "relative_range": 0.2807142855226744,
+      "converged": false
+    },
+    "gga_band_gap_difference_theoretical->mbj_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.10286263664311249,
+        0.05054445593373583,
+        0.06647022912915324,
+        0.47392368539870816
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.10286263664311249,
+          "structural_compatibility": -0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2346305065232795,
+          "transfer_overhead": 0.05254057828526234
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.05054445593373583,
+          "structural_compatibility": -0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2346305065232795,
+          "transfer_overhead": 0.104858758994639
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.06647022912915324,
+          "structural_compatibility": -0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2346305065232795,
+          "transfer_overhead": 0.0889329857992216
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.47392368539870816,
+          "structural_compatibility": 0.07750394062100643,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4828030671258179,
+          "transfer_overhead": 0.08638332234811613
+        }
+      ],
+      "full_delta": 0.47392368539870816,
+      "delta_range": 0.4233792294649723,
+      "relative_range": 0.893348955768663,
+      "converged": false
+    },
+    "gga_band_gap_difference_theoretical->optb88vdw_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.4415062628779806,
+        0.41807693638201043,
+        0.3250803713800749,
+        0.5054172686926888
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.4415062628779806,
+          "structural_compatibility": 0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.36227897128307596,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.41807693638201043,
+          "structural_compatibility": 0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.36227897128307596,
+          "transfer_overhead": 0.023429326495970203
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.3250803713800749,
+          "structural_compatibility": 0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.36227897128307596,
+          "transfer_overhead": 0.11642589149790573
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5054172686926888,
+          "structural_compatibility": 0.07883442653546402,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.46599765146208894,
+          "transfer_overhead": 0.039414809304864164
+        }
+      ],
+      "full_delta": 0.5054172686926888,
+      "delta_range": 0.18033689731261388,
+      "relative_range": 0.3568079455992331,
+      "converged": false
+    },
+    "gga_band_gap_difference_theoretical->snumat_gga_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.297508762235386,
+        -0.08325955537310747,
+        -0.10523066267060668,
+        0.2308852204119364
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.297508762235386,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.202491237764614
+        },
+        {
+          "fraction": 0.5,
+          "delta": -0.08325955537310747,
+          "structural_compatibility": -0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.11625753768285503,
+          "transfer_overhead": 0.12028980146105786
+        },
+        {
+          "fraction": 0.75,
+          "delta": -0.10523066267060668,
+          "structural_compatibility": -0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.11625753768285503,
+          "transfer_overhead": 0.14226090875855707
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.2308852204119364,
+          "structural_compatibility": 0.06008158423616068,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3434837739290635,
+          "transfer_overhead": 0.17268013775328775
+        }
+      ],
+      "full_delta": 0.2308852204119364,
+      "delta_range": 0.4027394249059927,
+      "relative_range": 1.744327437622212,
+      "converged": false
+    },
+    "gga_band_gap_difference_theoretical->snumat_hse_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.33139182900766007,
+        -0.05326216487105878,
+        -0.07114331280708126,
+        0.3866982194332821
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.33139182900766007,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.1686081709923399
+        },
+        {
+          "fraction": 0.5,
+          "delta": -0.05326216487105878,
+          "structural_compatibility": -0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.1384459988581376,
+          "transfer_overhead": 0.11248087213429174
+        },
+        {
+          "fraction": 0.75,
+          "delta": -0.07114331280708126,
+          "structural_compatibility": -0.07922729159490464,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.1384459988581376,
+          "transfer_overhead": 0.13036202007031422
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.3866982194332821,
+          "structural_compatibility": 0.07166996973880557,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.47651314418737045,
+          "transfer_overhead": 0.16148489449289397
+        }
+      ],
+      "full_delta": 0.3866982194332821,
+      "delta_range": 0.45784153224036334,
+      "relative_range": 1.183976313393281,
+      "converged": false
+    },
+    "gga_band_gap_intersection_theoretical->gga_band_gap_difference_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.35277111867926486,
+        0.35277111867926486,
+        0.35277111867926486,
+        0.5535265244247723
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.35277111867926486,
+          "structural_compatibility": 0.08390294790364938,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2688681707756155,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.35277111867926486,
+          "structural_compatibility": 0.08390294790364938,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2688681707756155,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.35277111867926486,
+          "structural_compatibility": 0.08390294790364938,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2688681707756155,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5535265244247723,
+          "structural_compatibility": 0.08369801597763207,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4698285084471403,
+          "transfer_overhead": 0.0
+        }
+      ],
+      "full_delta": 0.5535265244247723,
+      "delta_range": 0.2007554057455075,
+      "relative_range": 0.3626843464351298,
+      "converged": false
+    },
+    "gga_band_gap_intersection_theoretical->mbj_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.09771076246896604,
+        0.07566812363426625,
+        0.07852823739624763,
+        0.46816468118635374
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.09771076246896604,
+          "structural_compatibility": -0.08390294790364938,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.23415428865787777,
+          "transfer_overhead": 0.05254057828526234
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.07566812363426625,
+          "structural_compatibility": -0.08390294790364938,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.23415428865787777,
+          "transfer_overhead": 0.07458321711996213
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.07852823739624763,
+          "structural_compatibility": -0.08287374920388568,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.23238541259033801,
+          "transfer_overhead": 0.0709834259902047
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.46816468118635374,
+          "structural_compatibility": 0.07871443633639287,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.43100930283644545,
+          "transfer_overhead": 0.04155905798648459
+        }
+      ],
+      "full_delta": 0.46816468118635374,
+      "delta_range": 0.39249655755208746,
+      "relative_range": 0.838372848967335,
+      "converged": false
+    },
+    "gga_band_gap_intersection_theoretical->optb88vdw_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.4789410991526781,
+        0.4789410991526781,
+        0.48766850292298247,
+        0.5284633562772008
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.4789410991526781,
+          "structural_compatibility": 0.08390294790364938,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3950381512490287,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.4789410991526781,
+          "structural_compatibility": 0.08390294790364938,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3950381512490287,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.48766850292298247,
+          "structural_compatibility": 0.08185676988363239,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.45883607912785485,
+          "transfer_overhead": 0.053024346088504815
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5284633562772008,
+          "structural_compatibility": 0.08361001672250697,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.44485333955469375,
+          "transfer_overhead": 0.0
+        }
+      ],
+      "full_delta": 0.5284633562772008,
+      "delta_range": 0.049522257124522684,
+      "relative_range": 0.09370991675446694,
+      "converged": true
+    },
+    "gga_band_gap_intersection_theoretical->snumat_gga_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.297508762235386,
+        0.24790707541483054,
+        0.23919173130296187,
+        0.33922404971151376
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.297508762235386,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.202491237764614
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.24790707541483054,
+          "structural_compatibility": 0.023906667830884618,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2840099139748666,
+          "transfer_overhead": 0.06000950639092067
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.23919173130296187,
+          "structural_compatibility": 0.01869063860437264,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2757811607255175,
+          "transfer_overhead": 0.05528006802692829
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.33922404971151376,
+          "structural_compatibility": 0.06607088836925923,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3522954243167402,
+          "transfer_overhead": 0.07914226297448569
+        }
+      ],
+      "full_delta": 0.33922404971151376,
+      "delta_range": 0.1000323184085519,
+      "relative_range": 0.2948856913111625,
+      "converged": false
+    },
+    "gga_band_gap_intersection_theoretical->snumat_hse_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.33139182900766007,
+        -0.0638371293439557,
+        0.31550889207928745,
+        0.43173431375217797
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.33139182900766007,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.1686081709923399
+        },
+        {
+          "fraction": 0.5,
+          "delta": -0.0638371293439557,
+          "structural_compatibility": -0.08390294790364938,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.10227114881930863,
+          "transfer_overhead": 0.08220533025961495
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.31550889207928745,
+          "structural_compatibility": 0.0450659858545033,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.323482320732527,
+          "transfer_overhead": 0.05303941450774279
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.43173431375217797,
+          "structural_compatibility": 0.07716098880725894,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4365010951172068,
+          "transfer_overhead": 0.08192777017228782
+        }
+      ],
+      "full_delta": 0.43173431375217797,
+      "delta_range": 0.49557144309613366,
+      "relative_range": 1.147862070052183,
+      "converged": false
+    },
+    "mbj_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        -0.1057151224539911,
+        -0.05339694174461434,
+        -0.06932271494003187,
+        0.5341511486857115
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": -0.1057151224539911,
+          "structural_compatibility": -0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.03429122139385971,
+          "transfer_overhead": 0.05701678603883074
+        },
+        {
+          "fraction": 0.5,
+          "delta": -0.05339694174461434,
+          "structural_compatibility": -0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.03429122139385971,
+          "transfer_overhead": 0.004698605329453973
+        },
+        {
+          "fraction": 0.75,
+          "delta": -0.06932271494003187,
+          "structural_compatibility": -0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.03429122139385971,
+          "transfer_overhead": 0.0206243785248715
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5341511486857115,
+          "structural_compatibility": 0.08146746835359962,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.49896480773671353,
+          "transfer_overhead": 0.046281127404601684
+        }
+      ],
+      "full_delta": 0.5341511486857115,
+      "delta_range": 0.6398662711397025,
+      "relative_range": 1.197912375016145,
+      "converged": false
+    },
+    "mbj_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        -0.08322050099189679,
+        -0.06117786215719679,
+        -0.05297508592750068,
+        0.5152334903638948
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": -0.08322050099189679,
+          "structural_compatibility": -0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.05678584285595402,
+          "transfer_overhead": 0.05701678603883074
+        },
+        {
+          "fraction": 0.5,
+          "delta": -0.06117786215719679,
+          "structural_compatibility": -0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.05678584285595402,
+          "transfer_overhead": 0.03497414720413073
+        },
+        {
+          "fraction": 0.75,
+          "delta": -0.05297508592750068,
+          "structural_compatibility": -0.0817379406840655,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.06364628890961278,
+          "transfer_overhead": 0.03488343415304797
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5152334903638948,
+          "structural_compatibility": 0.07763656947479153,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.47033658003502815,
+          "transfer_overhead": 0.03273965914592488
+        }
+      ],
+      "full_delta": 0.5152334903638948,
+      "delta_range": 0.5984539913557916,
+      "relative_range": 1.1615199759882078,
+      "converged": false
+    },
+    "mbj_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        -0.09286751868784324,
+        -0.05226400122645157,
+        0.26707942475231716,
+        0.5078239641775272
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": -0.09286751868784324,
+          "structural_compatibility": -0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.047138825160007586,
+          "transfer_overhead": 0.05701678603883074
+        },
+        {
+          "fraction": 0.5,
+          "delta": -0.05226400122645157,
+          "structural_compatibility": -0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.047138825160007586,
+          "transfer_overhead": 0.016413268577439077
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.26707942475231716,
+          "structural_compatibility": 0.07882269655978442,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.22767539032944487,
+          "transfer_overhead": 0.03941866213691216
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5078239641775272,
+          "structural_compatibility": 0.07755997442088194,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4630036489025702,
+          "transfer_overhead": 0.03273965914592488
+        }
+      ],
+      "full_delta": 0.5078239641775272,
+      "delta_range": 0.6006914828653704,
+      "relative_range": 1.1828734467823938,
+      "converged": false
+    },
+    "mbj_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.4025899188059107,
+        0.0852043666477036,
+        0.05531629954256201,
+        0.3629976839082291
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.4025899188059107,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0974100811940893
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.0852043666477036,
+          "structural_compatibility": 0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.017645851305102347,
+          "transfer_overhead": 0.015431042466418828
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.05531629954256201,
+          "structural_compatibility": 0.032077365953201244,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.05879088222891776,
+          "transfer_overhead": 0.03555194863955699
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.3629976839082291,
+          "structural_compatibility": 0.057803757178537,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3495609435255699,
+          "transfer_overhead": 0.04436701679587781
+        }
+      ],
+      "full_delta": 0.3629976839082291,
+      "delta_range": 0.3472736192633487,
+      "relative_range": 0.9566827411249939,
+      "converged": false
+    },
+    "mbj_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.43647298557818465,
+        0.10072040555715156,
+        0.3537351809165242,
+        0.492601360375927
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.43647298557818465,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.06352701442181537
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.10072040555715156,
+          "structural_compatibility": 0.08298955780902008,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.02535296088778427,
+          "transfer_overhead": 0.0076221131396527935
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.3537351809165242,
+          "structural_compatibility": 0.005868319754752488,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3754862173425001,
+          "transfer_overhead": 0.02761935618072842
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.492601360375927,
+          "structural_compatibility": 0.07353656568857093,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.46357983399350045,
+          "transfer_overhead": 0.044515039306144345
+        }
+      ],
+      "full_delta": 0.492601360375927,
+      "delta_range": 0.39188095481877544,
+      "relative_range": 0.7955336431058836,
+      "converged": false
+    },
+    "optb88vdw_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.42400562975667866,
+        0.42400562975667866,
+        0.42400562975667866,
+        0.5829254345412852
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.42400562975667866,
+          "structural_compatibility": 0.0836846299262334,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3403209998304453,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.42400562975667866,
+          "structural_compatibility": 0.0836846299262334,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3403209998304453,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.42400562975667866,
+          "structural_compatibility": 0.0836846299262334,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3403209998304453,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5829254345412852,
+          "structural_compatibility": 0.08382347687311566,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4991019576681695,
+          "transfer_overhead": 0.0
+        }
+      ],
+      "full_delta": 0.5829254345412852,
+      "delta_range": 0.15891980478460654,
+      "relative_range": 0.2726245851832893,
+      "converged": false
+    },
+    "optb88vdw_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.4959640073199665,
+        0.458842250066583,
+        0.5241144639924578,
+        0.525728098868699
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.4959640073199665,
+          "structural_compatibility": 0.0836846299262334,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4122793773937331,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.458842250066583,
+          "structural_compatibility": 0.0836846299262334,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4122793773937331,
+          "transfer_overhead": 0.03712175725338344
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.5241144639924578,
+          "structural_compatibility": 0.08176963913101055,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.44234482486144716,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.525728098868699,
+          "structural_compatibility": 0.0835357915172108,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4421923073514882,
+          "transfer_overhead": 0.0
+        }
+      ],
+      "full_delta": 0.525728098868699,
+      "delta_range": 0.06688584880211595,
+      "relative_range": 0.12722517389891452,
+      "converged": true
+    },
+    "optb88vdw_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.1010504879113717,
+        0.060446970449980236,
+        0.3546086052580095,
+        0.5135863214089454
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.1010504879113717,
+          "structural_compatibility": -0.0836846299262334,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.23727569612286745,
+          "transfer_overhead": 0.05254057828526234
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.060446970449980236,
+          "structural_compatibility": -0.0836846299262334,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.23727569612286745,
+          "transfer_overhead": 0.0931440957466538
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.3546086052580095,
+          "structural_compatibility": 0.07993113860128026,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.31758775803844574,
+          "transfer_overhead": 0.04291029138171651
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5135863214089454,
+          "structural_compatibility": 0.07856696768755013,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.47657841170787996,
+          "transfer_overhead": 0.04155905798648459
+        }
+      ],
+      "full_delta": 0.5135863214089454,
+      "delta_range": 0.4531393509589652,
+      "relative_range": 0.8823041659595737,
+      "converged": false
+    },
+    "optb88vdw_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.297508762235386,
+        -0.09774904991200818,
+        -0.000964492170140871,
+        0.34367990198077103
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.297508762235386,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.202491237764614
+        },
+        {
+          "fraction": 0.5,
+          "delta": -0.09774904991200818,
+          "structural_compatibility": -0.0836846299262334,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.09451071822729794,
+          "transfer_overhead": 0.10857513821307271
+        },
+        {
+          "fraction": 0.75,
+          "delta": -0.000964492170140871,
+          "structural_compatibility": -0.05971031915196589,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.11477780232156112,
+          "transfer_overhead": 0.056031975339736105
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.34367990198077103,
+          "structural_compatibility": 0.06167710857127026,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3611450563839865,
+          "transfer_overhead": 0.07914226297448569
+        }
+      ],
+      "full_delta": 0.34367990198077103,
+      "delta_range": 0.4414289518927792,
+      "relative_range": 1.284418871597203,
+      "converged": false
+    },
+    "optb88vdw_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.33139182900766007,
+        0.04845332057657592,
+        0.06753141028653947,
+        0.4615066545275678
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.33139182900766007,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.1686081709923399
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.04845332057657592,
+          "structural_compatibility": -0.0376295138750819,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.15326030704252888,
+          "transfer_overhead": 0.06717747259087106
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.06753141028653947,
+          "structural_compatibility": -0.0376295138750819,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.15326030704252888,
+          "transfer_overhead": 0.04809938288090752
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4615066545275678,
+          "structural_compatibility": 0.07428591740016174,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4691485072996939,
+          "transfer_overhead": 0.08192777017228782
+        }
+      ],
+      "full_delta": 0.4615066545275678,
+      "delta_range": 0.41305333395099186,
+      "relative_range": 0.8950105700508776,
+      "converged": false
+    },
+    "snumat_gga_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.07837623755755382,
+        0.10034734485505303,
+        0.5270988984956917
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.07837623755755382,
+          "structural_compatibility": -0.08328064961769971,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2089509262480645,
+          "transfer_overhead": 0.04729403907281096
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.10034734485505303,
+          "structural_compatibility": -0.08328064961769971,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2089509262480645,
+          "transfer_overhead": 0.025322931775311752
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.5270988984956917,
+          "structural_compatibility": 0.06344222080422274,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5075005869094866,
+          "transfer_overhead": 0.04384390921801764
+        }
+      ],
+      "full_delta": 0.5270988984956917,
+      "delta_range": 0.44872266093813784,
+      "relative_range": 0.8513063909235347,
+      "converged": false
+    },
+    "snumat_gga_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.25336484724756186,
+        0.2395535383976041,
+        0.45817982663038304
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.25336484724756186,
+          "structural_compatibility": 0.02384712328702929,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3015971502604937,
+          "transfer_overhead": 0.07207942629996116
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.2395535383976041,
+          "structural_compatibility": 0.01866921252833818,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2884367012627513,
+          "transfer_overhead": 0.06755237539348538
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.45817982663038304,
+          "structural_compatibility": 0.06576822305449388,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4658960845043255,
+          "transfer_overhead": 0.07348448092843642
+        }
+      ],
+      "full_delta": 0.45817982663038304,
+      "delta_range": 0.26044646160239593,
+      "relative_range": 0.5684372084162055,
+      "converged": false
+    },
+    "snumat_gga_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.2956706228345038,
+        0.20462772794335998,
+        0.4450641562809602
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.2956706228345038,
+          "structural_compatibility": 0.08328064961769971,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.25498540696016114,
+          "transfer_overhead": 0.04259543374335705
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.20462772794335998,
+          "structural_compatibility": 0.03239303929231563,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.25358058425984864,
+          "transfer_overhead": 0.08134589560880427
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4450641562809602,
+          "structural_compatibility": 0.05833780477054305,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.43425498510080535,
+          "transfer_overhead": 0.047528633590388246
+        }
+      ],
+      "full_delta": 0.4450641562809602,
+      "delta_range": 0.29537227205664,
+      "relative_range": 0.6636622336088044,
+      "converged": false
+    },
+    "snumat_gga_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.07428046690368473,
+        0.047175960806327286,
+        0.4336195601381597
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.07428046690368473,
+          "structural_compatibility": -0.08328064961769971,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.2165698188421805,
+          "transfer_overhead": 0.05900870232079605
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.047175960806327286,
+          "structural_compatibility": -0.059534898648126576,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.22546113601478535,
+          "transfer_overhead": 0.11875027656033148
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4336195601381597,
+          "structural_compatibility": 0.06144912256305453,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.44565491850354155,
+          "transfer_overhead": 0.07348448092843642
+        }
+      ],
+      "full_delta": 0.4336195601381597,
+      "delta_range": 0.4528240391936727,
+      "relative_range": 1.044288774817709,
+      "converged": false
+    },
+    "snumat_gga_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.468593468465247,
+        0.5192473482864012,
+        0.4815555583366365
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.468593468465247,
+          "structural_compatibility": 0.08328064961769971,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.3853128188475473,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.5192473482864012,
+          "structural_compatibility": 0.07688992799224444,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4645290567115591,
+          "transfer_overhead": 0.022171636417402343
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4815555583366365,
+          "structural_compatibility": 0.07860247173226678,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4229608916380434,
+          "transfer_overhead": 0.020007805033673644
+        }
+      ],
+      "full_delta": 0.4815555583366365,
+      "delta_range": 0.05065387982115416,
+      "relative_range": 0.10518802855504375,
+      "converged": true
+    },
+    "snumat_hse_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.04148846372043756,
+        0.05936961165646006,
+        0.4546087866495373
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.04148846372043756,
+          "structural_compatibility": -0.08279626594810274,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.19278273369645785,
+          "transfer_overhead": 0.06849800402791754
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.05936961165646006,
+          "structural_compatibility": -0.08279626594810274,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.19278273369645785,
+          "transfer_overhead": 0.05061685609189504
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4546087866495373,
+          "structural_compatibility": 0.07526374304766664,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4432079837702041,
+          "transfer_overhead": 0.06386294016833337
+        }
+      ],
+      "full_delta": 0.4546087866495373,
+      "delta_range": 0.4585115362795624,
+      "relative_range": 1.0085848530530797,
+      "converged": false
+    },
+    "snumat_hse_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.03038091270443681,
+        0.3504614439204165,
+        0.4985286281809492
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.03038091270443681,
+          "structural_compatibility": -0.08279626594810274,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.21195072455513386,
+          "transfer_overhead": 0.09877354590259431
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.3504614439204165,
+          "structural_compatibility": 0.04479314974861048,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.36740478613111666,
+          "transfer_overhead": 0.06173649195931065
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4985286281809492,
+          "structural_compatibility": 0.07656366038757036,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4938342879912984,
+          "transfer_overhead": 0.07186932019791965
+        }
+      ],
+      "full_delta": 0.4985286281809492,
+      "delta_range": 0.4696190872955632,
+      "relative_range": 0.9420102693181889,
+      "converged": false
+    },
+    "snumat_hse_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.2751654291202252,
+        0.17655529601112996,
+        0.4671481638556759
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.2751654291202252,
+          "structural_compatibility": 0.08279626594810274,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.25616856187058595,
+          "transfer_overhead": 0.0637993986984635
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.17655529601112996,
+          "structural_compatibility": 0.005887924270258323,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.25092787746076184,
+          "transfer_overhead": 0.08026050571989017
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4671481638556759,
+          "structural_compatibility": 0.07398033613028922,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4364438158977226,
+          "transfer_overhead": 0.04327598817233588
+        }
+      ],
+      "full_delta": 0.4671481638556759,
+      "delta_range": 0.32344470398887004,
+      "relative_range": 0.6923814091856247,
+      "converged": false
+    },
+    "snumat_hse_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.5,
+        0.11381716844108182,
+        0.07566098902115478,
+        0.4317486886673853
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.5,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.0
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.11381716844108182,
+          "structural_compatibility": -0.03727745723796393,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.23060333293053611,
+          "transfer_overhead": 0.07950870725149035
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.07566098902115478,
+          "structural_compatibility": -0.03727745723796393,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.23060333293053611,
+          "transfer_overhead": 0.11766488667141739
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4317486886673853,
+          "structural_compatibility": 0.07377634115864919,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4298416677066558,
+          "transfer_overhead": 0.07186932019791965
+        }
+      ],
+      "full_delta": 0.4317486886673853,
+      "delta_range": 0.4243390109788452,
+      "relative_range": 0.9828379844964661,
+      "converged": false
+    },
+    "snumat_hse_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "fractions": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "deltas": [
+        0.46611693322772596,
+        0.40178572195083706,
+        0.5179883555055481,
+        0.4605501203188506
+      ],
+      "components_by_frac": [
+        {
+          "fraction": 0.25,
+          "delta": 0.46611693322772596,
+          "structural_compatibility": 0.0,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.5,
+          "transfer_overhead": 0.03388306677227403
+        },
+        {
+          "fraction": 0.5,
+          "delta": 0.40178572195083706,
+          "structural_compatibility": 0.08279626594810274,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.34800235028460685,
+          "transfer_overhead": 0.02901289428187253
+        },
+        {
+          "fraction": 0.75,
+          "delta": 0.5179883555055481,
+          "structural_compatibility": 0.07651213500222083,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.4600726270057404,
+          "transfer_overhead": 0.01859640650241311
+        },
+        {
+          "fraction": 1.0,
+          "delta": 0.4605501203188506,
+          "structural_compatibility": 0.07835291258162964,
+          "source_quality": 0.0,
+          "mapping_efficiency": 0.39780434484257576,
+          "transfer_overhead": 0.01560713710535479
+        }
+      ],
+      "full_delta": 0.4605501203188506,
+      "delta_range": 0.11620263355471105,
+      "relative_range": 0.2523126765752683,
+      "converged": false
+    }
+  },
+  "summary": "Only 3 of 30 pairs converge. Transfer deltas vary substantially with data subset. Conjecture 6.1 is NOT_SUPPORTED."
+}

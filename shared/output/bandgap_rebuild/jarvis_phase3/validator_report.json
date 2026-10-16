@@ -1,0 +1,48 @@
+{
+  "synthetic_demo": {
+    "structural_similarity": true,
+    "performance_correlation": false,
+    "economic_viability": true,
+    "multi_scale_validation": true
+  },
+  "structural_similarity": {
+    "passes": true,
+    "residual_norm": 0.028503467196528392,
+    "relative_residual": 2.6684190801440688e-11,
+    "threshold": 0.1
+  },
+  "performance_correlation": {
+    "passes": true,
+    "correlation": 0.9948623583970301,
+    "p_value": 0.06455994268280338,
+    "threshold": 0.8
+  },
+  "economic_viability": {
+    "passes": true,
+    "roi": 2.0,
+    "hurdle": 0.0
+  },
+  "multi_scale_validation": {
+    "overall_passes": false,
+    "scales": [
+      {
+        "scale": "lab",
+        "r2_actual": 1.0,
+        "r2_target": 0.8,
+        "passes": true
+      },
+      {
+        "scale": "pilot",
+        "r2_actual": 0.6865306122448982,
+        "r2_target": 0.7,
+        "passes": false
+      },
+      {
+        "scale": "manufacturing",
+        "r2_actual": 1.0,
+        "r2_target": 0.6,
+        "passes": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,3030 @@
+{
+  "universe_sha256_16": "f2158ecdc78e0229",
+  "config": {
+    "min_class": 30,
+    "min_stratum_class": 20,
+    "n_boot": 200,
+    "seeds": 50,
+    "budgets": [
+      8,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128,
+      176,
+      240,
+      480,
+      960,
+      2400
+    ]
+  },
+  "global": {
+    "mp_gga": {
+      "n_classes": 8,
+      "n_records": 94696,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.031352732544335106,
+      "max_triangle_curl": 0.6333798347058925,
+      "resolvability": 0.27481575916840206,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "mp_r2scan": {
+      "n_classes": 8,
+      "n_records": 14156,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.043288246429798255,
+      "max_triangle_curl": 0.9533013480907204,
+      "resolvability": 0.3273692458372605,
+      "near_tie_pairs": 5,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.02,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.02,
+        "worst_triangle": "boride->halide->oxide"
+      }
+    },
+    "mp_gga_expsynth": {
+      "n_classes": 8,
+      "n_records": 27116,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.027738347285986467,
+      "max_triangle_curl": 0.7625965393628864,
+      "resolvability": 0.3722241728474131,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "expt_zhuo": {
+      "n_classes": 7,
+      "n_records": 3892,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.005926157164703189,
+      "max_triangle_curl": 0.6807053171238364,
+      "resolvability": 0.5389563692666922,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "jarvis_optb88vdw": {
+      "n_classes": 8,
+      "n_records": 22791,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03418536660071127,
+      "max_triangle_curl": 0.648858383487769,
+      "resolvability": 0.2655692470261709,
+      "near_tie_pairs": 8,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.02,
+        "robust_cycles": [],
+        "fragile_triangles": 3,
+        "max_triangle_cycle_freq": 0.015,
+        "worst_triangle": "boride->carbide->oxide"
+      }
+    },
+    "jarvis_mbj": {
+      "n_classes": 8,
+      "n_records": 9050,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.042435533983980506,
+      "max_triangle_curl": 1.1494778219331074,
+      "resolvability": 0.36279721676336935,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.015,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.015,
+        "worst_triangle": "boride->halide->oxide"
+      }
+    },
+    "snumat_gga": {
+      "n_classes": 8,
+      "n_records": 10072,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.026585234417077015,
+      "max_triangle_curl": 1.0133916499148499,
+      "resolvability": 0.31218790550627734,
+      "near_tie_pairs": 5,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.01,
+        "robust_cycles": [],
+        "fragile_triangles": 2,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "boride->halide->nitride"
+      }
+    },
+    "snumat_hse": {
+      "n_classes": 8,
+      "n_records": 10480,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04142687370076147,
+      "max_triangle_curl": 1.4342951291501358,
+      "resolvability": 0.3540088697003631,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.02,
+        "robust_cycles": [],
+        "fragile_triangles": 4,
+        "max_triangle_cycle_freq": 0.015,
+        "worst_triangle": "boride->halide->nitride"
+      }
+    }
+  },
+  "strata": {
+    "crystal_system|triclinic|mp_gga": {
+      "n_classes": 6,
+      "n_records": 18005,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.011216992156681633,
+      "max_triangle_curl": 0.4190546465589067,
+      "resolvability": 0.2965088580688444,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|triclinic|mp_r2scan": {
+      "n_classes": 4,
+      "n_records": 996,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04343051927835294,
+      "max_triangle_curl": 0.5187715306299497,
+      "resolvability": 0.34007928944860666,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 4,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|triclinic|mp_gga_expsynth": {
+      "n_classes": 6,
+      "n_records": 2475,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.06488975094566272,
+      "max_triangle_curl": 1.5807664128247816,
+      "resolvability": 0.4394367307965496,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|triclinic|jarvis_optb88vdw": {
+      "n_classes": 5,
+      "n_records": 2340,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03010803277524034,
+      "max_triangle_curl": 0.5615911686121778,
+      "resolvability": 0.26927933332159826,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|triclinic|jarvis_mbj": {
+      "n_classes": 3,
+      "n_records": 424,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.011295489850479443,
+      "max_triangle_curl": 0.31037466706264283,
+      "resolvability": 0.3830197563967596,
+      "near_tie_pairs": 0,
+      "bootstrap": {
+        "n_triangles": 1,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|triclinic|snumat_gga": {
+      "n_classes": 5,
+      "n_records": 1052,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.020954902927325984,
+      "max_triangle_curl": 1.190272309445406,
+      "resolvability": 0.5112660223117939,
+      "near_tie_pairs": 0,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|triclinic|snumat_hse": {
+      "n_classes": 5,
+      "n_records": 1074,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.00539004186565439,
+      "max_triangle_curl": 0.599356738285127,
+      "resolvability": 0.5432812532840283,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|monoclinic|mp_gga": {
+      "n_classes": 8,
+      "n_records": 25514,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.013291605052450802,
+      "max_triangle_curl": 0.8707254462746272,
+      "resolvability": 0.34086548525706395,
+      "near_tie_pairs": 6,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.01,
+        "robust_cycles": [],
+        "fragile_triangles": 2,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "carbide->nitride->other"
+      }
+    },
+    "crystal_system|monoclinic|mp_r2scan": {
+      "n_classes": 6,
+      "n_records": 3849,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.025588362831728675,
+      "max_triangle_curl": 0.9957720928463514,
+      "resolvability": 0.41028013412623704,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|monoclinic|mp_gga_expsynth": {
+      "n_classes": 8,
+      "n_records": 9723,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.023125628504285418,
+      "max_triangle_curl": 1.1951243920233288,
+      "resolvability": 0.3906136275526449,
+      "near_tie_pairs": 5,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|monoclinic|jarvis_optb88vdw": {
+      "n_classes": 7,
+      "n_records": 5465,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.029397355597576925,
+      "max_triangle_curl": 1.0219419855486005,
+      "resolvability": 0.37001480381466434,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.01,
+        "robust_cycles": [],
+        "fragile_triangles": 2,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "halide->nitride->other"
+      }
+    },
+    "crystal_system|monoclinic|jarvis_mbj": {
+      "n_classes": 5,
+      "n_records": 1586,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.0026440753664826898,
+      "max_triangle_curl": 0.3103359988410712,
+      "resolvability": 0.4624701388015481,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|monoclinic|snumat_gga": {
+      "n_classes": 5,
+      "n_records": 2807,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.00016344127723698262,
+      "max_triangle_curl": 0.09899688924546912,
+      "resolvability": 0.4810889240513433,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|monoclinic|snumat_hse": {
+      "n_classes": 6,
+      "n_records": 2904,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.07184030805926378,
+      "max_triangle_curl": 2.0136429955522033,
+      "resolvability": 0.43051957369564164,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|orthorhombic|mp_gga": {
+      "n_classes": 8,
+      "n_records": 16270,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.02178617939219098,
+      "max_triangle_curl": 0.7465768353315123,
+      "resolvability": 0.38769328775876083,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|orthorhombic|mp_r2scan": {
+      "n_classes": 7,
+      "n_records": 3730,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.056505449197019275,
+      "max_triangle_curl": 1.1499922874110362,
+      "resolvability": 0.368166286016883,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.07,
+        "robust_cycles": [],
+        "fragile_triangles": 2,
+        "max_triangle_cycle_freq": 0.04,
+        "worst_triangle": "boride->other->pnictide"
+      }
+    },
+    "crystal_system|orthorhombic|mp_gga_expsynth": {
+      "n_classes": 8,
+      "n_records": 7308,
+      "majority_3cycles": 1,
+      "cycles": [
+        "boride->halide->oxide"
+      ],
+      "cyclic_energy_fraction": 0.05543220256792398,
+      "max_triangle_curl": 1.445574018473057,
+      "resolvability": 0.33097726120021825,
+      "near_tie_pairs": 8,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.075,
+        "robust_cycles": [],
+        "fragile_triangles": 3,
+        "max_triangle_cycle_freq": 0.06,
+        "worst_triangle": "boride->halide->oxide"
+      }
+    },
+    "crystal_system|orthorhombic|jarvis_optb88vdw": {
+      "n_classes": 8,
+      "n_records": 4572,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04738545509894881,
+      "max_triangle_curl": 0.9363375656093034,
+      "resolvability": 0.2673689809022704,
+      "near_tie_pairs": 11,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.05,
+        "robust_cycles": [],
+        "fragile_triangles": 4,
+        "max_triangle_cycle_freq": 0.02,
+        "worst_triangle": "boride->carbide->nitride"
+      }
+    },
+    "crystal_system|orthorhombic|jarvis_mbj": {
+      "n_classes": 7,
+      "n_records": 1614,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.047312202396894404,
+      "max_triangle_curl": 1.4358643133267939,
+      "resolvability": 0.3531997150454674,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.025,
+        "robust_cycles": [],
+        "fragile_triangles": 3,
+        "max_triangle_cycle_freq": 0.015,
+        "worst_triangle": "carbide->chalcogenide->other"
+      }
+    },
+    "crystal_system|orthorhombic|snumat_gga": {
+      "n_classes": 6,
+      "n_records": 2692,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04031689463121632,
+      "max_triangle_curl": 1.395984168444544,
+      "resolvability": 0.4138770271500559,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|orthorhombic|snumat_hse": {
+      "n_classes": 6,
+      "n_records": 2772,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.047216372487480646,
+      "max_triangle_curl": 1.6419703402917412,
+      "resolvability": 0.4709363758213241,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|tetragonal|mp_gga": {
+      "n_classes": 8,
+      "n_records": 6040,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03711476102985332,
+      "max_triangle_curl": 1.0440987680197142,
+      "resolvability": 0.3477858296739447,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|tetragonal|mp_r2scan": {
+      "n_classes": 6,
+      "n_records": 1567,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.015257993702276186,
+      "max_triangle_curl": 0.6352987109061266,
+      "resolvability": 0.35900156993357984,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|tetragonal|mp_gga_expsynth": {
+      "n_classes": 8,
+      "n_records": 2368,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.015930489739308214,
+      "max_triangle_curl": 0.9388579416598817,
+      "resolvability": 0.3947637133400987,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "carbide->halide->oxide"
+      }
+    },
+    "crystal_system|tetragonal|jarvis_optb88vdw": {
+      "n_classes": 8,
+      "n_records": 2980,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.021860610697252748,
+      "max_triangle_curl": 0.6557388767572707,
+      "resolvability": 0.3378483868904095,
+      "near_tie_pairs": 5,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.02,
+        "robust_cycles": [],
+        "fragile_triangles": 3,
+        "max_triangle_cycle_freq": 0.01,
+        "worst_triangle": "halide->nitride->oxide"
+      }
+    },
+    "crystal_system|tetragonal|jarvis_mbj": {
+      "n_classes": 7,
+      "n_records": 1612,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.0338863049452672,
+      "max_triangle_curl": 1.0072270383679367,
+      "resolvability": 0.3261773049032511,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "carbide->chalcogenide->other"
+      }
+    },
+    "crystal_system|tetragonal|snumat_gga": {
+      "n_classes": 6,
+      "n_records": 1196,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.0201144808605828,
+      "max_triangle_curl": 0.6402378178048209,
+      "resolvability": 0.3307269703716912,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|tetragonal|snumat_hse": {
+      "n_classes": 6,
+      "n_records": 1269,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.031286008078574144,
+      "max_triangle_curl": 1.0576147812681522,
+      "resolvability": 0.389320552667168,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|trigonal|mp_gga": {
+      "n_classes": 7,
+      "n_records": 6474,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.029442570290932453,
+      "max_triangle_curl": 1.0728813939104416,
+      "resolvability": 0.37860705411454476,
+      "near_tie_pairs": 0,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|trigonal|mp_r2scan": {
+      "n_classes": 7,
+      "n_records": 1848,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.12153414301512414,
+      "max_triangle_curl": 2.5518026155033002,
+      "resolvability": 0.3671149874148523,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.015,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.015,
+        "worst_triangle": "carbide->nitride->other"
+      }
+    },
+    "crystal_system|trigonal|mp_gga_expsynth": {
+      "n_classes": 7,
+      "n_records": 2361,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.027317783997671305,
+      "max_triangle_curl": 1.2141930185756669,
+      "resolvability": 0.4117922349385071,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "carbide->chalcogenide->other"
+      }
+    },
+    "crystal_system|trigonal|jarvis_optb88vdw": {
+      "n_classes": 7,
+      "n_records": 3173,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.016145506071876096,
+      "max_triangle_curl": 0.6647809282329946,
+      "resolvability": 0.35869508657106824,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "carbide->halide->oxide"
+      }
+    },
+    "crystal_system|trigonal|jarvis_mbj": {
+      "n_classes": 6,
+      "n_records": 1420,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.012186781492866254,
+      "max_triangle_curl": 0.6782715186337306,
+      "resolvability": 0.4464185507589724,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|trigonal|snumat_gga": {
+      "n_classes": 7,
+      "n_records": 1048,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04521795197179342,
+      "max_triangle_curl": 1.4025571258818688,
+      "resolvability": 0.405279578245984,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "chalcogenide->other->pnictide"
+      }
+    },
+    "crystal_system|trigonal|snumat_hse": {
+      "n_classes": 7,
+      "n_records": 1080,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04727275568200169,
+      "max_triangle_curl": 1.7199784554028956,
+      "resolvability": 0.4496145283671793,
+      "near_tie_pairs": 5,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "chalcogenide->other->pnictide"
+      }
+    },
+    "crystal_system|hexagonal|mp_gga": {
+      "n_classes": 7,
+      "n_records": 2209,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.032738554570546634,
+      "max_triangle_curl": 0.9441689006566094,
+      "resolvability": 0.3982623506495936,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.05,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.05,
+        "worst_triangle": "carbide->chalcogenide->nitride"
+      }
+    },
+    "crystal_system|hexagonal|mp_r2scan": {
+      "n_classes": 7,
+      "n_records": 720,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03890964584301915,
+      "max_triangle_curl": 1.1831668100940806,
+      "resolvability": 0.3641961833887454,
+      "near_tie_pairs": 6,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.05,
+        "robust_cycles": [],
+        "fragile_triangles": 3,
+        "max_triangle_cycle_freq": 0.035,
+        "worst_triangle": "carbide->chalcogenide->nitride"
+      }
+    },
+    "crystal_system|hexagonal|mp_gga_expsynth": {
+      "n_classes": 6,
+      "n_records": 1075,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.06600239308387097,
+      "max_triangle_curl": 1.3210057179621049,
+      "resolvability": 0.4103522262007836,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|hexagonal|jarvis_optb88vdw": {
+      "n_classes": 7,
+      "n_records": 1295,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.026841799350125272,
+      "max_triangle_curl": 0.7276212444376853,
+      "resolvability": 0.3052639956696028,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|hexagonal|jarvis_mbj": {
+      "n_classes": 7,
+      "n_records": 655,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.040523570105834426,
+      "max_triangle_curl": 1.102005333366733,
+      "resolvability": 0.3327109564069697,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.025,
+        "robust_cycles": [],
+        "fragile_triangles": 4,
+        "max_triangle_cycle_freq": 0.01,
+        "worst_triangle": "carbide->nitride->other"
+      }
+    },
+    "crystal_system|hexagonal|snumat_gga": {
+      "n_classes": 5,
+      "n_records": 349,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.012114494740005291,
+      "max_triangle_curl": 0.5179196890199222,
+      "resolvability": 0.4363571297580012,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|hexagonal|snumat_hse": {
+      "n_classes": 5,
+      "n_records": 373,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.012936298729747863,
+      "max_triangle_curl": 0.8004400313239666,
+      "resolvability": 0.4920609282021989,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|cubic|mp_gga": {
+      "n_classes": 8,
+      "n_records": 5897,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04885713661885226,
+      "max_triangle_curl": 1.285712954623353,
+      "resolvability": 0.3583025189027714,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.02,
+        "robust_cycles": [],
+        "fragile_triangles": 4,
+        "max_triangle_cycle_freq": 0.01,
+        "worst_triangle": "boride->nitride->oxide"
+      }
+    },
+    "crystal_system|cubic|mp_r2scan": {
+      "n_classes": 6,
+      "n_records": 1364,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.030242341601102975,
+      "max_triangle_curl": 1.1977289471979289,
+      "resolvability": 0.45879638828991304,
+      "near_tie_pairs": 0,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|cubic|mp_gga_expsynth": {
+      "n_classes": 6,
+      "n_records": 1712,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03006909642799754,
+      "max_triangle_curl": 0.9176974835674114,
+      "resolvability": 0.42331827928873766,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|cubic|jarvis_optb88vdw": {
+      "n_classes": 8,
+      "n_records": 2903,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.053325512148188495,
+      "max_triangle_curl": 1.1656146674573555,
+      "resolvability": 0.28016289391215077,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.035,
+        "robust_cycles": [],
+        "fragile_triangles": 4,
+        "max_triangle_cycle_freq": 0.01,
+        "worst_triangle": "boride->carbide->nitride"
+      }
+    },
+    "crystal_system|cubic|jarvis_mbj": {
+      "n_classes": 7,
+      "n_records": 1583,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03260653598340165,
+      "max_triangle_curl": 1.1767923213965803,
+      "resolvability": 0.4014249840968307,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "carbide->chalcogenide->nitride"
+      }
+    },
+    "crystal_system|cubic|snumat_gga": {
+      "n_classes": 6,
+      "n_records": 793,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03043040024350972,
+      "max_triangle_curl": 1.0899127762838323,
+      "resolvability": 0.35313304219870945,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "crystal_system|cubic|snumat_hse": {
+      "n_classes": 6,
+      "n_records": 874,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04746024115439522,
+      "max_triangle_curl": 1.7297156268277467,
+      "resolvability": 0.39562154448414527,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.01,
+        "robust_cycles": [],
+        "fragile_triangles": 2,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "chalcogenide->nitride->other"
+      }
+    },
+    "element_count|binary|mp_gga": {
+      "n_classes": 8,
+      "n_records": 4768,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.014662677244977372,
+      "max_triangle_curl": 0.476585529986705,
+      "resolvability": 0.35179202056331454,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "boride->halide->oxide"
+      }
+    },
+    "element_count|binary|mp_r2scan": {
+      "n_classes": 7,
+      "n_records": 2296,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03148581054201899,
+      "max_triangle_curl": 1.1935478239599875,
+      "resolvability": 0.44288891777145284,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|binary|mp_gga_expsynth": {
+      "n_classes": 8,
+      "n_records": 2259,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.017839045525085365,
+      "max_triangle_curl": 0.6396216030504969,
+      "resolvability": 0.4129100245822442,
+      "near_tie_pairs": 5,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.06,
+        "robust_cycles": [],
+        "fragile_triangles": 3,
+        "max_triangle_cycle_freq": 0.045,
+        "worst_triangle": "boride->halide->oxide"
+      }
+    },
+    "element_count|binary|expt_zhuo": {
+      "n_classes": 7,
+      "n_records": 1491,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.030240626909301176,
+      "max_triangle_curl": 2.146943468654357,
+      "resolvability": 0.5726735928310682,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|binary|jarvis_optb88vdw": {
+      "n_classes": 8,
+      "n_records": 3304,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.018049549018435807,
+      "max_triangle_curl": 0.6329205086967009,
+      "resolvability": 0.3239922477769271,
+      "near_tie_pairs": 7,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.01,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.01,
+        "worst_triangle": "boride->chalcogenide->other"
+      }
+    },
+    "element_count|binary|jarvis_mbj": {
+      "n_classes": 8,
+      "n_records": 1977,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.02162015751496188,
+      "max_triangle_curl": 0.9707045986464699,
+      "resolvability": 0.38152542618788854,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "boride->other->pnictide"
+      }
+    },
+    "element_count|binary|snumat_gga": {
+      "n_classes": 7,
+      "n_records": 1766,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.019790131098978283,
+      "max_triangle_curl": 0.9108444035516345,
+      "resolvability": 0.40745981881913484,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|binary|snumat_hse": {
+      "n_classes": 7,
+      "n_records": 1899,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.020210750133358234,
+      "max_triangle_curl": 1.0658769679835665,
+      "resolvability": 0.44747010005211957,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 35,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|ternary|mp_gga": {
+      "n_classes": 8,
+      "n_records": 31313,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03191829534927005,
+      "max_triangle_curl": 0.7498461098239828,
+      "resolvability": 0.308019008571565,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|ternary|mp_r2scan": {
+      "n_classes": 8,
+      "n_records": 10144,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.04691142423920871,
+      "max_triangle_curl": 1.0223836496922232,
+      "resolvability": 0.34812578664122196,
+      "near_tie_pairs": 4,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.015,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.015,
+        "worst_triangle": "carbide->chalcogenide->other"
+      }
+    },
+    "element_count|ternary|mp_gga_expsynth": {
+      "n_classes": 8,
+      "n_records": 10415,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03874334157748078,
+      "max_triangle_curl": 0.973500293788848,
+      "resolvability": 0.30530666452137584,
+      "near_tie_pairs": 7,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.05,
+        "robust_cycles": [],
+        "fragile_triangles": 8,
+        "max_triangle_cycle_freq": 0.025,
+        "worst_triangle": "boride->halide->oxide"
+      }
+    },
+    "element_count|ternary|expt_zhuo": {
+      "n_classes": 4,
+      "n_records": 1321,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.003348345893307515,
+      "max_triangle_curl": 0.24690455355024055,
+      "resolvability": 0.49426318433231115,
+      "near_tie_pairs": 0,
+      "bootstrap": {
+        "n_triangles": 4,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|ternary|jarvis_optb88vdw": {
+      "n_classes": 8,
+      "n_records": 11512,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.028295887009515307,
+      "max_triangle_curl": 0.6969306198718359,
+      "resolvability": 0.33044455396051803,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.015,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.015,
+        "worst_triangle": "carbide->chalcogenide->other"
+      }
+    },
+    "element_count|ternary|jarvis_mbj": {
+      "n_classes": 8,
+      "n_records": 5296,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.0271162067662435,
+      "max_triangle_curl": 1.045035874967521,
+      "resolvability": 0.4476408565676466,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.01,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.01,
+        "worst_triangle": "carbide->other->pnictide"
+      }
+    },
+    "element_count|ternary|snumat_gga": {
+      "n_classes": 8,
+      "n_records": 4860,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.02737425116514562,
+      "max_triangle_curl": 1.0190916297361798,
+      "resolvability": 0.2790394608263086,
+      "near_tie_pairs": 7,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.025,
+        "robust_cycles": [],
+        "fragile_triangles": 6,
+        "max_triangle_cycle_freq": 0.015,
+        "worst_triangle": "boride->other->oxide"
+      }
+    },
+    "element_count|ternary|snumat_hse": {
+      "n_classes": 8,
+      "n_records": 5069,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.0387924659438518,
+      "max_triangle_curl": 1.4116710056208692,
+      "resolvability": 0.3295074505578261,
+      "near_tie_pairs": 9,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.065,
+        "robust_cycles": [],
+        "fragile_triangles": 5,
+        "max_triangle_cycle_freq": 0.035,
+        "worst_triangle": "carbide->chalcogenide->other"
+      }
+    },
+    "element_count|quaternary+|mp_gga": {
+      "n_classes": 8,
+      "n_records": 58413,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.034519099732830454,
+      "max_triangle_curl": 0.6873711496812862,
+      "resolvability": 0.25192677899647903,
+      "near_tie_pairs": 6,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.005,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.005,
+        "worst_triangle": "carbide->chalcogenide->other"
+      }
+    },
+    "element_count|quaternary+|mp_r2scan": {
+      "n_classes": 4,
+      "n_records": 1545,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.03972434141907615,
+      "max_triangle_curl": 0.9517273104497528,
+      "resolvability": 0.38563950818951964,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 4,
+        "p_any_cycle": 0.01,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.01,
+        "worst_triangle": "halide->nitride->oxide"
+      }
+    },
+    "element_count|quaternary+|mp_gga_expsynth": {
+      "n_classes": 8,
+      "n_records": 14341,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.05631099479672623,
+      "max_triangle_curl": 3.1325794067718515,
+      "resolvability": 0.5100166549529709,
+      "near_tie_pairs": 7,
+      "bootstrap": {
+        "n_triangles": 56,
+        "p_any_cycle": 0.01,
+        "robust_cycles": [],
+        "fragile_triangles": 1,
+        "max_triangle_cycle_freq": 0.01,
+        "worst_triangle": "carbide->halide->nitride"
+      }
+    },
+    "element_count|quaternary+|expt_zhuo": {
+      "n_classes": 4,
+      "n_records": 1038,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.0017791254470552824,
+      "max_triangle_curl": 0.24780962556429476,
+      "resolvability": 0.6175726764766343,
+      "near_tie_pairs": 0,
+      "bootstrap": {
+        "n_triangles": 4,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|quaternary+|jarvis_optb88vdw": {
+      "n_classes": 6,
+      "n_records": 7782,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.022082528120102248,
+      "max_triangle_curl": 0.8356793334928398,
+      "resolvability": 0.394556374064426,
+      "near_tie_pairs": 2,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|quaternary+|jarvis_mbj": {
+      "n_classes": 5,
+      "n_records": 1615,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.006138038602497698,
+      "max_triangle_curl": 0.541928929574224,
+      "resolvability": 0.5005323709540705,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|quaternary+|snumat_gga": {
+      "n_classes": 5,
+      "n_records": 3353,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.003739056965848022,
+      "max_triangle_curl": 0.4521807013160113,
+      "resolvability": 0.5179191306198143,
+      "near_tie_pairs": 1,
+      "bootstrap": {
+        "n_triangles": 10,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    },
+    "element_count|quaternary+|snumat_hse": {
+      "n_classes": 6,
+      "n_records": 3422,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cyclic_energy_fraction": 0.036174883824444004,
+      "max_triangle_curl": 1.5781499481928716,
+      "resolvability": 0.47413353337941255,
+      "near_tie_pairs": 3,
+      "bootstrap": {
+        "n_triangles": 20,
+        "p_any_cycle": 0.0,
+        "robust_cycles": [],
+        "fragile_triangles": 0,
+        "max_triangle_cycle_freq": 0.0,
+        "worst_triangle": null
+      }
+    }
+  },
+  "campaign": {
+    "k2": {
+      "mean": {
+        "8": {
+          "grad": 0.9826885033489898,
+          "curl": 0.017311496651010113,
+          "harm": 2.022364276889992e-31,
+          "cyc_frac": 0.0125,
+          "any_cyc": 0.0125,
+          "edges": 3.6975,
+          "n_cyc": 0.0125,
+          "n_cyc_near": 0.0025,
+          "share_cycles_touching_near_tie": 0.2
+        },
+        "16": {
+          "grad": 0.8824677649891564,
+          "curl": 0.06485928283702698,
+          "harm": 0.05267295217381673,
+          "cyc_frac": 0.07041666666666666,
+          "any_cyc": 0.0875,
+          "edges": 6.925,
+          "n_cyc": 0.0875,
+          "n_cyc_near": 0.03,
+          "share_cycles_touching_near_tie": 0.34285714285714286
+        },
+        "24": {
+          "grad": 0.7577265977360536,
+          "curl": 0.15764581190160687,
+          "harm": 0.08462759036233958,
+          "cyc_frac": 0.11308333333333334,
+          "any_cyc": 0.24,
+          "edges": 9.745,
+          "n_cyc": 0.28,
+          "n_cyc_near": 0.1025,
+          "share_cycles_touching_near_tie": 0.36607142857142855
+        },
+        "32": {
+          "grad": 0.6633364930967212,
+          "curl": 0.24374117034915066,
+          "harm": 0.09292233655412833,
+          "cyc_frac": 0.12178775391275391,
+          "any_cyc": 0.3875,
+          "edges": 12.1525,
+          "n_cyc": 0.5375,
+          "n_cyc_near": 0.2175,
+          "share_cycles_touching_near_tie": 0.4046511627906977
+        },
+        "48": {
+          "grad": 0.5814797403115954,
+          "curl": 0.38068784543152373,
+          "harm": 0.03783241425688082,
+          "cyc_frac": 0.09713851288889988,
+          "any_cyc": 0.56,
+          "edges": 15.8875,
+          "n_cyc": 1.06,
+          "n_cyc_near": 0.4825,
+          "share_cycles_touching_near_tie": 0.455188679245283
+        },
+        "64": {
+          "grad": 0.5546701943746326,
+          "curl": 0.4353080477165505,
+          "harm": 0.010021757908816892,
+          "cyc_frac": 0.08392883397506161,
+          "any_cyc": 0.6475,
+          "edges": 18.59,
+          "n_cyc": 1.465,
+          "n_cyc_near": 0.6525,
+          "share_cycles_touching_near_tie": 0.4453924914675768
+        },
+        "96": {
+          "grad": 0.5100603318589044,
+          "curl": 0.4899223057997972,
+          "harm": 1.7362341298344828e-05,
+          "cyc_frac": 0.08348824696835645,
+          "any_cyc": 0.77,
+          "edges": 22.3575,
+          "n_cyc": 2.4975,
+          "n_cyc_near": 1.0975,
+          "share_cycles_touching_near_tie": 0.4394394394394394
+        },
+        "128": {
+          "grad": 0.5052546717184933,
+          "curl": 0.49474532828150686,
+          "harm": 2.7374558233196565e-30,
+          "cyc_frac": 0.07995441507100001,
+          "any_cyc": 0.7925,
+          "edges": 24.6875,
+          "n_cyc": 3.3175,
+          "n_cyc_near": 1.4925,
+          "share_cycles_touching_near_tie": 0.44988696307460435
+        },
+        "176": {
+          "grad": 0.5260032918512394,
+          "curl": 0.47399670814876077,
+          "harm": 1.877872187660887e-30,
+          "cyc_frac": 0.07364213909753063,
+          "any_cyc": 0.8775,
+          "edges": 26.0875,
+          "n_cyc": 3.61,
+          "n_cyc_near": 1.675,
+          "share_cycles_touching_near_tie": 0.46398891966759004
+        },
+        "240": {
+          "grad": 0.5654450092566704,
+          "curl": 0.4345549907433297,
+          "harm": 7.845967273748901e-31,
+          "cyc_frac": 0.06794467338217337,
+          "any_cyc": 0.87,
+          "edges": 26.8175,
+          "n_cyc": 3.61,
+          "n_cyc_near": 1.8125,
+          "share_cycles_touching_near_tie": 0.5020775623268698
+        },
+        "480": {
+          "grad": 0.6805028432436043,
+          "curl": 0.319497156756396,
+          "harm": 2.7036993824961435e-31,
+          "cyc_frac": 0.055160714285714285,
+          "any_cyc": 0.805,
+          "edges": 27.12,
+          "n_cyc": 3.02,
+          "n_cyc_near": 1.7,
+          "share_cycles_touching_near_tie": 0.5629139072847682
+        },
+        "960": {
+          "grad": 0.7785582172285029,
+          "curl": 0.2214417827714971,
+          "harm": 2.2091745825771614e-31,
+          "cyc_frac": 0.040848214285714286,
+          "any_cyc": 0.725,
+          "edges": 27.125,
+          "n_cyc": 2.25,
+          "n_cyc_near": 1.465,
+          "share_cycles_touching_near_tie": 0.6511111111111111
+        },
+        "2400": {
+          "grad": 0.8776889243842072,
+          "curl": 0.12231107561579281,
+          "harm": 1.645789106174125e-31,
+          "cyc_frac": 0.018928571428571427,
+          "any_cyc": 0.495,
+          "edges": 27.125,
+          "n_cyc": 1.0525,
+          "n_cyc_near": 0.865,
+          "share_cycles_touching_near_tie": 0.8218527315914489
+        }
+      },
+      "per_source": {
+        "mp_gga": {
+          "8": {
+            "p_any_cycle": 0.04,
+            "mean_cyclic_triangle_fraction": 0.04
+          },
+          "16": {
+            "p_any_cycle": 0.12,
+            "mean_cyclic_triangle_fraction": 0.09666666666666666
+          },
+          "24": {
+            "p_any_cycle": 0.36,
+            "mean_cyclic_triangle_fraction": 0.16866666666666666
+          },
+          "32": {
+            "p_any_cycle": 0.5,
+            "mean_cyclic_triangle_fraction": 0.15469047619047618
+          },
+          "48": {
+            "p_any_cycle": 0.58,
+            "mean_cyclic_triangle_fraction": 0.10887806311335725
+          },
+          "64": {
+            "p_any_cycle": 0.62,
+            "mean_cyclic_triangle_fraction": 0.09735455798071899
+          },
+          "96": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.10199357216696642
+          },
+          "128": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.09478854310314108
+          },
+          "176": {
+            "p_any_cycle": 0.94,
+            "mean_cyclic_triangle_fraction": 0.08567577068488492
+          },
+          "240": {
+            "p_any_cycle": 0.94,
+            "mean_cyclic_triangle_fraction": 0.06973665223665224
+          },
+          "480": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.07214285714285713
+          },
+          "960": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.052857142857142846
+          },
+          "2400": {
+            "p_any_cycle": 0.58,
+            "mean_cyclic_triangle_fraction": 0.025
+          }
+        },
+        "mp_r2scan": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.1,
+            "mean_cyclic_triangle_fraction": 0.07666666666666666
+          },
+          "24": {
+            "p_any_cycle": 0.26,
+            "mean_cyclic_triangle_fraction": 0.12
+          },
+          "32": {
+            "p_any_cycle": 0.32,
+            "mean_cyclic_triangle_fraction": 0.10068398268398267
+          },
+          "48": {
+            "p_any_cycle": 0.52,
+            "mean_cyclic_triangle_fraction": 0.09021895905951632
+          },
+          "64": {
+            "p_any_cycle": 0.64,
+            "mean_cyclic_triangle_fraction": 0.07859288942089453
+          },
+          "96": {
+            "p_any_cycle": 0.78,
+            "mean_cyclic_triangle_fraction": 0.07165966453934511
+          },
+          "128": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.08094245568960394
+          },
+          "176": {
+            "p_any_cycle": 0.94,
+            "mean_cyclic_triangle_fraction": 0.08121761831094311
+          },
+          "240": {
+            "p_any_cycle": 0.9,
+            "mean_cyclic_triangle_fraction": 0.07505093795093795
+          },
+          "480": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.05678571428571428
+          },
+          "960": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.05249999999999999
+          },
+          "2400": {
+            "p_any_cycle": 0.38,
+            "mean_cyclic_triangle_fraction": 0.014285714285714285
+          }
+        },
+        "mp_gga_expsynth": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.08,
+            "mean_cyclic_triangle_fraction": 0.08
+          },
+          "24": {
+            "p_any_cycle": 0.22,
+            "mean_cyclic_triangle_fraction": 0.10133333333333333
+          },
+          "32": {
+            "p_any_cycle": 0.4,
+            "mean_cyclic_triangle_fraction": 0.10281096681096681
+          },
+          "48": {
+            "p_any_cycle": 0.52,
+            "mean_cyclic_triangle_fraction": 0.08041713223137371
+          },
+          "64": {
+            "p_any_cycle": 0.66,
+            "mean_cyclic_triangle_fraction": 0.07019760545238403
+          },
+          "96": {
+            "p_any_cycle": 0.76,
+            "mean_cyclic_triangle_fraction": 0.0772034449676243
+          },
+          "128": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.07797070903085042
+          },
+          "176": {
+            "p_any_cycle": 0.9,
+            "mean_cyclic_triangle_fraction": 0.07424344628413948
+          },
+          "240": {
+            "p_any_cycle": 0.96,
+            "mean_cyclic_triangle_fraction": 0.07862597402597402
+          },
+          "480": {
+            "p_any_cycle": 0.86,
+            "mean_cyclic_triangle_fraction": 0.05607142857142857
+          },
+          "960": {
+            "p_any_cycle": 0.64,
+            "mean_cyclic_triangle_fraction": 0.0275
+          },
+          "2400": {
+            "p_any_cycle": 0.4,
+            "mean_cyclic_triangle_fraction": 0.011785714285714283
+          }
+        },
+        "expt_zhuo": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.08,
+            "mean_cyclic_triangle_fraction": 0.04666666666666667
+          },
+          "24": {
+            "p_any_cycle": 0.2,
+            "mean_cyclic_triangle_fraction": 0.07833333333333332
+          },
+          "32": {
+            "p_any_cycle": 0.26,
+            "mean_cyclic_triangle_fraction": 0.06654517704517704
+          },
+          "48": {
+            "p_any_cycle": 0.54,
+            "mean_cyclic_triangle_fraction": 0.07306748102258936
+          },
+          "64": {
+            "p_any_cycle": 0.5,
+            "mean_cyclic_triangle_fraction": 0.04917660570461082
+          },
+          "96": {
+            "p_any_cycle": 0.5,
+            "mean_cyclic_triangle_fraction": 0.040493669767811644
+          },
+          "128": {
+            "p_any_cycle": 0.34,
+            "mean_cyclic_triangle_fraction": 0.026515750915750917
+          },
+          "176": {
+            "p_any_cycle": 0.46,
+            "mean_cyclic_triangle_fraction": 0.022571428571428572
+          },
+          "240": {
+            "p_any_cycle": 0.52,
+            "mean_cyclic_triangle_fraction": 0.02580952380952381
+          },
+          "480": {
+            "p_any_cycle": 0.6,
+            "mean_cyclic_triangle_fraction": 0.02571428571428571
+          },
+          "960": {
+            "p_any_cycle": 0.38,
+            "mean_cyclic_triangle_fraction": 0.014285714285714285
+          },
+          "2400": {
+            "p_any_cycle": 0.1,
+            "mean_cyclic_triangle_fraction": 0.002857142857142857
+          }
+        },
+        "jarvis_optb88vdw": {
+          "8": {
+            "p_any_cycle": 0.02,
+            "mean_cyclic_triangle_fraction": 0.02
+          },
+          "16": {
+            "p_any_cycle": 0.06,
+            "mean_cyclic_triangle_fraction": 0.05
+          },
+          "24": {
+            "p_any_cycle": 0.2,
+            "mean_cyclic_triangle_fraction": 0.09966666666666667
+          },
+          "32": {
+            "p_any_cycle": 0.38,
+            "mean_cyclic_triangle_fraction": 0.13790476190476192
+          },
+          "48": {
+            "p_any_cycle": 0.58,
+            "mean_cyclic_triangle_fraction": 0.10567407300302036
+          },
+          "64": {
+            "p_any_cycle": 0.66,
+            "mean_cyclic_triangle_fraction": 0.08847953601789245
+          },
+          "96": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.09478948057911869
+          },
+          "128": {
+            "p_any_cycle": 0.88,
+            "mean_cyclic_triangle_fraction": 0.09556052901046899
+          },
+          "176": {
+            "p_any_cycle": 0.96,
+            "mean_cyclic_triangle_fraction": 0.08406363636363637
+          },
+          "240": {
+            "p_any_cycle": 0.98,
+            "mean_cyclic_triangle_fraction": 0.08523246753246752
+          },
+          "480": {
+            "p_any_cycle": 0.9,
+            "mean_cyclic_triangle_fraction": 0.07048571428571428
+          },
+          "960": {
+            "p_any_cycle": 0.88,
+            "mean_cyclic_triangle_fraction": 0.06178571428571429
+          },
+          "2400": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.04107142857142856
+          }
+        },
+        "jarvis_mbj": {
+          "8": {
+            "p_any_cycle": 0.02,
+            "mean_cyclic_triangle_fraction": 0.02
+          },
+          "16": {
+            "p_any_cycle": 0.1,
+            "mean_cyclic_triangle_fraction": 0.08666666666666666
+          },
+          "24": {
+            "p_any_cycle": 0.22,
+            "mean_cyclic_triangle_fraction": 0.12166666666666666
+          },
+          "32": {
+            "p_any_cycle": 0.4,
+            "mean_cyclic_triangle_fraction": 0.14404761904761906
+          },
+          "48": {
+            "p_any_cycle": 0.58,
+            "mean_cyclic_triangle_fraction": 0.09817593225487962
+          },
+          "64": {
+            "p_any_cycle": 0.66,
+            "mean_cyclic_triangle_fraction": 0.0835119372767643
+          },
+          "96": {
+            "p_any_cycle": 0.76,
+            "mean_cyclic_triangle_fraction": 0.08596522560620351
+          },
+          "128": {
+            "p_any_cycle": 0.86,
+            "mean_cyclic_triangle_fraction": 0.0812015651015651
+          },
+          "176": {
+            "p_any_cycle": 0.92,
+            "mean_cyclic_triangle_fraction": 0.0718946608946609
+          },
+          "240": {
+            "p_any_cycle": 0.92,
+            "mean_cyclic_triangle_fraction": 0.07405714285714285
+          },
+          "480": {
+            "p_any_cycle": 0.74,
+            "mean_cyclic_triangle_fraction": 0.046157142857142855
+          },
+          "960": {
+            "p_any_cycle": 0.62,
+            "mean_cyclic_triangle_fraction": 0.027499999999999997
+          },
+          "2400": {
+            "p_any_cycle": 0.52,
+            "mean_cyclic_triangle_fraction": 0.013928571428571427
+          }
+        },
+        "snumat_gga": {
+          "8": {
+            "p_any_cycle": 0.02,
+            "mean_cyclic_triangle_fraction": 0.02
+          },
+          "16": {
+            "p_any_cycle": 0.08,
+            "mean_cyclic_triangle_fraction": 0.056666666666666664
+          },
+          "24": {
+            "p_any_cycle": 0.28,
+            "mean_cyclic_triangle_fraction": 0.13
+          },
+          "32": {
+            "p_any_cycle": 0.42,
+            "mean_cyclic_triangle_fraction": 0.14283333333333334
+          },
+          "48": {
+            "p_any_cycle": 0.62,
+            "mean_cyclic_triangle_fraction": 0.1244030414030414
+          },
+          "64": {
+            "p_any_cycle": 0.76,
+            "mean_cyclic_triangle_fraction": 0.10336852173690912
+          },
+          "96": {
+            "p_any_cycle": 0.9,
+            "mean_cyclic_triangle_fraction": 0.0999738033044588
+          },
+          "128": {
+            "p_any_cycle": 0.92,
+            "mean_cyclic_triangle_fraction": 0.09569612544318427
+          },
+          "176": {
+            "p_any_cycle": 0.96,
+            "mean_cyclic_triangle_fraction": 0.08863169053169054
+          },
+          "240": {
+            "p_any_cycle": 0.9,
+            "mean_cyclic_triangle_fraction": 0.07595714285714285
+          },
+          "480": {
+            "p_any_cycle": 0.88,
+            "mean_cyclic_triangle_fraction": 0.06178571428571428
+          },
+          "960": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.051071428571428566
+          },
+          "2400": {
+            "p_any_cycle": 0.68,
+            "mean_cyclic_triangle_fraction": 0.027142857142857146
+          }
+        },
+        "snumat_hse": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.08,
+            "mean_cyclic_triangle_fraction": 0.07
+          },
+          "24": {
+            "p_any_cycle": 0.18,
+            "mean_cyclic_triangle_fraction": 0.085
+          },
+          "32": {
+            "p_any_cycle": 0.42,
+            "mean_cyclic_triangle_fraction": 0.12478571428571428
+          },
+          "48": {
+            "p_any_cycle": 0.54,
+            "mean_cyclic_triangle_fraction": 0.09627342102342101
+          },
+          "64": {
+            "p_any_cycle": 0.68,
+            "mean_cyclic_triangle_fraction": 0.10074901821031852
+          },
+          "96": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.09582711481532317
+          },
+          "128": {
+            "p_any_cycle": 0.86,
+            "mean_cyclic_triangle_fraction": 0.08695964227343536
+          },
+          "176": {
+            "p_any_cycle": 0.94,
+            "mean_cyclic_triangle_fraction": 0.08083886113886113
+          },
+          "240": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.0590875457875458
+          },
+          "480": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.05214285714285714
+          },
+          "960": {
+            "p_any_cycle": 0.78,
+            "mean_cyclic_triangle_fraction": 0.03928571428571428
+          },
+          "2400": {
+            "p_any_cycle": 0.48,
+            "mean_cyclic_triangle_fraction": 0.015357142857142857
+          }
+        }
+      }
+    },
+    "k4": {
+      "mean": {
+        "8": {
+          "grad": 0.778511759166195,
+          "curl": 0.22148824083380525,
+          "harm": 3.3982009327179754e-31,
+          "cyc_frac": 0.0,
+          "any_cyc": 0.0,
+          "edges": 10.71,
+          "n_cyc": 0.0,
+          "n_cyc_near": 0.0,
+          "share_cycles_touching_near_tie": 0.0
+        },
+        "16": {
+          "grad": 0.6818763253740476,
+          "curl": 0.3181236746259524,
+          "harm": 1.7024743484856064e-30,
+          "cyc_frac": 0.02419841804754898,
+          "any_cyc": 0.2775,
+          "edges": 17.1075,
+          "n_cyc": 0.47,
+          "n_cyc_near": 0.2075,
+          "share_cycles_touching_near_tie": 0.44148936170212766
+        },
+        "24": {
+          "grad": 0.6329751074983844,
+          "curl": 0.3670248925016157,
+          "harm": 1.857871855775573e-30,
+          "cyc_frac": 0.04169520330023074,
+          "any_cyc": 0.54,
+          "edges": 21.11,
+          "n_cyc": 1.2,
+          "n_cyc_near": 0.535,
+          "share_cycles_touching_near_tie": 0.44583333333333336
+        },
+        "32": {
+          "grad": 0.6076264232187144,
+          "curl": 0.3923735767812858,
+          "harm": 2.3286971417837695e-30,
+          "cyc_frac": 0.04289033320819663,
+          "any_cyc": 0.66,
+          "edges": 23.52,
+          "n_cyc": 1.6,
+          "n_cyc_near": 0.7475,
+          "share_cycles_touching_near_tie": 0.4671875
+        },
+        "48": {
+          "grad": 0.6061024585571149,
+          "curl": 0.3938975414428853,
+          "harm": 1.5375510647428562e-30,
+          "cyc_frac": 0.04742791382656155,
+          "any_cyc": 0.71,
+          "edges": 25.85,
+          "n_cyc": 2.245,
+          "n_cyc_near": 1.13,
+          "share_cycles_touching_near_tie": 0.5033407572383074
+        },
+        "64": {
+          "grad": 0.6268012569665755,
+          "curl": 0.3731987430334247,
+          "harm": 9.80034255070033e-31,
+          "cyc_frac": 0.04472549493476267,
+          "any_cyc": 0.7125,
+          "edges": 26.5975,
+          "n_cyc": 2.325,
+          "n_cyc_near": 1.1375,
+          "share_cycles_touching_near_tie": 0.489247311827957
+        },
+        "96": {
+          "grad": 0.6623952365702148,
+          "curl": 0.3376047634297854,
+          "harm": 4.0229208463536505e-31,
+          "cyc_frac": 0.047857142857142855,
+          "any_cyc": 0.7475,
+          "edges": 27.065,
+          "n_cyc": 2.6275,
+          "n_cyc_near": 1.3525,
+          "share_cycles_touching_near_tie": 0.5147478591817317
+        },
+        "128": {
+          "grad": 0.6973308113857302,
+          "curl": 0.30266918861427,
+          "harm": 2.644600373529014e-31,
+          "cyc_frac": 0.0450625,
+          "any_cyc": 0.74,
+          "edges": 27.125,
+          "n_cyc": 2.4875,
+          "n_cyc_near": 1.315,
+          "share_cycles_touching_near_tie": 0.528643216080402
+        },
+        "176": {
+          "grad": 0.7400368448321987,
+          "curl": 0.25996315516780155,
+          "harm": 2.37830713972658e-31,
+          "cyc_frac": 0.04295535714285714,
+          "any_cyc": 0.74,
+          "edges": 27.125,
+          "n_cyc": 2.3725,
+          "n_cyc_near": 1.35,
+          "share_cycles_touching_near_tie": 0.5690200210748156
+        },
+        "240": {
+          "grad": 0.7824135724558673,
+          "curl": 0.21758642754413285,
+          "harm": 2.26514539896015e-31,
+          "cyc_frac": 0.03648214285714285,
+          "any_cyc": 0.645,
+          "edges": 27.125,
+          "n_cyc": 2.025,
+          "n_cyc_near": 1.2775,
+          "share_cycles_touching_near_tie": 0.6308641975308642
+        },
+        "480": {
+          "grad": 0.8543429546291571,
+          "curl": 0.1456570453708431,
+          "harm": 1.8094134327634112e-31,
+          "cyc_frac": 0.02196428571428571,
+          "any_cyc": 0.52,
+          "edges": 27.125,
+          "n_cyc": 1.2225,
+          "n_cyc_near": 0.8775,
+          "share_cycles_touching_near_tie": 0.7177914110429447
+        },
+        "960": {
+          "grad": 0.9081771148828909,
+          "curl": 0.09182288511710915,
+          "harm": 1.5553445074504584e-31,
+          "cyc_frac": 0.0134375,
+          "any_cyc": 0.3925,
+          "edges": 27.125,
+          "n_cyc": 0.745,
+          "n_cyc_near": 0.63,
+          "share_cycles_touching_near_tie": 0.8456375838926175
+        },
+        "2400": {
+          "grad": 0.9437271575364334,
+          "curl": 0.05627284246356657,
+          "harm": 1.4219801423118937e-31,
+          "cyc_frac": 0.005535714285714286,
+          "any_cyc": 0.2225,
+          "edges": 27.125,
+          "n_cyc": 0.31,
+          "n_cyc_near": 0.3025,
+          "share_cycles_touching_near_tie": 0.9758064516129032
+        }
+      },
+      "per_source": {
+        "mp_gga": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.26,
+            "mean_cyclic_triangle_fraction": 0.01959877460449543
+          },
+          "24": {
+            "p_any_cycle": 0.58,
+            "mean_cyclic_triangle_fraction": 0.05067304409230853
+          },
+          "32": {
+            "p_any_cycle": 0.7,
+            "mean_cyclic_triangle_fraction": 0.05274241188153571
+          },
+          "48": {
+            "p_any_cycle": 0.7,
+            "mean_cyclic_triangle_fraction": 0.04338814166862947
+          },
+          "64": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.055722344322344325
+          },
+          "96": {
+            "p_any_cycle": 0.86,
+            "mean_cyclic_triangle_fraction": 0.056228571428571426
+          },
+          "128": {
+            "p_any_cycle": 0.86,
+            "mean_cyclic_triangle_fraction": 0.06321428571428571
+          },
+          "176": {
+            "p_any_cycle": 0.86,
+            "mean_cyclic_triangle_fraction": 0.06285714285714286
+          },
+          "240": {
+            "p_any_cycle": 0.68,
+            "mean_cyclic_triangle_fraction": 0.03857142857142857
+          },
+          "480": {
+            "p_any_cycle": 0.7,
+            "mean_cyclic_triangle_fraction": 0.02785714285714286
+          },
+          "960": {
+            "p_any_cycle": 0.44,
+            "mean_cyclic_triangle_fraction": 0.015714285714285712
+          },
+          "2400": {
+            "p_any_cycle": 0.12,
+            "mean_cyclic_triangle_fraction": 0.0025
+          }
+        },
+        "mp_r2scan": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.24,
+            "mean_cyclic_triangle_fraction": 0.0177354951549998
+          },
+          "24": {
+            "p_any_cycle": 0.52,
+            "mean_cyclic_triangle_fraction": 0.03906519732358439
+          },
+          "32": {
+            "p_any_cycle": 0.62,
+            "mean_cyclic_triangle_fraction": 0.040826013855831185
+          },
+          "48": {
+            "p_any_cycle": 0.78,
+            "mean_cyclic_triangle_fraction": 0.047782213595482285
+          },
+          "64": {
+            "p_any_cycle": 0.76,
+            "mean_cyclic_triangle_fraction": 0.05306239316239316
+          },
+          "96": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.05845714285714286
+          },
+          "128": {
+            "p_any_cycle": 0.78,
+            "mean_cyclic_triangle_fraction": 0.04642857142857142
+          },
+          "176": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.04428571428571428
+          },
+          "240": {
+            "p_any_cycle": 0.72,
+            "mean_cyclic_triangle_fraction": 0.041071428571428564
+          },
+          "480": {
+            "p_any_cycle": 0.56,
+            "mean_cyclic_triangle_fraction": 0.021428571428571422
+          },
+          "960": {
+            "p_any_cycle": 0.38,
+            "mean_cyclic_triangle_fraction": 0.009285714285714284
+          },
+          "2400": {
+            "p_any_cycle": 0.24,
+            "mean_cyclic_triangle_fraction": 0.005357142857142857
+          }
+        },
+        "mp_gga_expsynth": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.28,
+            "mean_cyclic_triangle_fraction": 0.023350913904151217
+          },
+          "24": {
+            "p_any_cycle": 0.5,
+            "mean_cyclic_triangle_fraction": 0.029331033547252697
+          },
+          "32": {
+            "p_any_cycle": 0.64,
+            "mean_cyclic_triangle_fraction": 0.03812617191082551
+          },
+          "48": {
+            "p_any_cycle": 0.68,
+            "mean_cyclic_triangle_fraction": 0.04377643140163847
+          },
+          "64": {
+            "p_any_cycle": 0.76,
+            "mean_cyclic_triangle_fraction": 0.04065378831694621
+          },
+          "96": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.05137142857142856
+          },
+          "128": {
+            "p_any_cycle": 0.7,
+            "mean_cyclic_triangle_fraction": 0.03892857142857143
+          },
+          "176": {
+            "p_any_cycle": 0.64,
+            "mean_cyclic_triangle_fraction": 0.031428571428571424
+          },
+          "240": {
+            "p_any_cycle": 0.66,
+            "mean_cyclic_triangle_fraction": 0.03214285714285714
+          },
+          "480": {
+            "p_any_cycle": 0.56,
+            "mean_cyclic_triangle_fraction": 0.020714285714285716
+          },
+          "960": {
+            "p_any_cycle": 0.36,
+            "mean_cyclic_triangle_fraction": 0.00964285714285714
+          },
+          "2400": {
+            "p_any_cycle": 0.2,
+            "mean_cyclic_triangle_fraction": 0.003571428571428571
+          }
+        },
+        "expt_zhuo": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.12,
+            "mean_cyclic_triangle_fraction": 0.008302420348530189
+          },
+          "24": {
+            "p_any_cycle": 0.18,
+            "mean_cyclic_triangle_fraction": 0.011733968358110233
+          },
+          "32": {
+            "p_any_cycle": 0.28,
+            "mean_cyclic_triangle_fraction": 0.014242395285873548
+          },
+          "48": {
+            "p_any_cycle": 0.26,
+            "mean_cyclic_triangle_fraction": 0.017912087912087912
+          },
+          "64": {
+            "p_any_cycle": 0.26,
+            "mean_cyclic_triangle_fraction": 0.01010766045548654
+          },
+          "96": {
+            "p_any_cycle": 0.28,
+            "mean_cyclic_triangle_fraction": 0.012
+          },
+          "128": {
+            "p_any_cycle": 0.36,
+            "mean_cyclic_triangle_fraction": 0.013714285714285714
+          },
+          "176": {
+            "p_any_cycle": 0.3,
+            "mean_cyclic_triangle_fraction": 0.012571428571428572
+          },
+          "240": {
+            "p_any_cycle": 0.16,
+            "mean_cyclic_triangle_fraction": 0.006857142857142857
+          },
+          "480": {
+            "p_any_cycle": 0.08,
+            "mean_cyclic_triangle_fraction": 0.002857142857142857
+          },
+          "960": {
+            "p_any_cycle": 0.08,
+            "mean_cyclic_triangle_fraction": 0.002857142857142857
+          },
+          "2400": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          }
+        },
+        "jarvis_optb88vdw": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.38,
+            "mean_cyclic_triangle_fraction": 0.030805284980645053
+          },
+          "24": {
+            "p_any_cycle": 0.74,
+            "mean_cyclic_triangle_fraction": 0.05188065553116814
+          },
+          "32": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.05259307940477404
+          },
+          "48": {
+            "p_any_cycle": 0.88,
+            "mean_cyclic_triangle_fraction": 0.06144779891339583
+          },
+          "64": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.053189807852965745
+          },
+          "96": {
+            "p_any_cycle": 0.84,
+            "mean_cyclic_triangle_fraction": 0.060842857142857136
+          },
+          "128": {
+            "p_any_cycle": 0.92,
+            "mean_cyclic_triangle_fraction": 0.059642857142857136
+          },
+          "176": {
+            "p_any_cycle": 0.9,
+            "mean_cyclic_triangle_fraction": 0.05464285714285713
+          },
+          "240": {
+            "p_any_cycle": 0.86,
+            "mean_cyclic_triangle_fraction": 0.055357142857142855
+          },
+          "480": {
+            "p_any_cycle": 0.74,
+            "mean_cyclic_triangle_fraction": 0.037142857142857144
+          },
+          "960": {
+            "p_any_cycle": 0.74,
+            "mean_cyclic_triangle_fraction": 0.032499999999999994
+          },
+          "2400": {
+            "p_any_cycle": 0.44,
+            "mean_cyclic_triangle_fraction": 0.01607142857142857
+          }
+        },
+        "jarvis_mbj": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.28,
+            "mean_cyclic_triangle_fraction": 0.026645502666669714
+          },
+          "24": {
+            "p_any_cycle": 0.6,
+            "mean_cyclic_triangle_fraction": 0.048188879786235296
+          },
+          "32": {
+            "p_any_cycle": 0.72,
+            "mean_cyclic_triangle_fraction": 0.05177884701242415
+          },
+          "48": {
+            "p_any_cycle": 0.76,
+            "mean_cyclic_triangle_fraction": 0.05404371238517581
+          },
+          "64": {
+            "p_any_cycle": 0.7,
+            "mean_cyclic_triangle_fraction": 0.0459904761904762
+          },
+          "96": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.042942857142857144
+          },
+          "128": {
+            "p_any_cycle": 0.74,
+            "mean_cyclic_triangle_fraction": 0.04178571428571428
+          },
+          "176": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.04607142857142856
+          },
+          "240": {
+            "p_any_cycle": 0.6,
+            "mean_cyclic_triangle_fraction": 0.02928571428571429
+          },
+          "480": {
+            "p_any_cycle": 0.36,
+            "mean_cyclic_triangle_fraction": 0.014285714285714285
+          },
+          "960": {
+            "p_any_cycle": 0.3,
+            "mean_cyclic_triangle_fraction": 0.0075
+          },
+          "2400": {
+            "p_any_cycle": 0.14,
+            "mean_cyclic_triangle_fraction": 0.0024999999999999996
+          }
+        },
+        "snumat_gga": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.32,
+            "mean_cyclic_triangle_fraction": 0.03562808415840452
+          },
+          "24": {
+            "p_any_cycle": 0.66,
+            "mean_cyclic_triangle_fraction": 0.05703404280086559
+          },
+          "32": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.049956823796344675
+          },
+          "48": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.056906349206349204
+          },
+          "64": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.05062178932178932
+          },
+          "96": {
+            "p_any_cycle": 0.78,
+            "mean_cyclic_triangle_fraction": 0.050385714285714284
+          },
+          "128": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.05035714285714286
+          },
+          "176": {
+            "p_any_cycle": 0.9,
+            "mean_cyclic_triangle_fraction": 0.05357142857142856
+          },
+          "240": {
+            "p_any_cycle": 0.78,
+            "mean_cyclic_triangle_fraction": 0.048928571428571425
+          },
+          "480": {
+            "p_any_cycle": 0.54,
+            "mean_cyclic_triangle_fraction": 0.03
+          },
+          "960": {
+            "p_any_cycle": 0.5,
+            "mean_cyclic_triangle_fraction": 0.020357142857142855
+          },
+          "2400": {
+            "p_any_cycle": 0.38,
+            "mean_cyclic_triangle_fraction": 0.009285714285714284
+          }
+        },
+        "snumat_hse": {
+          "8": {
+            "p_any_cycle": 0.0,
+            "mean_cyclic_triangle_fraction": 0.0
+          },
+          "16": {
+            "p_any_cycle": 0.34,
+            "mean_cyclic_triangle_fraction": 0.03152086856249597
+          },
+          "24": {
+            "p_any_cycle": 0.54,
+            "mean_cyclic_triangle_fraction": 0.04565480496232105
+          },
+          "32": {
+            "p_any_cycle": 0.72,
+            "mean_cyclic_triangle_fraction": 0.042856922517964205
+          },
+          "48": {
+            "p_any_cycle": 0.82,
+            "mean_cyclic_triangle_fraction": 0.054166575529733425
+          },
+          "64": {
+            "p_any_cycle": 0.8,
+            "mean_cyclic_triangle_fraction": 0.04845569985569985
+          },
+          "96": {
+            "p_any_cycle": 0.74,
+            "mean_cyclic_triangle_fraction": 0.050628571428571426
+          },
+          "128": {
+            "p_any_cycle": 0.74,
+            "mean_cyclic_triangle_fraction": 0.04642857142857142
+          },
+          "176": {
+            "p_any_cycle": 0.68,
+            "mean_cyclic_triangle_fraction": 0.03821428571428571
+          },
+          "240": {
+            "p_any_cycle": 0.7,
+            "mean_cyclic_triangle_fraction": 0.03964285714285714
+          },
+          "480": {
+            "p_any_cycle": 0.62,
+            "mean_cyclic_triangle_fraction": 0.02142857142857143
+          },
+          "960": {
+            "p_any_cycle": 0.34,
+            "mean_cyclic_triangle_fraction": 0.00964285714285714
+          },
+          "2400": {
+            "p_any_cycle": 0.26,
+            "mean_cyclic_triangle_fraction": 0.004999999999999999
+          }
+        }
+      }
+    }
+  },
+  "sources_as_players": {
+    "all": {
+      "players": [
+        "expt_zhuo",
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 28,
+      "closed_triangles": 56,
+      "majority_3cycles": 2,
+      "cycles": [
+        "jarvis_optb88vdw->mp_gga->mp_gga_expsynth",
+        "jarvis_optb88vdw->mp_gga_expsynth->snumat_gga"
+      ],
+      "cycle_bootstrap_freq": {
+        "jarvis_optb88vdw->mp_gga->mp_gga_expsynth": 0.73,
+        "jarvis_optb88vdw->mp_gga_expsynth->snumat_gga": 1.0
+      },
+      "cycle_edges": {
+        "jarvis_optb88vdw>mp_gga": {
+          "P": 0.4965775598927019,
+          "n_shared": 10811
+        },
+        "mp_gga>mp_gga_expsynth": {
+          "P": 0.4523204068658614,
+          "n_shared": 23595
+        },
+        "mp_gga_expsynth>jarvis_optb88vdw": {
+          "P": 0.4620849420849421,
+          "n_shared": 6475
+        },
+        "jarvis_optb88vdw>mp_gga_expsynth": {
+          "P": 0.5379150579150579,
+          "n_shared": 6475
+        },
+        "mp_gga_expsynth>snumat_gga": {
+          "P": 0.559368191721133,
+          "n_shared": 7344
+        },
+        "snumat_gga>jarvis_optb88vdw": {
+          "P": 0.5278130556261112,
+          "n_shared": 3937
+        }
+      },
+      "cycle_on_common_compounds": {
+        "jarvis_optb88vdw->mp_gga->mp_gga_expsynth": {
+          "n_common": 6475,
+          "cyclic_on_common_set": false,
+          "P_common": {
+            "jarvis_optb88vdw>mp_gga": 0.5417760617760617,
+            "mp_gga>mp_gga_expsynth": 0.45436293436293435,
+            "mp_gga_expsynth>jarvis_optb88vdw": 0.4620849420849421
+          }
+        },
+        "jarvis_optb88vdw->mp_gga_expsynth->snumat_gga": {
+          "n_common": 3683,
+          "cyclic_on_common_set": false,
+          "P_common": {
+            "jarvis_optb88vdw>mp_gga_expsynth": 0.4788216128156394,
+            "mp_gga_expsynth>snumat_gga": 0.5696443117024165,
+            "snumat_gga>jarvis_optb88vdw": 0.5196850393700787
+          }
+        }
+      },
+      "wins": {
+        "expt_zhuo": 7,
+        "jarvis_mbj": 5,
+        "jarvis_optb88vdw": 1,
+        "mp_gga": 2,
+        "mp_gga_expsynth": 2,
+        "mp_r2scan": 4,
+        "snumat_gga": 1,
+        "snumat_hse": 6
+      }
+    },
+    "boride": {
+      "players": [
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 10,
+      "closed_triangles": 5,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cycle_bootstrap_freq": {},
+      "cycle_edges": {},
+      "cycle_on_common_compounds": {},
+      "wins": {
+        "jarvis_mbj": 1,
+        "jarvis_optb88vdw": 1,
+        "mp_gga": 1,
+        "mp_gga_expsynth": 2,
+        "mp_r2scan": 2,
+        "snumat_gga": 0,
+        "snumat_hse": 3
+      }
+    },
+    "carbide": {
+      "players": [
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 15,
+      "closed_triangles": 16,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cycle_bootstrap_freq": {},
+      "cycle_edges": {},
+      "cycle_on_common_compounds": {},
+      "wins": {
+        "jarvis_mbj": 3,
+        "jarvis_optb88vdw": 3,
+        "mp_gga": 1,
+        "mp_gga_expsynth": 2,
+        "mp_r2scan": 1,
+        "snumat_gga": 0,
+        "snumat_hse": 5
+      }
+    },
+    "chalcogenide": {
+      "players": [
+        "expt_zhuo",
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 28,
+      "closed_triangles": 56,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cycle_bootstrap_freq": {},
+      "cycle_edges": {},
+      "cycle_on_common_compounds": {},
+      "wins": {
+        "expt_zhuo": 7,
+        "jarvis_mbj": 5,
+        "jarvis_optb88vdw": 0,
+        "mp_gga": 2,
+        "mp_gga_expsynth": 3,
+        "mp_r2scan": 4,
+        "snumat_gga": 1,
+        "snumat_hse": 6
+      }
+    },
+    "halide": {
+      "players": [
+        "expt_zhuo",
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 28,
+      "closed_triangles": 56,
+      "majority_3cycles": 1,
+      "cycles": [
+        "expt_zhuo->jarvis_mbj->snumat_hse"
+      ],
+      "cycle_bootstrap_freq": {
+        "expt_zhuo->jarvis_mbj->snumat_hse": 0.545
+      },
+      "cycle_edges": {
+        "expt_zhuo>jarvis_mbj": {
+          "P": 0.4731182795698925,
+          "n_shared": 93
+        },
+        "jarvis_mbj>snumat_hse": {
+          "P": 0.3867924528301887,
+          "n_shared": 636
+        },
+        "snumat_hse>expt_zhuo": {
+          "P": 0.4728682170542635,
+          "n_shared": 129
+        }
+      },
+      "cycle_on_common_compounds": {
+        "expt_zhuo->jarvis_mbj->snumat_hse": {
+          "n_common": 89,
+          "cyclic_on_common_set": false,
+          "P_common": {
+            "expt_zhuo>jarvis_mbj": 0.48314606741573035,
+            "jarvis_mbj>snumat_hse": 0.6179775280898876,
+            "snumat_hse>expt_zhuo": 0.43820224719101125
+          }
+        }
+      },
+      "wins": {
+        "expt_zhuo": 6,
+        "jarvis_mbj": 6,
+        "jarvis_optb88vdw": 0,
+        "mp_gga": 2,
+        "mp_gga_expsynth": 3,
+        "mp_r2scan": 4,
+        "snumat_gga": 1,
+        "snumat_hse": 6
+      }
+    },
+    "nitride": {
+      "players": [
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 21,
+      "closed_triangles": 35,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cycle_bootstrap_freq": {},
+      "cycle_edges": {},
+      "cycle_on_common_compounds": {},
+      "wins": {
+        "jarvis_mbj": 5,
+        "jarvis_optb88vdw": 3,
+        "mp_gga": 0,
+        "mp_gga_expsynth": 1,
+        "mp_r2scan": 4,
+        "snumat_gga": 2,
+        "snumat_hse": 6
+      }
+    },
+    "other": {
+      "players": [
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 21,
+      "closed_triangles": 35,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cycle_bootstrap_freq": {},
+      "cycle_edges": {},
+      "cycle_on_common_compounds": {},
+      "wins": {
+        "jarvis_mbj": 5,
+        "jarvis_optb88vdw": 3,
+        "mp_gga": 1,
+        "mp_gga_expsynth": 2,
+        "mp_r2scan": 4,
+        "snumat_gga": 0,
+        "snumat_hse": 6
+      }
+    },
+    "oxide": {
+      "players": [
+        "expt_zhuo",
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 28,
+      "closed_triangles": 56,
+      "majority_3cycles": 2,
+      "cycles": [
+        "jarvis_optb88vdw->mp_gga->snumat_gga",
+        "jarvis_optb88vdw->mp_gga_expsynth->snumat_gga"
+      ],
+      "cycle_bootstrap_freq": {
+        "jarvis_optb88vdw->mp_gga->snumat_gga": 0.495,
+        "jarvis_optb88vdw->mp_gga_expsynth->snumat_gga": 0.605
+      },
+      "cycle_edges": {
+        "jarvis_optb88vdw>mp_gga": {
+          "P": 0.532385277246654,
+          "n_shared": 4184
+        },
+        "mp_gga>snumat_gga": {
+          "P": 0.5069522735813604,
+          "n_shared": 2661
+        },
+        "snumat_gga>jarvis_optb88vdw": {
+          "P": 0.5041946308724832,
+          "n_shared": 1192
+        },
+        "jarvis_optb88vdw>mp_gga_expsynth": {
+          "P": 0.5880016722408027,
+          "n_shared": 2392
+        },
+        "mp_gga_expsynth>snumat_gga": {
+          "P": 0.5183266932270917,
+          "n_shared": 2510
+        }
+      },
+      "cycle_on_common_compounds": {
+        "jarvis_optb88vdw->mp_gga->snumat_gga": {
+          "n_common": 1148,
+          "cyclic_on_common_set": false,
+          "P_common": {
+            "jarvis_optb88vdw>mp_gga": 0.5226480836236934,
+            "mp_gga>snumat_gga": 0.5278745644599303,
+            "snumat_gga>jarvis_optb88vdw": 0.4921602787456446
+          }
+        },
+        "jarvis_optb88vdw->mp_gga_expsynth->snumat_gga": {
+          "n_common": 1094,
+          "cyclic_on_common_set": false,
+          "P_common": {
+            "jarvis_optb88vdw>mp_gga_expsynth": 0.5173674588665448,
+            "mp_gga_expsynth>snumat_gga": 0.5429616087751371,
+            "snumat_gga>jarvis_optb88vdw": 0.4853747714808044
+          }
+        }
+      },
+      "wins": {
+        "expt_zhuo": 6,
+        "jarvis_mbj": 5,
+        "jarvis_optb88vdw": 2,
+        "mp_gga": 1,
+        "mp_gga_expsynth": 2,
+        "mp_r2scan": 4,
+        "snumat_gga": 1,
+        "snumat_hse": 7
+      }
+    },
+    "pnictide": {
+      "players": [
+        "expt_zhuo",
+        "jarvis_mbj",
+        "jarvis_optb88vdw",
+        "mp_gga",
+        "mp_gga_expsynth",
+        "mp_r2scan",
+        "snumat_gga",
+        "snumat_hse"
+      ],
+      "n_pairs": 28,
+      "closed_triangles": 56,
+      "majority_3cycles": 0,
+      "cycles": [],
+      "cycle_bootstrap_freq": {},
+      "cycle_edges": {},
+      "cycle_on_common_compounds": {},
+      "wins": {
+        "expt_zhuo": 5,
+        "jarvis_mbj": 7,
+        "jarvis_optb88vdw": 3,
+        "mp_gga": 1,
+        "mp_gga_expsynth": 2,
+        "mp_r2scan": 4,
+        "snumat_gga": 0,
+        "snumat_hse": 6
+      }
+    }
+  }
+}

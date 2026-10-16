@@ -1,0 +1,2297 @@
+{
+  "universe_sha256_16": "f2158ecdc78e0229",
+  "sources": {
+    "expt_zhuo": {
+      "n_classes": 7,
+      "n_pairs": 21,
+      "resolvability": 0.5389563692666922,
+      "near_tie_pairs": 2,
+      "near_tie_list": [
+        "halide~nitride",
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 1,
+      "order_ceiling_tau": 0.9047619047619048,
+      "expected_round_residual_vs_median": 0.23193505671953302,
+      "expected_round_residual_vs_majority": 0.2305218153666539,
+      "hodge_isotropic_cyclic_fraction": 0.7142857142857143,
+      "median_spread_eV": 2.5300000000000002,
+      "label": "Experiment"
+    },
+    "jarvis_mbj": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.36279721676336935,
+      "near_tie_pairs": 2,
+      "near_tie_list": [
+        "halide~oxide",
+        "other~pnictide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 1,
+      "order_ceiling_tau": 0.9285714285714286,
+      "expected_round_residual_vs_median": 0.32205745660490004,
+      "expected_round_residual_vs_majority": 0.31860139161831535,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 5.069,
+      "label": "JARVIS TB-mBJ"
+    },
+    "jarvis_optb88vdw": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.2655692470261709,
+      "near_tie_pairs": 8,
+      "near_tie_list": [
+        "boride~halide",
+        "carbide~halide",
+        "carbide~nitride",
+        "carbide~oxide",
+        "chalcogenide~other",
+        "halide~nitride",
+        "halide~oxide",
+        "nitride~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 3,
+      "order_ceiling_tau": 0.7857142857142857,
+      "expected_round_residual_vs_median": 0.37687884492262935,
+      "expected_round_residual_vs_majority": 0.36721537648691455,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 1.5155,
+      "label": "JARVIS OptB88vdW"
+    },
+    "mp_gga": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.27481575916840206,
+      "near_tie_pairs": 3,
+      "near_tie_list": [
+        "boride~halide",
+        "carbide~nitride",
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.36259212041579897,
+      "expected_round_residual_vs_majority": 0.36259212041579897,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 1.868400000000001,
+      "label": "MP GGA"
+    },
+    "mp_gga_expsynth": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.3722241728474131,
+      "near_tie_pairs": 4,
+      "near_tie_list": [
+        "chalcogenide~other",
+        "halide~nitride",
+        "halide~oxide",
+        "nitride~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.3138879135762934,
+      "expected_round_residual_vs_majority": 0.3138879135762934,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 3.3199500000000004,
+      "label": "MP GGA (ICSD-matched)"
+    },
+    "mp_r2scan": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.3273692458372605,
+      "near_tie_pairs": 5,
+      "near_tie_list": [
+        "boride~halide",
+        "boride~oxide",
+        "carbide~nitride",
+        "chalcogenide~other",
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 2,
+      "order_ceiling_tau": 0.8571428571428572,
+      "expected_round_residual_vs_median": 0.33868435533132546,
+      "expected_round_residual_vs_majority": 0.3363153770813697,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 2.252200000000001,
+      "label": "MP r2SCAN"
+    },
+    "snumat_gga": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.31218790550627734,
+      "near_tie_pairs": 5,
+      "near_tie_list": [
+        "boride~halide",
+        "boride~nitride",
+        "boride~oxide",
+        "chalcogenide~other",
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 2,
+      "order_ceiling_tau": 0.8571428571428572,
+      "expected_round_residual_vs_median": 0.34826994822617585,
+      "expected_round_residual_vs_majority": 0.34390604724686136,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 1.551602,
+      "label": "SNUMAT GGA"
+    },
+    "snumat_hse": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.3540088697003631,
+      "near_tie_pairs": 4,
+      "near_tie_list": [
+        "boride~carbide",
+        "halide~nitride",
+        "halide~oxide",
+        "nitride~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 1,
+      "order_ceiling_tau": 0.9285714285714286,
+      "expected_round_residual_vs_median": 0.3233621340647745,
+      "expected_round_residual_vs_majority": 0.3229955651498184,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 2.120972,
+      "label": "SNUMAT HSE06"
+    }
+  },
+  "regions": {
+    "expt_zhuo|agree|mp_gga": {
+      "n_classes": 4,
+      "n_pairs": 6,
+      "resolvability": 0.665060458705869,
+      "near_tie_pairs": 0,
+      "near_tie_list": [],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.16746977064706547,
+      "expected_round_residual_vs_majority": 0.16746977064706547,
+      "hodge_isotropic_cyclic_fraction": 0.5,
+      "median_spread_eV": 2.3449999999999998,
+      "label": "Experiment where MP GGA agrees with"
+    },
+    "expt_zhuo|covered|mp_gga": {
+      "n_classes": 5,
+      "n_pairs": 10,
+      "resolvability": 0.6001045851388387,
+      "near_tie_pairs": 0,
+      "near_tie_list": [],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.19994770743058066,
+      "expected_round_residual_vs_majority": 0.19994770743058066,
+      "hodge_isotropic_cyclic_fraction": 0.6,
+      "median_spread_eV": 2.55,
+      "label": "Experiment, compounds also in MP GGA"
+    },
+    "expt_zhuo|disagree|mp_gga": {
+      "n_classes": 4,
+      "n_pairs": 6,
+      "resolvability": 0.5779452787289623,
+      "near_tie_pairs": 1,
+      "near_tie_list": [
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.21102736063551886,
+      "expected_round_residual_vs_majority": 0.21102736063551886,
+      "hodge_isotropic_cyclic_fraction": 0.5,
+      "median_spread_eV": 2.38,
+      "label": "Experiment where MP GGA disagrees with"
+    },
+    "expt_zhuo|uncovered|mp_gga": {
+      "n_classes": 5,
+      "n_pairs": 10,
+      "resolvability": 0.5453476338321209,
+      "near_tie_pairs": 2,
+      "near_tie_list": [
+        "halide~oxide",
+        "other~pnictide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.23110313726183712,
+      "expected_round_residual_vs_majority": 0.22732618308393954,
+      "hodge_isotropic_cyclic_fraction": 0.6,
+      "median_spread_eV": 2.26,
+      "label": "Experiment, compounds absent from MP GGA"
+    },
+    "jarvis_mbj|agree|jarvis_optb88vdw": {
+      "n_classes": 7,
+      "n_pairs": 21,
+      "resolvability": 0.33954598588248885,
+      "near_tie_pairs": 3,
+      "near_tie_list": [
+        "carbide~other",
+        "chalcogenide~other",
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.3302270070587556,
+      "expected_round_residual_vs_majority": 0.3302270070587556,
+      "hodge_isotropic_cyclic_fraction": 0.7142857142857143,
+      "median_spread_eV": 1.7605,
+      "label": "JARVIS TB-mBJ where JARVIS OptB88vdW agrees with"
+    },
+    "jarvis_mbj|covered|mp_gga": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.313106209494964,
+      "near_tie_pairs": 6,
+      "near_tie_list": [
+        "boride~carbide",
+        "boride~nitride",
+        "boride~oxide",
+        "carbide~other",
+        "chalcogenide~other",
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 3,
+      "order_ceiling_tau": 0.7857142857142857,
+      "expected_round_residual_vs_median": 0.3477230514749088,
+      "expected_round_residual_vs_majority": 0.34344689525251804,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 2.435,
+      "label": "JARVIS TB-mBJ, compounds also in MP GGA"
+    },
+    "jarvis_mbj|disagree|jarvis_optb88vdw": {
+      "n_classes": 7,
+      "n_pairs": 21,
+      "resolvability": 0.3870790786069251,
+      "near_tie_pairs": 4,
+      "near_tie_list": [
+        "carbide~other",
+        "chalcogenide~other",
+        "halide~oxide",
+        "nitride~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 1,
+      "order_ceiling_tau": 0.9047619047619048,
+      "expected_round_residual_vs_median": 0.3078441768107004,
+      "expected_round_residual_vs_majority": 0.30646046069653743,
+      "hodge_isotropic_cyclic_fraction": 0.7142857142857143,
+      "median_spread_eV": 3.1454999999999997,
+      "label": "JARVIS TB-mBJ where JARVIS OptB88vdW disagrees with"
+    },
+    "jarvis_mbj|uncovered|mp_gga": {
+      "n_classes": 8,
+      "n_pairs": 28,
+      "resolvability": 0.49042226903519887,
+      "near_tie_pairs": 1,
+      "near_tie_list": [
+        "nitride~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.25478886548240054,
+      "expected_round_residual_vs_majority": 0.25478886548240054,
+      "hodge_isotropic_cyclic_fraction": 0.75,
+      "median_spread_eV": 6.5765,
+      "label": "JARVIS TB-mBJ, compounds absent from MP GGA"
+    },
+    "snumat_hse|agree|snumat_gga": {
+      "n_classes": 7,
+      "n_pairs": 21,
+      "resolvability": 0.3954548295216097,
+      "near_tie_pairs": 2,
+      "near_tie_list": [
+        "halide~nitride",
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.30227258523919515,
+      "expected_round_residual_vs_majority": 0.30227258523919515,
+      "hodge_isotropic_cyclic_fraction": 0.7142857142857143,
+      "median_spread_eV": 1.721751,
+      "label": "SNUMAT HSE06 where SNUMAT GGA agrees with"
+    },
+    "snumat_hse|covered|jarvis_optb88vdw": {
+      "n_classes": 7,
+      "n_pairs": 21,
+      "resolvability": 0.3885566548237535,
+      "near_tie_pairs": 4,
+      "near_tie_list": [
+        "chalcogenide~other",
+        "halide~nitride",
+        "halide~oxide",
+        "other~pnictide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.3057216725881232,
+      "expected_round_residual_vs_majority": 0.3057216725881232,
+      "hodge_isotropic_cyclic_fraction": 0.7142857142857143,
+      "median_spread_eV": 2.0521775,
+      "label": "SNUMAT HSE06, compounds also in JARVIS OptB88vdW"
+    },
+    "snumat_hse|disagree|snumat_gga": {
+      "n_classes": 7,
+      "n_pairs": 21,
+      "resolvability": 0.46189460287357276,
+      "near_tie_pairs": 3,
+      "near_tie_list": [
+        "halide~nitride",
+        "halide~oxide",
+        "nitride~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 1,
+      "order_ceiling_tau": 0.9047619047619048,
+      "expected_round_residual_vs_median": 0.2694057607292949,
+      "expected_round_residual_vs_majority": 0.2690526985632136,
+      "hodge_isotropic_cyclic_fraction": 0.7142857142857143,
+      "median_spread_eV": 2.8003065,
+      "label": "SNUMAT HSE06 where SNUMAT GGA disagrees with"
+    },
+    "snumat_hse|uncovered|jarvis_optb88vdw": {
+      "n_classes": 7,
+      "n_pairs": 21,
+      "resolvability": 0.4280026343877299,
+      "near_tie_pairs": 2,
+      "near_tie_list": [
+        "carbide~other",
+        "halide~oxide"
+      ],
+      "majority_3cycles": 0,
+      "median_vs_majority_discordant_pairs": 0,
+      "order_ceiling_tau": 1.0,
+      "expected_round_residual_vs_median": 0.28599868280613505,
+      "expected_round_residual_vs_majority": 0.28599868280613505,
+      "hodge_isotropic_cyclic_fraction": 0.7142857142857143,
+      "median_spread_eV": 2.4370795,
+      "label": "SNUMAT HSE06, compounds absent from JARVIS OptB88vdW"
+    }
+  },
+  "round_residual_identity": [
+    {
+      "source": "expt_zhuo",
+      "observed_edge_residual": 0.22487301587301584,
+      "predicted_vs_majority": 0.2305218153666539,
+      "predicted_vs_median": 0.23193505671953302,
+      "observed_cyclic_fraction": 0.032876565196896024,
+      "isotropic_cyclic_fraction": 0.7142857142857143,
+      "majority_3cycles": 0
+    },
+    {
+      "source": "jarvis_mbj",
+      "observed_edge_residual": 0.32565079365079364,
+      "predicted_vs_majority": 0.31860139161831535,
+      "predicted_vs_median": 0.32205745660490004,
+      "observed_cyclic_fraction": 0.03743330726609006,
+      "isotropic_cyclic_fraction": 0.75,
+      "majority_3cycles": 0
+    },
+    {
+      "source": "jarvis_optb88vdw",
+      "observed_edge_residual": 0.3859047619047619,
+      "predicted_vs_majority": 0.36721537648691455,
+      "predicted_vs_median": 0.37687884492262935,
+      "observed_cyclic_fraction": 0.02833974881531417,
+      "isotropic_cyclic_fraction": 0.75,
+      "majority_3cycles": 0
+    },
+    {
+      "source": "mp_gga",
+      "observed_edge_residual": 0.36904761904761907,
+      "predicted_vs_majority": 0.36259212041579897,
+      "predicted_vs_median": 0.36259212041579897,
+      "observed_cyclic_fraction": 0.03447698344339171,
+      "isotropic_cyclic_fraction": 0.75,
+      "majority_3cycles": 0
+    },
+    {
+      "source": "mp_gga_expsynth",
+      "observed_edge_residual": 0.2972619047619047,
+      "predicted_vs_majority": 0.3138879135762934,
+      "predicted_vs_median": 0.3138879135762934,
+      "observed_cyclic_fraction": 0.0282706148617671,
+      "isotropic_cyclic_fraction": 0.75,
+      "majority_3cycles": 0
+    },
+    {
+      "source": "mp_r2scan",
+      "observed_edge_residual": 0.34523809523809523,
+      "predicted_vs_majority": 0.3363153770813697,
+      "predicted_vs_median": 0.33868435533132546,
+      "observed_cyclic_fraction": 0.0411422040520401,
+      "isotropic_cyclic_fraction": 0.75,
+      "majority_3cycles": 0
+    },
+    {
+      "source": "snumat_gga",
+      "observed_edge_residual": 0.34821428571428575,
+      "predicted_vs_majority": 0.34390604724686136,
+      "predicted_vs_median": 0.34826994822617585,
+      "observed_cyclic_fraction": 0.0693549205704715,
+      "isotropic_cyclic_fraction": 0.75,
+      "majority_3cycles": 0
+    },
+    {
+      "source": "snumat_hse",
+      "observed_edge_residual": 0.31666666666666665,
+      "predicted_vs_majority": 0.3229955651498184,
+      "predicted_vs_median": 0.3233621340647745,
+      "observed_cyclic_fraction": 0.02246923734417081,
+      "isotropic_cyclic_fraction": 0.75,
+      "majority_3cycles": 0
+    }
+  ],
+  "round_residual_identity_summary": {
+    "max_abs_error": 0.01868938541784737,
+    "mean_abs_error": 0.009253618687184273,
+    "pearson": 0.983619988632109,
+    "sources_with_majority_3cycles": 0
+  },
+  "k_sweep_rows": [
+    {
+      "source": "expt_zhuo",
+      "resolvability": 0.5389563692666922,
+      "near_tie_pairs": 2,
+      "order_ceiling_tau": 0.9047619047619048,
+      "n_classes": 7,
+      "final_tau_k2": 0.8057142857142862,
+      "final_tau_k3": 0.8380952380952386,
+      "final_tau_k4": 0.8457142857142861,
+      "final_tau_k6": 0.8342857142857146
+    },
+    {
+      "source": "jarvis_mbj",
+      "resolvability": 0.36279721676336935,
+      "near_tie_pairs": 2,
+      "order_ceiling_tau": 0.9285714285714286,
+      "n_classes": 8,
+      "final_tau_k2": 0.62,
+      "final_tau_k3": 0.6857142857142857,
+      "final_tau_k4": 0.7085714285714286,
+      "final_tau_k6": 0.7214285714285715
+    },
+    {
+      "source": "jarvis_optb88vdw",
+      "resolvability": 0.2655692470261709,
+      "near_tie_pairs": 8,
+      "order_ceiling_tau": 0.7857142857142857,
+      "n_classes": 8,
+      "final_tau_k2": 0.53,
+      "final_tau_k3": 0.5642857142857143,
+      "final_tau_k4": 0.6085714285714287,
+      "final_tau_k6": 0.5914285714285714
+    },
+    {
+      "source": "mp_gga",
+      "resolvability": 0.27481575916840206,
+      "near_tie_pairs": 3,
+      "order_ceiling_tau": 1.0,
+      "n_classes": 8,
+      "final_tau_k2": 0.572857142857143,
+      "final_tau_k3": 0.607142857142857,
+      "final_tau_k4": 0.692857142857143,
+      "final_tau_k6": 0.6557142857142858
+    },
+    {
+      "source": "mp_gga_expsynth",
+      "resolvability": 0.3722241728474131,
+      "near_tie_pairs": 4,
+      "order_ceiling_tau": 1.0,
+      "n_classes": 8,
+      "final_tau_k2": 0.667142857142857,
+      "final_tau_k3": 0.7314285714285714,
+      "final_tau_k4": 0.7371428571428572,
+      "final_tau_k6": 0.7528571428571428
+    },
+    {
+      "source": "mp_r2scan",
+      "resolvability": 0.3273692458372605,
+      "near_tie_pairs": 5,
+      "order_ceiling_tau": 0.8571428571428572,
+      "n_classes": 8,
+      "final_tau_k2": 0.6257142857142857,
+      "final_tau_k3": 0.6914285714285714,
+      "final_tau_k4": 0.7157142857142859,
+      "final_tau_k6": 0.7242857142857148
+    },
+    {
+      "source": "snumat_gga",
+      "resolvability": 0.31218790550627734,
+      "near_tie_pairs": 5,
+      "order_ceiling_tau": 0.8571428571428572,
+      "n_classes": 8,
+      "final_tau_k2": 0.622857142857143,
+      "final_tau_k3": 0.6528571428571429,
+      "final_tau_k4": 0.6942857142857144,
+      "final_tau_k6": 0.724285714285714
+    },
+    {
+      "source": "snumat_hse",
+      "resolvability": 0.3540088697003631,
+      "near_tie_pairs": 4,
+      "order_ceiling_tau": 0.9285714285714286,
+      "n_classes": 8,
+      "final_tau_k2": 0.7042857142857142,
+      "final_tau_k3": 0.7428571428571428,
+      "final_tau_k4": 0.7628571428571427,
+      "final_tau_k6": 0.7685714285714285
+    }
+  ],
+  "k_sweep_correlations": {
+    "k2": {
+      "spearman_resolvability": 0.8095238095238096,
+      "spearman_near_ties": 0.28571428571428575,
+      "mean_final_tau": 0.6435714285714287,
+      "mean_gap_to_ceiling": 0.26416666666666666
+    },
+    "k3": {
+      "spearman_resolvability": 0.880952380952381,
+      "spearman_near_ties": 0.4047619047619048,
+      "mean_final_tau": 0.6892261904761905,
+      "mean_gap_to_ceiling": 0.21851190476190474
+    },
+    "k4": {
+      "spearman_resolvability": 0.880952380952381,
+      "spearman_near_ties": 0.4047619047619048,
+      "mean_final_tau": 0.7207142857142859,
+      "mean_gap_to_ceiling": 0.18702380952380945
+    },
+    "k6": {
+      "spearman_resolvability": 0.8095238095238096,
+      "spearman_near_ties": 0.28571428571428575,
+      "mean_final_tau": 0.7216071428571429,
+      "mean_gap_to_ceiling": 0.18613095238095234
+    }
+  },
+  "covering": {
+    "7": [
+      {
+        "k": 2,
+        "schoenheim_rounds": 21,
+        "evaluations": 42,
+        "pair_observations_per_evaluation": 0.5
+      },
+      {
+        "k": 3,
+        "schoenheim_rounds": 7,
+        "evaluations": 21,
+        "pair_observations_per_evaluation": 1.0
+      },
+      {
+        "k": 4,
+        "schoenheim_rounds": 4,
+        "evaluations": 16,
+        "pair_observations_per_evaluation": 1.5
+      },
+      {
+        "k": 5,
+        "schoenheim_rounds": 3,
+        "evaluations": 15,
+        "pair_observations_per_evaluation": 2.0
+      },
+      {
+        "k": 6,
+        "schoenheim_rounds": 3,
+        "evaluations": 18,
+        "pair_observations_per_evaluation": 2.5
+      },
+      {
+        "k": 7,
+        "schoenheim_rounds": 1,
+        "evaluations": 7,
+        "pair_observations_per_evaluation": 3.0
+      }
+    ],
+    "8": [
+      {
+        "k": 2,
+        "schoenheim_rounds": 28,
+        "evaluations": 56,
+        "pair_observations_per_evaluation": 0.5
+      },
+      {
+        "k": 3,
+        "schoenheim_rounds": 11,
+        "evaluations": 33,
+        "pair_observations_per_evaluation": 1.0
+      },
+      {
+        "k": 4,
+        "schoenheim_rounds": 6,
+        "evaluations": 24,
+        "pair_observations_per_evaluation": 1.5
+      },
+      {
+        "k": 5,
+        "schoenheim_rounds": 4,
+        "evaluations": 20,
+        "pair_observations_per_evaluation": 2.0
+      },
+      {
+        "k": 6,
+        "schoenheim_rounds": 3,
+        "evaluations": 18,
+        "pair_observations_per_evaluation": 2.5
+      },
+      {
+        "k": 7,
+        "schoenheim_rounds": 3,
+        "evaluations": 21,
+        "pair_observations_per_evaluation": 3.0
+      },
+      {
+        "k": 8,
+        "schoenheim_rounds": 1,
+        "evaluations": 8,
+        "pair_observations_per_evaluation": 3.5
+      }
+    ]
+  },
+  "h1_resolvability": [
+    {
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo",
+      "delta_difference": -0.044243800634465424,
+      "r_agree": 0.665060458705869,
+      "r_disagree": 0.5779452787289623,
+      "near_ties_agree": 0,
+      "near_ties_disagree": 1,
+      "n_classes": 4,
+      "sigma_agree": 0.8856760445822385,
+      "rho_agree": 0.20458574862026038,
+      "omega_agree": 0.26100325269862873,
+      "concordance_agree": 0.5678783281216765,
+      "sigma_disagree": 0.9021794876416562,
+      "rho_disagree": 0.22589356971021118,
+      "omega_disagree": 0.2545707162135319,
+      "concordance_disagree": 0.5500063146197854
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "snumat_hse",
+      "delta_difference": -0.5065847123230258,
+      "r_agree": 0.3954548295216097,
+      "r_disagree": 0.46189460287357276,
+      "near_ties_agree": 2,
+      "near_ties_disagree": 3,
+      "n_classes": 7,
+      "sigma_agree": 0.4270707166747227,
+      "rho_agree": 0.32684593218214186,
+      "omega_agree": 0.17931145271561832,
+      "concordance_agree": 0.2182672046017998,
+      "sigma_disagree": 0.8548443060587535,
+      "rho_disagree": 0.34883746045062203,
+      "omega_disagree": 0.1224918580451037,
+      "concordance_disagree": 0.4364185817715135
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "jarvis_mbj",
+      "delta_difference": -0.017895618491134968,
+      "r_agree": 0.33954598588248885,
+      "r_disagree": 0.3870790786069251,
+      "near_ties_agree": 3,
+      "near_ties_disagree": 4,
+      "n_classes": 7,
+      "sigma_agree": 0.875700320222955,
+      "rho_agree": 0.40243875396102075,
+      "omega_agree": 0.222493533648418,
+      "concordance_agree": 0.3157582880882532,
+      "sigma_disagree": 0.8780034168455867,
+      "rho_disagree": 0.3232593715024417,
+      "omega_disagree": 0.12772162932133554,
+      "concordance_disagree": 0.3529528428106647
+    }
+  ],
+  "delta_vs_concordance": {
+    "n_routes": 140,
+    "max_recompute_error": 2.220446049250313e-16,
+    "pearson": -0.16963777893745938,
+    "spearman": -0.3375784478799939,
+    "spearman_receiver_resolvability": -0.604968183507905,
+    "components": {
+      "sigma": {
+        "spearman_vs_concordance": 0.5695567558111566,
+        "spearman_vs_receiver_resolvability": 0.2979073276333341,
+        "mean": 0.8546181049561064,
+        "sd": 0.11717995104275739
+      },
+      "rho": {
+        "spearman_vs_concordance": -0.31477990859591964,
+        "spearman_vs_receiver_resolvability": -0.4002842710633925,
+        "mean": 0.36539303161965825,
+        "sd": 0.07314640481444055
+      },
+      "omega": {
+        "spearman_vs_concordance": 0.6003848592858237,
+        "spearman_vs_receiver_resolvability": 0.7206708797096063,
+        "mean": 0.16508230821617267,
+        "sd": 0.09768714222573219
+      },
+      "delta": {
+        "spearman_vs_concordance": -0.3375784478799939,
+        "spearman_vs_receiver_resolvability": -0.604968183507905,
+        "mean": 1.054928828359592,
+        "sd": 0.19371294676317963
+      }
+    }
+  },
+  "delta_vs_concordance_points": [
+    {
+      "donor": "expt_zhuo",
+      "receiver": "jarvis_mbj",
+      "delta": 1.0001667003504677,
+      "concordance": 0.3114490215538334,
+      "sigma": 0.8916717961118176,
+      "rho": 0.32781955466271195,
+      "omega": 0.21932465042406177,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.36279721676336935
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "delta": 0.9567021386142909,
+      "concordance": 0.31351738629819403,
+      "sigma": 0.8488692941947376,
+      "rho": 0.30248599597111075,
+      "omega": 0.19465315155155735,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.33954598588248885
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "jarvis_mbj|covered|mp_gga",
+      "delta": 0.976641396639958,
+      "concordance": 0.283592770028397,
+      "sigma": 0.8815777565955767,
+      "rho": 0.30688479742505403,
+      "omega": 0.2118211573806728,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.313106209494964
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "delta": 0.9907860947780294,
+      "concordance": 0.3458460144129759,
+      "sigma": 0.8973908331300872,
+      "rho": 0.3146255445460067,
+      "omega": 0.2212302828980646,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3870790786069251
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "jarvis_mbj|uncovered|mp_gga",
+      "delta": 0.955712813541636,
+      "concordance": 0.3498415748139217,
+      "sigma": 0.8186484411644541,
+      "rho": 0.3635822594185015,
+      "omega": 0.22651788704131973,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.49042226903519887
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "jarvis_optb88vdw",
+      "delta": 0.9429458442957371,
+      "concordance": 0.2126158384557167,
+      "sigma": 0.8656153574810931,
+      "rho": 0.27544681111549674,
+      "omega": 0.19811632430085266,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.2655692470261709
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "mp_gga",
+      "delta": 1.0051294739604963,
+      "concordance": 0.2364992962880894,
+      "sigma": 0.8708531569314418,
+      "rho": 0.2788658704094743,
+      "omega": 0.14458955338041973,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.27481575916840206
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "mp_gga_expsynth",
+      "delta": 1.0021532055449753,
+      "concordance": 0.3042146291956017,
+      "sigma": 0.8538395110013355,
+      "rho": 0.3287833850093895,
+      "omega": 0.1804696904657497,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3722241728474131
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "mp_r2scan",
+      "delta": 0.9849716114972937,
+      "concordance": 0.272796145456886,
+      "sigma": 0.878498302910348,
+      "rho": 0.3089566231090601,
+      "omega": 0.2024833145221145,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3273692458372605
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "snumat_gga",
+      "delta": 1.0115077827433783,
+      "concordance": 0.29663164368968725,
+      "sigma": 0.895290275784208,
+      "rho": 0.32243197855498,
+      "omega": 0.20621447159580977,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.31218790550627734
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "snumat_hse",
+      "delta": 1.0396751906588078,
+      "concordance": 0.3634888469627742,
+      "sigma": 0.9101825644675052,
+      "rho": 0.32580697751817916,
+      "omega": 0.1963143513268766,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3540088697003631
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "snumat_hse|agree|snumat_gga",
+      "delta": 0.3777557400558623,
+      "concordance": 0.1089232036654395,
+      "sigma": 0.28774255261166687,
+      "rho": 0.25108784569869647,
+      "omega": 0.16107465825450104,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.3954548295216097
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "snumat_hse|covered|jarvis_optb88vdw",
+      "delta": 1.0139328501257592,
+      "concordance": 0.38572297004302913,
+      "sigma": 0.907564527835317,
+      "rho": 0.3270273634090387,
+      "omega": 0.22065904111859666,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3885566548237535
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "snumat_hse|disagree|snumat_gga",
+      "delta": 1.0821172902824931,
+      "concordance": 0.499246852335342,
+      "sigma": 0.9208001429466237,
+      "rho": 0.37759976231231224,
+      "omega": 0.21628261497644288,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.46189460287357276
+    },
+    {
+      "donor": "expt_zhuo",
+      "receiver": "snumat_hse|uncovered|jarvis_optb88vdw",
+      "delta": 1.0140704873620479,
+      "concordance": 0.4246803654709384,
+      "sigma": 0.884229821349844,
+      "rho": 0.31934707834738685,
+      "omega": 0.18950641233518306,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.4280026343877299
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "expt_zhuo",
+      "delta": 0.9575560488192245,
+      "concordance": 0.46362171983859757,
+      "sigma": 0.8974864601551975,
+      "rho": 0.31350401463780114,
+      "omega": 0.25343442597377414,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5389563692666922
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "expt_zhuo|agree|mp_gga",
+      "delta": 0.9597489477299711,
+      "concordance": 0.665060458705869,
+      "sigma": 0.9425293190222039,
+      "rho": 0.3654739517733788,
+      "omega": 0.34825432306561155,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.665060458705869
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "expt_zhuo|covered|mp_gga",
+      "delta": 0.9170052863071196,
+      "concordance": 0.6001045851388387,
+      "sigma": 0.9273655406046568,
+      "rho": 0.3313011524963075,
+      "omega": 0.34166140679384477,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.6001045851388387
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "expt_zhuo|disagree|mp_gga",
+      "delta": 1.0155677394899214,
+      "concordance": 0.5779452787289623,
+      "sigma": 0.9471034933432534,
+      "rho": 0.4102860327271827,
+      "omega": 0.3418217865805147,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5779452787289623
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "expt_zhuo|uncovered|mp_gga",
+      "delta": 0.9073897626435286,
+      "concordance": 0.5453476338321209,
+      "sigma": 0.9329348023327738,
+      "rho": 0.3499086522958659,
+      "omega": 0.37545369198511114,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.5453476338321209
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "jarvis_optb88vdw",
+      "delta": 1.1539286756650395,
+      "concordance": 0.24115757877233937,
+      "sigma": 0.8624324948918202,
+      "rho": 0.3367938925442888,
+      "omega": 0.04529771177106958,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.2655692470261709
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "mp_gga",
+      "delta": 1.1199834553982861,
+      "concordance": 0.2678334662570153,
+      "sigma": 0.8653477130902607,
+      "rho": 0.3493635233090354,
+      "omega": 0.09472778100100986,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.27481575916840206
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "mp_gga_expsynth",
+      "delta": 1.316929250769502,
+      "concordance": 0.3593687733402482,
+      "sigma": 0.9048700005664032,
+      "rho": 0.4767081866033221,
+      "omega": 0.06464893640022329,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3722241728474131
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "mp_r2scan",
+      "delta": 1.288004224482369,
+      "concordance": 0.309859213278122,
+      "sigma": 0.9044439562579701,
+      "rho": 0.41931565309839713,
+      "omega": 0.035755384873998215,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3273692458372605
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "snumat_gga",
+      "delta": 1.2809882975030078,
+      "concordance": 0.2689890959345121,
+      "sigma": 0.9032338802745477,
+      "rho": 0.45473713900801943,
+      "omega": 0.07698272177955921,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.31218790550627734
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "snumat_hse",
+      "delta": 1.229255357892367,
+      "concordance": 0.2951516660216172,
+      "sigma": 0.8790699606858516,
+      "rho": 0.45093497388639275,
+      "omega": 0.10074957667987741,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3540088697003631
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "snumat_hse|agree|snumat_gga",
+      "delta": 0.5106429219276784,
+      "concordance": 0.12358190828129971,
+      "sigma": 0.4267663334593696,
+      "rho": 0.3237584257847338,
+      "omega": 0.23988183731642507,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.3954548295216097
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "snumat_hse|covered|jarvis_optb88vdw",
+      "delta": 1.2156442823634024,
+      "concordance": 0.37972491250282364,
+      "sigma": 0.921522452579541,
+      "rho": 0.4347977765012021,
+      "omega": 0.14067594671734077,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3885566548237535
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "snumat_hse|disagree|snumat_gga",
+      "delta": 1.1086066568144493,
+      "concordance": 0.4607436938574952,
+      "sigma": 0.8968436216840858,
+      "rho": 0.347618178521732,
+      "omega": 0.13585514339136862,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.46189460287357276
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "snumat_hse|uncovered|jarvis_optb88vdw",
+      "delta": 1.1300105529035664,
+      "concordance": 0.37955821338960877,
+      "sigma": 0.8581766867037757,
+      "rho": 0.45857783995811224,
+      "omega": 0.18674397375832155,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.4280026343877299
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "expt_zhuo",
+      "delta": 0.7946824987605441,
+      "concordance": 0.49431776410945766,
+      "sigma": 0.8743134764020499,
+      "rho": 0.20176468701310538,
+      "omega": 0.28139566465461113,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5389563692666922
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "expt_zhuo|agree|mp_gga",
+      "delta": 0.7431330198892278,
+      "concordance": 0.5678783281216765,
+      "sigma": 0.9148581846972973,
+      "rho": 0.22862354354504066,
+      "omega": 0.4003487083531102,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.665060458705869
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "expt_zhuo|covered|mp_gga",
+      "delta": 0.7021011184756845,
+      "concordance": 0.5429735603194474,
+      "sigma": 0.8775721461962099,
+      "rho": 0.20786588730331818,
+      "omega": 0.3833369150238437,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.6001045851388387
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "expt_zhuo|disagree|mp_gga",
+      "delta": 0.788928848822643,
+      "concordance": 0.5500063146197854,
+      "sigma": 0.9296568932772283,
+      "rho": 0.2531881274134281,
+      "omega": 0.3939161718680134,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5779452787289623
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "expt_zhuo|uncovered|mp_gga",
+      "delta": 0.7005130432096325,
+      "concordance": 0.520190277134685,
+      "sigma": 0.9030577549900819,
+      "rho": 0.2145844884346606,
+      "omega": 0.4171292002151101,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5453476338321209
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "jarvis_mbj",
+      "delta": 1.1719974161081963,
+      "concordance": 0.3241182227304202,
+      "sigma": 0.8672701591591951,
+      "rho": 0.3595254151112846,
+      "omega": 0.054798158162283506,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.36279721676336935
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "delta": 1.0556455405355578,
+      "concordance": 0.3157582880882532,
+      "sigma": 0.875700320222955,
+      "rho": 0.40243875396102075,
+      "omega": 0.222493533648418,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.33954598588248885
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "jarvis_mbj|covered|mp_gga",
+      "delta": 1.2216898231100963,
+      "concordance": 0.29847602655371486,
+      "sigma": 0.8795992868833753,
+      "rho": 0.4112025017944623,
+      "omega": 0.06911196556774137,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.313106209494964
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "delta": 1.0735411590266928,
+      "concordance": 0.3529528428106647,
+      "sigma": 0.8780034168455867,
+      "rho": 0.3232593715024417,
+      "omega": 0.12772162932133554,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3870790786069251
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "jarvis_mbj|uncovered|mp_gga",
+      "delta": 0.9795376167350403,
+      "concordance": 0.31990159421112746,
+      "sigma": 0.7201145088789676,
+      "rho": 0.37224389003472835,
+      "omega": 0.11282078217865561,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.49042226903519887
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "mp_gga",
+      "delta": 1.1888154605552073,
+      "concordance": 0.2548603992294407,
+      "sigma": 0.8154771324416434,
+      "rho": 0.45980771943292376,
+      "omega": 0.08646939131935992,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.27481575916840206
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "mp_gga_expsynth",
+      "delta": 1.1967798162060561,
+      "concordance": 0.32615358202611505,
+      "sigma": 0.893993703226749,
+      "rho": 0.3629622720068599,
+      "omega": 0.06017615902755277,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3722241728474131
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "mp_r2scan",
+      "delta": 1.2653880645348392,
+      "concordance": 0.3149077944123073,
+      "sigma": 0.9078293148854555,
+      "rho": 0.4141211206051765,
+      "omega": 0.056562370955792717,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3273692458372605
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_gga",
+      "delta": 1.1397604986478629,
+      "concordance": 0.269664738459687,
+      "sigma": 0.8915110912697711,
+      "rho": 0.3710753197148122,
+      "omega": 0.12282591233672041,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.31218790550627734
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_hse",
+      "delta": 1.0266413831631167,
+      "concordance": 0.315159031188784,
+      "sigma": 0.8490480911274835,
+      "rho": 0.3117487537910505,
+      "omega": 0.13415546175541723,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3540088697003631
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_hse|agree|snumat_gga",
+      "delta": 0.7760492019044377,
+      "concordance": 0.18562814656814042,
+      "sigma": 0.5323682976783009,
+      "rho": 0.4839817692138787,
+      "omega": 0.24030086498774178,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.3954548295216097
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_hse|covered|jarvis_optb88vdw",
+      "delta": 1.011615623719909,
+      "concordance": 0.3724184502147539,
+      "sigma": 0.9029829623718947,
+      "rho": 0.30689496064478294,
+      "omega": 0.1982622992967687,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3885566548237535
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_hse|disagree|snumat_gga",
+      "delta": 0.9053364261755892,
+      "concordance": 0.3892133373584158,
+      "sigma": 0.7589791798328601,
+      "rho": 0.2841094834705514,
+      "omega": 0.1377522371278224,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.46189460287357276
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_hse|uncovered|jarvis_optb88vdw",
+      "delta": 0.9005108913022687,
+      "concordance": 0.33555050946897746,
+      "sigma": 0.7372336215239119,
+      "rho": 0.36952087309450476,
+      "omega": 0.20624360331614797,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.4280026343877299
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo",
+      "delta": 0.897482177340255,
+      "concordance": 0.4557806886892956,
+      "sigma": 0.8797240142960575,
+      "rho": 0.21343449607120882,
+      "omega": 0.19567633302701126,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5389563692666922
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo|agree|mp_gga",
+      "delta": 0.8292585405038702,
+      "concordance": 0.5678783281216765,
+      "sigma": 0.8856760445822385,
+      "rho": 0.20458574862026038,
+      "omega": 0.26100325269862873,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.665060458705869
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo|covered|mp_gga",
+      "delta": 0.8637805542209095,
+      "concordance": 0.5749627517557393,
+      "sigma": 0.9073354407945655,
+      "rho": 0.22830566392660248,
+      "omega": 0.2718605505002585,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.6001045851388387
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo|disagree|mp_gga",
+      "delta": 0.8735023411383356,
+      "concordance": 0.5500063146197854,
+      "sigma": 0.9021794876416562,
+      "rho": 0.22589356971021118,
+      "omega": 0.2545707162135319,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.5779452787289623
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo|uncovered|mp_gga",
+      "delta": 0.8379362385704587,
+      "concordance": 0.5352980938462754,
+      "sigma": 0.8987638743820757,
+      "rho": 0.24482519987990797,
+      "omega": 0.30565283569152496,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5453476338321209
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "jarvis_mbj",
+      "delta": 1.1519903134946154,
+      "concordance": 0.3359103276394561,
+      "sigma": 0.8675685344329263,
+      "rho": 0.35730938208568674,
+      "omega": 0.0728876030239975,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.36279721676336935
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "delta": 1.04518846997787,
+      "concordance": 0.2947133145432796,
+      "sigma": 0.830437217860195,
+      "rho": 0.4145840331276135,
+      "omega": 0.1998327810099386,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.33954598588248885
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "jarvis_mbj|covered|mp_gga",
+      "delta": 1.1842726228110225,
+      "concordance": 0.2699125287226513,
+      "sigma": 0.8314722071743226,
+      "rho": 0.43226935878171063,
+      "omega": 0.07946894314501071,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.313106209494964
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "delta": 1.0327630397138374,
+      "concordance": 0.33011621844898587,
+      "sigma": 0.8436248185974489,
+      "rho": 0.3283097676049362,
+      "omega": 0.13917154648854757,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3870790786069251
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "jarvis_mbj|uncovered|mp_gga",
+      "delta": 1.0008613419616275,
+      "concordance": 0.3991269750191893,
+      "sigma": 0.7911070685378562,
+      "rho": 0.33732817336917376,
+      "omega": 0.12757389994540252,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.49042226903519887
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "jarvis_optb88vdw",
+      "delta": 1.180761221039392,
+      "concordance": 0.24667222129395222,
+      "sigma": 0.8130095315342075,
+      "rho": 0.42288045645631817,
+      "omega": 0.055128766951133626,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.2655692470261709
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "mp_gga_expsynth",
+      "delta": 1.1788124679703766,
+      "concordance": 0.34519559701224617,
+      "sigma": 0.8672224999571774,
+      "rho": 0.37209775911784754,
+      "omega": 0.060507791104648344,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3722241728474131
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "mp_r2scan",
+      "delta": 1.2134440495234062,
+      "concordance": 0.3033303454208363,
+      "sigma": 0.8555368312686531,
+      "rho": 0.43691107584985067,
+      "omega": 0.07900385759509738,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3273692458372605
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "snumat_gga",
+      "delta": 1.1186083197442258,
+      "concordance": 0.2498855833653077,
+      "sigma": 0.8370232346541959,
+      "rho": 0.3928859120486182,
+      "omega": 0.1113008269585885,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.31218790550627734
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "snumat_hse",
+      "delta": 1.0168376993726282,
+      "concordance": 0.27176364163348454,
+      "sigma": 0.8183596525811321,
+      "rho": 0.3211084231687815,
+      "omega": 0.1226303763772853,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3540088697003631
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "snumat_hse|agree|snumat_gga",
+      "delta": 0.27036333088027154,
+      "concordance": 0.10704624971560357,
+      "sigma": 0.16934606830595805,
+      "rho": 0.29540523845174904,
+      "omega": 0.1943879758774356,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3954548295216097
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "snumat_hse|covered|jarvis_optb88vdw",
+      "delta": 1.0123411682187906,
+      "concordance": 0.36358670789382397,
+      "sigma": 0.8810110144382434,
+      "rho": 0.30712912189159947,
+      "omega": 0.17579896811105214,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3885566548237535
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "snumat_hse|disagree|snumat_gga",
+      "delta": 0.9490450057500042,
+      "concordance": 0.41398323412831256,
+      "sigma": 0.8380811379355103,
+      "rho": 0.2512181117710505,
+      "omega": 0.14025424395655672,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.46189460287357276
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "snumat_hse|uncovered|jarvis_optb88vdw",
+      "delta": 0.9225886677224302,
+      "concordance": 0.32257670041673703,
+      "sigma": 0.764082125809412,
+      "rho": 0.3479533233690665,
+      "omega": 0.18944678145604837,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.4280026343877299
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "expt_zhuo",
+      "delta": 0.9454710908125148,
+      "concordance": 0.4473343035511813,
+      "sigma": 0.8561719196313048,
+      "rho": 0.3085296221964899,
+      "omega": 0.21923045101528,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.5389563692666922
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "expt_zhuo|agree|mp_gga",
+      "delta": 0.8963674469651952,
+      "concordance": 0.665060458705869,
+      "sigma": 0.914203857502485,
+      "rho": 0.28821364255032017,
+      "omega": 0.3060500530876101,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.665060458705869
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "expt_zhuo|covered|mp_gga",
+      "delta": 0.8946635109895533,
+      "concordance": 0.5681153937025469,
+      "sigma": 0.9209153436844066,
+      "rho": 0.2816461581165902,
+      "omega": 0.30789799081144353,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.6001045851388387
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "expt_zhuo|disagree|mp_gga",
+      "delta": 0.9441556426127609,
+      "concordance": 0.5779452787289623,
+      "sigma": 0.9237153360088302,
+      "rho": 0.320057823206444,
+      "omega": 0.2996175166025131,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.5779452787289623
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "expt_zhuo|uncovered|mp_gga",
+      "delta": 0.8822804754563862,
+      "concordance": 0.5302398171205306,
+      "sigma": 0.9269849879383254,
+      "rho": 0.2969857635207708,
+      "omega": 0.34169027600270996,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.5453476338321209
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "jarvis_mbj",
+      "delta": 1.3467843715373204,
+      "concordance": 0.36279721676336935,
+      "sigma": 0.9035174193160576,
+      "rho": 0.4916029430624777,
+      "omega": 0.048335990841214815,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.36279721676336935
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "delta": 1.1903073862444808,
+      "concordance": 0.33954598588248885,
+      "sigma": 0.88165200113041,
+      "rho": 0.47600320582705086,
+      "omega": 0.16734782071298007,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.33954598588248885
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "jarvis_mbj|covered|mp_gga",
+      "delta": 1.209792689334835,
+      "concordance": 0.2949277562255744,
+      "sigma": 0.8485172933091425,
+      "rho": 0.4011828631389795,
+      "omega": 0.039907467113287035,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.313106209494964
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "delta": 1.2415068895025947,
+      "concordance": 0.3772247626085119,
+      "sigma": 0.9031554446494241,
+      "rho": 0.41861963947382336,
+      "omega": 0.0802681946206528,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3870790786069251
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "jarvis_mbj|uncovered|mp_gga",
+      "delta": 1.2372362099811969,
+      "concordance": 0.4531213622018437,
+      "sigma": 0.855035866206497,
+      "rho": 0.45273153939711536,
+      "omega": 0.07053119562241544,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.49042226903519887
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "jarvis_optb88vdw",
+      "delta": 1.1945922045849904,
+      "concordance": 0.2566910921893334,
+      "sigma": 0.8876781045441402,
+      "rho": 0.34127686711818045,
+      "omega": 0.03436276707733029,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.2655692470261709
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "mp_gga",
+      "delta": 1.1472030943888962,
+      "concordance": 0.26066520489873185,
+      "sigma": 0.8637095761826893,
+      "rho": 0.3495285417288592,
+      "omega": 0.0660350235226522,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.27481575916840206
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "mp_r2scan",
+      "delta": 1.2585823005021644,
+      "concordance": 0.3269016752299637,
+      "sigma": 0.8785203991974334,
+      "rho": 0.4148145223970006,
+      "omega": 0.03475262109226977,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3273692458372605
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "snumat_gga",
+      "delta": 1.26875966842301,
+      "concordance": 0.28502021697128593,
+      "sigma": 0.8996185092592797,
+      "rho": 0.45957632920208213,
+      "omega": 0.09043517003835161,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.31218790550627734
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "snumat_hse",
+      "delta": 1.1805052956972482,
+      "concordance": 0.30474147778391086,
+      "sigma": 0.8201670112488643,
+      "rho": 0.46313395115907485,
+      "omega": 0.10279566671069082,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3540088697003631
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "snumat_hse|agree|snumat_gga",
+      "delta": 0.5483996034174495,
+      "concordance": 0.20216380513383653,
+      "sigma": 0.4049542298297761,
+      "rho": 0.32758767687353213,
+      "omega": 0.18414230328585865,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3954548295216097
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "snumat_hse|covered|jarvis_optb88vdw",
+      "delta": 1.1728695454702969,
+      "concordance": 0.3885566548237535,
+      "sigma": 0.9236093293120425,
+      "rho": 0.4000690807543402,
+      "omega": 0.15080886459608595,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3885566548237535
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "snumat_hse|disagree|snumat_gga",
+      "delta": 1.0834317940126292,
+      "concordance": 0.4359737970875984,
+      "sigma": 0.8515523503214378,
+      "rho": 0.3376280711036295,
+      "omega": 0.10574862741243811,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.46189460287357276
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "snumat_hse|uncovered|jarvis_optb88vdw",
+      "delta": 1.0787761361744195,
+      "concordance": 0.39253202244184926,
+      "sigma": 0.8208958642231975,
+      "rho": 0.44212344450177965,
+      "omega": 0.18424317255055764,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.4280026343877299
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "expt_zhuo",
+      "delta": 0.9106399412351827,
+      "concordance": 0.47819566161820654,
+      "sigma": 0.883354244713866,
+      "rho": 0.26162489908517744,
+      "omega": 0.23433920256386084,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5389563692666922
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "expt_zhuo|agree|mp_gga",
+      "delta": 0.936402973135321,
+      "concordance": 0.665060458705869,
+      "sigma": 0.9255782218327113,
+      "rho": 0.312486325514805,
+      "omega": 0.3016615742121954,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.665060458705869
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "expt_zhuo|covered|mp_gga",
+      "delta": 0.8800220786981163,
+      "concordance": 0.5681153937025469,
+      "sigma": 0.8951815359243375,
+      "rho": 0.2892277504848905,
+      "omega": 0.3043872077111118,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.6001045851388387
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "expt_zhuo|disagree|mp_gga",
+      "delta": 0.9800457652090069,
+      "concordance": 0.5779452787289623,
+      "sigma": 0.9229165797986317,
+      "rho": 0.3523582231374736,
+      "omega": 0.2952290377270985,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5779452787289623
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "expt_zhuo|uncovered|mp_gga",
+      "delta": 0.869286499538107,
+      "concordance": 0.5302398171205306,
+      "sigma": 0.9030457624100344,
+      "rho": 0.3044202300304508,
+      "omega": 0.3381794929023782,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.5453476338321209
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "jarvis_mbj",
+      "delta": 1.291365859133292,
+      "concordance": 0.35216641177240604,
+      "sigma": 0.9040652425241229,
+      "rho": 0.4292209473367324,
+      "omega": 0.04192033072756342,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.36279721676336935
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "delta": 1.2239189911887287,
+      "concordance": 0.33954598588248885,
+      "sigma": 0.9228207298945668,
+      "rho": 0.4805793012908954,
+      "omega": 0.17948103999673357,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.33954598588248885
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "jarvis_mbj|covered|mp_gga",
+      "delta": 1.3581552254031526,
+      "concordance": 0.3005495500745994,
+      "sigma": 0.9152416102169987,
+      "rho": 0.4869284486900889,
+      "omega": 0.04401483350393511,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.313106209494964
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "delta": 1.1965809770683284,
+      "concordance": 0.3772247626085119,
+      "sigma": 0.9068505866684556,
+      "rho": 0.39320845668113874,
+      "omega": 0.10347806628126595,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3870790786069251
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "jarvis_mbj|uncovered|mp_gga",
+      "delta": 1.126011255706891,
+      "concordance": 0.41813804740762783,
+      "sigma": 0.7726039115058893,
+      "rho": 0.43293571591661534,
+      "omega": 0.07952837171561349,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.49042226903519887
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "jarvis_optb88vdw",
+      "delta": 1.2247309542996545,
+      "concordance": 0.2460999701539038,
+      "sigma": 0.9023873992989049,
+      "rho": 0.37557042541889357,
+      "omega": 0.053226870418144,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.2655692470261709
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "mp_gga",
+      "delta": 1.1240700877228431,
+      "concordance": 0.2519473590109645,
+      "sigma": 0.8529894908928264,
+      "rho": 0.3780895782556916,
+      "omega": 0.10700898142567496,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.27481575916840206
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "mp_gga_expsynth",
+      "delta": 1.281667684716517,
+      "concordance": 0.35570192649117977,
+      "sigma": 0.8794671499040496,
+      "rho": 0.45943104731731077,
+      "omega": 0.05723051250484346,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3722241728474131
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "snumat_gga",
+      "delta": 1.2439380750410893,
+      "concordance": 0.2867108397015126,
+      "sigma": 0.8989175967137337,
+      "rho": 0.4578997562894609,
+      "omega": 0.11287927796210524,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.31218790550627734
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "snumat_hse",
+      "delta": 1.125182984852098,
+      "concordance": 0.32170756911627224,
+      "sigma": 0.8946089428495007,
+      "rho": 0.3672201748650208,
+      "omega": 0.13664613286242347,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3540088697003631
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "snumat_hse|agree|snumat_gga",
+      "delta": 0.6225057684941057,
+      "concordance": 0.20216380513383653,
+      "sigma": 0.5010747278171992,
+      "rho": 0.368902947471722,
+      "omega": 0.24747190679481554,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3954548295216097
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "snumat_hse|covered|jarvis_optb88vdw",
+      "delta": 1.1320007101409444,
+      "concordance": 0.3885566548237535,
+      "sigma": 0.9235089498597718,
+      "rho": 0.37731964926110473,
+      "omega": 0.16882788897993212,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3885566548237535
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "snumat_hse|disagree|snumat_gga",
+      "delta": 1.0081962930628814,
+      "concordance": 0.4359737970875984,
+      "sigma": 0.8208137617989465,
+      "rho": 0.33031995805576564,
+      "omega": 0.14293742679183066,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.46189460287357276
+    },
+    {
+      "donor": "mp_r2scan",
+      "receiver": "snumat_hse|uncovered|jarvis_optb88vdw",
+      "delta": 1.0038987539437862,
+      "concordance": 0.39253202244184926,
+      "sigma": 0.806721335750328,
+      "rho": 0.42430520622290085,
+      "omega": 0.2271277880294426,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.4280026343877299
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "expt_zhuo",
+      "delta": 0.9860613094083283,
+      "concordance": 0.5064262195933935,
+      "sigma": 0.9005474697833906,
+      "rho": 0.29141737924455213,
+      "omega": 0.20590353961961444,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.5389563692666922
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "expt_zhuo|agree|mp_gga",
+      "delta": 0.9389406295499076,
+      "concordance": 0.665060458705869,
+      "sigma": 0.9289549038621222,
+      "rho": 0.29271368383298085,
+      "omega": 0.2827279581451954,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.665060458705869
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "expt_zhuo|covered|mp_gga",
+      "delta": 0.9008498585483542,
+      "concordance": 0.5681153937025469,
+      "sigma": 0.9182191426705085,
+      "rho": 0.2718710307353575,
+      "omega": 0.2892403148575119,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.6001045851388387
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "expt_zhuo|disagree|mp_gga",
+      "delta": 0.9817708228783636,
+      "concordance": 0.5779452787289623,
+      "sigma": 0.9291468217182558,
+      "rho": 0.32891942282020636,
+      "omega": 0.2762954216600986,
+      "delta_recomputed_error": 1.1102230246251565e-16,
+      "receiver_resolvability": 0.5779452787289623
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "expt_zhuo|uncovered|mp_gga",
+      "delta": 0.8842537405044788,
+      "concordance": 0.5302398171205306,
+      "sigma": 0.9192124356359053,
+      "rho": 0.2880739049173518,
+      "omega": 0.3230326000487782,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5453476338321209
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "jarvis_mbj",
+      "delta": 1.3507860166489247,
+      "concordance": 0.28543619512197455,
+      "sigma": 0.9037461537653704,
+      "rho": 0.48860183876436597,
+      "omega": 0.04156197588081157,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.36279721676336935
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "delta": 1.1733555965675382,
+      "concordance": 0.3117521145627211,
+      "sigma": 0.8578080937973072,
+      "rho": 0.44643612159559753,
+      "omega": 0.1308886188253665,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.33954598588248885
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "jarvis_mbj|covered|mp_gga",
+      "delta": 1.2631937608823667,
+      "concordance": 0.27680191833823653,
+      "sigma": 0.8740489497962929,
+      "rho": 0.4257091513888829,
+      "omega": 0.036564340302809056,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.313106209494964
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "delta": 1.2503245303004866,
+      "concordance": 0.3580009530729459,
+      "sigma": 0.889902897655553,
+      "rho": 0.440616878276683,
+      "omega": 0.08019524563174943,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3870790786069251
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "jarvis_mbj|uncovered|mp_gga",
+      "delta": 1.2079587068478619,
+      "concordance": 0.30343692158819774,
+      "sigma": 0.8274531418745771,
+      "rho": 0.45980671590178884,
+      "omega": 0.07930115092850397,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.49042226903519887
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "jarvis_optb88vdw",
+      "delta": 1.16132619341007,
+      "concordance": 0.21468528301921927,
+      "sigma": 0.8870410146679687,
+      "rho": 0.35218989878886026,
+      "omega": 0.07790472004675884,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.2655692470261709
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "mp_gga",
+      "delta": 1.0928349798552697,
+      "concordance": 0.19721292170287621,
+      "sigma": 0.8353541104506839,
+      "rho": 0.355201128441439,
+      "omega": 0.09772025903685322,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.27481575916840206
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "mp_gga_expsynth",
+      "delta": 1.336246590242703,
+      "concordance": 0.2907844731449352,
+      "sigma": 0.9014762406018969,
+      "rho": 0.5060977193394186,
+      "omega": 0.07132736969861249,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3722241728474131
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "mp_r2scan",
+      "delta": 1.2672149334120109,
+      "concordance": 0.26318998199992855,
+      "sigma": 0.8998041931501212,
+      "rho": 0.4387043264716821,
+      "omega": 0.07129358620979245,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3273692458372605
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "snumat_hse",
+      "delta": 1.286867234757041,
+      "concordance": 0.353275731870451,
+      "sigma": 0.9000409689582283,
+      "rho": 0.41553106397866935,
+      "omega": 0.028704798179856626,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3540088697003631
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "snumat_hse|agree|snumat_gga",
+      "delta": 0.5746051961412462,
+      "concordance": 0.2182672046017998,
+      "sigma": 0.4270707166747227,
+      "rho": 0.32684593218214186,
+      "omega": 0.17931145271561832,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3954548295216097
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "snumat_hse|covered|jarvis_optb88vdw",
+      "delta": 1.2570762928215486,
+      "concordance": 0.3700230256637522,
+      "sigma": 0.8995259532883884,
+      "rho": 0.4260609614355393,
+      "omega": 0.06851062190237898,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3885566548237535
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "snumat_hse|disagree|snumat_gga",
+      "delta": 1.081189908464272,
+      "concordance": 0.4364185817715135,
+      "sigma": 0.8548443060587535,
+      "rho": 0.34883746045062203,
+      "omega": 0.1224918580451037,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.46189460287357276
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "snumat_hse|uncovered|jarvis_optb88vdw",
+      "delta": 1.1775321240763896,
+      "concordance": 0.41333869589566646,
+      "sigma": 0.8529000588409203,
+      "rho": 0.44132670314434436,
+      "omega": 0.11669463790887517,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.4280026343877299
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "expt_zhuo",
+      "delta": 1.0907013524988254,
+      "concordance": 0.5064262195933935,
+      "sigma": 0.9223985851069829,
+      "rho": 0.3617192863801161,
+      "omega": 0.19341651898827358,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.5389563692666922
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "expt_zhuo|agree|mp_gga",
+      "delta": 1.0789760557723278,
+      "concordance": 0.665060458705869,
+      "sigma": 0.9403775377178488,
+      "rho": 0.399474190094828,
+      "omega": 0.26087567204034895,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.665060458705869
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "expt_zhuo|covered|mp_gga",
+      "delta": 1.0385784013889978,
+      "concordance": 0.5681153937025469,
+      "sigma": 0.9328430144204207,
+      "rho": 0.3774938729422117,
+      "omega": 0.27175848597363467,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.6001045851388387
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "expt_zhuo|disagree|mp_gga",
+      "delta": 1.138536399290218,
+      "concordance": 0.5779452787289623,
+      "sigma": 0.944690913806368,
+      "rho": 0.448288621039102,
+      "omega": 0.254443135555252,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5779452787289623
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "expt_zhuo|uncovered|mp_gga",
+      "delta": 1.030838747054557,
+      "concordance": 0.5302398171205306,
+      "sigma": 0.9366521116905896,
+      "rho": 0.3997374065288685,
+      "omega": 0.30555077116490104,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.5453476338321209
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "jarvis_mbj",
+      "delta": 1.2895951182202752,
+      "concordance": 0.28543619512197455,
+      "sigma": 0.8849522299414889,
+      "rho": 0.4552708757611879,
+      "omega": 0.05062798748240166,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.36279721676336935
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "delta": 1.207335722934957,
+      "concordance": 0.3117521145627211,
+      "sigma": 0.8976530434783827,
+      "rho": 0.4296343168651625,
+      "omega": 0.11995163740858815,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.33954598588248885
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "jarvis_mbj|covered|mp_gga",
+      "delta": 1.2653615677378598,
+      "concordance": 0.27680191833823653,
+      "sigma": 0.9047662324473641,
+      "rho": 0.40762155991695137,
+      "omega": 0.04702622462645578,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.313106209494964
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "delta": 1.3315110034511997,
+      "concordance": 0.3580009530729459,
+      "sigma": 0.926093142476778,
+      "rho": 0.48870528968760524,
+      "omega": 0.08328742871318366,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3870790786069251
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "jarvis_mbj|uncovered|mp_gga",
+      "delta": 1.1566856283807547,
+      "concordance": 0.30343692158819774,
+      "sigma": 0.7531541408178203,
+      "rho": 0.4932549344057707,
+      "omega": 0.08972344684283629,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.49042226903519887
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "jarvis_optb88vdw",
+      "delta": 1.1145140926637185,
+      "concordance": 0.21468528301921927,
+      "sigma": 0.8499617581280197,
+      "rho": 0.33908576070242635,
+      "omega": 0.07453342616672758,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.2655692470261709
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "mp_gga",
+      "delta": 1.0735275663561454,
+      "concordance": 0.19721292170287621,
+      "sigma": 0.8217268076960943,
+      "rho": 0.3461497238168731,
+      "omega": 0.09434896515682197,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.27481575916840206
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "mp_gga_expsynth",
+      "delta": 1.1892943043429833,
+      "concordance": 0.2907844731449352,
+      "sigma": 0.8268911533107952,
+      "rho": 0.4313901741044117,
+      "omega": 0.06898702307222358,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.3722241728474131
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "mp_r2scan",
+      "delta": 1.2316410436822554,
+      "concordance": 0.26318998199992855,
+      "sigma": 0.9009724508462504,
+      "rho": 0.4110281906473876,
+      "omega": 0.08035959781138255,
+      "delta_recomputed_error": 2.220446049250313e-16,
+      "receiver_resolvability": 0.3273692458372605
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "snumat_gga",
+      "delta": 1.3322092045550518,
+      "concordance": 0.30346010354764835,
+      "sigma": 0.9055499779854845,
+      "rho": 0.44066318145069594,
+      "omega": 0.014003954881128553,
+      "delta_recomputed_error": 0.0,
+      "receiver_resolvability": 0.31218790550627734
+    }
+  ]
+}

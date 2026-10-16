@@ -1,0 +1,175 @@
+{
+  "cyclic_frobenius_per_engine": {
+    "gga_band_gap_difference_theoretical": {
+      "band_gap_fidelity": 0.001067966077816972
+    },
+    "gga_band_gap_intersection_theoretical": {
+      "band_gap_fidelity": 0.03324707992890537
+    },
+    "mbj_band_gap_theoretical": {
+      "band_gap_fidelity": 0.059207713493054294
+    },
+    "optb88vdw_band_gap_theoretical": {
+      "band_gap_fidelity": 0.039708700161282785
+    },
+    "snumat_gga_band_gap_theoretical": {
+      "band_gap_fidelity": 0.06805619897367331
+    },
+    "snumat_hse_band_gap_theoretical": {
+      "band_gap_fidelity": 0.0461590085859128
+    }
+  },
+  "gradient_fraction_per_engine": {
+    "gga_band_gap_difference_theoretical": {
+      "band_gap_fidelity": 0.9999697280442162
+    },
+    "gga_band_gap_intersection_theoretical": {
+      "band_gap_fidelity": 0.9808111128897347
+    },
+    "mbj_band_gap_theoretical": {
+      "band_gap_fidelity": 0.9272510967733381
+    },
+    "optb88vdw_band_gap_theoretical": {
+      "band_gap_fidelity": 0.9652259576461965
+    },
+    "snumat_gga_band_gap_theoretical": {
+      "band_gap_fidelity": 0.8680215013745554
+    },
+    "snumat_hse_band_gap_theoretical": {
+      "band_gap_fidelity": 0.957836255245307
+    }
+  },
+  "cycle_exposure_per_engine": {
+    "gga_band_gap_difference_theoretical": {
+      "band_gap_fidelity": {
+        "rocksalt": 0.0006165905025130013,
+        "rutile": 0.000616590502513021,
+        "zincblende": 0.0006165905025130307
+      }
+    },
+    "gga_band_gap_intersection_theoretical": {
+      "band_gap_fidelity": {
+        "diamond": 0.015684175507586894,
+        "perovskite": 0.012544346816787214,
+        "rocksalt": 0.00885278106969828,
+        "rutile": 0.014580017449261002,
+        "wurtzite": 0.006352071784142916,
+        "zincblende": 0.0192540091395721
+      }
+    },
+    "mbj_band_gap_theoretical": {
+      "band_gap_fidelity": {
+        "diamond": 0.030024025036900968,
+        "perovskite": 0.028357618506398875,
+        "rocksalt": 0.016979199388043,
+        "rutile": 0.022030851397220726,
+        "wurtzite": 0.015716649648088405,
+        "zincblende": 0.027915802496052154
+      }
+    },
+    "optb88vdw_band_gap_theoretical": {
+      "band_gap_fidelity": {
+        "diamond": 0.016357884013672042,
+        "perovskite": 0.02133324766408736,
+        "rocksalt": 0.0076683004433542494,
+        "rutile": 0.01629967052685266,
+        "wurtzite": 0.01838621894424532,
+        "zincblende": 0.013840444543344753
+      }
+    },
+    "snumat_gga_band_gap_theoretical": {
+      "band_gap_fidelity": {
+        "diamond": 0.042687679140184134,
+        "perovskite": 0.013748135068409424,
+        "rocksalt": 0.03676662882163782,
+        "rutile": 0.029017697524647112,
+        "wurtzite": 0.017065087129473334,
+        "zincblende": 0.011634779208612207
+      }
+    },
+    "snumat_hse_band_gap_theoretical": {
+      "band_gap_fidelity": {
+        "diamond": 0.018027739069229973,
+        "perovskite": 0.005737488617363705,
+        "rocksalt": 0.020482356081165307,
+        "rutile": 0.0206600112424615,
+        "wurtzite": 0.017100170524536946,
+        "zincblende": 0.02517850501736005
+      }
+    }
+  },
+  "cross_engine_cycle_exposure_rho": {
+    "band_gap_fidelity": {
+      "gga_band_gap_difference_theoretical<->gga_band_gap_intersection_theoretical": {
+        "rho": 0.5161002296110789,
+        "p_value": 0.2945837414624607
+      },
+      "gga_band_gap_difference_theoretical<->mbj_band_gap_theoretical": {
+        "rho": -0.15179418517972906,
+        "p_value": 0.7740575031656567
+      },
+      "gga_band_gap_difference_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": -0.7589709258986453,
+        "p_value": 0.08014122805832388
+      },
+      "gga_band_gap_difference_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": -0.33394720739540396,
+        "p_value": 0.5177002083054396
+      },
+      "gga_band_gap_difference_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 0.9411239481143202,
+        "p_value": 0.005097540564861478
+      },
+      "gga_band_gap_intersection_theoretical<->mbj_band_gap_theoretical": {
+        "rho": 0.7142857142857143,
+        "p_value": 0.11078717201166179
+      },
+      "gga_band_gap_intersection_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": -0.2571428571428572,
+        "p_value": 0.6227871720116619
+      },
+      "gga_band_gap_intersection_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": -0.14285714285714288,
+        "p_value": 0.7871720116618076
+      },
+      "gga_band_gap_intersection_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 0.6,
+        "p_value": 0.20800000000000002
+      },
+      "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": 0.2571428571428572,
+        "p_value": 0.6227871720116619
+      },
+      "mbj_band_gap_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": 0.08571428571428573,
+        "p_value": 0.8717434402332361
+      },
+      "mbj_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": -0.08571428571428573,
+        "p_value": 0.8717434402332361
+      },
+      "optb88vdw_band_gap_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": -0.2,
+        "p_value": 0.704
+      },
+      "optb88vdw_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": -0.8285714285714287,
+        "p_value": 0.041562682215743364
+      },
+      "snumat_gga_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": -0.08571428571428573,
+        "p_value": 0.8717434402332361
+      }
+    }
+  },
+  "mean_cyclic_frobenius": 0.04124111120344092,
+  "engines_analyzed": [
+    "gga_band_gap_difference_theoretical",
+    "gga_band_gap_intersection_theoretical",
+    "mbj_band_gap_theoretical",
+    "optb88vdw_band_gap_theoretical",
+    "snumat_gga_band_gap_theoretical",
+    "snumat_hse_band_gap_theoretical"
+  ],
+  "interpretation": "snumat_gga_band_gap_theoretical has 63.7x more cyclic energy than gga_band_gap_difference_theoretical (||C||_F: 0.068 vs 0.001). gga_band_gap_difference_theoretical has the highest gradient fraction (1.00), meaning most of its explainable flow is transitive."
+}

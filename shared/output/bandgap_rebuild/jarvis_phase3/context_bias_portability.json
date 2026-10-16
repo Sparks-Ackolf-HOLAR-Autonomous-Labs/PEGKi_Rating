@@ -1,0 +1,46 @@
+{
+  "overall_portability_rho": 0.0,
+  "overall_interpretation": "Context bias is engine-specific (rho=0.00): context advantages are calibration artefacts that do not transfer.",
+  "per_objective": {
+    "band_gap_fidelity": {
+      "mean_spearman_rho": 0.0,
+      "pairwise": {},
+      "sensitivity_index": {
+        "diamond": 50.0,
+        "perovskite": 50.0,
+        "rocksalt": 50.0,
+        "rutile": 50.0,
+        "wurtzite": 50.0,
+        "zincblende": 50.0
+      },
+      "interpretation": "Context bias is engine-specific (rho=0.00): context advantages are calibration artefacts that do not transfer."
+    }
+  },
+  "policy_sensitivity_index": {
+    "diamond": 50.0,
+    "perovskite": 50.0,
+    "rocksalt": 50.0,
+    "rutile": 50.0,
+    "wurtzite": 50.0,
+    "zincblende": 50.0
+  },
+  "engine_labels": [
+    "gga_band_gap_difference_theoretical",
+    "gga_band_gap_intersection_theoretical",
+    "mbj_band_gap_theoretical",
+    "optb88vdw_band_gap_theoretical",
+    "snumat_gga_band_gap_theoretical",
+    "snumat_hse_band_gap_theoretical"
+  ],
+  "objective_labels": [
+    "band_gap_fidelity"
+  ],
+  "policy_labels": [
+    "diamond",
+    "perovskite",
+    "rocksalt",
+    "rutile",
+    "wurtzite",
+    "zincblende"
+  ]
+}

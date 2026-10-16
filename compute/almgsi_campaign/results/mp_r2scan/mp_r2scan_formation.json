@@ -1,0 +1,327 @@
+{
+ "source": "Materials Project thermo endpoint, thermo_type r2SCAN (VASP PAW r2SCAN) and GGA_GGA+U",
+ "accessed": "2026-10-03",
+ "records": {
+  "mp_134_Al": {
+   "mpid": "mp-134",
+   "mpid_new": "mp-aaaaaafe",
+   "formula": "Al",
+   "r2scan_ef": 0.0,
+   "r2scan_ehull": 0.0,
+   "gga_ef": 0.0,
+   "gga_ehull": 0.0
+  },
+  "mp_1183144_Al": {
+   "mpid": "mp-1183144",
+   "mpid_new": "mp-aaacpifo",
+   "formula": "Al",
+   "r2scan_ef": 0.010480727500000064,
+   "r2scan_ehull": 0.010480727500000064,
+   "gga_ef": 0.01144597249999979,
+   "gga_ehull": 0.01144597249999979
+  },
+  "mp_2647008_Al": {
+   "mpid": "mp-2647008",
+   "mpid_new": "mp-aaafupsa",
+   "formula": "Al",
+   "gga_ef": 0.032078224999999794,
+   "gga_ehull": 0.032078224999999794
+  },
+  "mp_153_Mg": {
+   "mpid": "mp-153",
+   "mpid_new": "mp-aaaaaafx",
+   "formula": "Mg",
+   "r2scan_ef": 0.0,
+   "r2scan_ehull": 0.0,
+   "gga_ef": 0.009278714999999993,
+   "gga_ehull": 0.009278714999999993
+  },
+  "mp_1094122_Mg": {
+   "mpid": "mp-1094122",
+   "mpid_new": "mp-aaackgnq",
+   "formula": "Mg",
+   "r2scan_ef": 0.010957432777777696,
+   "r2scan_ehull": 0.010957432777777498,
+   "gga_ef": 0.003384133333333317,
+   "gga_ehull": 0.003384133333333317
+  },
+  "mp_973364_Mg": {
+   "mpid": "mp-973364",
+   "mpid_new": "mp-aaacdjxc",
+   "formula": "Mg",
+   "r2scan_ef": 0.008570822499999409,
+   "r2scan_ehull": 0.008570822499999409,
+   "gga_ef": 0.013327720000000154,
+   "gga_ehull": 0.013327720000000154
+  },
+  "mp_1056702_Mg": {
+   "mpid": "mp-1056702",
+   "mpid_new": "mp-aaacidek",
+   "formula": "Mg",
+   "r2scan_ef": 0.03018996499999993,
+   "r2scan_ehull": 0.03018996499999993,
+   "gga_ef": 0.0,
+   "gga_ehull": 0.0
+  },
+  "mp_1056351_Mg": {
+   "mpid": "mp-1056351",
+   "mpid_new": "mp-aaacicqx",
+   "formula": "Mg",
+   "r2scan_ef": 0.037615175,
+   "r2scan_ehull": 0.037615175,
+   "gga_ef": 0.02872331000000017,
+   "gga_ehull": 0.02872331000000017
+  },
+  "mp_110_Mg": {
+   "mpid": "mp-110",
+   "mpid_new": "mp-aaaaaaeg",
+   "formula": "Mg",
+   "r2scan_ef": 0.03967987500000003,
+   "r2scan_ehull": 0.03967987500000003,
+   "gga_ef": 0.025801890000000105,
+   "gga_ehull": 0.025801890000000105
+  },
+  "mp_3833_Mg(AlSi)2": {
+   "mpid": "mp-3833",
+   "mpid_new": "mp-aaaaafrl",
+   "formula": "Mg(AlSi)2",
+   "gga_ef": 0.02127607999999981,
+   "gga_ehull": 0.059893702000000104
+  },
+  "mp_1028210_Mg14AlSi": {
+   "mpid": "mp-1028210",
+   "mpid_new": "mp-aaacgnao",
+   "formula": "Mg14AlSi",
+   "r2scan_ef": 0.04637077906249942,
+   "r2scan_ehull": 0.08498952486979139,
+   "gga_ef": 0.023312715000000095,
+   "gga_ehull": 0.06954799447663773
+  },
+  "mp_1028217_Mg14AlSi": {
+   "mpid": "mp-1028217",
+   "mpid_new": "mp-aaacgnav",
+   "formula": "Mg14AlSi",
+   "gga_ef": 0.0446638075000001,
+   "gga_ehull": 0.09089908697663773
+  },
+  "mp_1023506_Mg15Al": {
+   "mpid": "mp-1023506",
+   "mpid_new": "mp-aaacggbq",
+   "formula": "Mg15Al",
+   "r2scan_ef": 0.014118071562499779,
+   "r2scan_ehull": 0.01630562455729123,
+   "gga_ef": 0.011454668750000119,
+   "gga_ehull": 0.038661035455251236
+  },
+  "mp_1023509_Mg15Si": {
+   "mpid": "mp-1023509",
+   "mpid_new": "mp-aaacggbt",
+   "formula": "Mg15Si",
+   "gga_ef": 0.03040435375000028,
+   "gga_ehull": 0.07240910423044222
+  },
+  "mp_1367_Mg2Si": {
+   "mpid": "mp-1367",
+   "mpid_new": "mp-aaaaacap",
+   "formula": "Mg2Si",
+   "r2scan_ef": -0.19429969500000036,
+   "r2scan_ehull": 0.0,
+   "gga_ef": -0.12872540666666646,
+   "gga_ehull": 0.0
+  },
+  "mp_1101851_Mg2Si": {
+   "mpid": "mp-1101851",
+   "mpid_new": "mp-aaackryx",
+   "formula": "Mg2Si",
+   "r2scan_ef": -0.10667242333333367,
+   "r2scan_ehull": 0.0876272716666664,
+   "gga_ef": -0.07203667416666686,
+   "gga_ehull": 0.05668873249999917
+  },
+  "mp_1074652_Mg2Si": {
+   "mpid": "mp-1074652",
+   "mpid_new": "mp-aaacjdsu",
+   "formula": "Mg2Si",
+   "gga_ef": -0.0406424516666668,
+   "gga_ehull": 0.08808295499999907
+  },
+  "mp_978271_Mg3Al": {
+   "mpid": "mp-978271",
+   "mpid_new": "mp-aaacdrdv",
+   "formula": "Mg3Al",
+   "r2scan_ef": 0.03728689375000016,
+   "r2scan_ehull": 0.04603710572916686,
+   "gga_ef": -0.0007729625000001406,
+   "gga_ehull": 0.02633888866318479
+  },
+  "mp_1094970_Mg3Al": {
+   "mpid": "mp-1094970",
+   "mpid_new": "mp-aaackhug",
+   "formula": "Mg3Al",
+   "r2scan_ef": 0.018108204999999877,
+   "r2scan_ehull": 0.026858416979166577,
+   "gga_ef": 0.0072736874999996814,
+   "gga_ehull": 0.03438553866318461
+  },
+  "mp_1094961_Mg3Al": {
+   "mpid": "mp-1094961",
+   "mpid_new": "mp-aaackhtx",
+   "formula": "Mg3Al",
+   "r2scan_ef": 0.03149606374999969,
+   "r2scan_ehull": 0.04024627572916639,
+   "gga_ef": 0.016879582499999657,
+   "gga_ehull": 0.04399143366318459
+  },
+  "mp_1016233_Mg3Al": {
+   "mpid": "mp-1016233",
+   "mpid_new": "mp-aaacfvhx",
+   "formula": "Mg3Al",
+   "r2scan_ef": 0.03818201124999998,
+   "r2scan_ehull": 0.04693222322916668,
+   "gga_ef": 0.027685149999999936,
+   "gga_ehull": 0.054797001163184866
+  },
+  "mp_1094666_Mg3Al": {
+   "mpid": "mp-1094666",
+   "mpid_new": "mp-aaackhio",
+   "formula": "Mg3Al",
+   "gga_ef": 0.04830469749999988,
+   "gga_ehull": 0.07541654866318481
+  },
+  "mp_1016271_Mg7Al": {
+   "mpid": "mp-1016271",
+   "mpid_new": "mp-aaacfvjj",
+   "formula": "Mg7Al",
+   "r2scan_ef": 0.0249879031249991,
+   "r2scan_ehull": 0.029363009114582894,
+   "gga_ef": 0.014808826250000129,
+   "gga_ehull": 0.04198368777456252
+  },
+  "mp_1094987_MgAl": {
+   "mpid": "mp-1094987",
+   "mpid_new": "mp-aaackhux",
+   "formula": "MgAl",
+   "r2scan_ef": 0.02476282500000071,
+   "r2scan_ehull": 0.03734195823863651,
+   "gga_ef": 0.029382790000000103,
+   "gga_ehull": 0.05468241875000013
+  },
+  "mp_1039019_MgAl": {
+   "mpid": "mp-1039019",
+   "mpid_new": "mp-aaachdah",
+   "formula": "MgAl",
+   "r2scan_ef": 0.08313219750000034,
+   "r2scan_ehull": 0.09571133073863614,
+   "gga_ef": 0.03848838499999996,
+   "gga_ehull": 0.06378801374999998
+  },
+  "mp_1038779_MgAl": {
+   "mpid": "mp-1038779",
+   "mpid_new": "mp-aaachcrb",
+   "formula": "MgAl"
+  },
+  "mp_1038934_MgAl": {
+   "mpid": "mp-1038934",
+   "mpid_new": "mp-aaachcxa",
+   "formula": "MgAl",
+   "gga_ef": 0.0649229899999999,
+   "gga_ehull": 0.09022261874999993
+  },
+  "mp_1094116_MgAl2": {
+   "mpid": "mp-1094116",
+   "mpid_new": "mp-aaackgnk",
+   "formula": "MgAl2",
+   "r2scan_ef": -0.00889811250000013,
+   "r2scan_ehull": 0.0,
+   "gga_ef": -0.021955624999999774,
+   "gga_ehull": 0.0
+  },
+  "mp_1102064_MgAl2": {
+   "mpid": "mp-1102064",
+   "mpid_new": "mp-aaackshc",
+   "formula": "MgAl2",
+   "gga_ef": 0.019649880833333338,
+   "gga_ehull": 0.04160550583333311
+  },
+  "mp_1222013_MgAl2": {
+   "mpid": "mp-1222013",
+   "mpid_new": "mp-aaacrnsn",
+   "formula": "MgAl2",
+   "r2scan_ef": 0.05362753500000039,
+   "r2scan_ehull": 0.06252564750000023,
+   "gga_ef": 0.04386378333333359,
+   "gga_ehull": 0.06581940833333322
+  },
+  "mp_1038916_MgAl3": {
+   "mpid": "mp-1038916",
+   "mpid_new": "mp-aaachcwi",
+   "formula": "MgAl3"
+  },
+  "mp_1039119_MgAl3": {
+   "mpid": "mp-1039119",
+   "mpid_new": "mp-aaachded",
+   "formula": "MgAl3",
+   "r2scan_ef": 0.030346237499999873,
+   "r2scan_ehull": 0.03701982187499997,
+   "gga_ef": 0.01786372124999991,
+   "gga_ehull": 0.03433043999999974
+  },
+  "mp_4499_MgAlSi": {
+   "mpid": "mp-4499",
+   "mpid_new": "mp-aaaaagrb",
+   "formula": "MgAlSi",
+   "gga_ef": -0.015317914166666688,
+   "gga_ehull": 0.04904478916666699
+  },
+  "mp_1073794_MgSi": {
+   "mpid": "mp-1073794",
+   "mpid_new": "mp-aaacjclu",
+   "formula": "MgSi",
+   "gga_ef": 0.0025684066666666894,
+   "gga_ehull": 0.09911246166666698
+  },
+  "mp_149_Si": {
+   "mpid": "mp-149",
+   "mpid_new": "mp-aaaaaaft",
+   "formula": "Si",
+   "r2scan_ef": 0.0,
+   "r2scan_ehull": 0.0,
+   "gga_ef": 0.0,
+   "gga_ehull": 0.0
+  },
+  "mp_165_Si": {
+   "mpid": "mp-165",
+   "mpid_new": "mp-aaaaaagj",
+   "formula": "Si",
+   "r2scan_ef": 0.01360687000000027,
+   "r2scan_ehull": 0.01360687000000027,
+   "gga_ef": 0.013420249999999356,
+   "gga_ehull": 0.013420249999999356
+  },
+  "mp_1079297_Si": {
+   "mpid": "mp-1079297",
+   "mpid_new": "mp-aaacjkpl",
+   "formula": "Si",
+   "r2scan_ef": 0.08220610625000013,
+   "r2scan_ehull": 0.08220610625000013,
+   "gga_ef": 0.07442194624999932,
+   "gga_ehull": 0.07442194624999932
+  },
+  "fcc_MgAl3_49": {
+   "mpid": "mp-1038916",
+   "mpid_new": "mp-aaachcwi",
+   "formula": "MgAl3",
+   "r2scan_ef": 0.020743388749999703,
+   "r2scan_ehull": 0.0274169731249998,
+   "gga_ef": 0.008559332499999961,
+   "gga_ehull": 0.025026051249999792
+  },
+  "fcc_MgAl_140": {
+   "mpid": "mp-1038779",
+   "mpid_new": "mp-aaachcrb",
+   "formula": "MgAl",
+   "gga_ef": 0.05004994000000007,
+   "gga_ehull": 0.0753495687500001
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "mig_Al": {
+  "mover": 0,
+  "element": "Al"
+ },
+ "mig_Si": {
+  "mover": 0,
+  "element": "Si"
+ },
+ "mig_Mg": {
+  "mover": 0,
+  "element": "Mg"
+ }
+}

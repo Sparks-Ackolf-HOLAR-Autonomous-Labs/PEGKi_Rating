@@ -1,0 +1,297 @@
+{
+ "doi": "10.3390/ma13040913",
+ "title": "Effect of a Trace Addition of Sn on the Aging Behavior of Al–Mg–Si Alloy with a Different Mg/Si Ratio",
+ "authors": [
+  "Lehang Ma",
+  "Jianguo Tang",
+  "Wenbin Tu",
+  "Lingying Ye",
+  "Haichun Jiang",
+  "Xin Zhan",
+  "Jiuhui Zhao"
+ ],
+ "journal": "Materials",
+ "volume": 13,
+ "article": "913",
+ "year": 2020,
+ "license": "CC BY 4.0",
+ "fetched_from": "PMC7078789 full-text XML (raw/ma2020_materials_13_913_PMC7078789.txt)",
+ "ageing_temperature_C": 180,
+ "pre_treatment": {
+  "processing": "Section 2: \"The as-cast ingots were homogenized at 540 °C for 30 h. ... hot rolled from 42 mm to 7 mm at 480 °C. The hot rolled slabs were annealed at 420 °C for 2 h and then cold-rolled down to a thickness of 1 mm.\"",
+  "solution_treatment": "Section 2: \"Solution heat treatment of the cold-rolled sheets were performed at 570 °C for 30 min, followed by water quenching to room temperature.\"",
+  "natural_ageing_delay": "Not stated in the paper (no delay between quench and 180 °C ageing is specified). DSC was run on as-quenched specimens.",
+  "hardness_method": "Section 2: \"HV-10B Vickers hardness tester with a load of 4.9 N and indention time of 10 s ... average value of five indentations.\"",
+  "dsc_method": "Section 2: \"The DSC curves of the as-quenched specimens were tested by the DSC-700 instrument ... heated from room temperature to 500 °C with the heating rate of 10 °C/min.\""
+ },
+ "outcome_keys": [
+  "peak_hardness_HV",
+  "time_to_peak_h",
+  "dsc_beta_dprime_peak_C"
+ ],
+ "expected_sign": {
+  "peak_hardness_HV": "higher hardness with a more negative predicted energy: agreement = -tau",
+  "time_to_peak_h": "shorter time with a more negative predicted energy: agreement = +tau",
+  "dsc_beta_dprime_peak_C": "lower beta'' peak temperature with a more negative predicted energy: agreement = +tau"
+ },
+ "mapping_rule": "item = alloy; donor prediction = that donor's formation energy (eV/atom) of the most stable Mg- and Si-containing candidate whose atomic Mg/Si ratio is closest (in log ratio) to the alloy's; at% from Table 1 wt% with Al as balance",
+ "alloys": [
+  {
+   "name": "H-M",
+   "wt_pct": {
+    "Mg": 1.01,
+    "Si": 0.6,
+    "Sn": 0.0,
+    "Fe": 0.016,
+    "Ti": 0.075
+   },
+   "wt_pct_Al_balance": 98.299,
+   "at_pct": {
+    "Mg": 1.1207,
+    "Si": 0.5761,
+    "Sn": 0.0,
+    "Fe": 0.0077,
+    "Ti": 0.0423,
+    "Al": 98.2532
+   },
+   "mg_si_wt_ratio_tabulated": 1.68,
+   "mg_si_atomic_ratio": 1.9453,
+   "sn_free": true,
+   "composition_location": "Table 1",
+   "outcomes": {
+    "peak_hardness_HV": {
+     "value": 117.5,
+     "unit": "HV (4.9 N)",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The time required to reach peak hardness for the H–M–Sn and H–M alloys were 8 and 12 h, respectively, and the hardness of the peak aged were 126 and 117.5 HV, as shown in Figure 1a.\""
+    },
+    "time_to_peak_h": {
+     "value": 12,
+     "unit": "h at 180 C",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The time required to reach peak hardness for the H–M–Sn and H–M alloys were 8 and 12 h, respectively, and the hardness of the peak aged were 126 and 117.5 HV, as shown in Figure 1a.\""
+    },
+    "dsc_beta_dprime_peak_C": {
+     "value": 249.6,
+     "unit": "C, as-quenched, 10 C/min",
+     "location": "Table 4"
+    }
+   }
+  },
+  {
+   "name": "H-M-Sn",
+   "wt_pct": {
+    "Mg": 1.05,
+    "Si": 0.62,
+    "Sn": 0.1,
+    "Fe": 0.013,
+    "Ti": 0.081
+   },
+   "wt_pct_Al_balance": 98.136,
+   "at_pct": {
+    "Mg": 1.166,
+    "Si": 0.5958,
+    "Sn": 0.0227,
+    "Fe": 0.0063,
+    "Ti": 0.0457,
+    "Al": 98.1636
+   },
+   "mg_si_wt_ratio_tabulated": 1.69,
+   "mg_si_atomic_ratio": 1.957,
+   "sn_free": false,
+   "composition_location": "Table 1",
+   "outcomes": {
+    "peak_hardness_HV": {
+     "value": 126,
+     "unit": "HV (4.9 N)",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The time required to reach peak hardness for the H–M–Sn and H–M alloys were 8 and 12 h, respectively, and the hardness of the peak aged were 126 and 117.5 HV, as shown in Figure 1a.\""
+    },
+    "time_to_peak_h": {
+     "value": 8,
+     "unit": "h at 180 C",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The time required to reach peak hardness for the H–M–Sn and H–M alloys were 8 and 12 h, respectively, and the hardness of the peak aged were 126 and 117.5 HV, as shown in Figure 1a.\""
+    },
+    "dsc_beta_dprime_peak_C": {
+     "value": 243.9,
+     "unit": "C, as-quenched, 10 C/min",
+     "location": "Table 4"
+    }
+   }
+  },
+  {
+   "name": "B-M",
+   "wt_pct": {
+    "Mg": 0.81,
+    "Si": 0.8,
+    "Sn": 0.0,
+    "Fe": 0.017,
+    "Ti": 0.084
+   },
+   "wt_pct_Al_balance": 98.289,
+   "at_pct": {
+    "Mg": 0.8991,
+    "Si": 0.7685,
+    "Sn": 0.0,
+    "Fe": 0.0082,
+    "Ti": 0.0473,
+    "Al": 98.2769
+   },
+   "mg_si_wt_ratio_tabulated": 1.01,
+   "mg_si_atomic_ratio": 1.1699,
+   "sn_free": true,
+   "composition_location": "Table 1",
+   "outcomes": {
+    "peak_hardness_HV": {
+     "value": 128,
+     "unit": "HV (4.9 N)",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The times required to reach peak hardness for both B–M and B–M–Sn alloys were 8 h, and their peak hardness of them was 128 HV, as shown in Figure 1b.\""
+    },
+    "time_to_peak_h": {
+     "value": 8,
+     "unit": "h at 180 C",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The times required to reach peak hardness for both B–M and B–M–Sn alloys were 8 h, and their peak hardness of them was 128 HV, as shown in Figure 1b.\""
+    },
+    "dsc_beta_dprime_peak_C": {
+     "value": 252.8,
+     "unit": "C, as-quenched, 10 C/min",
+     "location": "Table 4"
+    }
+   }
+  },
+  {
+   "name": "B-M-Sn",
+   "wt_pct": {
+    "Mg": 0.8,
+    "Si": 0.81,
+    "Sn": 0.11,
+    "Fe": 0.015,
+    "Ti": 0.085
+   },
+   "wt_pct_Al_balance": 98.18,
+   "at_pct": {
+    "Mg": 0.8888,
+    "Si": 0.7787,
+    "Sn": 0.025,
+    "Fe": 0.0073,
+    "Ti": 0.0479,
+    "Al": 98.2523
+   },
+   "mg_si_wt_ratio_tabulated": 0.99,
+   "mg_si_atomic_ratio": 1.1414,
+   "sn_free": false,
+   "composition_location": "Table 1",
+   "outcomes": {
+    "peak_hardness_HV": {
+     "value": 128,
+     "unit": "HV (4.9 N)",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The times required to reach peak hardness for both B–M and B–M–Sn alloys were 8 h, and their peak hardness of them was 128 HV, as shown in Figure 1b.\""
+    },
+    "time_to_peak_h": {
+     "value": 8,
+     "unit": "h at 180 C",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The times required to reach peak hardness for both B–M and B–M–Sn alloys were 8 h, and their peak hardness of them was 128 HV, as shown in Figure 1b.\""
+    },
+    "dsc_beta_dprime_peak_C": {
+     "value": 242.3,
+     "unit": "C, as-quenched, 10 C/min",
+     "location": "Table 4"
+    }
+   }
+  },
+  {
+   "name": "L-M",
+   "wt_pct": {
+    "Mg": 0.6,
+    "Si": 1.03,
+    "Sn": 0.0,
+    "Fe": 0.018,
+    "Ti": 0.08
+   },
+   "wt_pct_Al_balance": 98.272,
+   "at_pct": {
+    "Mg": 0.6662,
+    "Si": 0.9897,
+    "Sn": 0.0,
+    "Fe": 0.0087,
+    "Ti": 0.0451,
+    "Al": 98.2903
+   },
+   "mg_si_wt_ratio_tabulated": 0.58,
+   "mg_si_atomic_ratio": 0.6731,
+   "sn_free": true,
+   "composition_location": "Table 1",
+   "outcomes": {
+    "peak_hardness_HV": {
+     "value": 119.6,
+     "unit": "HV (4.9 N)",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The times required to reach peak hardness for the L-M–Sn and L–M alloys were 3 and 5 h, respectively, whose peak hardness values were 116 and 119.6 HV, as shown in Figure 1c.\""
+    },
+    "time_to_peak_h": {
+     "value": 5,
+     "unit": "h at 180 C",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The times required to reach peak hardness for the L-M–Sn and L–M alloys were 3 and 5 h, respectively, whose peak hardness values were 116 and 119.6 HV, as shown in Figure 1c.\""
+    },
+    "dsc_beta_dprime_peak_C": {
+     "value": 244.7,
+     "unit": "C, as-quenched, 10 C/min",
+     "location": "Table 4"
+    }
+   }
+  },
+  {
+   "name": "L-M-Sn",
+   "wt_pct": {
+    "Mg": 0.59,
+    "Si": 1.01,
+    "Sn": 0.11,
+    "Fe": 0.025,
+    "Ti": 0.08
+   },
+   "wt_pct_Al_balance": 98.185,
+   "at_pct": {
+    "Mg": 0.6557,
+    "Si": 0.9713,
+    "Sn": 0.025,
+    "Fe": 0.0121,
+    "Ti": 0.0451,
+    "Al": 98.2907
+   },
+   "mg_si_wt_ratio_tabulated": 0.58,
+   "mg_si_atomic_ratio": 0.6751,
+   "sn_free": false,
+   "composition_location": "Table 1",
+   "outcomes": {
+    "peak_hardness_HV": {
+     "value": 116,
+     "unit": "HV (4.9 N)",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The times required to reach peak hardness for the L-M–Sn and L–M alloys were 3 and 5 h, respectively, whose peak hardness values were 116 and 119.6 HV, as shown in Figure 1c.\""
+    },
+    "time_to_peak_h": {
+     "value": 3,
+     "unit": "h at 180 C",
+     "location": "Section 3.1 text (curves in Figure 1)",
+     "quote": "\"The times required to reach peak hardness for the L-M–Sn and L–M alloys were 3 and 5 h, respectively, whose peak hardness values were 116 and 119.6 HV, as shown in Figure 1c.\""
+    },
+    "dsc_beta_dprime_peak_C": {
+     "value": 236.7,
+     "unit": "C, as-quenched, 10 C/min",
+     "location": "Table 4"
+    }
+   }
+  }
+ ],
+ "caveats": [
+  "Six alloys but only three distinct Mg/Si ratios (1.68, 1.00, 0.58) at constant Mg+Si about 1.6 wt%; three of the six carry 0.10-0.11 wt% Sn, a second variable. The Sn-free subset (H–M, B–M, L–M) is the clean Mg/Si series.",
+  "Natural-ageing delay before 180 °C ageing is not reported.",
+  "Ageing-time resolution: peak times are as stated by the authors from discrete hardness sampling (Figure 1)."
+ ]
+}

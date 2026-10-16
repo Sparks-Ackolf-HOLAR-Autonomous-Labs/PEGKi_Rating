@@ -1,0 +1,744 @@
+{
+  "calibrated_delta": 0.5,
+  "bounds": {
+    "gga_band_gap_difference_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4774810794860316,
+      "delta_dro_lower": 0.2760400457868923,
+      "safety_gap": 0.2014410336991393,
+      "dro_conditioned_delta": 0.15833706160234517,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.0786054950406824,
+        "sigma_worst": 0.03455999681141688,
+        "sigma_sensitivity": 1.1156277110024218,
+        "rho_empirical": 0.43829039375021345,
+        "rho_worst": 0.2808948582803397,
+        "rho_sensitivity": 1.2347885844008681,
+        "omega_empirical": 0.03941480930486431,
+        "omega_worst": 0.03941480930486431,
+        "omega_sensitivity": 0.0
+      }
+    },
+    "gga_band_gap_difference_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.47392368539870816,
+      "delta_dro_lower": 0.19661977681208986,
+      "safety_gap": 0.2773039085866183,
+      "dro_conditioned_delta": 0.2017505229754982,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07750394062100642,
+        "sigma_worst": 0.03481202025015246,
+        "sigma_sensitivity": 1.081342959358044,
+        "rho_empirical": 0.4828030671258179,
+        "rho_worst": 0.31297857067114065,
+        "rho_sensitivity": 1.0933809905840761,
+        "omega_empirical": 0.08638332234811613,
+        "omega_worst": 0.15117081410920324,
+        "omega_sensitivity": 0.1295749835221742
+      }
+    },
+    "gga_band_gap_difference_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5054172686926887,
+      "delta_dro_lower": 0.3008059767322283,
+      "safety_gap": 0.20461129196046035,
+      "dro_conditioned_delta": 0.16973610938337574,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07883442653546402,
+        "sigma_worst": 0.034370916854900124,
+        "sigma_sensitivity": 1.1262155162795329,
+        "rho_empirical": 0.46599765146208894,
+        "rho_worst": 0.3058498691821925,
+        "rho_sensitivity": 1.0861266532747238,
+        "omega_empirical": 0.03941480930486431,
+        "omega_worst": 0.03941480930486431,
+        "omega_sensitivity": 0.0
+      }
+    },
+    "gga_band_gap_difference_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.2308852204119364,
+      "delta_dro_lower": -0.024940442928435502,
+      "safety_gap": 0.25582566334037193,
+      "dro_conditioned_delta": 0.09246842651320514,
+      "is_robust": false,
+      "robustness_level": "FRAGILE",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.06008158423616068,
+        "sigma_worst": 0.015190849032397355,
+        "sigma_sensitivity": 1.1370367046345349,
+        "rho_empirical": 0.3434837739290635,
+        "rho_worst": 0.26205894910742067,
+        "rho_sensitivity": 0.8778066842116343,
+        "omega_empirical": 0.17268013775328775,
+        "omega_worst": 0.30219024106825354,
+        "omega_sensitivity": 0.25902020662993164
+      }
+    },
+    "gga_band_gap_difference_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.3866982194332821,
+      "delta_dro_lower": 0.05555229157133823,
+      "safety_gap": 0.33114592786194386,
+      "dro_conditioned_delta": 0.18729026703640136,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07166996973880557,
+        "sigma_worst": 0.030583029311990848,
+        "sigma_sensitivity": 1.040690448360142,
+        "rho_empirical": 0.47651314418737045,
+        "rho_worst": 0.3075678276219118,
+        "rho_sensitivity": 1.122061750242466,
+        "omega_empirical": 0.16148489449289397,
+        "omega_worst": 0.28259856536256445,
+        "omega_sensitivity": 0.24222734173934096
+      }
+    },
+    "gga_band_gap_intersection_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5535265244247723,
+      "delta_dro_lower": 0.3590564244879343,
+      "safety_gap": 0.19447009993683806,
+      "dro_conditioned_delta": 0.17836019513728918,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.08369801597763206,
+        "sigma_worst": 0.03679899431727784,
+        "sigma_sensitivity": 1.1156277110024218,
+        "rho_empirical": 0.4698285084471403,
+        "rho_worst": 0.32225743017065644,
+        "rho_sensitivity": 1.0079662261863291,
+        "omega_empirical": 0.0,
+        "omega_worst": 0.0,
+        "omega_sensitivity": 0.0
+      }
+    },
+    "gga_band_gap_intersection_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.46816468118635385,
+      "delta_dro_lower": 0.21193257275648436,
+      "safety_gap": 0.2562321084298695,
+      "dro_conditioned_delta": 0.18772577442355753,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07871443633639287,
+        "sigma_worst": 0.014302693955547632,
+        "sigma_sensitivity": 1.5326261438748436,
+        "rho_empirical": 0.43100930283644545,
+        "rho_worst": 0.2724553405332235,
+        "rho_sensitivity": 1.3603465784776838,
+        "omega_empirical": 0.04155905798648445,
+        "omega_worst": 0.07482546173228677,
+        "omega_sensitivity": 0.06653280749160463
+      }
+    },
+    "gga_band_gap_intersection_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5284633562772008,
+      "delta_dro_lower": 0.3143996793112765,
+      "safety_gap": 0.21406367696592427,
+      "dro_conditioned_delta": 0.18404877369730246,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.08361001672250697,
+        "sigma_worst": 0.025587645294982246,
+        "sigma_sensitivity": 1.380596147417464,
+        "rho_empirical": 0.44485333955469375,
+        "rho_worst": 0.28881203401629424,
+        "rho_sensitivity": 1.2151165404377964,
+        "omega_empirical": 0.0,
+        "omega_worst": 0.0,
+        "omega_sensitivity": 0.0
+      }
+    },
+    "gga_band_gap_intersection_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.3392240497115139,
+      "delta_dro_lower": 0.10183687495535088,
+      "safety_gap": 0.237387174756163,
+      "dro_conditioned_delta": 0.12821807417270598,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.06607088836925923,
+        "sigma_worst": 0.004485966715358898,
+        "sigma_sensitivity": 1.4653641945776696,
+        "rho_empirical": 0.3522954243167402,
+        "rho_worst": 0.2556354341889632,
+        "rho_sensitivity": 1.0759835019175987,
+        "omega_empirical": 0.0791422629744856,
+        "omega_worst": 0.1582845259489712,
+        "omega_sensitivity": 0.1582845259489712
+      }
+    },
+    "gga_band_gap_intersection_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.431734313752178,
+      "delta_dro_lower": 0.12197072149555865,
+      "safety_gap": 0.30976359225661937,
+      "dro_conditioned_delta": 0.19937540422787503,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07716098880725893,
+        "sigma_worst": 0.01392284155596947,
+        "sigma_sensitivity": 1.5047013818454864,
+        "rho_empirical": 0.4365010951172068,
+        "rho_worst": 0.2719034202841647,
+        "rho_sensitivity": 1.3927127056862998,
+        "omega_empirical": 0.08192777017228775,
+        "omega_worst": 0.1638555403445755,
+        "omega_sensitivity": 0.1638555403445755
+      }
+    },
+    "mbj_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5341511486857115,
+      "delta_dro_lower": 0.28397071023616277,
+      "safety_gap": 0.2501804384495487,
+      "dro_conditioned_delta": 0.2102889955478324,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.08146746835359964,
+        "sigma_worst": 0.03659229627977771,
+        "sigma_sensitivity": 1.081342959358044,
+        "rho_empirical": 0.49896480773671353,
+        "rho_worst": 0.328370386914438,
+        "rho_sensitivity": 1.0694374658266002,
+        "omega_empirical": 0.046281127404601684,
+        "omega_worst": 0.08099197295805294,
+        "omega_sensitivity": 0.06942169110690252
+      }
+    },
+    "mbj_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5152334903638948,
+      "delta_dro_lower": 0.20729633660381774,
+      "safety_gap": 0.307937153760077,
+      "dro_conditioned_delta": 0.23692063226908255,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07763656947479151,
+        "sigma_worst": 0.014106841700690237,
+        "sigma_sensitivity": 1.5326261438748436,
+        "rho_empirical": 0.47033658003502815,
+        "rho_worst": 0.2586688131949773,
+        "rho_sensitivity": 1.7267238614422011,
+        "omega_empirical": 0.032739659145924915,
+        "omega_worst": 0.06547931829184983,
+        "omega_sensitivity": 0.06547931829184983
+      }
+    },
+    "mbj_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5078239641775272,
+      "delta_dro_lower": 0.21940158052910536,
+      "safety_gap": 0.2884223836484218,
+      "dro_conditioned_delta": 0.22259561261143757,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07755997442088193,
+        "sigma_worst": 0.013984275586236883,
+        "sigma_sensitivity": 1.5337351750594501,
+        "rho_empirical": 0.4630036489025702,
+        "rho_worst": 0.2708966232347183,
+        "rho_sensitivity": 1.5208567664271737,
+        "omega_empirical": 0.032739659145924915,
+        "omega_worst": 0.06547931829184983,
+        "omega_sensitivity": 0.06547931829184983
+      }
+    },
+    "mbj_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.36299768390822906,
+      "delta_dro_lower": 0.16461968833083923,
+      "safety_gap": 0.19837799557738983,
+      "dro_conditioned_delta": 0.1188824307766199,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.057803757178536995,
+        "sigma_worst": 0.0020443547286580002,
+        "sigma_sensitivity": 1.345170535995304,
+        "rho_empirical": 0.3495609435255699,
+        "rho_worst": 0.2513093671939369,
+        "rho_sensitivity": 1.1128177490222584,
+        "omega_empirical": 0.04436701679587781,
+        "omega_worst": 0.08873403359175562,
+        "omega_sensitivity": 0.08873403359175562
+      }
+    },
+    "mbj_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.492601360375927,
+      "delta_dro_lower": 0.17656678942850323,
+      "safety_gap": 0.31603457094742377,
+      "dro_conditioned_delta": 0.2307882040885559,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07353656568857092,
+        "sigma_worst": 0.006239515496603065,
+        "sigma_sensitivity": 1.6235111048581319,
+        "rho_empirical": 0.46357983399350045,
+        "rho_worst": 0.25935735254418885,
+        "rho_sensitivity": 1.6929851252684789,
+        "omega_empirical": 0.044515039306144345,
+        "omega_worst": 0.08903007861228869,
+        "omega_sensitivity": 0.08903007861228869
+      }
+    },
+    "optb88vdw_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5829254345412852,
+      "delta_dro_lower": 0.3556626734947741,
+      "safety_gap": 0.2272627610465111,
+      "dro_conditioned_delta": 0.21291405655065368,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.08382347687311566,
+        "sigma_worst": 0.03654608628120647,
+        "sigma_sensitivity": 1.1262155162795329,
+        "rho_empirical": 0.4991019576681695,
+        "rho_worst": 0.3191165872135676,
+        "rho_sensitivity": 1.1677840565689142,
+        "omega_empirical": 0.0,
+        "omega_worst": 0.0,
+        "omega_sensitivity": 0.0
+      }
+    },
+    "optb88vdw_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.525728098868699,
+      "delta_dro_lower": 0.28660484225382526,
+      "safety_gap": 0.2391232566148737,
+      "dro_conditioned_delta": 0.19984535230389688,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.08353579151721081,
+        "sigma_worst": 0.025564929736493984,
+        "sigma_sensitivity": 1.380596147417464,
+        "rho_empirical": 0.4421923073514882,
+        "rho_worst": 0.2610399125173313,
+        "rho_sensitivity": 1.5686114531674564,
+        "omega_empirical": 0.0,
+        "omega_worst": 0.0,
+        "omega_sensitivity": 0.0
+      }
+    },
+    "optb88vdw_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5135863214089457,
+      "delta_dro_lower": 0.21450371961062442,
+      "safety_gap": 0.29908260179832125,
+      "dro_conditioned_delta": 0.23120653769151917,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07856696768755014,
+        "sigma_worst": 0.014165839227273658,
+        "sigma_sensitivity": 1.5337351750594501,
+        "rho_empirical": 0.47657841170787996,
+        "rho_worst": 0.27516334211563753,
+        "rho_sensitivity": 1.5467226363077002,
+        "omega_empirical": 0.04155905798648445,
+        "omega_worst": 0.07482546173228677,
+        "omega_sensitivity": 0.06653280749160463
+      }
+    },
+    "optb88vdw_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.34367990198077114,
+      "delta_dro_lower": 0.09589225789727823,
+      "safety_gap": 0.2477876440834929,
+      "dro_conditioned_delta": 0.13430311895051078,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.06167710857127026,
+        "sigma_worst": 0.0016285725556875533,
+        "sigma_sensitivity": 1.4300766787763837,
+        "rho_empirical": 0.3611450563839865,
+        "rho_worst": 0.2525482112905619,
+        "rho_sensitivity": 1.1930759345264594,
+        "omega_empirical": 0.0791422629744856,
+        "omega_worst": 0.1582845259489712,
+        "omega_sensitivity": 0.1582845259489712
+      }
+    },
+    "optb88vdw_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.46150665452756784,
+      "delta_dro_lower": 0.12122261350719898,
+      "safety_gap": 0.34028404102036885,
+      "dro_conditioned_delta": 0.22783232515650748,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07428591740016174,
+        "sigma_worst": 0.012616402273397102,
+        "sigma_sensitivity": 1.4686808576207004,
+        "rho_empirical": 0.4691485072996939,
+        "rho_worst": 0.2724617515783774,
+        "rho_sensitivity": 1.5444980944674491,
+        "omega_empirical": 0.08192777017228775,
+        "omega_worst": 0.1638555403445755,
+        "omega_sensitivity": 0.1638555403445755
+      }
+    },
+    "snumat_gga_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.5270988984956917,
+      "delta_dro_lower": 0.23335270423773355,
+      "safety_gap": 0.2937461942579581,
+      "dro_conditioned_delta": 0.2341799906734903,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.06344222080422274,
+        "sigma_worst": 0.016040542385314292,
+        "sigma_sensitivity": 1.1370367046345349,
+        "rho_empirical": 0.5075005869094866,
+        "rho_worst": 0.29403900298395014,
+        "rho_sensitivity": 1.4728213978539986,
+        "omega_empirical": 0.04384390921801764,
+        "omega_worst": 0.07672684113153086,
+        "omega_sensitivity": 0.06576586382702646
+      }
+    },
+    "snumat_gga_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4581798266303829,
+      "delta_dro_lower": 0.0986305497753136,
+      "safety_gap": 0.3595492768550693,
+      "dro_conditioned_delta": 0.23495863113232493,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.0657682230544939,
+        "sigma_worst": 0.004465416870163191,
+        "sigma_sensitivity": 1.4653641945776696,
+        "rho_empirical": 0.4658960845043255,
+        "rho_worst": 0.24113409476202344,
+        "rho_sensitivity": 1.99565534129789,
+        "omega_empirical": 0.0734844809284365,
+        "omega_worst": 0.14696896185687303,
+        "omega_sensitivity": 0.14696896185687303
+      }
+    },
+    "snumat_gga_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4450641562809602,
+      "delta_dro_lower": 0.16206137341307014,
+      "safety_gap": 0.28300278286789005,
+      "dro_conditioned_delta": 0.19236166387277517,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.05833780477054306,
+        "sigma_worst": 0.0020632424752913894,
+        "sigma_sensitivity": 1.345170535995304,
+        "rho_empirical": 0.43425498510080535,
+        "rho_worst": 0.25505539811855527,
+        "rho_sensitivity": 1.626037841775743,
+        "omega_empirical": 0.047528633590388246,
+        "omega_worst": 0.09505726718077649,
+        "omega_sensitivity": 0.09505726718077649
+      }
+    },
+    "snumat_gga_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4336195601381596,
+      "delta_dro_lower": 0.10708214827802193,
+      "safety_gap": 0.3265374118601377,
+      "dro_conditioned_delta": 0.20794527660477397,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.06144912256305453,
+        "sigma_worst": 0.0016225526276354499,
+        "sigma_sensitivity": 1.4300766787763837,
+        "rho_empirical": 0.44565491850354155,
+        "rho_worst": 0.2524285575072595,
+        "rho_sensitivity": 1.7141568679715389,
+        "omega_empirical": 0.0734844809284365,
+        "omega_worst": 0.14696896185687303,
+        "omega_sensitivity": 0.14696896185687303
+      }
+    },
+    "snumat_gga_band_gap_theoretical->snumat_hse_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4815555583366365,
+      "delta_dro_lower": 0.2249534534601788,
+      "safety_gap": 0.2566021048764577,
+      "dro_conditioned_delta": 0.19330865941918415,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.0786024717322668,
+        "sigma_worst": 0.02095797382886834,
+        "sigma_sensitivity": 1.3779170726386525,
+        "rho_empirical": 0.4229608916380434,
+        "rho_worst": 0.24401108969865773,
+        "rho_sensitivity": 1.7368977887183865,
+        "omega_empirical": 0.020007805033673644,
+        "omega_worst": 0.04001561006734729,
+        "omega_sensitivity": 0.04001561006734729
+      }
+    },
+    "snumat_hse_band_gap_theoretical->gga_band_gap_difference_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4546087866495373,
+      "delta_dro_lower": 0.23320079996955634,
+      "safety_gap": 0.22140798667998096,
+      "dro_conditioned_delta": 0.16264748462244727,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07526374304766664,
+        "sigma_worst": 0.03211656525244261,
+        "sigma_sensitivity": 1.040690448360142,
+        "rho_empirical": 0.4432079837702041,
+        "rho_worst": 0.3128443800116971,
+        "rho_sensitivity": 0.9652201486005563,
+        "omega_empirical": 0.06386294016833337,
+        "omega_worst": 0.11176014529458339,
+        "omega_sensitivity": 0.09579441025250006
+      }
+    },
+    "snumat_hse_band_gap_theoretical->gga_band_gap_intersection_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.49852862818094906,
+      "delta_dro_lower": 0.1434805325190924,
+      "safety_gap": 0.3550480956618567,
+      "dro_conditioned_delta": 0.2534534961028227,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07656366038757036,
+        "sigma_worst": 0.013815060291463191,
+        "sigma_sensitivity": 1.5047013818454864,
+        "rho_empirical": 0.4938342879912984,
+        "rho_worst": 0.2734041126234687,
+        "rho_sensitivity": 1.6256951195200031,
+        "omega_empirical": 0.07186932019791974,
+        "omega_worst": 0.14373864039583947,
+        "omega_sensitivity": 0.14373864039583947
+      }
+    },
+    "snumat_hse_band_gap_theoretical->mbj_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4671481638556759,
+      "delta_dro_lower": 0.17993571630942012,
+      "safety_gap": 0.2872124475462558,
+      "dro_conditioned_delta": 0.2041303982797727,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07398033613028923,
+        "sigma_worst": 0.006277169043816061,
+        "sigma_sensitivity": 1.6235111048581319,
+        "rho_empirical": 0.4364438158977226,
+        "rho_worst": 0.2602105236102758,
+        "rho_sensitivity": 1.5568880483694039,
+        "omega_empirical": 0.04327598817233588,
+        "omega_worst": 0.08655197634467177,
+        "omega_sensitivity": 0.08655197634467177
+      }
+    },
+    "snumat_hse_band_gap_theoretical->optb88vdw_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4317486886673852,
+      "delta_dro_lower": 0.1370107882856165,
+      "safety_gap": 0.2947379003817687,
+      "dro_conditioned_delta": 0.19229312085852945,
+      "is_robust": true,
+      "robustness_level": "MARGINAL",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07377634115864919,
+        "sigma_worst": 0.012529858025484585,
+        "sigma_sensitivity": 1.4686808576207004,
+        "rho_empirical": 0.4298416677066558,
+        "rho_worst": 0.2682195706559714,
+        "rho_sensitivity": 1.3965853821821832,
+        "omega_empirical": 0.07186932019791974,
+        "omega_worst": 0.14373864039583947,
+        "omega_sensitivity": 0.14373864039583947
+      }
+    },
+    "snumat_hse_band_gap_theoretical->snumat_gga_band_gap_theoretical": {
+      "delta": 0.5,
+      "delta_empirical": 0.4605501203188506,
+      "delta_dro_lower": 0.2667753837826739,
+      "safety_gap": 0.19377473653617672,
+      "dro_conditioned_delta": 0.14796643835540335,
+      "is_robust": true,
+      "robustness_level": "STRONG",
+      "data_status": {
+        "comparison_vectors": true,
+        "omega_available": true
+      },
+      "component_bounds": {
+        "sigma_empirical": 0.07835291258162964,
+        "sigma_worst": 0.02089143324773212,
+        "sigma_sensitivity": 1.3779170726386525,
+        "rho_empirical": 0.39780434484257576,
+        "rho_worst": 0.2770982247456514,
+        "rho_sensitivity": 1.0931302183705602,
+        "omega_empirical": 0.01560713710535479,
+        "omega_worst": 0.03121427421070958,
+        "omega_sensitivity": 0.03121427421070958
+      }
+    }
+  },
+  "summary": {
+    "calibrated_delta": 0.5,
+    "n_pairs": 30,
+    "n_no_data": 0,
+    "n_omega_unavailable": 0,
+    "n_robust": 29,
+    "robust_fraction": 0.9666666666666667,
+    "robustness_levels": {
+      "STRONG": 15,
+      "MARGINAL": 14,
+      "FRAGILE": 1,
+      "UNSAFE": 0,
+      "NO_DATA": 0
+    },
+    "mean_safety_gap": 0.2689452087421309,
+    "min_dro_delta": -0.024940442928435502,
+    "max_dro_delta": 0.3590564244879343,
+    "interpretation": "DRO radius delta=0.5 calibrated from observed inter-engine component variation. A transfer pair is ROBUST if its DRO lower bound > 0, meaning the transfer remains beneficial even under worst-case adversarial reweighting of policy-pair observations within W_delta. STRONG: DRO > 0.2. MARGINAL: DRO in (0, 0.2]. FRAGILE: DRO in (-0.1, 0]. UNSAFE: DRO <= -0.1."
+  }
+}

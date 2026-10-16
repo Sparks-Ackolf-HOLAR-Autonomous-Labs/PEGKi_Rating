@@ -1,0 +1,41 @@
+PEGKi Phase 3 Evaluation Summary
+========================================
+
+Section 10 Knowledge Space Transfer:
+  Single-modality datasets (4): ['mbj_band_gap_theoretical', 'optb88vdw_band_gap_theoretical', 'snumat_gga_band_gap_theoretical', 'snumat_hse_band_gap_theoretical']
+  Overlap/difference datasets (2): ['gga_band_gap_difference_theoretical', 'gga_band_gap_intersection_theoretical']
+  Conjecture 2.1 (Asymmetry):          PARTIALLY_SUPPORTED
+  Conjecture 2.2 (Hybrid Superiority): NOT_SUPPORTED
+  Conjecture 2.3 (Irreducibility):     AMBIGUOUS  (0/0 pairs)
+  Conjecture 6.1 (Convergence):        NOT_SUPPORTED  (3/30 pairs converged)
+  Sec 10.4 sign predictions:           0/0 predicted-negative pairs actually negative
+  Conjecture 4.1 (Complexity Bound):   SUPPORTED  (Spearman rho=0.599)
+  Sec 10.5 Weight Sensitivity:         MODERATE  (alpha=STABLE  beta=STABLE  gamma=MODERATE  delta=MODERATE)
+
+  DRO Safety Certificate (Hanada et al. 2025, arXiv 2603.16062):
+  Calibrated delta=0.5  Robust: 29/30 pairs  (STRONG=15 MARGINAL=14 FRAGILE=1 UNSAFE=0)
+  Mean safety gap: 0.269  Min DRO delta: -0.025
+
+  Modality-pair transfer (direct + corroboration):
+    mbj_band_gap_theoretical <-> optb88vdw_band_gap_theoretical: 0.508/0.514  SYMMETRIC
+    mbj_band_gap_theoretical <-> snumat_gga_band_gap_theoretical: 0.363/0.445  ASYMMETRIC (no corroboration)
+    mbj_band_gap_theoretical <-> snumat_hse_band_gap_theoretical: 0.493/0.467  ASYMMETRIC (no corroboration)
+    optb88vdw_band_gap_theoretical <-> snumat_gga_band_gap_theoretical: 0.344/0.434  ASYMMETRIC (no corroboration)
+    optb88vdw_band_gap_theoretical <-> snumat_hse_band_gap_theoretical: 0.462/0.432  ASYMMETRIC (no corroboration)
+    snumat_gga_band_gap_theoretical <-> snumat_hse_band_gap_theoretical: 0.482/0.461  ASYMMETRIC (no corroboration)
+  Context Bias Portability: rho=0.0  Context bias is engine-specific (rho=0.00)
+  Hodge Energy Budget: mean_||C||_F=0.0412  engines=['gga_band_gap_difference_theoretical', 'gga_band_gap_intersection_theoretical', 'mbj_band_gap_theoretical', 'optb88vdw_band_gap_theoretical', 'snumat_gga_band_gap_theoretical', 'snumat_hse_band_gap_theoretical']
+  ICBT Complexity: Most complex: gga_band_gap_difference_theoretical (K=1, H=-0.000).  Simplest: gga_band_gap_difference_theoretical (K=1, 
+  ICBT Membership Portability: mean_agreement=0.767  engines=6
+  Nash routing: {'gga_band_gap_difference_theoretical': 0.021599750224469593, 'gga_band_gap_intersection_theoretical': 0.28360612240430233, 'mbj_band_gap_theoretical': 0.23943931159158954, 'optb88vdw_band_gap_theoretical': 0.2577549483531793, 'snumat_gga_band_gap_theoretical': 0.0, 'snumat_hse_band_gap_theoretical': 0.19759986742645924}
+  Robbins-Monro Cond 1: PASS
+  Robbins-Monro Cond 2: PASS
+  Asymptotic bias floor: 0.0
+
+Section 11 Lab-to-Fab Transfer:
+  Structural similarity:   PASS
+  Performance correlation: PASS
+  Multi-scale validation:  FAIL
+  Digital twin updates: 5
+
+Output: shared/output/bandgap_rebuild/jarvis_phase3

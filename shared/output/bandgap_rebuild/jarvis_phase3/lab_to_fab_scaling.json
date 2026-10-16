@@ -1,0 +1,83 @@
+{
+  "source_study_type": "gga_band_gap_difference_theoretical",
+  "stages": [
+    {
+      "stage": "pilot",
+      "source_scale": 1.0,
+      "target_scale": 1000.0,
+      "scale_ratio": 1000.0,
+      "target_dimensionality": 1000,
+      "policy_norms": {
+        "diamond": {
+          "original_norm": 2623.0293936787634,
+          "scaled_norm": 1068178061.2582594,
+          "norm_change_pct": 40722968.671379015
+        },
+        "perovskite": {
+          "original_norm": 2631.7183768677783,
+          "scaled_norm": 1077695212.5117307,
+          "norm_change_pct": 40950148.39984524
+        },
+        "rocksalt": {
+          "original_norm": 2664.41508949097,
+          "scaled_norm": 1098394520.9674704,
+          "norm_change_pct": 41224502.17628162
+        },
+        "rutile": {
+          "original_norm": 2660.8066922676912,
+          "scaled_norm": 1076919374.4268444,
+          "norm_change_pct": 40473316.48517248
+        },
+        "wurtzite": {
+          "original_norm": 2633.2694522164206,
+          "scaled_norm": 1075544963.1036952,
+          "norm_change_pct": 40844370.44332701
+        },
+        "zincblende": {
+          "original_norm": 2568.672279237513,
+          "scaled_norm": 1046639144.7789509,
+          "norm_change_pct": 40746209.02660873
+        }
+      }
+    },
+    {
+      "stage": "manufacturing",
+      "source_scale": 1000.0,
+      "target_scale": 1000000.0,
+      "scale_ratio": 1000.0,
+      "target_dimensionality": 1000,
+      "policy_norms": {
+        "diamond": {
+          "original_norm": 1068178061.2582594,
+          "scaled_norm": 1068177519973311.6,
+          "norm_change_pct": 99999849.32633731
+        },
+        "perovskite": {
+          "original_norm": 1077695212.5117307,
+          "scaled_norm": 1077694664301600.4,
+          "norm_change_pct": 99999849.13124564
+        },
+        "rocksalt": {
+          "original_norm": 1098394520.9674704,
+          "scaled_norm": 1098393960865060.9,
+          "norm_change_pct": 99999849.00717375
+        },
+        "rutile": {
+          "original_norm": 1076919374.4268444,
+          "scaled_norm": 1076918823385834.8,
+          "norm_change_pct": 99999848.83173034
+        },
+        "wurtzite": {
+          "original_norm": 1075544963.1036952,
+          "scaled_norm": 1075544408298225.0,
+          "norm_change_pct": 99999848.41633877
+        },
+        "zincblende": {
+          "original_norm": 1046639144.7789509,
+          "scaled_norm": 1046638597186783.4,
+          "norm_change_pct": 99999847.68090126
+        }
+      }
+    }
+  ]
+}

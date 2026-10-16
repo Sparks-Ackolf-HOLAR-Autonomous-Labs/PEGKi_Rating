@@ -1,0 +1,3860 @@
+{
+ "mp_134_Al": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.6094715595245361,
+  "status": "ok",
+  "phases": [
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 1.0
+  },
+  "x": {
+   "Al": 1.0,
+   "Mg": 0.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_1183144_Al": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.6094715595245361,
+  "status": "ok",
+  "phases": [
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 1.0
+  },
+  "x": {
+   "Al": 1.0,
+   "Mg": 0.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_2647008_Al": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.6094715595245361,
+  "status": "ok",
+  "phases": [
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 1.0
+  },
+  "x": {
+   "Al": 1.0,
+   "Mg": 0.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_153_Mg": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.4915027618408203,
+  "status": "ok",
+  "phases": [
+   "HCP_A3"
+  ],
+  "phase_fractions": {
+   "HCP_A3": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 1.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_1094122_Mg": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.4915027618408203,
+  "status": "ok",
+  "phases": [
+   "HCP_A3"
+  ],
+  "phase_fractions": {
+   "HCP_A3": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 1.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_973364_Mg": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.4915027618408203,
+  "status": "ok",
+  "phases": [
+   "HCP_A3"
+  ],
+  "phase_fractions": {
+   "HCP_A3": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 1.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_1056702_Mg": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.4915027618408203,
+  "status": "ok",
+  "phases": [
+   "HCP_A3"
+  ],
+  "phase_fractions": {
+   "HCP_A3": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 1.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_1056351_Mg": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.4915027618408203,
+  "status": "ok",
+  "phases": [
+   "HCP_A3"
+  ],
+  "phase_fractions": {
+   "HCP_A3": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 1.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_110_Mg": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.4915027618408203,
+  "status": "ok",
+  "phases": [
+   "HCP_A3"
+  ],
+  "phase_fractions": {
+   "HCP_A3": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 1.0,
+   "Si": 0.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_3833_Mg(AlSi)2": {
+  "property": "formation_energy",
+  "value": -0.0596654584312233,
+  "sem": 0.0,
+  "wall_s": 2.301506280899048,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.40640688905512723,
+   "MG2SI": 0.2965627604070872,
+   "DIAMOND_A4": 0.29703035052490323
+  },
+  "x": {
+   "Al": 0.4,
+   "Mg": 0.2,
+   "Si": 0.4
+  },
+  "value_assessed_set": -0.0596654584312233
+ },
+ "mp_1028210_Mg14AlSi": {
+  "property": "formation_energy",
+  "value": -0.04801501620704138,
+  "sem": 0.0,
+  "wall_s": 1.7385635375976562,
+  "status": "ok",
+  "phases": [
+   "HCP_A3",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.12851531157283047,
+   "HCP_A3": 0.6859638701820112,
+   "MG2SI": 0.18552081825250066
+  },
+  "x": {
+   "Al": 0.0625,
+   "Mg": 0.875,
+   "Si": 0.0625
+  },
+  "value_assessed_set": -0.04801501620704138
+ },
+ "mp_1028217_Mg14AlSi": {
+  "property": "formation_energy",
+  "value": -0.04801501620704138,
+  "sem": 0.0,
+  "wall_s": 1.7385635375976562,
+  "status": "ok",
+  "phases": [
+   "HCP_A3",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.12851531157283047,
+   "HCP_A3": 0.6859638701820112,
+   "MG2SI": 0.18552081825250066
+  },
+  "x": {
+   "Al": 0.0625,
+   "Mg": 0.875,
+   "Si": 0.0625
+  },
+  "value_assessed_set": -0.04801501620704138
+ },
+ "mp_1023506_Mg15Al": {
+  "property": "formation_energy",
+  "value": -0.011634205414335415,
+  "sem": 0.0,
+  "wall_s": 1.0519702434539795,
+  "status": "ok",
+  "phases": [
+   "HCP_A3",
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.02938261143261118,
+   "HCP_A3": 0.9706173885664997
+  },
+  "x": {
+   "Al": 0.0625,
+   "Mg": 0.9375,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.011634205414335415
+ },
+ "mp_1023509_Mg15Si": {
+  "property": "formation_energy",
+  "value": -0.03701794955037403,
+  "sem": 0.0,
+  "wall_s": 0.9337146282196045,
+  "status": "ok",
+  "phases": [
+   "HCP_A3",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "HCP_A3": 0.8125094215756774,
+   "MG2SI": 0.1874905786724679
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.9375,
+   "Si": 0.0625
+  },
+  "value_assessed_set": -0.03701794955037403
+ },
+ "mp_1367_Mg2Si": {
+  "property": "formation_energy",
+  "value": -0.19742790460581322,
+  "sem": 0.0,
+  "wall_s": 1.3084220886230469,
+  "status": "ok",
+  "phases": [
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "MG2SI": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.6666666666666666,
+   "Si": 0.3333333333333333
+  },
+  "value_assessed_set": -0.19742790460581322
+ },
+ "mp_1101851_Mg2Si": {
+  "property": "formation_energy",
+  "value": -0.19742790460581322,
+  "sem": 0.0,
+  "wall_s": 1.3084220886230469,
+  "status": "ok",
+  "phases": [
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "MG2SI": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.6666666666666666,
+   "Si": 0.3333333333333333
+  },
+  "value_assessed_set": -0.19742790460581322
+ },
+ "mp_1074652_Mg2Si": {
+  "property": "formation_energy",
+  "value": -0.19742790460581322,
+  "sem": 0.0,
+  "wall_s": 1.3084220886230469,
+  "status": "ok",
+  "phases": [
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "MG2SI": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.6666666666666666,
+   "Si": 0.3333333333333333
+  },
+  "value_assessed_set": -0.19742790460581322
+ },
+ "mp_978271_Mg3Al": {
+  "property": "formation_energy",
+  "value": -0.035007777753462435,
+  "sem": 0.0,
+  "wall_s": 1.777245044708252,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0
+  },
+  "x": {
+   "Al": 0.25,
+   "Mg": 0.75,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.035007777753462435
+ },
+ "mp_1094970_Mg3Al": {
+  "property": "formation_energy",
+  "value": -0.035007777753462435,
+  "sem": 0.0,
+  "wall_s": 1.777245044708252,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0
+  },
+  "x": {
+   "Al": 0.25,
+   "Mg": 0.75,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.035007777753462435
+ },
+ "mp_1094961_Mg3Al": {
+  "property": "formation_energy",
+  "value": -0.035007777753462435,
+  "sem": 0.0,
+  "wall_s": 1.777245044708252,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0
+  },
+  "x": {
+   "Al": 0.25,
+   "Mg": 0.75,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.035007777753462435
+ },
+ "mp_1016233_Mg3Al": {
+  "property": "formation_energy",
+  "value": -0.035007777753462435,
+  "sem": 0.0,
+  "wall_s": 1.777245044708252,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0
+  },
+  "x": {
+   "Al": 0.25,
+   "Mg": 0.75,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.035007777753462435
+ },
+ "mp_1094666_Mg3Al": {
+  "property": "formation_energy",
+  "value": -0.035007777753462435,
+  "sem": 0.0,
+  "wall_s": 1.777245044708252,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0
+  },
+  "x": {
+   "Al": 0.25,
+   "Mg": 0.75,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.035007777753462435
+ },
+ "mp_1016271_Mg7Al": {
+  "property": "formation_energy",
+  "value": -0.019641491105363538,
+  "sem": 0.0,
+  "wall_s": 1.1837224960327148,
+  "status": "ok",
+  "phases": [
+   "HCP_A3",
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.4807591330160986,
+   "HCP_A3": 0.5192408669837422
+  },
+  "x": {
+   "Al": 0.125,
+   "Mg": 0.875,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.019641491105363538
+ },
+ "mp_1094987_MgAl": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "mp_1039019_MgAl": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "mp_1038779_MgAl": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "mp_1038934_MgAl": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "mp_1094116_MgAl2": {
+  "property": "formation_energy",
+  "value": -0.04150774682222241,
+  "sem": 0.0,
+  "wall_s": 1.4119210243225098,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999997
+  },
+  "x": {
+   "Al": 0.6666666666666666,
+   "Mg": 0.3333333333333333,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.04150774682222241
+ },
+ "mp_1102064_MgAl2": {
+  "property": "formation_energy",
+  "value": -0.04150774682222241,
+  "sem": 0.0,
+  "wall_s": 1.4119210243225098,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999997
+  },
+  "x": {
+   "Al": 0.6666666666666666,
+   "Mg": 0.3333333333333333,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.04150774682222241
+ },
+ "mp_1222013_MgAl2": {
+  "property": "formation_energy",
+  "value": -0.04150774682222241,
+  "sem": 0.0,
+  "wall_s": 1.4119210243225098,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999997
+  },
+  "x": {
+   "Al": 0.6666666666666666,
+   "Mg": 0.3333333333333333,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.04150774682222241
+ },
+ "mp_1038916_MgAl3": {
+  "property": "formation_energy",
+  "value": -0.033810509760679154,
+  "sem": 0.0,
+  "wall_s": 2.5262818336486816,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.25,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.033810509760679154
+ },
+ "mp_1039119_MgAl3": {
+  "property": "formation_energy",
+  "value": -0.033810509760679154,
+  "sem": 0.0,
+  "wall_s": 2.5262818336486816,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.25,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.033810509760679154
+ },
+ "mp_4499_MgAlSi": {
+  "property": "formation_energy",
+  "value": -0.09907818949679575,
+  "sem": 0.0,
+  "wall_s": 2.0895349979400635,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.33867243715467094,
+   "MG2SI": 0.49713563342668543,
+   "DIAMOND_A4": 0.1641919294131889
+  },
+  "x": {
+   "Al": 0.3333333333333333,
+   "Mg": 0.3333333333333333,
+   "Si": 0.3333333333333333
+  },
+  "value_assessed_set": -0.09907818949679575
+ },
+ "mp_1073794_MgSi": {
+  "property": "formation_energy",
+  "value": -0.14807092845435993,
+  "sem": 0.0,
+  "wall_s": 1.0283749103546143,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "MG2SI": 0.75,
+   "DIAMOND_A4": 0.25
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.5,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.14807092845435993
+ },
+ "mp_149_Si": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.6859700679779053,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4"
+  ],
+  "phase_fractions": {
+   "DIAMOND_A4": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.0,
+   "Si": 1.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_165_Si": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.6859700679779053,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4"
+  ],
+  "phase_fractions": {
+   "DIAMOND_A4": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.0,
+   "Si": 1.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "mp_1079297_Si": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 0.6859700679779053,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4"
+  ],
+  "phase_fractions": {
+   "DIAMOND_A4": 1.0
+  },
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.0,
+   "Si": 1.0
+  },
+  "value_assessed_set": 0.0
+ },
+ "fcc_Al3Si_00": {
+  "property": "formation_energy",
+  "value": -0.0005256827542206788,
+  "sem": 0.0,
+  "wall_s": 2.2820589542388916,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7576029539108641,
+   "DIAMOND_A4": 0.242397046090903
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.0,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.0005256827542206788
+ },
+ "fcc_AlSi_01": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_MgAl3_02": {
+  "property": "formation_energy",
+  "value": -0.033810509760679154,
+  "sem": 0.0,
+  "wall_s": 2.5262818336486816,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.25,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.033810509760679154
+ },
+ "fcc_MgAl2Si_03": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl_04": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_Al7Si_05": {
+  "property": "formation_energy",
+  "value": -0.000613292489982736,
+  "sem": 0.0,
+  "wall_s": 1.0809564590454102,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.8838701721036871,
+   "DIAMOND_A4": 0.11612982789552724
+  },
+  "x": {
+   "Al": 0.875,
+   "Mg": 0.0,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.000613292489982736
+ },
+ "fcc_Al3Si_06": {
+  "property": "formation_energy",
+  "value": -0.0005256827542206788,
+  "sem": 0.0,
+  "wall_s": 2.2820589542388916,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7576029539108641,
+   "DIAMOND_A4": 0.242397046090903
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.0,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.0005256827542206788
+ },
+ "fcc_Al3Si_07": {
+  "property": "formation_energy",
+  "value": -0.0005256827542206788,
+  "sem": 0.0,
+  "wall_s": 2.2820589542388916,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7576029539108641,
+   "DIAMOND_A4": 0.242397046090903
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.0,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.0005256827542206788
+ },
+ "fcc_Al3Si_08": {
+  "property": "formation_energy",
+  "value": -0.0005256827542206788,
+  "sem": 0.0,
+  "wall_s": 2.2820589542388916,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7576029539108641,
+   "DIAMOND_A4": 0.242397046090903
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.0,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.0005256827542206788
+ },
+ "fcc_Al5Si3_09": {
+  "property": "formation_energy",
+  "value": -0.00043807301735714554,
+  "sem": 0.0,
+  "wall_s": 0.5987401008605957,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6313357357177043,
+   "DIAMOND_A4": 0.3686642642818309
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.0,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.00043807301735714554
+ },
+ "fcc_Al5Si3_10": {
+  "property": "formation_energy",
+  "value": -0.00043807301735714554,
+  "sem": 0.0,
+  "wall_s": 0.5987401008605957,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6313357357177043,
+   "DIAMOND_A4": 0.3686642642818309
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.0,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.00043807301735714554
+ },
+ "fcc_Al5Si3_11": {
+  "property": "formation_energy",
+  "value": -0.00043807301735714554,
+  "sem": 0.0,
+  "wall_s": 0.5987401008605957,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6313357357177043,
+   "DIAMOND_A4": 0.3686642642818309
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.0,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.00043807301735714554
+ },
+ "fcc_Al5Si3_12": {
+  "property": "formation_energy",
+  "value": -0.00043807301735714554,
+  "sem": 0.0,
+  "wall_s": 0.5987401008605957,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6313357357177043,
+   "DIAMOND_A4": 0.3686642642818309
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.0,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.00043807301735714554
+ },
+ "fcc_AlSi_13": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_AlSi_14": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_AlSi_15": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_AlSi_16": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_AlSi_17": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_AlSi_18": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_MgAl7_19": {
+  "property": "formation_energy",
+  "value": -0.01985389239019454,
+  "sem": 0.0,
+  "wall_s": 2.5415189266204834,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7903963081374016,
+   "LIQUID": 0.20960369186739378
+  },
+  "x": {
+   "Al": 0.875,
+   "Mg": 0.125,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.01985389239019454
+ },
+ "fcc_MgAl6Si_20": {
+  "property": "formation_energy",
+  "value": -0.03783725824946559,
+  "sem": 0.0,
+  "wall_s": 3.984898567199707,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7620130946307395,
+   "MG2SI": 0.18105517429186171,
+   "DIAMOND_A4": 0.05693173108967798
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.125,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.03783725824946559
+ },
+ "fcc_MgAl6Si_21": {
+  "property": "formation_energy",
+  "value": -0.03783725824946559,
+  "sem": 0.0,
+  "wall_s": 3.984898567199707,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7620130946307395,
+   "MG2SI": 0.18105517429186171,
+   "DIAMOND_A4": 0.05693173108967798
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.125,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.03783725824946559
+ },
+ "fcc_MgAl6Si_22": {
+  "property": "formation_energy",
+  "value": -0.03783725824946559,
+  "sem": 0.0,
+  "wall_s": 3.984898567199707,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7620130946307395,
+   "MG2SI": 0.18105517429186171,
+   "DIAMOND_A4": 0.05693173108967798
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.125,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.03783725824946559
+ },
+ "fcc_MgAl6Si_23": {
+  "property": "formation_energy",
+  "value": -0.03783725824946559,
+  "sem": 0.0,
+  "wall_s": 3.984898567199707,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7620130946307395,
+   "MG2SI": 0.18105517429186171,
+   "DIAMOND_A4": 0.05693173108967798
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.125,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.03783725824946559
+ },
+ "fcc_MgAl5Si2_24": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_25": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_26": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_27": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_28": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_29": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_30": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_31": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_32": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl4Si3_33": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_34": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_35": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_36": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_37": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_38": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_39": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_40": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_41": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_42": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_43": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_44": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_45": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_46": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl3_47": {
+  "property": "formation_energy",
+  "value": -0.033810509760679154,
+  "sem": 0.0,
+  "wall_s": 2.5262818336486816,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.25,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.033810509760679154
+ },
+ "fcc_MgAl3_48": {
+  "property": "formation_energy",
+  "value": -0.033810509760679154,
+  "sem": 0.0,
+  "wall_s": 2.5262818336486816,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.25,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.033810509760679154
+ },
+ "fcc_MgAl3_49": {
+  "property": "formation_energy",
+  "value": -0.033810509760679154,
+  "sem": 0.0,
+  "wall_s": 2.5262818336486816,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.25,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.033810509760679154
+ },
+ "fcc_Mg2Al5Si_50": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_51": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_52": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_53": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_54": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_55": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_56": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_57": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_58": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_MgAl2Si_59": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_60": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_61": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_62": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_63": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_64": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_65": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_66": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_67": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_68": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_69": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_70": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_71": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_72": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_73": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_74": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_75": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_76": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_77": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_78": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_79": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_80": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_Mg3Al5_81": {
+  "property": "formation_energy",
+  "value": -0.044194876461629284,
+  "sem": 0.0,
+  "wall_s": 1.3239631652832031,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0000000000000002
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.375,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.044194876461629284
+ },
+ "fcc_Mg3Al5_82": {
+  "property": "formation_energy",
+  "value": -0.044194876461629284,
+  "sem": 0.0,
+  "wall_s": 1.3239631652832031,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0000000000000002
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.375,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.044194876461629284
+ },
+ "fcc_Mg3Al5_83": {
+  "property": "formation_energy",
+  "value": -0.044194876461629284,
+  "sem": 0.0,
+  "wall_s": 1.3239631652832031,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0000000000000002
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.375,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.044194876461629284
+ },
+ "fcc_Mg3Al5_84": {
+  "property": "formation_energy",
+  "value": -0.044194876461629284,
+  "sem": 0.0,
+  "wall_s": 1.3239631652832031,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0000000000000002
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.375,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.044194876461629284
+ },
+ "fcc_Mg3Al4Si_85": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_86": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_87": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_88": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_89": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_90": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_91": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_92": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_93": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_94": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_95": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_96": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_97": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_98": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_MgAl_99": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_MgAl_100": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_MgAl_101": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_MgAl_102": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_MgAl_103": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_MgAl_104": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_Al7Si_105": {
+  "property": "formation_energy",
+  "value": -0.000613292489982736,
+  "sem": 0.0,
+  "wall_s": 1.0809564590454102,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.8838701721036871,
+   "DIAMOND_A4": 0.11612982789552724
+  },
+  "x": {
+   "Al": 0.875,
+   "Mg": 0.0,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.000613292489982736
+ },
+ "fcc_Al3Si_106": {
+  "property": "formation_energy",
+  "value": -0.0005256827542206788,
+  "sem": 0.0,
+  "wall_s": 2.2820589542388916,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7576029539108641,
+   "DIAMOND_A4": 0.242397046090903
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.0,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.0005256827542206788
+ },
+ "fcc_Al5Si3_107": {
+  "property": "formation_energy",
+  "value": -0.00043807301735714554,
+  "sem": 0.0,
+  "wall_s": 0.5987401008605957,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6313357357177043,
+   "DIAMOND_A4": 0.3686642642818309
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.0,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.00043807301735714554
+ },
+ "fcc_Al5Si3_108": {
+  "property": "formation_energy",
+  "value": -0.00043807301735714554,
+  "sem": 0.0,
+  "wall_s": 0.5987401008605957,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6313357357177043,
+   "DIAMOND_A4": 0.3686642642818309
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.0,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.00043807301735714554
+ },
+ "fcc_AlSi_109": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_AlSi_110": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_AlSi_111": {
+  "property": "formation_energy",
+  "value": -0.00035046328106876426,
+  "sem": 0.0,
+  "wall_s": 1.6745686531066895,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5050685175242289,
+   "DIAMOND_A4": 0.49493148247577085
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.0,
+   "Si": 0.5
+  },
+  "value_assessed_set": -0.00035046328106876426
+ },
+ "fcc_MgAl7_112": {
+  "property": "formation_energy",
+  "value": -0.01985389239019454,
+  "sem": 0.0,
+  "wall_s": 2.5415189266204834,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7903963081374016,
+   "LIQUID": 0.20960369186739378
+  },
+  "x": {
+   "Al": 0.875,
+   "Mg": 0.125,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.01985389239019454
+ },
+ "fcc_MgAl6Si_113": {
+  "property": "formation_energy",
+  "value": -0.03783725824946559,
+  "sem": 0.0,
+  "wall_s": 3.984898567199707,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7620130946307395,
+   "MG2SI": 0.18105517429186171,
+   "DIAMOND_A4": 0.05693173108967798
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.125,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.03783725824946559
+ },
+ "fcc_MgAl6Si_114": {
+  "property": "formation_energy",
+  "value": -0.03783725824946559,
+  "sem": 0.0,
+  "wall_s": 3.984898567199707,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.7620130946307395,
+   "MG2SI": 0.18105517429186171,
+   "DIAMOND_A4": 0.05693173108967798
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.125,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.03783725824946559
+ },
+ "fcc_MgAl5Si2_115": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_116": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl5Si2_117": {
+  "property": "formation_energy",
+  "value": -0.03770067383739829,
+  "sem": 0.0,
+  "wall_s": 3.9970226287841797,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.6350108640788771,
+   "MG2SI": 0.1821293123175702,
+   "DIAMOND_A4": 0.18285982361463424
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.125,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.03770067383739829
+ },
+ "fcc_MgAl4Si3_118": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_119": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_120": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_121": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl4Si3_122": {
+  "property": "formation_energy",
+  "value": -0.037564089419305044,
+  "sem": 0.0,
+  "wall_s": 2.737745523452759,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080086335261145,
+   "MG2SI": 0.18320345033233915,
+   "DIAMOND_A4": 0.3087879161386987
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.125,
+   "Si": 0.375
+  },
+  "value_assessed_set": -0.037564089419305044
+ },
+ "fcc_MgAl3_123": {
+  "property": "formation_energy",
+  "value": -0.033810509760679154,
+  "sem": 0.0,
+  "wall_s": 2.5262818336486816,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.75,
+   "Mg": 0.25,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.033810509760679154
+ },
+ "fcc_Mg2Al5Si_124": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_125": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_Mg2Al5Si_126": {
+  "property": "formation_energy",
+  "value": -0.07459374165408747,
+  "sem": 0.0,
+  "wall_s": 2.3814008235931396,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.633228102226554,
+   "MG2SI": 0.3667718970691082
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.25,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.07459374165408747
+ },
+ "fcc_MgAl2Si_127": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_128": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_129": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_130": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_131": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_MgAl2Si_132": {
+  "property": "formation_energy",
+  "value": -0.07458181699697267,
+  "sem": 0.0,
+  "wall_s": 2.384199619293213,
+  "status": "ok",
+  "phases": [
+   "DIAMOND_A4",
+   "FCC_A1",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.5080087001449595,
+   "MG2SI": 0.3707034497711525,
+   "DIAMOND_A4": 0.12128785008362905
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.25,
+   "Si": 0.25
+  },
+  "value_assessed_set": -0.07458181699697267
+ },
+ "fcc_Mg3Al5_133": {
+  "property": "formation_energy",
+  "value": -0.044194876461629284,
+  "sem": 0.0,
+  "wall_s": 1.3239631652832031,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0000000000000002
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.375,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.044194876461629284
+ },
+ "fcc_Mg3Al5_134": {
+  "property": "formation_energy",
+  "value": -0.044194876461629284,
+  "sem": 0.0,
+  "wall_s": 1.3239631652832031,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 1.0000000000000002
+  },
+  "x": {
+   "Al": 0.625,
+   "Mg": 0.375,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.044194876461629284
+ },
+ "fcc_Mg3Al4Si_135": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_136": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_137": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_138": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_Mg3Al4Si_139": {
+  "property": "formation_energy",
+  "value": -0.09181084384963242,
+  "sem": 0.0,
+  "wall_s": 2.181903839111328,
+  "status": "ok",
+  "phases": [
+   "FCC_A1",
+   "LIQUID",
+   "MG2SI"
+  ],
+  "phase_fractions": {
+   "FCC_A1": 0.1773152174777967,
+   "LIQUID": 0.45367329669307627,
+   "MG2SI": 0.3690114858386332
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.375,
+   "Si": 0.125
+  },
+  "value_assessed_set": -0.09181084384963242
+ },
+ "fcc_MgAl_140": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_MgAl_141": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ },
+ "fcc_MgAl_142": {
+  "property": "formation_energy",
+  "value": -0.047750198763727304,
+  "sem": 0.0,
+  "wall_s": 0.7436790466308594,
+  "status": "ok",
+  "phases": [
+   "LIQUID"
+  ],
+  "phase_fractions": {
+   "LIQUID": 0.9999999999999998
+  },
+  "x": {
+   "Al": 0.5,
+   "Mg": 0.5,
+   "Si": 0.0
+  },
+  "value_assessed_set": -0.047750198763727304
+ }
+}

@@ -1,0 +1,52 @@
+{
+  "trl_routing_table": [
+    {
+      "trl": 1,
+      "dominant_space": "theoretical"
+    },
+    {
+      "trl": 2,
+      "dominant_space": "theoretical"
+    },
+    {
+      "trl": 3,
+      "dominant_space": "theoretical"
+    },
+    {
+      "trl": 4,
+      "dominant_space": "K_E_plus_K_H"
+    },
+    {
+      "trl": 5,
+      "dominant_space": "K_E_plus_K_H"
+    },
+    {
+      "trl": 6,
+      "dominant_space": "K_E_plus_K_H"
+    },
+    {
+      "trl": 7,
+      "dominant_space": "hybrid"
+    },
+    {
+      "trl": 8,
+      "dominant_space": "hybrid"
+    },
+    {
+      "trl": 9,
+      "dominant_space": "hybrid"
+    }
+  ],
+  "example_transfer_values": [
+    {
+      "description": "Lab -> Pilot transfer",
+      "economic_transfer": 2.0,
+      "risk_adjusted_utility": 0.6699999999999999
+    },
+    {
+      "description": "Pilot -> Manufacturing transfer",
+      "economic_transfer": 2.0,
+      "risk_adjusted_utility": 0.48500000000000004
+    }
+  ]
+}

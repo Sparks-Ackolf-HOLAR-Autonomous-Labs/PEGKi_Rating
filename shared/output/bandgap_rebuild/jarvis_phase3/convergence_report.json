@@ -1,0 +1,111 @@
+{
+  "conditions": {
+    "schedule": "lr_t = lr_0 / (1 + t)",
+    "lr_0": 0.1,
+    "condition_1": {
+      "formula": "sum lr_t = inf",
+      "partial_sum_at_T10000": 0.8787706026045383,
+      "passes": true,
+      "explanation": "lr_t = 0.1/(1+t): sum ~ 0.1 * ln(T) -> inf. PASSES."
+    },
+    "condition_2": {
+      "formula": "sum lr_t^2 < inf",
+      "partial_sum_at_T10000": 0.006448340818460602,
+      "passes": true,
+      "explanation": "lr_t = 0.1/(1+t): sum < 0.016449 (converges). PASSES."
+    },
+    "overall_convergence": "Converges to true parameter (decaying schedule satisfies both Robbins-Monro conditions; bias floor -> 0).",
+    "asymptotic_bias_floor": 0.0,
+    "bias_floor_explanation": "With decaying lr_t -> 0, the asymptotic bias floor -> 0. The update converges to the true context bias."
+  },
+  "simulation": {
+    "true_value": 5.0,
+    "noise_std": 2.0,
+    "n_steps": 10000,
+    "stabilised_at_step": 1300,
+    "empirical_asymptotic_error": 2.12427557380446,
+    "theoretical_bias_floor": 1.4140756899977389e-05,
+    "error_trajectory": [
+      {
+        "step": 100,
+        "abs_error": 3.3068813620410387
+      },
+      {
+        "step": 600,
+        "abs_error": 2.7744299857605257
+      },
+      {
+        "step": 1100,
+        "abs_error": 2.614406443930996
+      },
+      {
+        "step": 1600,
+        "abs_error": 2.522742101508037
+      },
+      {
+        "step": 2100,
+        "abs_error": 2.4612617468010964
+      },
+      {
+        "step": 2600,
+        "abs_error": 2.407044661406271
+      },
+      {
+        "step": 3100,
+        "abs_error": 2.364104214919531
+      },
+      {
+        "step": 3600,
+        "abs_error": 2.3281958643234537
+      },
+      {
+        "step": 4100,
+        "abs_error": 2.2992045021427483
+      },
+      {
+        "step": 4600,
+        "abs_error": 2.272210533279869
+      },
+      {
+        "step": 5100,
+        "abs_error": 2.2508938538811365
+      },
+      {
+        "step": 5600,
+        "abs_error": 2.2290381673993482
+      },
+      {
+        "step": 6100,
+        "abs_error": 2.2091078696728697
+      },
+      {
+        "step": 6600,
+        "abs_error": 2.1907684994698453
+      },
+      {
+        "step": 7100,
+        "abs_error": 2.174846466885722
+      },
+      {
+        "step": 7600,
+        "abs_error": 2.160564918997466
+      },
+      {
+        "step": 8100,
+        "abs_error": 2.147279528394473
+      },
+      {
+        "step": 8600,
+        "abs_error": 2.134214530569324
+      },
+      {
+        "step": 9100,
+        "abs_error": 2.1223115503954757
+      },
+      {
+        "step": 9600,
+        "abs_error": 2.11210494833926
+      }
+    ]
+  }
+}

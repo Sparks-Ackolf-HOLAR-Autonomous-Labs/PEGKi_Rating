@@ -1,0 +1,804 @@
+{
+  "additivity": {
+    "expt_minus_gga_mp": {
+      "extreme_family_cis_disjoint": true,
+      "family_max": "nitride",
+      "family_min": "chalcogenide",
+      "global": 3.01786539899953,
+      "max_pairwise_diff": 1.6555184158349165,
+      "per_family": {
+        "chalcogenide": 2.6046721799075625,
+        "halide": 2.642685272308937,
+        "nitride": 4.260190595742479,
+        "oxide": 2.7024765409971923
+      }
+    },
+    "hse_minus_gga_snumat": {
+      "extreme_family_cis_disjoint": false,
+      "family_max": "nitride",
+      "family_min": "chalcogenide",
+      "global": 3.6691938224706773,
+      "max_pairwise_diff": 0.2812404490995082,
+      "per_family": {
+        "chalcogenide": 3.540936752003322,
+        "halide": 3.75273852576845,
+        "nitride": 3.8221772011028303,
+        "oxide": 3.706775119326811
+      }
+    },
+    "mbj_minus_optb88_jarvis": {
+      "extreme_family_cis_disjoint": true,
+      "family_max": "halide",
+      "family_min": "oxide",
+      "global": 2.938921973415602,
+      "max_pairwise_diff": 0.5572912407466548,
+      "per_family": {
+        "chalcogenide": 2.95575384650266,
+        "halide": 3.4495428205678467,
+        "nitride": 2.9639134435333867,
+        "oxide": 2.892251579821192
+      }
+    }
+  },
+  "config": {
+    "bootstrap": 200,
+    "events": 300,
+    "families": [
+      "oxide",
+      "halide",
+      "chalcogenide",
+      "nitride"
+    ],
+    "holdout_frac": 0.2,
+    "max_bridges": 4000,
+    "min_class_size": 30,
+    "output_dir": "output/family_offsets",
+    "seed": 0,
+    "universe": "output/bandgap_archive_build/bandgap_universe.jsonl",
+    "workers": 12
+  },
+  "families": {
+    "chalcogenide": {
+      "converged": true,
+      "n_bridge_events": 3517,
+      "n_bridge_events_per_channel": {
+        "expt_zhuo": 607,
+        "jarvis_mbj": 1268,
+        "jarvis_optb88vdw": 2042,
+        "mp_gga": 1561,
+        "mp_gga_expsynth": 673,
+        "mp_r2scan": 1930,
+        "snumat_gga": 1861,
+        "snumat_hse": 1906
+      },
+      "n_records_per_channel": {
+        "expt_zhuo": 2220,
+        "jarvis_mbj": 1862,
+        "jarvis_optb88vdw": 3826,
+        "mp_gga": 9487,
+        "mp_gga_expsynth": 3334,
+        "mp_r2scan": 2630,
+        "snumat_gga": 2167,
+        "snumat_hse": 2268
+      },
+      "offset_ci": {
+        "expt_zhuo": [
+          0.9994516879057087,
+          1.4336733077980408
+        ],
+        "jarvis_mbj": [
+          1.1845865186364415,
+          1.4671365542022794
+        ],
+        "jarvis_optb88vdw": [
+          -1.7539304611938293,
+          -1.542433711954055
+        ],
+        "mp_gga": [
+          -1.4869234501172908,
+          -1.279476352576338
+        ],
+        "mp_gga_expsynth": [
+          -0.9048395547378683,
+          -0.6762343738310216
+        ],
+        "mp_r2scan": [
+          0.6819422458737153,
+          0.7845776459759877
+        ],
+        "snumat_gga": [
+          -1.5938796896762117,
+          -1.4008488113985922
+        ],
+        "snumat_hse": [
+          1.9493107545111783,
+          2.1728532604862454
+        ]
+      },
+      "offset_ref_ci": {
+        "expt_zhuo": [
+          2.3249348344419403,
+          2.876579274501779
+        ],
+        "jarvis_mbj": [
+          2.500742420459284,
+          2.905915536175243
+        ],
+        "jarvis_optb88vdw": [
+          -0.3739979528933843,
+          -0.15631833118300062
+        ],
+        "mp_gga": [
+          0.0,
+          0.0
+        ],
+        "mp_gga_expsynth": [
+          0.5090896252547773,
+          0.6893666557310517
+        ],
+        "mp_r2scan": [
+          1.9876872397960201,
+          2.2273275699978354
+        ],
+        "snumat_gga": [
+          -0.24325535410839946,
+          0.010949592404235247
+        ],
+        "snumat_hse": [
+          3.264148335041902,
+          3.6354064626006144
+        ]
+      },
+      "offsets": {
+        "expt_zhuo": 1.2199102737759782,
+        "jarvis_mbj": 1.3111094582968474,
+        "jarvis_optb88vdw": -1.6446443882058126,
+        "mp_gga": -1.3847619061315841,
+        "mp_gga_expsynth": -0.797386590766879,
+        "mp_r2scan": 0.7300365367604232,
+        "snumat_gga": -1.4876000678661472,
+        "snumat_hse": 2.0533366841371747
+      },
+      "offsets_ref": {
+        "expt_zhuo": 2.6046721799075625,
+        "jarvis_mbj": 2.695871364428432,
+        "jarvis_optb88vdw": -0.2598824820742285,
+        "mp_gga": 0.0,
+        "mp_gga_expsynth": 0.5873753153647051,
+        "mp_r2scan": 2.1147984428920075,
+        "snumat_gga": -0.10283816173456306,
+        "snumat_hse": 3.438098590268759
+      },
+      "pooled_vs_fast_max_dev": 3.219646771412954e-14,
+      "skipped": false,
+      "spacing_boot_valid": {
+        "expt_minus_gga_mp": 200,
+        "hse_minus_gga_snumat": 200,
+        "mbj_minus_optb88_jarvis": 200
+      },
+      "spacing_ci": {
+        "expt_minus_gga_mp": [
+          2.3249348344419403,
+          2.876579274501779
+        ],
+        "hse_minus_gga_snumat": [
+          3.3890859493645356,
+          3.706348916788072
+        ],
+        "mbj_minus_optb88_jarvis": [
+          2.784531655390238,
+          3.1616277508925785
+        ]
+      },
+      "spacing_minus_global": {
+        "expt_minus_gga_mp": -0.4131932190919674,
+        "hse_minus_gga_snumat": -0.12825707046735513,
+        "mbj_minus_optb88_jarvis": 0.016831873087058025
+      },
+      "spacings": {
+        "expt_minus_gga_mp": 2.6046721799075625,
+        "hse_minus_gga_snumat": 3.540936752003322,
+        "mbj_minus_optb88_jarvis": 2.95575384650266
+      }
+    },
+    "halide": {
+      "converged": true,
+      "n_bridge_events": 4000,
+      "n_bridge_events_per_channel": {
+        "expt_zhuo": 113,
+        "jarvis_mbj": 1046,
+        "jarvis_optb88vdw": 2204,
+        "mp_gga": 2347,
+        "mp_gga_expsynth": 861,
+        "mp_r2scan": 1846,
+        "snumat_gga": 1546,
+        "snumat_hse": 1557
+      },
+      "n_records_per_channel": {
+        "expt_zhuo": 420,
+        "jarvis_mbj": 2459,
+        "jarvis_optb88vdw": 6507,
+        "mp_gga": 21859,
+        "mp_gga_expsynth": 7977,
+        "mp_r2scan": 4255,
+        "snumat_gga": 2767,
+        "snumat_hse": 2798
+      },
+      "offset_ci": {
+        "expt_zhuo": [
+          0.5806155114843338,
+          1.6819182913842783
+        ],
+        "jarvis_mbj": [
+          1.3546751792884746,
+          1.7566997242286795
+        ],
+        "jarvis_optb88vdw": [
+          -2.049552797765441,
+          -1.8001467883502684
+        ],
+        "mp_gga": [
+          -1.6209564138164347,
+          -1.3738022363608147
+        ],
+        "mp_gga_expsynth": [
+          -1.117915527287543,
+          -0.8501513946595505
+        ],
+        "mp_r2scan": [
+          0.3267101740730702,
+          0.5124473273776351
+        ],
+        "snumat_gga": [
+          -1.3959554729634036,
+          -1.1158924999464186
+        ],
+        "snumat_hse": [
+          2.3683918148261642,
+          2.6731615027313715
+        ]
+      },
+      "offset_ref_ci": {
+        "expt_zhuo": [
+          2.027362199841544,
+          3.2164432740279345
+        ],
+        "jarvis_mbj": [
+          2.8103673992029314,
+          3.271421284530414
+        ],
+        "jarvis_optb88vdw": [
+          -0.5131939718687993,
+          -0.31886161253853734
+        ],
+        "mp_gga": [
+          0.0,
+          0.0
+        ],
+        "mp_gga_expsynth": [
+          0.411248862493228,
+          0.6193696971794521
+        ],
+        "mp_r2scan": [
+          1.7976476082009605,
+          2.0306181257895513
+        ],
+        "snumat_gga": [
+          0.0965998975726426,
+          0.3684033711648124
+        ],
+        "snumat_hse": [
+          3.805079624343871,
+          4.1660665384908535
+        ]
+      },
+      "offsets": {
+        "expt_zhuo": 1.154690657098633,
+        "jarvis_mbj": 1.5409917846680858,
+        "jarvis_optb88vdw": -1.908551035899761,
+        "mp_gga": -1.4879946152103039,
+        "mp_gga_expsynth": -0.9810616961415686,
+        "mp_r2scan": 0.42335996448285884,
+        "snumat_gga": -1.2470867923831972,
+        "snumat_hse": 2.505651733385253
+      },
+      "offsets_ref": {
+        "expt_zhuo": 2.642685272308937,
+        "jarvis_mbj": 3.0289863998783897,
+        "jarvis_optb88vdw": -0.4205564206894572,
+        "mp_gga": 0.0,
+        "mp_gga_expsynth": 0.5069329190687353,
+        "mp_r2scan": 1.9113545796931626,
+        "snumat_gga": 0.24090782282710665,
+        "snumat_hse": 3.993646348595557
+      },
+      "pooled_vs_fast_max_dev": 3.019806626980426e-14,
+      "skipped": false,
+      "spacing_boot_valid": {
+        "expt_minus_gga_mp": 200,
+        "hse_minus_gga_snumat": 200,
+        "mbj_minus_optb88_jarvis": 200
+      },
+      "spacing_ci": {
+        "expt_minus_gga_mp": [
+          2.027362199841544,
+          3.2164432740279345
+        ],
+        "hse_minus_gga_snumat": [
+          3.5806045656776426,
+          3.961380143846586
+        ],
+        "mbj_minus_optb88_jarvis": [
+          3.2353575842507487,
+          3.6893714661252623
+        ]
+      },
+      "spacing_minus_global": {
+        "expt_minus_gga_mp": -0.375180126690593,
+        "hse_minus_gga_snumat": 0.08354470329777275,
+        "mbj_minus_optb88_jarvis": 0.5106208471522447
+      },
+      "spacings": {
+        "expt_minus_gga_mp": 2.642685272308937,
+        "hse_minus_gga_snumat": 3.75273852576845,
+        "mbj_minus_optb88_jarvis": 3.4495428205678467
+      }
+    },
+    "nitride": {
+      "converged": true,
+      "n_bridge_events": 901,
+      "n_bridge_events_per_channel": {
+        "expt_zhuo": 28,
+        "jarvis_mbj": 298,
+        "jarvis_optb88vdw": 511,
+        "mp_gga": 489,
+        "mp_gga_expsynth": 174,
+        "mp_r2scan": 353,
+        "snumat_gga": 386,
+        "snumat_hse": 390
+      },
+      "n_records_per_channel": {
+        "expt_zhuo": 71,
+        "jarvis_mbj": 473,
+        "jarvis_optb88vdw": 1022,
+        "mp_gga": 2945,
+        "mp_gga_expsynth": 1016,
+        "mp_r2scan": 475,
+        "snumat_gga": 483,
+        "snumat_hse": 501
+      },
+      "offset_ci": {
+        "expt_zhuo": [
+          1.385932357774927,
+          3.3930358185842904
+        ],
+        "jarvis_mbj": [
+          1.2274497846371206,
+          2.016492303357008
+        ],
+        "jarvis_optb88vdw": [
+          -1.6055843983907059,
+          -1.133112812965505
+        ],
+        "mp_gga": [
+          -2.338416319242025,
+          -1.7828377568194271
+        ],
+        "mp_gga_expsynth": [
+          -1.7026300655298592,
+          -1.0849913687277328
+        ],
+        "mp_r2scan": [
+          0.3240718609330309,
+          0.6917430214290146
+        ],
+        "snumat_gga": [
+          -2.0490924734308282,
+          -1.5234669379280008
+        ],
+        "snumat_hse": [
+          1.7570168601294216,
+          2.3847133153124367
+        ]
+      },
+      "offset_ref_ci": {
+        "expt_zhuo": [
+          3.1930635169469244,
+          5.54598939269562
+        ],
+        "jarvis_mbj": [
+          3.0995507604544064,
+          4.236666210329641
+        ],
+        "jarvis_optb88vdw": [
+          0.42283257565787774,
+          0.8809904231581271
+        ],
+        "mp_gga": [
+          0.0,
+          0.0
+        ],
+        "mp_gga_expsynth": [
+          0.3789389197340882,
+          0.8794126920801785
+        ],
+        "mp_r2scan": [
+          2.228981081534951,
+          2.819203427847256
+        ],
+        "snumat_gga": [
+          -0.043010942215611705,
+          0.46655993408434054
+        ],
+        "snumat_hse": [
+          3.6002362388221947,
+          4.555416749395182
+        ]
+      },
+      "offsets": {
+        "expt_zhuo": 2.274310367490347,
+        "jarvis_mbj": 1.612974126256445,
+        "jarvis_optb88vdw": -1.3509393172769417,
+        "mp_gga": -1.9858802282521317,
+        "mp_gga_expsynth": -1.3612342743537291,
+        "mp_r2scan": 0.5244709220223867,
+        "snumat_gga": -1.7679393984946032,
+        "snumat_hse": 2.054237802608227
+      },
+      "offsets_ref": {
+        "expt_zhuo": 4.260190595742479,
+        "jarvis_mbj": 3.5988543545085765,
+        "jarvis_optb88vdw": 0.63494091097519,
+        "mp_gga": 0.0,
+        "mp_gga_expsynth": 0.6246459538984026,
+        "mp_r2scan": 2.510351150274518,
+        "snumat_gga": 0.2179408297575285,
+        "snumat_hse": 4.040118030860359
+      },
+      "pooled_vs_fast_max_dev": 2.886579864025407e-15,
+      "skipped": false,
+      "spacing_boot_valid": {
+        "expt_minus_gga_mp": 200,
+        "hse_minus_gga_snumat": 200,
+        "mbj_minus_optb88_jarvis": 200
+      },
+      "spacing_ci": {
+        "expt_minus_gga_mp": [
+          3.1930635169469244,
+          5.54598939269562
+        ],
+        "hse_minus_gga_snumat": [
+          3.3808651814146904,
+          4.426140055391275
+        ],
+        "mbj_minus_optb88_jarvis": [
+          2.5727095086105782,
+          3.525302764463674
+        ]
+      },
+      "spacing_minus_global": {
+        "expt_minus_gga_mp": 1.2423251967429492,
+        "hse_minus_gga_snumat": 0.15298337863215306,
+        "mbj_minus_optb88_jarvis": 0.024991470117784687
+      },
+      "spacings": {
+        "expt_minus_gga_mp": 4.260190595742479,
+        "hse_minus_gga_snumat": 3.8221772011028303,
+        "mbj_minus_optb88_jarvis": 2.9639134435333867
+      }
+    },
+    "oxide": {
+      "converged": true,
+      "n_bridge_events": 4000,
+      "n_bridge_events_per_channel": {
+        "expt_zhuo": 124,
+        "jarvis_mbj": 794,
+        "jarvis_optb88vdw": 1830,
+        "mp_gga": 2472,
+        "mp_gga_expsynth": 1279,
+        "mp_r2scan": 1478,
+        "snumat_gga": 1553,
+        "snumat_hse": 1571
+      },
+      "n_records_per_channel": {
+        "expt_zhuo": 551,
+        "jarvis_mbj": 3032,
+        "jarvis_optb88vdw": 9623,
+        "mp_gga": 54102,
+        "mp_gga_expsynth": 13295,
+        "mp_r2scan": 5517,
+        "snumat_gga": 3737,
+        "snumat_hse": 3866
+      },
+      "offset_ci": {
+        "expt_zhuo": [
+          0.7405747567126503,
+          1.8179588256631458
+        ],
+        "jarvis_mbj": [
+          1.1938286408622012,
+          1.6493549768923836
+        ],
+        "jarvis_optb88vdw": [
+          -1.5791065042143513,
+          -1.3309450207329832
+        ],
+        "mp_gga": [
+          -1.644109384258664,
+          -1.398381103605718
+        ],
+        "mp_gga_expsynth": [
+          -1.098737016672413,
+          -0.8157910765102989
+        ],
+        "mp_r2scan": [
+          0.18013957771957628,
+          0.4095172981878849
+        ],
+        "snumat_gga": [
+          -1.52302309650572,
+          -1.2172573584346924
+        ],
+        "snumat_hse": [
+          2.1658724636882516,
+          2.518807410486715
+        ]
+      },
+      "offset_ref_ci": {
+        "expt_zhuo": [
+          2.1579105148313986,
+          3.437676666638002
+        ],
+        "jarvis_mbj": [
+          2.6887075305045323,
+          3.2215710159149125
+        ],
+        "jarvis_optb88vdw": [
+          -0.04805421714331897,
+          0.16739745691872526
+        ],
+        "mp_gga": [
+          0.0,
+          0.0
+        ],
+        "mp_gga_expsynth": [
+          0.4899620224443514,
+          0.6671363297187534
+        ],
+        "mp_r2scan": [
+          1.678066145965969,
+          1.9423205391409297
+        ],
+        "snumat_gga": [
+          0.029680651115978753,
+          0.27359246066889753
+        ],
+        "snumat_hse": [
+          3.6587645105262836,
+          4.09516564054688
+        ]
+      },
+      "offsets": {
+        "expt_zhuo": 1.186325610805801,
+        "jarvis_mbj": 1.4434050730753665,
+        "jarvis_optb88vdw": -1.4488465067458254,
+        "mp_gga": -1.5161509301913914,
+        "mp_gga_expsynth": -0.9436447794850842,
+        "mp_r2scan": 0.29267567572856795,
+        "snumat_gga": -1.360269631257123,
+        "snumat_hse": 2.346505488069688
+      },
+      "offsets_ref": {
+        "expt_zhuo": 2.7024765409971923,
+        "jarvis_mbj": 2.9595560032667576,
+        "jarvis_optb88vdw": 0.06730442344556598,
+        "mp_gga": 0.0,
+        "mp_gga_expsynth": 0.5725061507063072,
+        "mp_r2scan": 1.8088266059199594,
+        "snumat_gga": 0.1558812989342684,
+        "snumat_hse": 3.8626564182610794
+      },
+      "pooled_vs_fast_max_dev": 3.697042672001771e-14,
+      "skipped": false,
+      "spacing_boot_valid": {
+        "expt_minus_gga_mp": 200,
+        "hse_minus_gga_snumat": 200,
+        "mbj_minus_optb88_jarvis": 200
+      },
+      "spacing_ci": {
+        "expt_minus_gga_mp": [
+          2.1579105148313986,
+          3.437676666638002
+        ],
+        "hse_minus_gga_snumat": [
+          3.5257402653102927,
+          3.9770749172270867
+        ],
+        "mbj_minus_optb88_jarvis": [
+          2.6492467923589214,
+          3.1693241522209834
+        ]
+      },
+      "spacing_minus_global": {
+        "expt_minus_gga_mp": -0.3153888580023376,
+        "hse_minus_gga_snumat": 0.03758129685613376,
+        "mbj_minus_optb88_jarvis": -0.046670393594410164
+      },
+      "spacings": {
+        "expt_minus_gga_mp": 2.7024765409971923,
+        "hse_minus_gga_snumat": 3.706775119326811,
+        "mbj_minus_optb88_jarvis": 2.892251579821192
+      }
+    }
+  },
+  "gauge_note": "Offsets are zero-mean in log space over present channels (the trial's gauge: geometric mean 1). offsets_ref are delta_c - delta_mp_gga (gauge-invariant); spacings are gauge-invariant.",
+  "global": {
+    "converged": true,
+    "full_pooled_vs_bridges_only_max_dev": 4.845551616394772e-05,
+    "n_bridge_events": 4000,
+    "n_within_events": 2400,
+    "offset_ci": {
+      "expt_zhuo": [
+        1.1090924094693453,
+        1.7126627011276496
+      ],
+      "jarvis_mbj": [
+        1.295343203336224,
+        1.567715635120294
+      ],
+      "jarvis_optb88vdw": [
+        -1.6015987384390644,
+        -1.4056047220677532
+      ],
+      "mp_gga": [
+        -1.704693518830637,
+        -1.4585497587353822
+      ],
+      "mp_gga_expsynth": [
+        -1.0687223300417938,
+        -0.8276670145904973
+      ],
+      "mp_r2scan": [
+        0.37311308181327174,
+        0.5081464501618564
+      ],
+      "snumat_gga": [
+        -1.6105082689488266,
+        -1.3656690804006142
+      ],
+      "snumat_hse": [
+        2.0443826187319654,
+        2.3136465230741066
+      ]
+    },
+    "offset_ref_ci": {
+      "expt_zhuo": [
+        2.6381717048953806,
+        3.416245643733152
+      ],
+      "jarvis_mbj": [
+        2.78140681771225,
+        3.1968852114234507
+      ],
+      "jarvis_optb88vdw": [
+        -0.0351793962296613,
+        0.16784612429274834
+      ],
+      "mp_gga": [
+        0.0,
+        0.0
+      ],
+      "mp_gga_expsynth": [
+        0.5381943675857032,
+        0.7123057939505242
+      ],
+      "mp_r2scan": [
+        1.8841781446605192,
+        2.1477605212829727
+      ],
+      "snumat_gga": [
+        -0.0351160816091796,
+        0.2337983202501336
+      ],
+      "snumat_hse": [
+        3.532762941357746,
+        3.987226225317965
+      ]
+    },
+    "offsets": {
+      "expt_zhuo": 1.4412514517026038,
+      "jarvis_mbj": 1.4339319094917728,
+      "jarvis_optb88vdw": -1.5049900639238294,
+      "mp_gga": -1.5766139472969263,
+      "mp_gga_expsynth": -0.9433646329329306,
+      "mp_r2scan": 0.4429524806783565,
+      "snumat_gga": -1.4811805100948623,
+      "snumat_hse": 2.188013312375815
+    },
+    "offsets_ref": {
+      "expt_zhuo": 3.01786539899953,
+      "jarvis_mbj": 3.010545856788699,
+      "jarvis_optb88vdw": 0.07162388337309689,
+      "mp_gga": 0.0,
+      "mp_gga_expsynth": 0.6332493143639957,
+      "mp_r2scan": 2.019566427975283,
+      "snumat_gga": 0.09543343720206399,
+      "snumat_hse": 3.7646272596727415
+    },
+    "spacing_boot_valid": {
+      "expt_minus_gga_mp": 200,
+      "hse_minus_gga_snumat": 200,
+      "mbj_minus_optb88_jarvis": 200
+    },
+    "spacing_ci": {
+      "expt_minus_gga_mp": [
+        2.6381717048953806,
+        3.416245643733152
+      ],
+      "hse_minus_gga_snumat": [
+        3.4682674324610474,
+        3.878735954511977
+      ],
+      "mbj_minus_optb88_jarvis": [
+        2.729819685559566,
+        3.11583121667993
+      ]
+    },
+    "spacings": {
+      "expt_minus_gga_mp": 3.01786539899953,
+      "hse_minus_gga_snumat": 3.6691938224706773,
+      "mbj_minus_optb88_jarvis": 2.938921973415602
+    }
+  },
+  "holdout": {
+    "ci": [
+      0.005069485838453467,
+      0.01677933463086888
+    ],
+    "holdout_frac": 0.2,
+    "mean_ll_diff_family_minus_global": 0.010939106563116441,
+    "n_test_events": 2483,
+    "n_test_events_with_unseen_channel": 0,
+    "n_train_events": 9935,
+    "note": "Bridge events only: they alone carry offset information and route to a unique family. Global model refitted on the pooled training events (same pool as the family models) for an apples-to-apples comparison.",
+    "params_family_free": 28,
+    "params_family_offsets": 32,
+    "params_global_free": 7,
+    "params_global_offsets": 8,
+    "per_family": {
+      "chalcogenide": {
+        "mean_ll_diff": 0.006538154799768699,
+        "n_test": 703
+      },
+      "halide": {
+        "mean_ll_diff": 0.0071403090628486465,
+        "n_test": 800
+      },
+      "nitride": {
+        "mean_ll_diff": 0.05369977098700947,
+        "n_test": 180
+      },
+      "oxide": {
+        "mean_ll_diff": 0.008984090930050126,
+        "n_test": 800
+      }
+    }
+  },
+  "n_spacings_with_disjoint_extreme_cis": 2,
+  "universe": {
+    "channels_kept": [
+      "expt_zhuo",
+      "jarvis_mbj",
+      "jarvis_optb88vdw",
+      "mp_gga",
+      "mp_gga_expsynth",
+      "mp_r2scan",
+      "snumat_gga",
+      "snumat_hse"
+    ],
+    "n_seen": 261053,
+    "n_used": 192257,
+    "path": "shared/output/bandgap_archive_build/bandgap_universe.jsonl"
+  },
+  "verdict": "CHEMISTRY-DEPENDENT: ladder spacings differ across families beyond bootstrap uncertainty AND the family-resolved model wins the held-out comparison. Additivity is violated at the current resolution."
+}

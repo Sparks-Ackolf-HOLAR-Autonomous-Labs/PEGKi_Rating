@@ -1,0 +1,14 @@
+{
+ "mp_1367_Mg2Si": {
+  "property": "formation_energy",
+  "value": -0.26885606474014795,
+  "sem": null,
+  "unit": "eV/atom",
+  "temperature_K": 298.15,
+  "formula": "Mg2Si",
+  "source_ref": "NIST-JANAF Thermochemical Tables, table Mg-034 (doi:10.18434/T42S31); as carried in the Wang/Kingsbury compilation (matminer expt_formation_enthalpy_kingsbury, doi:10.1038/s41598-021-94550-5), value -0.26886 eV/atom, likely_mpid mp-1367",
+  "method": "critically evaluated standard enthalpy of formation (JANAF compilation; uncertainty not given in the machine-readable table or the compilation)",
+  "mapping": "compilation likely_mpid mp-1367 equals candidate mpid; also the lowest-PBE Mg2Si candidate",
+  "status": "ok"
+ }
+}

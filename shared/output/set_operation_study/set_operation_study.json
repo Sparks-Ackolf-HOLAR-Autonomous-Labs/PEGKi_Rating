@@ -1,0 +1,817 @@
+{
+  "config": {
+    "universe": "shared/output/bandgap_archive_build/bandgap_universe.jsonl",
+    "tol": 0.3,
+    "n_events": 300,
+    "min_class_size": 30,
+    "min_derived_class_size": 20,
+    "n_boot": 30,
+    "n_rep": 50,
+    "seed": 0,
+    "output_dir": "output/set_operation_study"
+  },
+  "universe_sha256_16": "f2158ecdc78e0229",
+  "studies": {
+    "expt_zhuo": {
+      "label": "Experiment",
+      "classes": {
+        "chalcogenide": 2220,
+        "oxide": 551,
+        "halide": 420,
+        "pnictide": 495,
+        "other": 104,
+        "boride": 31,
+        "nitride": 71
+      }
+    },
+    "expt_zhuo|agree|mp_gga": {
+      "label": "Experiment where MP GGA agrees with",
+      "classes": {
+        "chalcogenide": 451,
+        "halide": 75,
+        "oxide": 97,
+        "pnictide": 118
+      }
+    },
+    "expt_zhuo|covered|mp_gga": {
+      "label": "Experiment, compounds also in MP GGA",
+      "classes": {
+        "chalcogenide": 1289,
+        "halide": 357,
+        "other": 34,
+        "oxide": 394,
+        "pnictide": 283
+      }
+    },
+    "expt_zhuo|disagree|mp_gga": {
+      "label": "Experiment where MP GGA disagrees with",
+      "classes": {
+        "chalcogenide": 838,
+        "halide": 282,
+        "oxide": 297,
+        "pnictide": 165
+      }
+    },
+    "expt_zhuo|uncovered|mp_gga": {
+      "label": "Experiment, compounds absent from MP GGA",
+      "classes": {
+        "chalcogenide": 931,
+        "halide": 63,
+        "other": 70,
+        "oxide": 157,
+        "pnictide": 212
+      }
+    },
+    "jarvis_mbj": {
+      "label": "JARVIS TB-mBJ",
+      "classes": {
+        "chalcogenide": 1862,
+        "halide": 2459,
+        "oxide": 3032,
+        "other": 442,
+        "nitride": 473,
+        "pnictide": 584,
+        "boride": 78,
+        "carbide": 120
+      }
+    },
+    "jarvis_mbj|agree|jarvis_optb88vdw": {
+      "label": "JARVIS TB-mBJ where JARVIS OptB88vdW agrees with",
+      "classes": {
+        "carbide": 24,
+        "chalcogenide": 658,
+        "halide": 676,
+        "nitride": 180,
+        "other": 36,
+        "oxide": 753,
+        "pnictide": 200
+      }
+    },
+    "jarvis_mbj|covered|mp_gga": {
+      "label": "JARVIS TB-mBJ, compounds also in MP GGA",
+      "classes": {
+        "boride": 49,
+        "carbide": 96,
+        "chalcogenide": 1412,
+        "halide": 2097,
+        "nitride": 366,
+        "other": 296,
+        "oxide": 2412,
+        "pnictide": 378
+      }
+    },
+    "jarvis_mbj|disagree|jarvis_optb88vdw": {
+      "label": "JARVIS TB-mBJ where JARVIS OptB88vdW disagrees with",
+      "classes": {
+        "carbide": 84,
+        "chalcogenide": 1079,
+        "halide": 1630,
+        "nitride": 271,
+        "other": 306,
+        "oxide": 2164,
+        "pnictide": 270
+      }
+    },
+    "jarvis_mbj|uncovered|mp_gga": {
+      "label": "JARVIS TB-mBJ, compounds absent from MP GGA",
+      "classes": {
+        "boride": 29,
+        "carbide": 24,
+        "chalcogenide": 450,
+        "halide": 362,
+        "nitride": 107,
+        "other": 146,
+        "oxide": 620,
+        "pnictide": 206
+      }
+    },
+    "jarvis_optb88vdw": {
+      "label": "JARVIS OptB88vdW",
+      "classes": {
+        "nitride": 1022,
+        "oxide": 9623,
+        "halide": 6507,
+        "pnictide": 824,
+        "chalcogenide": 3826,
+        "boride": 133,
+        "other": 668,
+        "carbide": 188
+      }
+    },
+    "mp_gga": {
+      "label": "MP GGA",
+      "classes": {
+        "oxide": 54102,
+        "halide": 21859,
+        "chalcogenide": 9487,
+        "boride": 313,
+        "pnictide": 3035,
+        "other": 2644,
+        "nitride": 2945,
+        "carbide": 311
+      }
+    },
+    "mp_gga_expsynth": {
+      "label": "MP GGA (ICSD-matched)",
+      "classes": {
+        "oxide": 13295,
+        "chalcogenide": 3334,
+        "halide": 7977,
+        "pnictide": 746,
+        "other": 424,
+        "nitride": 1016,
+        "carbide": 177,
+        "boride": 147
+      }
+    },
+    "mp_r2scan": {
+      "label": "MP r2SCAN",
+      "classes": {
+        "chalcogenide": 2630,
+        "oxide": 5517,
+        "halide": 4255,
+        "pnictide": 743,
+        "nitride": 475,
+        "other": 399,
+        "carbide": 76,
+        "boride": 61
+      }
+    },
+    "snumat_gga": {
+      "label": "SNUMAT GGA",
+      "classes": {
+        "nitride": 483,
+        "chalcogenide": 2167,
+        "oxide": 3737,
+        "halide": 2767,
+        "other": 227,
+        "pnictide": 565,
+        "carbide": 86,
+        "boride": 40
+      }
+    },
+    "snumat_hse": {
+      "label": "SNUMAT HSE06",
+      "classes": {
+        "oxide": 3866,
+        "halide": 2798,
+        "nitride": 501,
+        "chalcogenide": 2268,
+        "pnictide": 651,
+        "other": 259,
+        "carbide": 93,
+        "boride": 44
+      }
+    },
+    "snumat_hse|agree|snumat_gga": {
+      "label": "SNUMAT HSE06 where SNUMAT GGA agrees with",
+      "classes": {
+        "carbide": 57,
+        "chalcogenide": 1342,
+        "halide": 1340,
+        "nitride": 311,
+        "other": 89,
+        "oxide": 1559,
+        "pnictide": 69
+      }
+    },
+    "snumat_hse|covered|jarvis_optb88vdw": {
+      "label": "SNUMAT HSE06, compounds also in JARVIS OptB88vdW",
+      "classes": {
+        "carbide": 69,
+        "chalcogenide": 1244,
+        "halide": 1454,
+        "nitride": 263,
+        "other": 174,
+        "oxide": 1799,
+        "pnictide": 354
+      }
+    },
+    "snumat_hse|disagree|snumat_gga": {
+      "label": "SNUMAT HSE06 where SNUMAT GGA disagrees with",
+      "classes": {
+        "carbide": 31,
+        "chalcogenide": 840,
+        "halide": 1430,
+        "nitride": 178,
+        "other": 143,
+        "oxide": 2208,
+        "pnictide": 500
+      }
+    },
+    "snumat_hse|uncovered|jarvis_optb88vdw": {
+      "label": "SNUMAT HSE06, compounds absent from JARVIS OptB88vdW",
+      "classes": {
+        "carbide": 24,
+        "chalcogenide": 1024,
+        "halide": 1344,
+        "nitride": 238,
+        "other": 85,
+        "oxide": 2067,
+        "pnictide": 297
+      }
+    }
+  },
+  "delta": {
+    "expt_zhuo->jarvis_mbj": 1.0001667003504677,
+    "expt_zhuo->jarvis_mbj|agree|jarvis_optb88vdw": 0.9567021386142909,
+    "expt_zhuo->jarvis_mbj|covered|mp_gga": 0.976641396639958,
+    "expt_zhuo->jarvis_mbj|disagree|jarvis_optb88vdw": 0.9907860947780294,
+    "expt_zhuo->jarvis_mbj|uncovered|mp_gga": 0.955712813541636,
+    "expt_zhuo->jarvis_optb88vdw": 0.9429458442957371,
+    "expt_zhuo->mp_gga": 1.0051294739604963,
+    "expt_zhuo->mp_gga_expsynth": 1.0021532055449753,
+    "expt_zhuo->mp_r2scan": 0.9849716114972937,
+    "expt_zhuo->snumat_gga": 1.0115077827433783,
+    "expt_zhuo->snumat_hse": 1.0396751906588078,
+    "expt_zhuo->snumat_hse|agree|snumat_gga": 0.3777557400558623,
+    "expt_zhuo->snumat_hse|covered|jarvis_optb88vdw": 1.0139328501257592,
+    "expt_zhuo->snumat_hse|disagree|snumat_gga": 1.0821172902824931,
+    "expt_zhuo->snumat_hse|uncovered|jarvis_optb88vdw": 1.0140704873620479,
+    "jarvis_mbj->expt_zhuo": 0.9575560488192245,
+    "jarvis_mbj->expt_zhuo|agree|mp_gga": 0.9597489477299711,
+    "jarvis_mbj->expt_zhuo|covered|mp_gga": 0.9170052863071196,
+    "jarvis_mbj->expt_zhuo|disagree|mp_gga": 1.0155677394899214,
+    "jarvis_mbj->expt_zhuo|uncovered|mp_gga": 0.9073897626435286,
+    "jarvis_mbj->jarvis_optb88vdw": 1.1539286756650395,
+    "jarvis_mbj->mp_gga": 1.1199834553982861,
+    "jarvis_mbj->mp_gga_expsynth": 1.316929250769502,
+    "jarvis_mbj->mp_r2scan": 1.288004224482369,
+    "jarvis_mbj->snumat_gga": 1.2809882975030078,
+    "jarvis_mbj->snumat_hse": 1.229255357892367,
+    "jarvis_mbj->snumat_hse|agree|snumat_gga": 0.5106429219276784,
+    "jarvis_mbj->snumat_hse|covered|jarvis_optb88vdw": 1.2156442823634024,
+    "jarvis_mbj->snumat_hse|disagree|snumat_gga": 1.1086066568144493,
+    "jarvis_mbj->snumat_hse|uncovered|jarvis_optb88vdw": 1.1300105529035664,
+    "jarvis_optb88vdw->expt_zhuo": 0.7946824987605441,
+    "jarvis_optb88vdw->expt_zhuo|agree|mp_gga": 0.7431330198892278,
+    "jarvis_optb88vdw->expt_zhuo|covered|mp_gga": 0.7021011184756845,
+    "jarvis_optb88vdw->expt_zhuo|disagree|mp_gga": 0.788928848822643,
+    "jarvis_optb88vdw->expt_zhuo|uncovered|mp_gga": 0.7005130432096325,
+    "jarvis_optb88vdw->jarvis_mbj": 1.1719974161081963,
+    "jarvis_optb88vdw->jarvis_mbj|agree|jarvis_optb88vdw": 1.0556455405355578,
+    "jarvis_optb88vdw->jarvis_mbj|covered|mp_gga": 1.2216898231100963,
+    "jarvis_optb88vdw->jarvis_mbj|disagree|jarvis_optb88vdw": 1.0735411590266928,
+    "jarvis_optb88vdw->jarvis_mbj|uncovered|mp_gga": 0.9795376167350403,
+    "jarvis_optb88vdw->mp_gga": 1.1888154605552073,
+    "jarvis_optb88vdw->mp_gga_expsynth": 1.1967798162060561,
+    "jarvis_optb88vdw->mp_r2scan": 1.2653880645348392,
+    "jarvis_optb88vdw->snumat_gga": 1.1397604986478629,
+    "jarvis_optb88vdw->snumat_hse": 1.0266413831631167,
+    "jarvis_optb88vdw->snumat_hse|agree|snumat_gga": 0.7760492019044377,
+    "jarvis_optb88vdw->snumat_hse|covered|jarvis_optb88vdw": 1.011615623719909,
+    "jarvis_optb88vdw->snumat_hse|disagree|snumat_gga": 0.9053364261755892,
+    "jarvis_optb88vdw->snumat_hse|uncovered|jarvis_optb88vdw": 0.9005108913022687,
+    "mp_gga->expt_zhuo": 0.897482177340255,
+    "mp_gga->expt_zhuo|agree|mp_gga": 0.8292585405038702,
+    "mp_gga->expt_zhuo|covered|mp_gga": 0.8637805542209095,
+    "mp_gga->expt_zhuo|disagree|mp_gga": 0.8735023411383356,
+    "mp_gga->expt_zhuo|uncovered|mp_gga": 0.8379362385704587,
+    "mp_gga->jarvis_mbj": 1.1519903134946154,
+    "mp_gga->jarvis_mbj|agree|jarvis_optb88vdw": 1.04518846997787,
+    "mp_gga->jarvis_mbj|covered|mp_gga": 1.1842726228110225,
+    "mp_gga->jarvis_mbj|disagree|jarvis_optb88vdw": 1.0327630397138374,
+    "mp_gga->jarvis_mbj|uncovered|mp_gga": 1.0008613419616275,
+    "mp_gga->jarvis_optb88vdw": 1.180761221039392,
+    "mp_gga->mp_gga_expsynth": 1.1788124679703766,
+    "mp_gga->mp_r2scan": 1.2134440495234062,
+    "mp_gga->snumat_gga": 1.1186083197442258,
+    "mp_gga->snumat_hse": 1.0168376993726282,
+    "mp_gga->snumat_hse|agree|snumat_gga": 0.27036333088027154,
+    "mp_gga->snumat_hse|covered|jarvis_optb88vdw": 1.0123411682187906,
+    "mp_gga->snumat_hse|disagree|snumat_gga": 0.9490450057500042,
+    "mp_gga->snumat_hse|uncovered|jarvis_optb88vdw": 0.9225886677224302,
+    "mp_gga_expsynth->expt_zhuo": 0.9454710908125148,
+    "mp_gga_expsynth->expt_zhuo|agree|mp_gga": 0.8963674469651952,
+    "mp_gga_expsynth->expt_zhuo|covered|mp_gga": 0.8946635109895533,
+    "mp_gga_expsynth->expt_zhuo|disagree|mp_gga": 0.9441556426127609,
+    "mp_gga_expsynth->expt_zhuo|uncovered|mp_gga": 0.8822804754563862,
+    "mp_gga_expsynth->jarvis_mbj": 1.3467843715373204,
+    "mp_gga_expsynth->jarvis_mbj|agree|jarvis_optb88vdw": 1.1903073862444808,
+    "mp_gga_expsynth->jarvis_mbj|covered|mp_gga": 1.209792689334835,
+    "mp_gga_expsynth->jarvis_mbj|disagree|jarvis_optb88vdw": 1.2415068895025947,
+    "mp_gga_expsynth->jarvis_mbj|uncovered|mp_gga": 1.2372362099811969,
+    "mp_gga_expsynth->jarvis_optb88vdw": 1.1945922045849904,
+    "mp_gga_expsynth->mp_gga": 1.1472030943888962,
+    "mp_gga_expsynth->mp_r2scan": 1.2585823005021644,
+    "mp_gga_expsynth->snumat_gga": 1.26875966842301,
+    "mp_gga_expsynth->snumat_hse": 1.1805052956972482,
+    "mp_gga_expsynth->snumat_hse|agree|snumat_gga": 0.5483996034174495,
+    "mp_gga_expsynth->snumat_hse|covered|jarvis_optb88vdw": 1.1728695454702969,
+    "mp_gga_expsynth->snumat_hse|disagree|snumat_gga": 1.0834317940126292,
+    "mp_gga_expsynth->snumat_hse|uncovered|jarvis_optb88vdw": 1.0787761361744195,
+    "mp_r2scan->expt_zhuo": 0.9106399412351827,
+    "mp_r2scan->expt_zhuo|agree|mp_gga": 0.936402973135321,
+    "mp_r2scan->expt_zhuo|covered|mp_gga": 0.8800220786981163,
+    "mp_r2scan->expt_zhuo|disagree|mp_gga": 0.9800457652090069,
+    "mp_r2scan->expt_zhuo|uncovered|mp_gga": 0.869286499538107,
+    "mp_r2scan->jarvis_mbj": 1.291365859133292,
+    "mp_r2scan->jarvis_mbj|agree|jarvis_optb88vdw": 1.2239189911887287,
+    "mp_r2scan->jarvis_mbj|covered|mp_gga": 1.3581552254031526,
+    "mp_r2scan->jarvis_mbj|disagree|jarvis_optb88vdw": 1.1965809770683284,
+    "mp_r2scan->jarvis_mbj|uncovered|mp_gga": 1.126011255706891,
+    "mp_r2scan->jarvis_optb88vdw": 1.2247309542996545,
+    "mp_r2scan->mp_gga": 1.1240700877228431,
+    "mp_r2scan->mp_gga_expsynth": 1.281667684716517,
+    "mp_r2scan->snumat_gga": 1.2439380750410893,
+    "mp_r2scan->snumat_hse": 1.125182984852098,
+    "mp_r2scan->snumat_hse|agree|snumat_gga": 0.6225057684941057,
+    "mp_r2scan->snumat_hse|covered|jarvis_optb88vdw": 1.1320007101409444,
+    "mp_r2scan->snumat_hse|disagree|snumat_gga": 1.0081962930628814,
+    "mp_r2scan->snumat_hse|uncovered|jarvis_optb88vdw": 1.0038987539437862,
+    "snumat_gga->expt_zhuo": 0.9860613094083283,
+    "snumat_gga->expt_zhuo|agree|mp_gga": 0.9389406295499076,
+    "snumat_gga->expt_zhuo|covered|mp_gga": 0.9008498585483542,
+    "snumat_gga->expt_zhuo|disagree|mp_gga": 0.9817708228783636,
+    "snumat_gga->expt_zhuo|uncovered|mp_gga": 0.8842537405044788,
+    "snumat_gga->jarvis_mbj": 1.3507860166489247,
+    "snumat_gga->jarvis_mbj|agree|jarvis_optb88vdw": 1.1733555965675382,
+    "snumat_gga->jarvis_mbj|covered|mp_gga": 1.2631937608823667,
+    "snumat_gga->jarvis_mbj|disagree|jarvis_optb88vdw": 1.2503245303004866,
+    "snumat_gga->jarvis_mbj|uncovered|mp_gga": 1.2079587068478619,
+    "snumat_gga->jarvis_optb88vdw": 1.16132619341007,
+    "snumat_gga->mp_gga": 1.0928349798552697,
+    "snumat_gga->mp_gga_expsynth": 1.336246590242703,
+    "snumat_gga->mp_r2scan": 1.2672149334120109,
+    "snumat_gga->snumat_hse": 1.286867234757041,
+    "snumat_gga->snumat_hse|agree|snumat_gga": 0.5746051961412462,
+    "snumat_gga->snumat_hse|covered|jarvis_optb88vdw": 1.2570762928215486,
+    "snumat_gga->snumat_hse|disagree|snumat_gga": 1.081189908464272,
+    "snumat_gga->snumat_hse|uncovered|jarvis_optb88vdw": 1.1775321240763896,
+    "snumat_hse->expt_zhuo": 1.0907013524988254,
+    "snumat_hse->expt_zhuo|agree|mp_gga": 1.0789760557723278,
+    "snumat_hse->expt_zhuo|covered|mp_gga": 1.0385784013889978,
+    "snumat_hse->expt_zhuo|disagree|mp_gga": 1.138536399290218,
+    "snumat_hse->expt_zhuo|uncovered|mp_gga": 1.030838747054557,
+    "snumat_hse->jarvis_mbj": 1.2895951182202752,
+    "snumat_hse->jarvis_mbj|agree|jarvis_optb88vdw": 1.207335722934957,
+    "snumat_hse->jarvis_mbj|covered|mp_gga": 1.2653615677378598,
+    "snumat_hse->jarvis_mbj|disagree|jarvis_optb88vdw": 1.3315110034511997,
+    "snumat_hse->jarvis_mbj|uncovered|mp_gga": 1.1566856283807547,
+    "snumat_hse->jarvis_optb88vdw": 1.1145140926637185,
+    "snumat_hse->mp_gga": 1.0735275663561454,
+    "snumat_hse->mp_gga_expsynth": 1.1892943043429833,
+    "snumat_hse->mp_r2scan": 1.2316410436822554,
+    "snumat_hse->snumat_gga": 1.3322092045550518
+  },
+  "h1_ownership": [
+    {
+      "agree": "expt_zhuo|agree|mp_gga",
+      "disagree": "expt_zhuo|disagree|mp_gga",
+      "n_shared": 1288,
+      "scissor_shift_eV": 0.6495500000000001,
+      "n_agree": 433,
+      "n_disagree": 855,
+      "classes": [
+        "chalcogenide",
+        "halide",
+        "oxide",
+        "pnictide"
+      ],
+      "records_agree": 741,
+      "records_disagree": 1582,
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo",
+      "delta_into_agree": 0.8292585405038702,
+      "delta_into_disagree": 0.8735023411383356,
+      "difference": -0.044243800634465424,
+      "ci95": [
+        -0.12377234351263851,
+        0.019187205818387787
+      ],
+      "supported": false
+    },
+    {
+      "agree": "snumat_hse|agree|snumat_gga",
+      "disagree": "snumat_hse|disagree|snumat_gga",
+      "n_shared": 8412,
+      "scissor_shift_eV": 1.0103145,
+      "n_agree": 4068,
+      "n_disagree": 4344,
+      "classes": [
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "records_agree": 4767,
+      "records_disagree": 5330,
+      "donor": "snumat_gga",
+      "receiver": "snumat_hse",
+      "delta_into_agree": 0.5746051961412462,
+      "delta_into_disagree": 1.081189908464272,
+      "difference": -0.5065847123230258,
+      "ci95": [
+        -0.6585799618410852,
+        -0.26723970779803347
+      ],
+      "supported": false
+    },
+    {
+      "agree": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "disagree": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "n_shared": 5865,
+      "scissor_shift_eV": 0.8570000000000002,
+      "n_agree": 1837,
+      "n_disagree": 4028,
+      "classes": [
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "records_agree": 2527,
+      "records_disagree": 5804,
+      "donor": "jarvis_optb88vdw",
+      "receiver": "jarvis_mbj",
+      "delta_into_agree": 1.0556455405355578,
+      "delta_into_disagree": 1.0735411590266928,
+      "difference": -0.017895618491134968,
+      "ci95": [
+        -0.13449865275608533,
+        0.033374866552792586
+      ],
+      "supported": false
+    }
+  ],
+  "h2_rerouting": [
+    {
+      "receiver_study": "expt_zhuo|agree|mp_gga",
+      "label": "Experiment where MP GGA agrees with",
+      "defining_donor": "mp_gga",
+      "ranking": [
+        [
+          "snumat_hse",
+          1.0789760557723278
+        ],
+        [
+          "jarvis_mbj",
+          0.9597489477299711
+        ],
+        [
+          "snumat_gga",
+          0.9389406295499076
+        ],
+        [
+          "mp_r2scan",
+          0.936402973135321
+        ],
+        [
+          "mp_gga_expsynth",
+          0.8963674469651952
+        ],
+        [
+          "mp_gga",
+          0.8292585405038702
+        ],
+        [
+          "jarvis_optb88vdw",
+          0.7431330198892278
+        ]
+      ],
+      "best_donor": "snumat_hse",
+      "best_minus_defining": 0.24971751526845765,
+      "ci95": [
+        0.17205271921727602,
+        0.3412601981955845
+      ]
+    },
+    {
+      "receiver_study": "expt_zhuo|disagree|mp_gga",
+      "label": "Experiment where MP GGA disagrees with",
+      "defining_donor": "mp_gga",
+      "ranking": [
+        [
+          "snumat_hse",
+          1.138536399290218
+        ],
+        [
+          "jarvis_mbj",
+          1.0155677394899214
+        ],
+        [
+          "snumat_gga",
+          0.9817708228783636
+        ],
+        [
+          "mp_r2scan",
+          0.9800457652090069
+        ],
+        [
+          "mp_gga_expsynth",
+          0.9441556426127609
+        ],
+        [
+          "mp_gga",
+          0.8735023411383356
+        ],
+        [
+          "jarvis_optb88vdw",
+          0.788928848822643
+        ]
+      ],
+      "best_donor": "snumat_hse",
+      "best_minus_defining": 0.2650340581518824,
+      "ci95": [
+        0.16559595843184147,
+        0.35053235307507424
+      ]
+    },
+    {
+      "receiver_study": "snumat_hse|agree|snumat_gga",
+      "label": "SNUMAT HSE06 where SNUMAT GGA agrees with",
+      "defining_donor": "snumat_gga",
+      "ranking": [
+        [
+          "jarvis_optb88vdw",
+          0.7760492019044377
+        ],
+        [
+          "mp_r2scan",
+          0.6225057684941057
+        ],
+        [
+          "snumat_gga",
+          0.5746051961412462
+        ],
+        [
+          "mp_gga_expsynth",
+          0.5483996034174495
+        ],
+        [
+          "jarvis_mbj",
+          0.5106429219276784
+        ],
+        [
+          "expt_zhuo",
+          0.3777557400558623
+        ],
+        [
+          "mp_gga",
+          0.27036333088027154
+        ]
+      ],
+      "best_donor": "jarvis_optb88vdw",
+      "best_minus_defining": 0.20144400576319155,
+      "ci95": [
+        0.03230333141732848,
+        0.28485397022726006
+      ]
+    },
+    {
+      "receiver_study": "snumat_hse|disagree|snumat_gga",
+      "label": "SNUMAT HSE06 where SNUMAT GGA disagrees with",
+      "defining_donor": "snumat_gga",
+      "ranking": [
+        [
+          "jarvis_mbj",
+          1.1086066568144493
+        ],
+        [
+          "mp_gga_expsynth",
+          1.0834317940126292
+        ],
+        [
+          "expt_zhuo",
+          1.0821172902824931
+        ],
+        [
+          "snumat_gga",
+          1.081189908464272
+        ],
+        [
+          "mp_r2scan",
+          1.0081962930628814
+        ],
+        [
+          "mp_gga",
+          0.9490450057500042
+        ],
+        [
+          "jarvis_optb88vdw",
+          0.9053364261755892
+        ]
+      ],
+      "best_donor": "jarvis_mbj",
+      "best_minus_defining": 0.027416748350177267,
+      "ci95": [
+        -0.05564354158423455,
+        0.11154728528430548
+      ]
+    },
+    {
+      "receiver_study": "jarvis_mbj|agree|jarvis_optb88vdw",
+      "label": "JARVIS TB-mBJ where JARVIS OptB88vdW agrees with",
+      "defining_donor": "jarvis_optb88vdw",
+      "ranking": [
+        [
+          "mp_r2scan",
+          1.2239189911887287
+        ],
+        [
+          "snumat_hse",
+          1.207335722934957
+        ],
+        [
+          "mp_gga_expsynth",
+          1.1903073862444808
+        ],
+        [
+          "snumat_gga",
+          1.1733555965675382
+        ],
+        [
+          "jarvis_optb88vdw",
+          1.0556455405355578
+        ],
+        [
+          "mp_gga",
+          1.04518846997787
+        ],
+        [
+          "expt_zhuo",
+          0.9567021386142909
+        ]
+      ],
+      "best_donor": "mp_r2scan",
+      "best_minus_defining": 0.1682734506531709,
+      "ci95": [
+        0.02729726871821992,
+        0.20574921041173064
+      ]
+    },
+    {
+      "receiver_study": "jarvis_mbj|disagree|jarvis_optb88vdw",
+      "label": "JARVIS TB-mBJ where JARVIS OptB88vdW disagrees with",
+      "defining_donor": "jarvis_optb88vdw",
+      "ranking": [
+        [
+          "snumat_hse",
+          1.3315110034511997
+        ],
+        [
+          "snumat_gga",
+          1.2503245303004866
+        ],
+        [
+          "mp_gga_expsynth",
+          1.2415068895025947
+        ],
+        [
+          "mp_r2scan",
+          1.1965809770683284
+        ],
+        [
+          "jarvis_optb88vdw",
+          1.0735411590266928
+        ],
+        [
+          "mp_gga",
+          1.0327630397138374
+        ],
+        [
+          "expt_zhuo",
+          0.9907860947780294
+        ]
+      ],
+      "best_donor": "snumat_hse",
+      "best_minus_defining": 0.2579698444245069,
+      "ci95": [
+        0.13643272778676863,
+        0.33260239627266025
+      ]
+    }
+  ],
+  "h3_coverage": [
+    {
+      "covered": "expt_zhuo|covered|mp_gga",
+      "uncovered": "expt_zhuo|uncovered|mp_gga",
+      "classes": [
+        "chalcogenide",
+        "halide",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "n_compounds_covered": 1288,
+      "n_compounds_uncovered": 1183,
+      "records_covered": 2357,
+      "records_uncovered": 1433,
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo",
+      "delta_into_covered": 0.8637805542209095,
+      "delta_into_uncovered": 0.8379362385704587,
+      "difference": 0.025844315650450755,
+      "ci95": [
+        -0.05424376500758354,
+        0.1157564125515735
+      ]
+    },
+    {
+      "covered": "jarvis_mbj|covered|mp_gga",
+      "uncovered": "jarvis_mbj|uncovered|mp_gga",
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "n_compounds_covered": 4864,
+      "n_compounds_uncovered": 1575,
+      "records_covered": 7106,
+      "records_uncovered": 1944,
+      "donor": "mp_gga",
+      "receiver": "jarvis_mbj",
+      "delta_into_covered": 1.1842726228110225,
+      "delta_into_uncovered": 1.0008613419616275,
+      "difference": 0.18341128084939506,
+      "ci95": [
+        0.04636793830482894,
+        0.37054281025659863
+      ]
+    },
+    {
+      "covered": "snumat_hse|covered|jarvis_optb88vdw",
+      "uncovered": "snumat_hse|uncovered|jarvis_optb88vdw",
+      "classes": [
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "n_compounds_covered": 4004,
+      "n_compounds_uncovered": 4725,
+      "records_covered": 5357,
+      "records_uncovered": 5079,
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_hse",
+      "delta_into_covered": 1.011615623719909,
+      "delta_into_uncovered": 0.9005108913022687,
+      "difference": 0.1111047324176403,
+      "ci95": [
+        -0.0011051051032685312,
+        0.21646618448034705
+      ]
+    }
+  ],
+  "routing_lp_all_studies": {
+    "expt_zhuo|disagree|mp_gga": 0.10813857582984987,
+    "jarvis_mbj|agree|jarvis_optb88vdw": 0.27265335552596554,
+    "jarvis_optb88vdw": 0.3481396457665738,
+    "mp_r2scan": 0.27106842287761085
+  },
+  "routing_weight_on_derived": 0.3807919313558154
+}

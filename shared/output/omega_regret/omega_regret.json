@@ -1,0 +1,1799 @@
+{
+  "inputs": {
+    "input_dir": "shared/output/bandgap_cluster_run2/paired_campaign_k4",
+    "phase3_omega": "shared/output/bandgap_cluster_run1/jarvis_phase3/omega_decomposition.json",
+    "n_checkpoint_files": 400,
+    "early_window_checkpoints": [
+      24,
+      48,
+      72,
+      96,
+      120
+    ],
+    "receivers": [
+      "expt_zhuo",
+      "jarvis_mbj",
+      "jarvis_optb88vdw",
+      "mp_gga",
+      "mp_gga_expsynth",
+      "mp_r2scan",
+      "snumat_gga",
+      "snumat_hse"
+    ],
+    "bootstrap_seed": 42
+  },
+  "definition": "omega_regret(A->B) = mean over matched seeds of the average over early-window checkpoints of max(0, tau_cold(b) - tau_full(b)) under fixed-trust full reuse; omega_regret_final uses the final checkpoint only",
+  "engine_to_channel": {
+    "mbj_band_gap_theoretical": "jarvis_mbj",
+    "optb88vdw_band_gap_theoretical": "jarvis_optb88vdw",
+    "snumat_gga_band_gap_theoretical": "snumat_gga",
+    "snumat_hse_band_gap_theoretical": "snumat_hse"
+  },
+  "omega_regret": {
+    "pair": {
+      "expt_zhuo": {
+        "jarvis_mbj": {
+          "omega_regret": 0.009238095238095234,
+          "omega_regret_ci": [
+            0.00438095238095238,
+            0.014764285714285699
+          ],
+          "omega_regret_final": 0.029999999999999992,
+          "omega_regret_final_ci": [
+            0.014285714285714282,
+            0.04714285714285713
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.012285714285714283,
+          "omega_regret_ci": [
+            0.007142857142857142,
+            0.018571428571428572
+          ],
+          "omega_regret_final": 0.02285714285714285,
+          "omega_regret_final_ci": [
+            0.007142857142857142,
+            0.041428571428571426
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.027485714285714287,
+          "omega_regret_ci": [
+            0.017714285714285717,
+            0.03767761904761904
+          ],
+          "omega_regret_final": 0.05142857142857144,
+          "omega_regret_final_ci": [
+            0.03142857142857143,
+            0.07142857142857144
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.02428571428571428,
+          "omega_regret_ci": [
+            0.015523809523809521,
+            0.03457142857142856
+          ],
+          "omega_regret_final": 0.031428571428571424,
+          "omega_regret_final_ci": [
+            0.01714285714285714,
+            0.04714285714285713
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.007714285714285712,
+          "omega_regret_ci": [
+            0.0038095238095238082,
+            0.012285714285714282
+          ],
+          "omega_regret_final": 0.005714285714285714,
+          "omega_regret_final_ci": [
+            0.0,
+            0.01289285714285695
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.001428571428571428,
+          "omega_regret_final_ci": [
+            0.0,
+            0.004285714285714284
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.0011428571428571432,
+          "omega_regret_ci": [
+            0.0,
+            0.002571428571428572
+          ],
+          "omega_regret_final": 0.00142857142857143,
+          "omega_regret_final_ci": [
+            0.0,
+            0.00428571428571429
+          ],
+          "n_seeds": 50
+        }
+      },
+      "jarvis_mbj": {
+        "expt_zhuo": {
+          "omega_regret": 0.08159999999999998,
+          "omega_regret_ci": [
+            0.0625504761904762,
+            0.10133333333333333
+          ],
+          "omega_regret_final": 0.0819047619047619,
+          "omega_regret_final_ci": [
+            0.057142857142857134,
+            0.10666666666666666
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.00714285714285714,
+          "omega_regret_ci": [
+            0.003428571428571427,
+            0.011714285714285708
+          ],
+          "omega_regret_final": 0.014285714285714282,
+          "omega_regret_final_ci": [
+            0.005714285714285712,
+            0.025714285714285707
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.0006666666666666665,
+          "omega_regret_ci": [
+            0.0,
+            0.0018095238095238093
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.04019047619047619,
+          "omega_regret_ci": [
+            0.02828571428571429,
+            0.05248095238095235
+          ],
+          "omega_regret_final": 0.05428571428571428,
+          "omega_regret_final_ci": [
+            0.035714285714285705,
+            0.07714285714285714
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.04980952380952381,
+          "omega_regret_ci": [
+            0.03466428571428572,
+            0.06561904761904763
+          ],
+          "omega_regret_final": 0.05857142857142856,
+          "omega_regret_final_ci": [
+            0.03857142857142857,
+            0.07857142857142856
+          ],
+          "n_seeds": 50
+        }
+      },
+      "jarvis_optb88vdw": {
+        "expt_zhuo": {
+          "omega_regret": 0.07817142857142857,
+          "omega_regret_ci": [
+            0.05942285714285714,
+            0.0995047619047619
+          ],
+          "omega_regret_final": 0.06095238095238095,
+          "omega_regret_final_ci": [
+            0.041904761904761896,
+            0.08004761904761878
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.013904761904761899,
+          "omega_regret_ci": [
+            0.006857142857142855,
+            0.02142857142857142
+          ],
+          "omega_regret_final": 0.018571428571428565,
+          "omega_regret_final_ci": [
+            0.005714285714285712,
+            0.035714285714285705
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.0017142857142857138,
+          "omega_regret_ci": [
+            0.00028571428571428563,
+            0.003714285714285712
+          ],
+          "omega_regret_final": 0.005714285714285712,
+          "omega_regret_final_ci": [
+            0.001428571428571428,
+            0.011428571428571423
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.009904761904761902,
+          "omega_regret_ci": [
+            0.0050476190476190464,
+            0.016478571428571412
+          ],
+          "omega_regret_final": 0.01714285714285714,
+          "omega_regret_final_ci": [
+            0.00714285714285714,
+            0.030000000000000006
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.001714285714285714,
+          "omega_regret_ci": [
+            0.0005714285714285713,
+            0.003142857142857142
+          ],
+          "omega_regret_final": 0.004285714285714284,
+          "omega_regret_final_ci": [
+            0.0,
+            0.009999999999999995
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.026190476190476195,
+          "omega_regret_ci": [
+            0.01666428571428572,
+            0.03743095238095238
+          ],
+          "omega_regret_final": 0.06857142857142857,
+          "omega_regret_final_ci": [
+            0.045714285714285714,
+            0.0957142857142857
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.031714285714285716,
+          "omega_regret_ci": [
+            0.02199761904761905,
+            0.04257142857142857
+          ],
+          "omega_regret_final": 0.06285714285714285,
+          "omega_regret_final_ci": [
+            0.04428571428571427,
+            0.08428571428571427
+          ],
+          "n_seeds": 50
+        }
+      },
+      "mp_gga": {
+        "expt_zhuo": {
+          "omega_regret": 0.15062857142857142,
+          "omega_regret_ci": [
+            0.1251047619047619,
+            0.17577523809523807
+          ],
+          "omega_regret_final": 0.1219047619047619,
+          "omega_regret_final_ci": [
+            0.09142857142857143,
+            0.15238095238095237
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.000571428571428572,
+          "omega_regret_ci": [
+            0.0,
+            0.00142857142857143
+          ],
+          "omega_regret_final": 0.004285714285714286,
+          "omega_regret_final_ci": [
+            0.0,
+            0.01142857142857143
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.004285714285714286,
+          "omega_regret_final_ci": [
+            0.0,
+            0.009999999999999998
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.0023809523809523807,
+          "omega_regret_ci": [
+            0.0003809523809523809,
+            0.004952380952380952
+          ],
+          "omega_regret_final": 0.002857142857142858,
+          "omega_regret_final_ci": [
+            0.0,
+            0.007142857142857146
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.0039047619047619035,
+          "omega_regret_ci": [
+            0.001428571428571428,
+            0.006859523809523796
+          ],
+          "omega_regret_final": 0.008571428571428568,
+          "omega_regret_final_ci": [
+            0.002857142857142856,
+            0.017142857142857137
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.08352380952380951,
+          "omega_regret_ci": [
+            0.062285714285714285,
+            0.10619047619047618
+          ],
+          "omega_regret_final": 0.11428571428571427,
+          "omega_regret_final_ci": [
+            0.08571428571428572,
+            0.1457142857142857
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.09857142857142857,
+          "omega_regret_ci": [
+            0.07609285714285716,
+            0.12114285714285716
+          ],
+          "omega_regret_final": 0.11428571428571427,
+          "omega_regret_final_ci": [
+            0.08714285714285715,
+            0.14285714285714288
+          ],
+          "n_seeds": 50
+        }
+      },
+      "mp_gga_expsynth": {
+        "expt_zhuo": {
+          "omega_regret": 0.1324190476190476,
+          "omega_regret_ci": [
+            0.10811428571428572,
+            0.15756190476190474
+          ],
+          "omega_regret_final": 0.10476190476190476,
+          "omega_regret_final_ci": [
+            0.07999999999999999,
+            0.1352380952380952
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.00257142857142857,
+          "omega_regret_ci": [
+            0.0005714285714285713,
+            0.00514285714285714
+          ],
+          "omega_regret_final": 0.009999999999999998,
+          "omega_regret_final_ci": [
+            0.002857142857142856,
+            0.01857142857142857
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.0005714285714285713,
+          "omega_regret_ci": [
+            0.0,
+            0.0017142857142857138
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.029142857142857147,
+          "omega_regret_ci": [
+            0.01961904761904762,
+            0.038954761904761895
+          ],
+          "omega_regret_final": 0.05714285714285714,
+          "omega_regret_final_ci": [
+            0.03857142857142857,
+            0.07714285714285714
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.03619047619047619,
+          "omega_regret_ci": [
+            0.02504761904761905,
+            0.047619047619047616
+          ],
+          "omega_regret_final": 0.06285714285714285,
+          "omega_regret_final_ci": [
+            0.04428571428571428,
+            0.08285714285714285
+          ],
+          "n_seeds": 50
+        }
+      },
+      "mp_r2scan": {
+        "expt_zhuo": {
+          "omega_regret": 0.07817142857142856,
+          "omega_regret_ci": [
+            0.05881714285714286,
+            0.10034285714285712
+          ],
+          "omega_regret_final": 0.06476190476190476,
+          "omega_regret_final_ci": [
+            0.043809523809523805,
+            0.08952380952380952
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.000571428571428572,
+          "omega_regret_ci": [
+            0.0,
+            0.00142857142857143
+          ],
+          "omega_regret_final": 0.00142857142857143,
+          "omega_regret_final_ci": [
+            0.0,
+            0.00428571428571429
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.00028571428571428563,
+          "omega_regret_ci": [
+            0.0,
+            0.0008571428571428569
+          ],
+          "omega_regret_final": 0.007142857142857142,
+          "omega_regret_final_ci": [
+            0.001428571428571428,
+            0.014285714285714285
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.004285714285714284,
+          "omega_regret_ci": [
+            0.0011428571428571425,
+            0.007999999999999997
+          ],
+          "omega_regret_final": 0.009999999999999995,
+          "omega_regret_final_ci": [
+            0.001428571428571428,
+            0.02142857142857142
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.00028571428571428563,
+          "omega_regret_ci": [
+            0.0,
+            0.0008571428571428569
+          ],
+          "omega_regret_final": 0.001428571428571428,
+          "omega_regret_final_ci": [
+            0.0,
+            0.004285714285714284
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.013523809523809518,
+          "omega_regret_ci": [
+            0.008095238095238093,
+            0.019523809523809513
+          ],
+          "omega_regret_final": 0.03428571428571428,
+          "omega_regret_final_ci": [
+            0.01857142857142857,
+            0.051428571428571414
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.015619047619047617,
+          "omega_regret_ci": [
+            0.009142857142857142,
+            0.023049999999999984
+          ],
+          "omega_regret_final": 0.031428571428571424,
+          "omega_regret_final_ci": [
+            0.01714285714285714,
+            0.04714285714285713
+          ],
+          "n_seeds": 50
+        }
+      },
+      "snumat_gga": {
+        "expt_zhuo": {
+          "omega_regret": 0.01539047619047619,
+          "omega_regret_ci": [
+            0.008533333333333332,
+            0.022857142857142857
+          ],
+          "omega_regret_final": 0.019047619047619046,
+          "omega_regret_final_ci": [
+            0.007619047619047619,
+            0.03238095238095238
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.05200000000000001,
+          "omega_regret_ci": [
+            0.035711904761904764,
+            0.07067142857142857
+          ],
+          "omega_regret_final": 0.08285714285714285,
+          "omega_regret_final_ci": [
+            0.058571428571428566,
+            0.10717857142857125
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.021142857142857144,
+          "omega_regret_ci": [
+            0.013047619047619047,
+            0.03028809523809523
+          ],
+          "omega_regret_final": 0.037142857142857144,
+          "omega_regret_final_ci": [
+            0.018571428571428572,
+            0.06
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.0814095238095238,
+          "omega_regret_ci": [
+            0.05904523809523809,
+            0.10429238095238091
+          ],
+          "omega_regret_final": 0.11571428571428571,
+          "omega_regret_final_ci": [
+            0.08714285714285713,
+            0.14571428571428574
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.04857142857142858,
+          "omega_regret_ci": [
+            0.034761904761904765,
+            0.06590714285714284
+          ],
+          "omega_regret_final": 0.08857142857142854,
+          "omega_regret_final_ci": [
+            0.06142857142857142,
+            0.11571428571428571
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.02009523809523809,
+          "omega_regret_ci": [
+            0.012473809523809522,
+            0.028954761904761886
+          ],
+          "omega_regret_final": 0.02714285714285714,
+          "omega_regret_final_ci": [
+            0.014285714285714289,
+            0.041428571428571426
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        }
+      },
+      "snumat_hse": {
+        "expt_zhuo": {
+          "omega_regret": 0.01539047619047619,
+          "omega_regret_ci": [
+            0.00838095238095238,
+            0.023238095238095235
+          ],
+          "omega_regret_final": 0.019047619047619046,
+          "omega_regret_final_ci": [
+            0.007619047619047619,
+            0.03238095238095238
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.05200000000000001,
+          "omega_regret_ci": [
+            0.034666666666666665,
+            0.0696238095238095
+          ],
+          "omega_regret_final": 0.08285714285714285,
+          "omega_regret_final_ci": [
+            0.058535714285714274,
+            0.10857142857142858
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.021142857142857144,
+          "omega_regret_ci": [
+            0.012949999999999996,
+            0.029714285714285714
+          ],
+          "omega_regret_final": 0.037142857142857144,
+          "omega_regret_final_ci": [
+            0.018571428571428572,
+            0.05857142857142858
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.0814095238095238,
+          "omega_regret_ci": [
+            0.06083047619047619,
+            0.10507714285714279
+          ],
+          "omega_regret_final": 0.11571428571428571,
+          "omega_regret_final_ci": [
+            0.08571428571428572,
+            0.14714285714285713
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.04857142857142858,
+          "omega_regret_ci": [
+            0.03342619047619048,
+            0.06371666666666666
+          ],
+          "omega_regret_final": 0.08857142857142854,
+          "omega_regret_final_ci": [
+            0.06285714285714285,
+            0.11428571428571428
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.02009523809523809,
+          "omega_regret_ci": [
+            0.011999999999999997,
+            0.028476190476190474
+          ],
+          "omega_regret_final": 0.02714285714285714,
+          "omega_regret_final_ci": [
+            0.01571428571428571,
+            0.041428571428571426
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        }
+      }
+    },
+    "kway": {
+      "expt_zhuo": {
+        "jarvis_mbj": {
+          "omega_regret": 0.021714285714285707,
+          "omega_regret_ci": [
+            0.013999999999999997,
+            0.030571428571428562
+          ],
+          "omega_regret_final": 0.042857142857142844,
+          "omega_regret_final_ci": [
+            0.02571428571428571,
+            0.06142857142857141
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.012666666666666665,
+          "omega_regret_ci": [
+            0.006857142857142857,
+            0.018952380952380946
+          ],
+          "omega_regret_final": 0.024285714285714292,
+          "omega_regret_final_ci": [
+            0.011428571428571432,
+            0.03857142857142858
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.04314285714285714,
+          "omega_regret_ci": [
+            0.031619047619047616,
+            0.05609761904761904
+          ],
+          "omega_regret_final": 0.05714285714285714,
+          "omega_regret_final_ci": [
+            0.03714285714285715,
+            0.07714285714285714
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.035714285714285705,
+          "omega_regret_ci": [
+            0.025428571428571432,
+            0.04629285714285709
+          ],
+          "omega_regret_final": 0.04571428571428572,
+          "omega_regret_final_ci": [
+            0.03000000000000001,
+            0.06285714285714286
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.011142857142857144,
+          "omega_regret_ci": [
+            0.0048571428571428585,
+            0.018285714285714284
+          ],
+          "omega_regret_final": 0.007142857142857142,
+          "omega_regret_final_ci": [
+            0.001428571428571428,
+            0.014285714285714282
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.0017142857142857142,
+          "omega_regret_ci": [
+            0.0005714285714285713,
+            0.0034285714285714284
+          ],
+          "omega_regret_final": 0.002857142857142856,
+          "omega_regret_final_ci": [
+            0.0,
+            0.00714285714285714
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.006285714285714288,
+          "omega_regret_ci": [
+            0.003142857142857144,
+            0.010571428571428574
+          ],
+          "omega_regret_final": 0.002857142857142856,
+          "omega_regret_final_ci": [
+            0.0,
+            0.00714285714285714
+          ],
+          "n_seeds": 50
+        }
+      },
+      "jarvis_mbj": {
+        "expt_zhuo": {
+          "omega_regret": 0.0835047619047619,
+          "omega_regret_ci": [
+            0.06849523809523811,
+            0.09935428571428569
+          ],
+          "omega_regret_final": 0.06095238095238096,
+          "omega_regret_final_ci": [
+            0.04380952380952381,
+            0.07809523809523809
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.011142857142857142,
+          "omega_regret_ci": [
+            0.004857142857142855,
+            0.01828571428571428
+          ],
+          "omega_regret_final": 0.007142857142857144,
+          "omega_regret_final_ci": [
+            0.001428571428571428,
+            0.015714285714285715
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.0005714285714285713,
+          "omega_regret_ci": [
+            0.0,
+            0.001428571428571428
+          ],
+          "omega_regret_final": 0.002857142857142858,
+          "omega_regret_final_ci": [
+            0.0,
+            0.007142857142857149
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.0005714285714285716,
+          "omega_regret_ci": [
+            0.0,
+            0.001428571428571429
+          ],
+          "omega_regret_final": 0.00142857142857143,
+          "omega_regret_final_ci": [
+            0.0,
+            0.00428571428571429
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.0028571428571428576,
+          "omega_regret_ci": [
+            0.0005714285714285713,
+            0.006000000000000002
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.06028571428571428,
+          "omega_regret_ci": [
+            0.04370714285714286,
+            0.08
+          ],
+          "omega_regret_final": 0.04857142857142857,
+          "omega_regret_final_ci": [
+            0.03,
+            0.06857142857142857
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.07847619047619048,
+          "omega_regret_ci": [
+            0.06095,
+            0.09809999999999998
+          ],
+          "omega_regret_final": 0.057142857142857134,
+          "omega_regret_final_ci": [
+            0.03714285714285714,
+            0.07999999999999999
+          ],
+          "n_seeds": 50
+        }
+      },
+      "jarvis_optb88vdw": {
+        "expt_zhuo": {
+          "omega_regret": 0.0694095238095238,
+          "omega_regret_ci": [
+            0.05462666666666665,
+            0.08518095238095237
+          ],
+          "omega_regret_final": 0.06285714285714286,
+          "omega_regret_final_ci": [
+            0.04380952380952381,
+            0.08
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.025999999999999995,
+          "omega_regret_ci": [
+            0.01714285714285714,
+            0.036285714285714275
+          ],
+          "omega_regret_final": 0.021428571428571422,
+          "omega_regret_final_ci": [
+            0.008571428571428577,
+            0.03428571428571429
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.0014285714285714286,
+          "omega_regret_ci": [
+            0.00028571428571428563,
+            0.002571428571428572
+          ],
+          "omega_regret_final": 0.014285714285714289,
+          "omega_regret_final_ci": [
+            0.007142857142857142,
+            0.02428571428571429
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.01171428571428571,
+          "omega_regret_ci": [
+            0.006278571428571427,
+            0.018571428571428565
+          ],
+          "omega_regret_final": 0.011428571428571434,
+          "omega_regret_final_ci": [
+            0.002857142857142858,
+            0.021428571428571436
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.008,
+          "omega_regret_ci": [
+            0.0034285714285714275,
+            0.014000000000000002
+          ],
+          "omega_regret_final": 0.004285714285714286,
+          "omega_regret_final_ci": [
+            0.0,
+            0.011428571428571432
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.04314285714285714,
+          "omega_regret_ci": [
+            0.03,
+            0.058857142857142844
+          ],
+          "omega_regret_final": 0.05428571428571428,
+          "omega_regret_final_ci": [
+            0.03857142857142857,
+            0.07142857142857142
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.051809523809523805,
+          "omega_regret_ci": [
+            0.037333333333333336,
+            0.06714761904761903
+          ],
+          "omega_regret_final": 0.05857142857142856,
+          "omega_regret_final_ci": [
+            0.039999999999999994,
+            0.07860714285714265
+          ],
+          "n_seeds": 50
+        }
+      },
+      "mp_gga": {
+        "expt_zhuo": {
+          "omega_regret": 0.13958095238095236,
+          "omega_regret_ci": [
+            0.12060761904761903,
+            0.16023238095238093
+          ],
+          "omega_regret_final": 0.10095238095238095,
+          "omega_regret_final_ci": [
+            0.07428571428571429,
+            0.12766666666666643
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.002571428571428572,
+          "omega_regret_ci": [
+            0.0008571428571428577,
+            0.0045714285714285735
+          ],
+          "omega_regret_final": 0.005714285714285714,
+          "omega_regret_final_ci": [
+            0.0,
+            0.012857142857142859
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.003142857142857142,
+          "omega_regret_ci": [
+            0.0005714285714285713,
+            0.006285714285714284
+          ],
+          "omega_regret_final": 0.001428571428571428,
+          "omega_regret_final_ci": [
+            0.0,
+            0.004285714285714284
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.004285714285714286,
+          "omega_regret_ci": [
+            0.0017142857142857142,
+            0.007714285714285716
+          ],
+          "omega_regret_final": 0.00428571428571429,
+          "omega_regret_final_ci": [
+            0.0,
+            0.01000000000000001
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.013999999999999999,
+          "omega_regret_ci": [
+            0.006857142857142856,
+            0.022857142857142857
+          ],
+          "omega_regret_final": 0.011428571428571425,
+          "omega_regret_final_ci": [
+            0.002857142857142856,
+            0.022857142857142857
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.12504761904761905,
+          "omega_regret_ci": [
+            0.10247619047619048,
+            0.14962142857142857
+          ],
+          "omega_regret_final": 0.10142857142857142,
+          "omega_regret_final_ci": [
+            0.07714285714285715,
+            0.12571428571428572
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.14123809523809525,
+          "omega_regret_ci": [
+            0.11513809523809523,
+            0.16876428571428576
+          ],
+          "omega_regret_final": 0.09714285714285711,
+          "omega_regret_final_ci": [
+            0.06857142857142856,
+            0.12860714285714264
+          ],
+          "n_seeds": 50
+        }
+      },
+      "mp_gga_expsynth": {
+        "expt_zhuo": {
+          "omega_regret": 0.1171047619047619,
+          "omega_regret_ci": [
+            0.09706476190476192,
+            0.1378304761904762
+          ],
+          "omega_regret_final": 0.07047619047619047,
+          "omega_regret_final_ci": [
+            0.05333333333333333,
+            0.0895238095238095
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.0008571428571428571,
+          "omega_regret_ci": [
+            0.0,
+            0.002285714285714286
+          ],
+          "omega_regret_final": 0.001428571428571428,
+          "omega_regret_final_ci": [
+            0.0,
+            0.004285714285714284
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.007714285714285713,
+          "omega_regret_ci": [
+            0.002857142857142857,
+            0.014285714285714284
+          ],
+          "omega_regret_final": 0.00857142857142857,
+          "omega_regret_final_ci": [
+            0.001428571428571428,
+            0.019999999999999997
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.0014285714285714286,
+          "omega_regret_ci": [
+            0.00028571428571428563,
+            0.002571428571428572
+          ],
+          "omega_regret_final": 0.005714285714285716,
+          "omega_regret_final_ci": [
+            0.0,
+            0.012857142857142862
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.0008571428571428569,
+          "omega_regret_ci": [
+            0.0,
+            0.001999999999999999
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.047142857142857146,
+          "omega_regret_ci": [
+            0.032285714285714286,
+            0.06543571428571425
+          ],
+          "omega_regret_final": 0.047142857142857146,
+          "omega_regret_final_ci": [
+            0.03000000000000001,
+            0.06571428571428571
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.05561904761904762,
+          "omega_regret_ci": [
+            0.042283333333333326,
+            0.07029047619047618
+          ],
+          "omega_regret_final": 0.05428571428571427,
+          "omega_regret_final_ci": [
+            0.034285714285714274,
+            0.07714285714285712
+          ],
+          "n_seeds": 50
+        }
+      },
+      "mp_r2scan": {
+        "expt_zhuo": {
+          "omega_regret": 0.07078095238095237,
+          "omega_regret_ci": [
+            0.05531047619047618,
+            0.08724190476190471
+          ],
+          "omega_regret_final": 0.047619047619047616,
+          "omega_regret_final_ci": [
+            0.03238095238095238,
+            0.06476190476190476
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.003714285714285715,
+          "omega_regret_ci": [
+            0.0011428571428571427,
+            0.0074285714285714285
+          ],
+          "omega_regret_final": 0.002857142857142856,
+          "omega_regret_final_ci": [
+            0.0,
+            0.00714285714285714
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.00457142857142857,
+          "omega_regret_ci": [
+            0.0014285714285714281,
+            0.00857142857142857
+          ],
+          "omega_regret_final": 0.00142857142857143,
+          "omega_regret_final_ci": [
+            0.0,
+            0.00428571428571429
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.005999999999999998,
+          "omega_regret_ci": [
+            0.0025714285714285704,
+            0.00971428571428571
+          ],
+          "omega_regret_final": 0.01,
+          "omega_regret_final_ci": [
+            0.002857142857142856,
+            0.019999999999999997
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.00028571428571428563,
+          "omega_regret_ci": [
+            0.0,
+            0.0008571428571428569
+          ],
+          "omega_regret_final": 0.002857142857142858,
+          "omega_regret_final_ci": [
+            0.0,
+            0.007142857142857146
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.02428571428571428,
+          "omega_regret_ci": [
+            0.01371428571428571,
+            0.03685714285714285
+          ],
+          "omega_regret_final": 0.03428571428571429,
+          "omega_regret_final_ci": [
+            0.02,
+            0.05
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.029238095238095233,
+          "omega_regret_ci": [
+            0.02114285714285714,
+            0.03809761904761903
+          ],
+          "omega_regret_final": 0.035714285714285705,
+          "omega_regret_final_ci": [
+            0.019999999999999997,
+            0.052857142857142846
+          ],
+          "n_seeds": 50
+        }
+      },
+      "snumat_gga": {
+        "expt_zhuo": {
+          "omega_regret": 0.01866666666666666,
+          "omega_regret_ci": [
+            0.010666666666666666,
+            0.026666666666666665
+          ],
+          "omega_regret_final": 0.015238095238095238,
+          "omega_regret_final_ci": [
+            0.005714285714285714,
+            0.02666666666666667
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.08542857142857142,
+          "omega_regret_ci": [
+            0.068,
+            0.1025785714285714
+          ],
+          "omega_regret_final": 0.08,
+          "omega_regret_final_ci": [
+            0.05714285714285714,
+            0.10285714285714284
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.01676190476190476,
+          "omega_regret_ci": [
+            0.008952380952380953,
+            0.02571428571428571
+          ],
+          "omega_regret_final": 0.03571428571428572,
+          "omega_regret_final_ci": [
+            0.02142857142857143,
+            0.05142857142857144
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.09952380952380953,
+          "omega_regret_ci": [
+            0.07733333333333334,
+            0.12419285714285715
+          ],
+          "omega_regret_final": 0.09428571428571429,
+          "omega_regret_final_ci": [
+            0.07142857142857142,
+            0.12
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.06228571428571428,
+          "omega_regret_ci": [
+            0.0505642857142857,
+            0.07457142857142857
+          ],
+          "omega_regret_final": 0.07,
+          "omega_regret_final_ci": [
+            0.04857142857142858,
+            0.09003571428571408
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.020476190476190474,
+          "omega_regret_ci": [
+            0.012190476190476187,
+            0.030285714285714277
+          ],
+          "omega_regret_final": 0.027142857142857135,
+          "omega_regret_final_ci": [
+            0.015714285714285712,
+            0.039999999999999994
+          ],
+          "n_seeds": 50
+        },
+        "snumat_hse": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        }
+      },
+      "snumat_hse": {
+        "expt_zhuo": {
+          "omega_regret": 0.01866666666666666,
+          "omega_regret_ci": [
+            0.010666666666666666,
+            0.02704761904761905
+          ],
+          "omega_regret_final": 0.015238095238095238,
+          "omega_regret_final_ci": [
+            0.005714285714285714,
+            0.02666666666666667
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_mbj": {
+          "omega_regret": 0.08542857142857142,
+          "omega_regret_ci": [
+            0.06827857142857142,
+            0.10285714285714284
+          ],
+          "omega_regret_final": 0.08,
+          "omega_regret_final_ci": [
+            0.05857142857142858,
+            0.10142857142857142
+          ],
+          "n_seeds": 50
+        },
+        "jarvis_optb88vdw": {
+          "omega_regret": 0.01676190476190476,
+          "omega_regret_ci": [
+            0.009235714285714286,
+            0.026571428571428565
+          ],
+          "omega_regret_final": 0.03571428571428572,
+          "omega_regret_final_ci": [
+            0.022857142857142857,
+            0.051428571428571435
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga": {
+          "omega_regret": 0.09952380952380953,
+          "omega_regret_ci": [
+            0.07780952380952383,
+            0.12362142857142856
+          ],
+          "omega_regret_final": 0.09428571428571429,
+          "omega_regret_final_ci": [
+            0.07285714285714284,
+            0.11999999999999998
+          ],
+          "n_seeds": 50
+        },
+        "mp_gga_expsynth": {
+          "omega_regret": 0.06228571428571428,
+          "omega_regret_ci": [
+            0.04942857142857143,
+            0.07543571428571424
+          ],
+          "omega_regret_final": 0.07,
+          "omega_regret_final_ci": [
+            0.04999999999999999,
+            0.09
+          ],
+          "n_seeds": 50
+        },
+        "mp_r2scan": {
+          "omega_regret": 0.020476190476190474,
+          "omega_regret_ci": [
+            0.012095238095238095,
+            0.030476190476190476
+          ],
+          "omega_regret_final": 0.027142857142857135,
+          "omega_regret_final_ci": [
+            0.015714285714285715,
+            0.039999999999999994
+          ],
+          "n_seeds": 50
+        },
+        "snumat_gga": {
+          "omega_regret": 0.0,
+          "omega_regret_ci": [
+            0.0,
+            0.0
+          ],
+          "omega_regret_final": 0.0,
+          "omega_regret_final_ci": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 50
+        }
+      }
+    }
+  },
+  "matched_pairs": [
+    {
+      "engine_pair": "mbj_band_gap_theoretical->optb88vdw_band_gap_theoretical",
+      "donor": "jarvis_mbj",
+      "receiver": "jarvis_optb88vdw",
+      "omega_total_interim": 0.032739659145924915,
+      "omega_reversal_interim": 0.2,
+      "omega_regret": 0.00714285714285714,
+      "omega_regret_ci": [
+        0.003428571428571427,
+        0.011714285714285708
+      ]
+    },
+    {
+      "engine_pair": "mbj_band_gap_theoretical->snumat_gga_band_gap_theoretical",
+      "donor": "jarvis_mbj",
+      "receiver": "snumat_gga",
+      "omega_total_interim": 0.04436701679587781,
+      "omega_reversal_interim": 0.2,
+      "omega_regret": 0.04019047619047619,
+      "omega_regret_ci": [
+        0.02828571428571429,
+        0.05248095238095235
+      ]
+    },
+    {
+      "engine_pair": "mbj_band_gap_theoretical->snumat_hse_band_gap_theoretical",
+      "donor": "jarvis_mbj",
+      "receiver": "snumat_hse",
+      "omega_total_interim": 0.044515039306144345,
+      "omega_reversal_interim": 0.06666666666666667,
+      "omega_regret": 0.04980952380952381,
+      "omega_regret_ci": [
+        0.03466428571428572,
+        0.06561904761904763
+      ]
+    },
+    {
+      "engine_pair": "optb88vdw_band_gap_theoretical->mbj_band_gap_theoretical",
+      "donor": "jarvis_optb88vdw",
+      "receiver": "jarvis_mbj",
+      "omega_total_interim": 0.04155905798648445,
+      "omega_reversal_interim": 0.2,
+      "omega_regret": 0.013904761904761899,
+      "omega_regret_ci": [
+        0.006857142857142855,
+        0.02142857142857142
+      ]
+    },
+    {
+      "engine_pair": "optb88vdw_band_gap_theoretical->snumat_gga_band_gap_theoretical",
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_gga",
+      "omega_total_interim": 0.0791422629744856,
+      "omega_reversal_interim": 0.26666666666666666,
+      "omega_regret": 0.026190476190476195,
+      "omega_regret_ci": [
+        0.01666428571428572,
+        0.03743095238095238
+      ]
+    },
+    {
+      "engine_pair": "optb88vdw_band_gap_theoretical->snumat_hse_band_gap_theoretical",
+      "donor": "jarvis_optb88vdw",
+      "receiver": "snumat_hse",
+      "omega_total_interim": 0.08192777017228775,
+      "omega_reversal_interim": 0.13333333333333333,
+      "omega_regret": 0.031714285714285716,
+      "omega_regret_ci": [
+        0.02199761904761905,
+        0.04257142857142857
+      ]
+    },
+    {
+      "engine_pair": "snumat_gga_band_gap_theoretical->mbj_band_gap_theoretical",
+      "donor": "snumat_gga",
+      "receiver": "jarvis_mbj",
+      "omega_total_interim": 0.047528633590388246,
+      "omega_reversal_interim": 0.2,
+      "omega_regret": 0.05200000000000001,
+      "omega_regret_ci": [
+        0.035711904761904764,
+        0.07067142857142857
+      ]
+    },
+    {
+      "engine_pair": "snumat_gga_band_gap_theoretical->optb88vdw_band_gap_theoretical",
+      "donor": "snumat_gga",
+      "receiver": "jarvis_optb88vdw",
+      "omega_total_interim": 0.0734844809284365,
+      "omega_reversal_interim": 0.26666666666666666,
+      "omega_regret": 0.021142857142857144,
+      "omega_regret_ci": [
+        0.013047619047619047,
+        0.03028809523809523
+      ]
+    },
+    {
+      "engine_pair": "snumat_gga_band_gap_theoretical->snumat_hse_band_gap_theoretical",
+      "donor": "snumat_gga",
+      "receiver": "snumat_hse",
+      "omega_total_interim": 0.020007805033673644,
+      "omega_reversal_interim": 0.13333333333333333,
+      "omega_regret": 0.0,
+      "omega_regret_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "engine_pair": "snumat_hse_band_gap_theoretical->mbj_band_gap_theoretical",
+      "donor": "snumat_hse",
+      "receiver": "jarvis_mbj",
+      "omega_total_interim": 0.04327598817233588,
+      "omega_reversal_interim": 0.06666666666666667,
+      "omega_regret": 0.05200000000000001,
+      "omega_regret_ci": [
+        0.034666666666666665,
+        0.0696238095238095
+      ]
+    },
+    {
+      "engine_pair": "snumat_hse_band_gap_theoretical->optb88vdw_band_gap_theoretical",
+      "donor": "snumat_hse",
+      "receiver": "jarvis_optb88vdw",
+      "omega_total_interim": 0.07186932019791974,
+      "omega_reversal_interim": 0.13333333333333333,
+      "omega_regret": 0.021142857142857144,
+      "omega_regret_ci": [
+        0.012949999999999996,
+        0.029714285714285714
+      ]
+    },
+    {
+      "engine_pair": "snumat_hse_band_gap_theoretical->snumat_gga_band_gap_theoretical",
+      "donor": "snumat_hse",
+      "receiver": "snumat_gga",
+      "omega_total_interim": 0.01560713710535479,
+      "omega_reversal_interim": 0.13333333333333333,
+      "omega_regret": 0.0,
+      "omega_regret_ci": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "correlation_interim_vs_regret": {
+    "spearman": 0.5167031396007775,
+    "kendall": 0.41871789467931186,
+    "n_pairs": 12
+  },
+  "largest_regret_cells": [
+    {
+      "donor": "mp_gga",
+      "receiver": "expt_zhuo",
+      "omega_regret": 0.15062857142857142,
+      "omega_regret_ci": [
+        0.1251047619047619,
+        0.17577523809523807
+      ],
+      "omega_regret_final": 0.1219047619047619,
+      "omega_regret_final_ci": [
+        0.09142857142857143,
+        0.15238095238095237
+      ],
+      "n_seeds": 50
+    },
+    {
+      "donor": "mp_gga_expsynth",
+      "receiver": "expt_zhuo",
+      "omega_regret": 0.1324190476190476,
+      "omega_regret_ci": [
+        0.10811428571428572,
+        0.15756190476190474
+      ],
+      "omega_regret_final": 0.10476190476190476,
+      "omega_regret_final_ci": [
+        0.07999999999999999,
+        0.1352380952380952
+      ],
+      "n_seeds": 50
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "snumat_hse",
+      "omega_regret": 0.09857142857142857,
+      "omega_regret_ci": [
+        0.07609285714285716,
+        0.12114285714285716
+      ],
+      "omega_regret_final": 0.11428571428571427,
+      "omega_regret_final_ci": [
+        0.08714285714285715,
+        0.14285714285714288
+      ],
+      "n_seeds": 50
+    },
+    {
+      "donor": "mp_gga",
+      "receiver": "snumat_gga",
+      "omega_regret": 0.08352380952380951,
+      "omega_regret_ci": [
+        0.062285714285714285,
+        0.10619047619047618
+      ],
+      "omega_regret_final": 0.11428571428571427,
+      "omega_regret_final_ci": [
+        0.08571428571428572,
+        0.1457142857142857
+      ],
+      "n_seeds": 50
+    },
+    {
+      "donor": "jarvis_mbj",
+      "receiver": "expt_zhuo",
+      "omega_regret": 0.08159999999999998,
+      "omega_regret_ci": [
+        0.0625504761904762,
+        0.10133333333333333
+      ],
+      "omega_regret_final": 0.0819047619047619,
+      "omega_regret_final_ci": [
+        0.057142857142857134,
+        0.10666666666666666
+      ],
+      "n_seeds": 50
+    },
+    {
+      "donor": "snumat_gga",
+      "receiver": "mp_gga",
+      "omega_regret": 0.0814095238095238,
+      "omega_regret_ci": [
+        0.05904523809523809,
+        0.10429238095238091
+      ],
+      "omega_regret_final": 0.11571428571428571,
+      "omega_regret_final_ci": [
+        0.08714285714285713,
+        0.14571428571428574
+      ],
+      "n_seeds": 50
+    },
+    {
+      "donor": "snumat_hse",
+      "receiver": "mp_gga",
+      "omega_regret": 0.0814095238095238,
+      "omega_regret_ci": [
+        0.06083047619047619,
+        0.10507714285714279
+      ],
+      "omega_regret_final": 0.11571428571428571,
+      "omega_regret_final_ci": [
+        0.08571428571428572,
+        0.14714285714285713
+      ],
+      "n_seeds": 50
+    },
+    {
+      "donor": "jarvis_optb88vdw",
+      "receiver": "expt_zhuo",
+      "omega_regret": 0.07817142857142857,
+      "omega_regret_ci": [
+        0.05942285714285714,
+        0.0995047619047619
+      ],
+      "omega_regret_final": 0.06095238095238095,
+      "omega_regret_final_ci": [
+        0.041904761904761896,
+        0.08004761904761878
+      ],
+      "n_seeds": 50
+    }
+  ]
+}

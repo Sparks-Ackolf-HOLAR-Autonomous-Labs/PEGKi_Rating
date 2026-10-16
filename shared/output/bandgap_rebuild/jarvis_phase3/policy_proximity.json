@@ -1,0 +1,6 @@
+{
+  "analysis": "Policy Proximity (SOP Transfer Diagnostic)",
+  "std_threshold": 1.5,
+  "n_studies": 0,
+  "studies": {}
+}

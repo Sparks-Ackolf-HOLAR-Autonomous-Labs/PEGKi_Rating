@@ -1,0 +1,2476 @@
+{
+ "measured_kJ_per_mol_atoms": {
+  "beta": {
+   "BP1970": -2.47,
+   "PH1978": -1.22
+  },
+  "gamma": {
+   "BP1970": -3.8,
+   "PH1978": -1.01
+  },
+  "Mg2Si": {
+   "JANAF": -25.94066666666667,
+   "Feufel1997": -22.2
+  }
+ },
+ "measured_refs": {
+  "BP1970": "Brown and Pratt 1970, doi:10.1007/bf03037810, via Mezbahul-Islam et al. 2014 Table 4",
+  "PH1978": "Predel and Huelse 1978, Z. Metallkd. 69, 661, via Mezbahul-Islam et al. 2014 Table 4",
+  "JANAF": "NIST-JANAF table Mg-034, doi:10.18434/T42S31",
+  "Feufel1997": "Feufel et al. 1997, doi:10.1016/s0925-8388(96)02655-2, as quoted by Jund et al. 2013, doi:10.1088/0953-8984/25/3/035403"
+ },
+ "x_mg_beta": 0.388646288209607,
+ "computed_eV_per_atom": {
+  "qe_pbe": {
+   "gamma": -0.023518125539402687,
+   "Mg2Si": -0.1599680298473487,
+   "beta_hull": -0.018238639365435474,
+   "beta_hull_facet": [
+    [
+     0.125,
+     -0.006445544052944285,
+     "fcc_MgAl7_19"
+    ],
+    [
+     0.4339622641509434,
+     -0.02026565680263854,
+     "mp_17659_Mg23Al30"
+    ]
+   ],
+   "beta_epsilon": -0.02026565680263854,
+   "n_al_mg_structures": 41
+  },
+  "qe_hse06": {
+   "gamma": -0.012095723917119702,
+   "Mg2Si": -0.12974937725053337,
+   "beta_hull": -0.02368985261931331,
+   "beta_hull_facet": [
+    [
+     0.125,
+     -0.03390610156139218,
+     "fcc_MgAl7_19"
+    ],
+    [
+     1.0,
+     0.0,
+     "element"
+    ]
+   ],
+   "beta_epsilon": -0.014964393577823977,
+   "n_al_mg_structures": 41
+  },
+  "mace_relax": {
+   "gamma": -0.03216609730982562,
+   "Mg2Si": -0.08127185846638807,
+   "beta_hull": -0.04977553280096421,
+   "beta_hull_facet": [
+    [
+     0.3333333333333333,
+     -0.05427903338771811,
+     "mp_1094116_MgAl2"
+    ],
+    [
+     1.0,
+     0.0,
+     "element"
+    ]
+   ],
+   "beta_epsilon": -0.046074096980997285,
+   "n_al_mg_structures": 41
+  },
+  "mace_md": {
+   "gamma": -0.032086335093764705,
+   "Mg2Si": -0.08247016176765361,
+   "beta_hull": -0.048315153757499646,
+   "beta_hull_facet": [
+    [
+     0.3333333333333333,
+     -0.05090802343863032,
+     "mp_1094116_MgAl2"
+    ],
+    [
+     0.4339622641509434,
+     -0.04619090600483549,
+     "mp_17659_Mg23Al30"
+    ]
+   ],
+   "beta_epsilon": -0.04619090600483549,
+   "n_al_mg_structures": 18
+  },
+  "lammps_meam_md": {
+   "gamma": 0.054359493033116685,
+   "Mg2Si": 0.043546389228010796,
+   "beta_hull": -0.11297867827509411,
+   "beta_hull_facet": [
+    [
+     0.125,
+     -0.0852456434267741,
+     "fcc_MgAl7_112"
+    ],
+    [
+     0.5,
+     -0.12469200976382555,
+     "mp_1038934_MgAl"
+    ]
+   ],
+   "beta_epsilon": 0.10822090509427862,
+   "n_al_mg_structures": 41
+  },
+  "gpumd_nep89_md": {
+   "gamma": -0.022688404642462367,
+   "Mg2Si": 0.08875905675733087,
+   "beta_hull": -0.028347550958923932,
+   "beta_hull_facet": [
+    [
+     0.0,
+     0.0,
+     "element"
+    ],
+    [
+     0.4339622641509434,
+     -0.03165286217948958,
+     "mp_17659_Mg23Al30"
+    ]
+   ],
+   "beta_epsilon": -0.03165286217948958,
+   "n_al_mg_structures": 41
+  },
+  "lammps_meam_relax": {
+   "gamma": 0.04763858342237895,
+   "Mg2Si": 0.04228576252247129,
+   "beta_hull": -0.11396926698446787,
+   "beta_hull_facet": [
+    [
+     0.125,
+     -0.08163921295804633,
+     "fcc_MgAl7_112"
+    ],
+    [
+     0.5,
+     -0.12762419663537883,
+     "mp_1094987_MgAl"
+    ]
+   ],
+   "beta_epsilon": 0.12841993171191451,
+   "n_al_mg_structures": 41
+  },
+  "gpumd_nep89_relax": {
+   "gamma": -0.022346312424232417,
+   "Mg2Si": 0.0880928039550779,
+   "beta_hull": -0.02937037980554225,
+   "beta_hull_facet": [
+    [
+     0.0,
+     0.0,
+     "element"
+    ],
+    [
+     0.4339622641509434,
+     -0.032794952392578125,
+     "mp_17659_Mg23Al30"
+    ]
+   ],
+   "beta_epsilon": -0.032794952392578125,
+   "n_al_mg_structures": 41
+  },
+  "archive_mp": {
+   "gamma": -0.009331720172413866,
+   "Mg2Si": -0.10859876333333318,
+   "beta_hull": -0.01133220753275095,
+   "beta_hull_facet": [
+    [
+     0.3333333333333333,
+     -0.011892303333333132,
+     "mp_1094116_MgAl2"
+    ],
+    [
+     0.5862068965517241,
+     -0.009331720172413866,
+     "mp_2151_Mg17Al12"
+    ]
+   ],
+   "beta_epsilon": -0.01016705500000008,
+   "n_al_mg_structures": 18
+  }
+ },
+ "combinations": {
+  "beta_hull": {
+   "beta:BP1970|gamma:BP1970|Mg2Si:JANAF": {
+    "measured_eV_per_atom": {
+     "beta": -0.025599746083684514,
+     "gamma": -0.03938422474413002,
+     "Mg2Si": -0.26885606474014795
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": 0.007361106718249039,
+       "gamma": 0.01586609920472733,
+       "Mg2Si": 0.10888803489279925
+      },
+      "mae": 0.044038413605258536,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.5960732209868715,
+      "beta_gamma_step_computed": -0.005279486173967212,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": 0.001909893464371204,
+       "gamma": 0.027288500827010315,
+       "Mg2Si": 0.13910668748961458
+      },
+      "mae": 0.0561016939269987,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.4828395604352667,
+      "beta_gamma_step_computed": 0.011594128702193607,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.024175786717279695,
+       "gamma": 0.007218127434304396,
+       "Mg2Si": 0.18758420627375988
+      },
+      "mae": 0.072992706808448,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.32744655962903124,
+      "beta_gamma_step_computed": 0.017609435491138588,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.022715407673815132,
+       "gamma": 0.007297889650365312,
+       "Mg2Si": 0.18638590297249436
+      },
+      "mae": 0.07213306676555827,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.33122752652159737,
+      "beta_gamma_step_computed": 0.01622881866373494,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": -0.0873789321914096,
+       "gamma": 0.0937437177772467,
+       "Mg2Si": 0.31240245396815874
+      },
+      "mae": 0.16450836797893834,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.14708531129739938,
+      "beta_gamma_step_computed": 0.1673381713082108,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.0027478048752394187,
+       "gamma": 0.01669582010166765,
+       "Mg2Si": 0.3576151214974788
+      },
+      "mae": 0.1256862488247953,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.2986191586761865,
+      "beta_gamma_step_computed": 0.005659146316461566,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": -0.08836952090078336,
+       "gamma": 0.08702280816650897,
+       "Mg2Si": 0.31114182726261924
+      },
+      "mae": 0.16217805210997052,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.1386414481430965,
+      "beta_gamma_step_computed": 0.16160785040684683,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.0037706337218577357,
+       "gamma": 0.0170379123198976,
+       "Mg2Si": 0.35694886869522585
+      },
+      "mae": 0.1259191382456604,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.29604381828644755,
+      "beta_gamma_step_computed": 0.007024067381309833,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.014267538550933564,
+       "gamma": 0.03005250457171615,
+       "Mg2Si": 0.16025730140681477
+      },
+      "mae": 0.06819244817648816,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.4007926060577109,
+      "beta_gamma_step_computed": 0.0020004873603370835,
+      "beta_gamma_step_measured": -0.013784478660445503
+     }
+    }
+   },
+   "beta:BP1970|gamma:BP1970|Mg2Si:Feufel1997": {
+    "measured_eV_per_atom": {
+     "beta": -0.025599746083684514,
+     "gamma": -0.03938422474413002,
+     "Mg2Si": -0.23008678666307536
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": 0.007361106718249039,
+       "gamma": 0.01586609920472733,
+       "Mg2Si": 0.07011875681572666
+      },
+      "mae": 0.031115320912901007,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.6926958441379243,
+      "beta_gamma_step_computed": -0.005279486173967212,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": 0.001909893464371204,
+       "gamma": 0.027288500827010315,
+       "Mg2Si": 0.10033740941254199
+      },
+      "mae": 0.04317860123464117,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.5609877674622814,
+      "beta_gamma_step_computed": 0.011594128702193607,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.024175786717279695,
+       "gamma": 0.007218127434304396,
+       "Mg2Si": 0.1488149281966873
+      },
+      "mae": 0.060069614116090464,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.3851685885113874,
+      "beta_gamma_step_computed": 0.017609435491138588,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.022715407673815132,
+       "gamma": 0.007297889650365312,
+       "Mg2Si": 0.14761662489542177
+      },
+      "mae": 0.05920997407320074,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.3894333651383219,
+      "beta_gamma_step_computed": 0.01622881866373494,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": -0.0873789321914096,
+       "gamma": 0.0937437177772467,
+       "Mg2Si": 0.27363317589108616
+      },
+      "mae": 0.1515852752865808,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.16806411416294192,
+      "beta_gamma_step_computed": 0.1673381713082108,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.0027478048752394187,
+       "gamma": 0.01669582010166765,
+       "Mg2Si": 0.3188458434204062
+      },
+      "mae": 0.11276315613243776,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.3409657388303442,
+      "beta_gamma_step_computed": 0.005659146316461566,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": -0.08836952090078336,
+       "gamma": 0.08702280816650897,
+       "Mg2Si": 0.27237254918554665
+      },
+      "mae": 0.149254959417613,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.15754465596289957,
+      "beta_gamma_step_computed": 0.16160785040684683,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.0037706337218577357,
+       "gamma": 0.0170379123198976,
+       "Mg2Si": 0.31817959061815326
+      },
+      "mae": 0.11299604555330288,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.33795544064712685,
+      "beta_gamma_step_computed": 0.007024067381309833,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.014267538550933564,
+       "gamma": 0.03005250457171615,
+       "Mg2Si": 0.12148802332974218
+      },
+      "mae": 0.055269355484130624,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.46503067630730066,
+      "beta_gamma_step_computed": 0.0020004873603370835,
+      "beta_gamma_step_measured": -0.013784478660445503
+     }
+    }
+   },
+   "beta:BP1970|gamma:PH1978|Mg2Si:JANAF": {
+    "measured_eV_per_atom": {
+     "beta": -0.025599746083684514,
+     "gamma": -0.010467912366202979,
+     "Mg2Si": -0.26885606474014795
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": 0.007361106718249039,
+       "gamma": -0.013050213173199708,
+       "Mg2Si": 0.10888803489279925
+      },
+      "mae": 0.04309978492808266,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.5985264662843849,
+      "beta_gamma_step_computed": -0.005279486173967212,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": 0.001909893464371204,
+       "gamma": -0.0016278115509167235,
+       "Mg2Si": 0.13910668748961458
+      },
+      "mae": 0.047548130834967506,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.48757981871945827,
+      "beta_gamma_step_computed": 0.011594128702193607,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.024175786717279695,
+       "gamma": -0.02169818494362264,
+       "Mg2Si": 0.18758420627375988
+      },
+      "mae": 0.07781939264488741,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.3211754169535597,
+      "beta_gamma_step_computed": 0.017609435491138588,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.022715407673815132,
+       "gamma": -0.021618422727561724,
+       "Mg2Si": 0.18638590297249436
+      },
+      "mae": 0.0769065777912904,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.32506257142331957,
+      "beta_gamma_step_computed": 0.01622881866373494,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": -0.0873789321914096,
+       "gamma": 0.06482740539931967,
+       "Mg2Si": 0.31240245396815874
+      },
+      "mae": 0.154869597186296,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.12846964386976545,
+      "beta_gamma_step_computed": 0.1673381713082108,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.0027478048752394187,
+       "gamma": -0.012220492276259388,
+       "Mg2Si": 0.3576151214974788
+      },
+      "mae": 0.12419447288299255,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.3134933358842426,
+      "beta_gamma_step_computed": 0.005659146316461566,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": -0.08836952090078336,
+       "gamma": 0.05810649578858193,
+       "Mg2Si": 0.31114182726261924
+      },
+      "mae": 0.15253928131732816,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.12251962708111681,
+      "beta_gamma_step_computed": 0.16160785040684683,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.0037706337218577357,
+       "gamma": -0.011878400058029438,
+       "Mg2Si": 0.35694886869522585
+      },
+      "mae": 0.12419930082503768,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.31073175621361265,
+      "beta_gamma_step_computed": 0.007024067381309833,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.014267538550933564,
+       "gamma": 0.0011361921937891126,
+       "Mg2Si": 0.16025730140681477
+      },
+      "mae": 0.058553677383845815,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.4050078821130438,
+      "beta_gamma_step_computed": 0.0020004873603370835,
+      "beta_gamma_step_measured": 0.015131833717481535
+     }
+    }
+   },
+   "beta:BP1970|gamma:PH1978|Mg2Si:Feufel1997": {
+    "measured_eV_per_atom": {
+     "beta": -0.025599746083684514,
+     "gamma": -0.010467912366202979,
+     "Mg2Si": -0.23008678666307536
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": 0.007361106718249039,
+       "gamma": -0.013050213173199708,
+       "Mg2Si": 0.07011875681572666
+      },
+      "mae": 0.030176692235725135,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.6986262444658098,
+      "beta_gamma_step_computed": -0.005279486173967212,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": 0.001909893464371204,
+       "gamma": -0.0016278115509167235,
+       "Mg2Si": 0.10033740941254199
+      },
+      "mae": 0.03462503814260997,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.5695330390209832,
+      "beta_gamma_step_computed": 0.011594128702193607,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.024175786717279695,
+       "gamma": -0.02169818494362264,
+       "Mg2Si": 0.1488149281966873
+      },
+      "mae": 0.06489629995252988,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.37818804620531327,
+      "beta_gamma_step_computed": 0.017609435491138588,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.022715407673815132,
+       "gamma": -0.021618422727561724,
+       "Mg2Si": 0.14761662489542177
+      },
+      "mae": 0.06398348509893287,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.38261024389495135,
+      "beta_gamma_step_computed": 0.01622881866373494,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": -0.0873789321914096,
+       "gamma": 0.06482740539931967,
+       "Mg2Si": 0.27363317589108616
+      },
+      "mae": 0.14194650449393847,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.14330648325084344,
+      "beta_gamma_step_computed": 0.1673381713082108,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.0027478048752394187,
+       "gamma": -0.012220492276259388,
+       "Mg2Si": 0.3188458434204062
+      },
+      "mae": 0.11127138019063502,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.3623340260537954,
+      "beta_gamma_step_computed": 0.005659146316461566,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": -0.08836952090078336,
+       "gamma": 0.05810649578858193,
+       "Mg2Si": 0.27237254918554665
+      },
+      "mae": 0.13961618862497063,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.13612340324295036,
+      "beta_gamma_step_computed": 0.16160785040684683,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.0037706337218577357,
+       "gamma": -0.011878400058029438,
+       "Mg2Si": 0.31817959061815326
+      },
+      "mae": 0.11127620813268015,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.35905873300242236,
+      "beta_gamma_step_computed": 0.007024067381309833,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.014267538550933564,
+       "gamma": 0.0011361921937891126,
+       "Mg2Si": 0.12148802332974218
+      },
+      "mae": 0.045630584691488285,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.4724885007797294,
+      "beta_gamma_step_computed": 0.0020004873603370835,
+      "beta_gamma_step_measured": 0.015131833717481535
+     }
+    }
+   },
+   "beta:PH1978|gamma:BP1970|Mg2Si:JANAF": {
+    "measured_eV_per_atom": {
+     "beta": -0.012644408996799637,
+     "gamma": -0.03938422474413002,
+     "Mg2Si": -0.26885606474014795
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": -0.0055942303686358375,
+       "gamma": 0.01586609920472733,
+       "Mg2Si": 0.10888803489279925
+      },
+      "mae": 0.04344945482205414,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.596871201660775,
+      "beta_gamma_step_computed": -0.005279486173967212,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": -0.011045443622513673,
+       "gamma": 0.027288500827010315,
+       "Mg2Si": 0.13910668748961458
+      },
+      "mae": 0.05914687731304619,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.48192490591270964,
+      "beta_gamma_step_computed": 0.011594128702193607,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.03713112380416457,
+       "gamma": 0.007218127434304396,
+       "Mg2Si": 0.18758420627375988
+      },
+      "mae": 0.07731115250407629,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.3209241875399484,
+      "beta_gamma_step_computed": 0.017609435491138588,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.03567074476070001,
+       "gamma": 0.007297889650365312,
+       "Mg2Si": 0.18638590297249436
+      },
+      "mae": 0.07645151246118656,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.32498616207555436,
+      "beta_gamma_step_computed": 0.01622881866373494,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": -0.10033426927829447,
+       "gamma": 0.0937437177772467,
+       "Mg2Si": 0.31240245396815874
+      },
+      "mae": 0.16882681367456664,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.16785105633972622,
+      "beta_gamma_step_computed": 0.1673381713082108,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.015703141962124294,
+       "gamma": 0.01669582010166765,
+       "Mg2Si": 0.3576151214974788
+      },
+      "mae": 0.1300046945204236,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.30558193462835015,
+      "beta_gamma_step_computed": 0.005659146316461566,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": -0.10132485798766823,
+       "gamma": 0.08702280816650897,
+       "Mg2Si": 0.31114182726261924
+      },
+      "mae": 0.1664964978055988,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.15952409045011434,
+      "beta_gamma_step_computed": 0.16160785040684683,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.016725970808742614,
+       "gamma": 0.0170379123198976,
+       "Mg2Si": 0.35694886869522585
+      },
+      "mae": 0.13023758394128868,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.3031684317516289,
+      "beta_gamma_step_computed": 0.007024067381309833,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.0013122014640486873,
+       "gamma": 0.03005250457171615,
+       "Mg2Si": 0.16025730140681477
+      },
+      "mae": 0.06387400248085988,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.401492204701074,
+      "beta_gamma_step_computed": 0.0020004873603370835,
+      "beta_gamma_step_measured": -0.026739815747330378
+     }
+    }
+   },
+   "beta:PH1978|gamma:BP1970|Mg2Si:Feufel1997": {
+    "measured_eV_per_atom": {
+     "beta": -0.012644408996799637,
+     "gamma": -0.03938422474413002,
+     "Mg2Si": -0.23008678666307536
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": -0.0055942303686358375,
+       "gamma": 0.01586609920472733,
+       "Mg2Si": 0.07011875681572666
+      },
+      "mae": 0.030526362129696605,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.6946522512439537,
+      "beta_gamma_step_computed": -0.005279486173967212,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": -0.011045443622513673,
+       "gamma": 0.027288500827010315,
+       "Mg2Si": 0.10033740941254199
+      },
+      "mae": 0.04622378462068866,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.5604578641873589,
+      "beta_gamma_step_computed": 0.011594128702193607,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.03713112380416457,
+       "gamma": 0.007218127434304396,
+       "Mg2Si": 0.1488149281966873
+      },
+      "mae": 0.06438805981171876,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.3768609363552912,
+      "beta_gamma_step_computed": 0.017609435491138588,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.03567074476070001,
+       "gamma": 0.007297889650365312,
+       "Mg2Si": 0.14761662489542177
+      },
+      "mae": 0.06352841976882903,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.38151056929063604,
+      "beta_gamma_step_computed": 0.01622881866373494,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": -0.10033426927829447,
+       "gamma": 0.0937437177772467,
+       "Mg2Si": 0.27363317589108616
+      },
+      "mae": 0.15590372098220912,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.19637007288491373,
+      "beta_gamma_step_computed": 0.1673381713082108,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.015703141962124294,
+       "gamma": 0.01669582010166765,
+       "Mg2Si": 0.3188458434204062
+      },
+      "mae": 0.11708160182806605,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.35077689858874966,
+      "beta_gamma_step_computed": 0.005659146316461566,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": -0.10132485798766823,
+       "gamma": 0.08702280816650897,
+       "Mg2Si": 0.27237254918554665
+      },
+      "mae": 0.15357340511324127,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.18599007027935502,
+      "beta_gamma_step_computed": 0.16160785040684683,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.016725970808742614,
+       "gamma": 0.0170379123198976,
+       "Mg2Si": 0.31817959061815326
+      },
+      "mae": 0.11731449124893116,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.3479817768506227,
+      "beta_gamma_step_computed": 0.007024067381309833,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.0013122014640486873,
+       "gamma": 0.03005250457171615,
+       "Mg2Si": 0.12148802332974218
+      },
+      "mae": 0.05095090978850234,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.4665602804196128,
+      "beta_gamma_step_computed": 0.0020004873603370835,
+      "beta_gamma_step_measured": -0.026739815747330378
+     }
+    }
+   },
+   "beta:PH1978|gamma:PH1978|Mg2Si:JANAF": {
+    "measured_eV_per_atom": {
+     "beta": -0.012644408996799637,
+     "gamma": -0.010467912366202979,
+     "Mg2Si": -0.26885606474014795
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": -0.0055942303686358375,
+       "gamma": -0.013050213173199708,
+       "Mg2Si": 0.10888803489279925
+      },
+      "mae": 0.04251082614487826,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.5993570551083672,
+      "beta_gamma_step_computed": -0.005279486173967212,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": -0.011045443622513673,
+       "gamma": -0.0016278115509167235,
+       "Mg2Si": 0.13910668748961458
+      },
+      "mae": 0.05059331422101499,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.4866793624352764,
+      "beta_gamma_step_computed": 0.011594128702193607,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.03713112380416457,
+       "gamma": -0.02169818494362264,
+       "Mg2Si": 0.18758420627375988
+      },
+      "mae": 0.0821378383405157,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.3144806275925343,
+      "beta_gamma_step_computed": 0.017609435491138588,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.03567074476070001,
+       "gamma": -0.021618422727561724,
+       "Mg2Si": 0.18638590297249436
+      },
+      "mae": 0.0812250234869187,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.3186550981393209,
+      "beta_gamma_step_computed": 0.01622881866373494,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": -0.10033426927829447,
+       "gamma": 0.06482740539931967,
+       "Mg2Si": 0.31240245396815874
+      },
+      "mae": 0.1591880428819243,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.14952085210086297,
+      "beta_gamma_step_computed": 0.1673381713082108,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.015703141962124294,
+       "gamma": -0.012220492276259388,
+       "Mg2Si": 0.3576151214974788
+      },
+      "mae": 0.12851291857862082,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.32069602965793287,
+      "beta_gamma_step_computed": 0.005659146316461566,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": -0.10132485798766823,
+       "gamma": 0.05810649578858193,
+       "Mg2Si": 0.31114182726261924
+      },
+      "mae": 0.15685772701295647,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.1437070857002175,
+      "beta_gamma_step_computed": 0.16160785040684683,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.016725970808742614,
+       "gamma": -0.011878400058029438,
+       "Mg2Si": 0.35694886869522585
+      },
+      "mae": 0.12851774652066597,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.3180982311821189,
+      "beta_gamma_step_computed": 0.007024067381309833,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.0013122014640486873,
+       "gamma": 0.0011361921937891126,
+       "Mg2Si": 0.16025730140681477
+      },
+      "mae": 0.054235231688217526,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.40575016711332684,
+      "beta_gamma_step_computed": 0.0020004873603370835,
+      "beta_gamma_step_measured": 0.002176496630596658
+     }
+    }
+   },
+   "beta:PH1978|gamma:PH1978|Mg2Si:Feufel1997": {
+    "measured_eV_per_atom": {
+     "beta": -0.012644408996799637,
+     "gamma": -0.010467912366202979,
+     "Mg2Si": -0.23008678666307536
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": -0.0055942303686358375,
+       "gamma": -0.013050213173199708,
+       "Mg2Si": 0.07011875681572666
+      },
+      "mae": 0.029587733452520734,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.7006908759012448,
+      "beta_gamma_step_computed": -0.005279486173967212,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": -0.011045443622513673,
+       "gamma": -0.0016278115509167235,
+       "Mg2Si": 0.10033740941254199
+      },
+      "mae": 0.03767022152865746,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.5690683500671,
+      "beta_gamma_step_computed": 0.011594128702193607,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.03713112380416457,
+       "gamma": -0.02169818494362264,
+       "Mg2Si": 0.1488149281966873
+      },
+      "mae": 0.06921474564815817,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.36959032430527644,
+      "beta_gamma_step_computed": 0.017609435491138588,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.03567074476070001,
+       "gamma": -0.021618422727561724,
+       "Mg2Si": 0.14761662489542177
+      },
+      "mae": 0.06830193079456116,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.37440927061313295,
+      "beta_gamma_step_computed": 0.01622881866373494,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": -0.10033426927829447,
+       "gamma": 0.06482740539931967,
+       "Mg2Si": 0.27363317589108616
+      },
+      "mae": 0.14626495018956676,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.1721487685446549,
+      "beta_gamma_step_computed": 0.1673381713082108,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.015703141962124294,
+       "gamma": -0.012220492276259388,
+       "Mg2Si": 0.3188458434204062
+      },
+      "mae": 0.1155898258862633,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.3726099616370191,
+      "beta_gamma_step_computed": 0.005659146316461566,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": -0.10132485798766823,
+       "gamma": 0.05810649578858193,
+       "Mg2Si": 0.27237254918554665
+      },
+      "mae": 0.14393463432059894,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.16513998934535984,
+      "beta_gamma_step_computed": 0.16160785040684683,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.016725970808742614,
+       "gamma": -0.011878400058029438,
+       "Mg2Si": 0.31817959061815326
+      },
+      "mae": 0.11559465382830843,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.3695532070224375,
+      "beta_gamma_step_computed": 0.007024067381309833,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.0013122014640486873,
+       "gamma": 0.0011361921937891126,
+       "Mg2Si": 0.12148802332974218
+      },
+      "mae": 0.04131213899586,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.47412898914748164,
+      "beta_gamma_step_computed": 0.0020004873603370835,
+      "beta_gamma_step_measured": 0.002176496630596658
+     }
+    }
+   }
+  },
+  "beta_epsilon": {
+   "beta:BP1970|gamma:BP1970|Mg2Si:JANAF": {
+    "measured_eV_per_atom": {
+     "beta": -0.025599746083684514,
+     "gamma": -0.03938422474413002,
+     "Mg2Si": -0.26885606474014795
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": 0.005334089281045975,
+       "gamma": 0.01586609920472733,
+       "Mg2Si": 0.10888803489279925
+      },
+      "mae": 0.04336274112619085,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.5967698393043217,
+      "beta_gamma_step_computed": -0.0032524687367641476,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": 0.010635352505860536,
+       "gamma": 0.027288500827010315,
+       "Mg2Si": 0.13910668748961458
+      },
+      "mae": 0.05901018027416181,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.47984091104779547,
+      "beta_gamma_step_computed": 0.002868669660704275,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.02047435089731277,
+       "gamma": 0.007218127434304396,
+       "Mg2Si": 0.18758420627375988
+      },
+      "mae": 0.07175889486845902,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.3261744995343667,
+      "beta_gamma_step_computed": 0.013907999671171664,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.020591159921150976,
+       "gamma": 0.007297889650365312,
+       "Mg2Si": 0.18638590297249436
+      },
+      "mae": 0.07142498418133687,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.33049749338614,
+      "beta_gamma_step_computed": 0.014104570911070785,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": 0.13382065117796313,
+       "gamma": 0.0937437177772467,
+       "Mg2Si": 0.31240245396815874
+      },
+      "mae": 0.17998894097445617,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.223104233857863,
+      "beta_gamma_step_computed": -0.053861412061161934,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.006053116095805066,
+       "gamma": 0.01669582010166765,
+       "Mg2Si": 0.3576151214974788
+      },
+      "mae": 0.1267880192316505,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.29748323340052796,
+      "beta_gamma_step_computed": 0.008964457537027213,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": 0.15401967779559902,
+       "gamma": 0.08702280816650897,
+       "Mg2Si": 0.31114182726261924
+      },
+      "mae": 0.18406143774157577,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.22194253508241488,
+      "beta_gamma_step_computed": -0.08078134828953557,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.007195206308893611,
+       "gamma": 0.0170379123198976,
+       "Mg2Si": 0.35694886869522585
+      },
+      "mae": 0.12706066244133904,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.2948669068550103,
+      "beta_gamma_step_computed": 0.010448639968345708,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.015432691083684434,
+       "gamma": 0.03005250457171615,
+       "Mg2Si": 0.16025730140681477
+      },
+      "mae": 0.0685808323540718,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.4003921819754901,
+      "beta_gamma_step_computed": 0.0008353348275862132,
+      "beta_gamma_step_measured": -0.013784478660445503
+     }
+    }
+   },
+   "beta:BP1970|gamma:BP1970|Mg2Si:Feufel1997": {
+    "measured_eV_per_atom": {
+     "beta": -0.025599746083684514,
+     "gamma": -0.03938422474413002,
+     "Mg2Si": -0.23008678666307536
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": 0.005334089281045975,
+       "gamma": 0.01586609920472733,
+       "Mg2Si": 0.07011875681572666
+      },
+      "mae": 0.03043964843383332,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.6936368146775058,
+      "beta_gamma_step_computed": -0.0032524687367641476,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": 0.010635352505860536,
+       "gamma": 0.027288500827010315,
+       "Mg2Si": 0.10033740941254199
+      },
+      "mae": 0.04608708758180428,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.5569372843476932,
+      "beta_gamma_step_computed": 0.002868669660704275,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.02047435089731277,
+       "gamma": 0.007218127434304396,
+       "Mg2Si": 0.1488149281966873
+      },
+      "mae": 0.05883580217610149,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.3834503289657041,
+      "beta_gamma_step_computed": 0.013907999671171664,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.020591159921150976,
+       "gamma": 0.007297889650365312,
+       "Mg2Si": 0.14761662489542177
+      },
+      "mae": 0.05850189148897935,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.38844725889308535,
+      "beta_gamma_step_computed": 0.014104570911070785,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": 0.13382065117796313,
+       "gamma": 0.0937437177772467,
+       "Mg2Si": 0.27363317589108616
+      },
+      "mae": 0.16706584828209867,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.2707481303426428,
+      "beta_gamma_step_computed": -0.053861412061161934,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.006053116095805066,
+       "gamma": 0.01669582010166765,
+       "Mg2Si": 0.3188458434204062
+      },
+      "mae": 0.11386492653929298,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.3394313659997916,
+      "beta_gamma_step_computed": 0.008964457537027213,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": 0.15401967779559902,
+       "gamma": 0.08702280816650897,
+       "Mg2Si": 0.27237254918554665
+      },
+      "mae": 0.1711383450492182,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.27006519520443156,
+      "beta_gamma_step_computed": -0.08078134828953557,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.007195206308893611,
+       "gamma": 0.0170379123198976,
+       "Mg2Si": 0.31817959061815326
+      },
+      "mae": 0.11413756974898148,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.33636570498135687,
+      "beta_gamma_step_computed": 0.010448639968345708,
+      "beta_gamma_step_measured": -0.013784478660445503
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.015432691083684434,
+       "gamma": 0.03005250457171615,
+       "Mg2Si": 0.12148802332974218
+      },
+      "mae": 0.05565773966171426,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.46448979580607014,
+      "beta_gamma_step_computed": 0.0008353348275862132,
+      "beta_gamma_step_measured": -0.013784478660445503
+     }
+    }
+   },
+   "beta:BP1970|gamma:PH1978|Mg2Si:JANAF": {
+    "measured_eV_per_atom": {
+     "beta": -0.025599746083684514,
+     "gamma": -0.010467912366202979,
+     "Mg2Si": -0.26885606474014795
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": 0.005334089281045975,
+       "gamma": -0.013050213173199708,
+       "Mg2Si": 0.10888803489279925
+      },
+      "mae": 0.04242411244901498,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.5992368316745561,
+      "beta_gamma_step_computed": -0.0032524687367641476,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": 0.010635352505860536,
+       "gamma": -0.0016278115509167235,
+       "Mg2Si": 0.13910668748961458
+      },
+      "mae": 0.05045661718213062,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.48452199395551215,
+      "beta_gamma_step_computed": 0.002868669660704275,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.02047435089731277,
+       "gamma": -0.02169818494362264,
+       "Mg2Si": 0.18758420627375988
+      },
+      "mae": 0.07658558070489843,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.3198782540124888,
+      "beta_gamma_step_computed": 0.013907999671171664,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.020591159921150976,
+       "gamma": -0.021618422727561724,
+       "Mg2Si": 0.18638590297249436
+      },
+      "mae": 0.07619849520706902,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.3243181318067943,
+      "beta_gamma_step_computed": 0.014104570911070785,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": 0.13382065117796313,
+       "gamma": 0.06482740539931967,
+       "Mg2Si": 0.31240245396815874
+      },
+      "mae": 0.17035017018181384,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.20598872459494152,
+      "beta_gamma_step_computed": -0.053861412061161934,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.006053116095805066,
+       "gamma": -0.012220492276259388,
+       "Mg2Si": 0.3576151214974788
+      },
+      "mae": 0.12529624328984776,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.31233499424803346,
+      "beta_gamma_step_computed": 0.008964457537027213,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": 0.15401967779559902,
+       "gamma": 0.05810649578858193,
+       "Mg2Si": 0.31114182726261924
+      },
+      "mae": 0.1744226669489334,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.207464578488549,
+      "beta_gamma_step_computed": -0.08078134828953557,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.007195206308893611,
+       "gamma": -0.011878400058029438,
+       "Mg2Si": 0.35694886869522585
+      },
+      "mae": 0.1253408250207163,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.309531619600424,
+      "beta_gamma_step_computed": 0.010448639968345708,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.015432691083684434,
+       "gamma": 0.0011361921937891126,
+       "Mg2Si": 0.16025730140681477
+      },
+      "mae": 0.05894206156142944,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.40459955605805015,
+      "beta_gamma_step_computed": 0.0008353348275862132,
+      "beta_gamma_step_measured": 0.015131833717481535
+     }
+    }
+   },
+   "beta:BP1970|gamma:PH1978|Mg2Si:Feufel1997": {
+    "measured_eV_per_atom": {
+     "beta": -0.025599746083684514,
+     "gamma": -0.010467912366202979,
+     "Mg2Si": -0.23008678666307536
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": 0.005334089281045975,
+       "gamma": -0.013050213173199708,
+       "Mg2Si": 0.07011875681572666
+      },
+      "mae": 0.02950101975665745,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.6995924724365591,
+      "beta_gamma_step_computed": -0.0032524687367641476,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": 0.010635352505860536,
+       "gamma": -0.0016278115509167235,
+       "Mg2Si": 0.10033740941254199
+      },
+      "mae": 0.03753352448977308,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.5653738332693303,
+      "beta_gamma_step_computed": 0.002868669660704275,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.02047435089731277,
+       "gamma": -0.02169818494362264,
+       "Mg2Si": 0.1488149281966873
+      },
+      "mae": 0.0636624880125409,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.37642366531961113,
+      "beta_gamma_step_computed": 0.013907999671171664,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.020591159921150976,
+       "gamma": -0.021618422727561724,
+       "Mg2Si": 0.14761662489542177
+      },
+      "mae": 0.06327540251471149,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.3815976686907351,
+      "beta_gamma_step_computed": 0.014104570911070785,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": 0.13382065117796313,
+       "gamma": 0.06482740539931967,
+       "Mg2Si": 0.27363317589108616
+      },
+      "mae": 0.1574270774894563,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.24874673287421278,
+      "beta_gamma_step_computed": -0.053861412061161934,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.006053116095805066,
+       "gamma": -0.012220492276259388,
+       "Mg2Si": 0.3188458434204062
+      },
+      "mae": 0.11237315059749022,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.3607584677508785,
+      "beta_gamma_step_computed": 0.008964457537027213,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": 0.15401967779559902,
+       "gamma": 0.05810649578858193,
+       "Mg2Si": 0.27237254918554665
+      },
+      "mae": 0.16149957425657588,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.2516642068342365,
+      "beta_gamma_step_computed": -0.08078134828953557,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.007195206308893611,
+       "gamma": -0.011878400058029438,
+       "Mg2Si": 0.31817959061815326
+      },
+      "mae": 0.11241773232835878,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.357426325820952,
+      "beta_gamma_step_computed": 0.010448639968345708,
+      "beta_gamma_step_measured": 0.015131833717481535
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.015432691083684434,
+       "gamma": 0.0011361921937891126,
+       "Mg2Si": 0.12148802332974218
+      },
+      "mae": 0.04601896886907191,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.47193310202159794,
+      "beta_gamma_step_computed": 0.0008353348275862132,
+      "beta_gamma_step_measured": 0.015131833717481535
+     }
+    }
+   },
+   "beta:PH1978|gamma:BP1970|Mg2Si:JANAF": {
+    "measured_eV_per_atom": {
+     "beta": -0.012644408996799637,
+     "gamma": -0.03938422474413002,
+     "Mg2Si": -0.26885606474014795
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": -0.007621247805838902,
+       "gamma": 0.01586609920472733,
+       "Mg2Si": 0.10888803489279925
+      },
+      "mae": 0.04412512730112183,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.5972175842863849,
+      "beta_gamma_step_computed": -0.0032524687367641476,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": -0.0023199845810243404,
+       "gamma": 0.027288500827010315,
+       "Mg2Si": 0.13910668748961458
+      },
+      "mae": 0.056238390965883074,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.48043387413519667,
+      "beta_gamma_step_computed": 0.002868669660704275,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.03342968798419765,
+       "gamma": 0.007218127434304396,
+       "Mg2Si": 0.18758420627375988
+      },
+      "mae": 0.07607734056408731,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.3202916754390087,
+      "beta_gamma_step_computed": 0.013907999671171664,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.03354649700803585,
+       "gamma": 0.007297889650365312,
+       "Mg2Si": 0.18638590297249436
+      },
+      "mae": 0.07574342987696518,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.3246231644513065,
+      "beta_gamma_step_computed": 0.014104570911070785,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": 0.12086531409107826,
+       "gamma": 0.0937437177772467,
+       "Mg2Si": 0.31240245396815874
+      },
+      "mae": 0.17567049527882792,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.2056502834529469,
+      "beta_gamma_step_computed": -0.053861412061161934,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.01900845318268994,
+       "gamma": 0.01669582010166765,
+       "Mg2Si": 0.3576151214974788
+      },
+      "mae": 0.13110646492727882,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.3050171134492008,
+      "beta_gamma_step_computed": 0.008964457537027213,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": 0.14106434070871415,
+       "gamma": 0.08702280816650897,
+       "Mg2Si": 0.31114182726261924
+      },
+      "mae": 0.17974299204594746,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.2009442605596423,
+      "beta_gamma_step_computed": -0.08078134828953557,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.020150543395778486,
+       "gamma": 0.0170379123198976,
+       "Mg2Si": 0.35694886869522585
+      },
+      "mae": 0.13137910813696732,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.3025832308438726,
+      "beta_gamma_step_computed": 0.010448639968345708,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.0024773539967995577,
+       "gamma": 0.03005250457171615,
+       "Mg2Si": 0.16025730140681477
+      },
+      "mae": 0.06426238665844348,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.4012931000529723,
+      "beta_gamma_step_computed": 0.0008353348275862132,
+      "beta_gamma_step_measured": -0.026739815747330378
+     }
+    }
+   },
+   "beta:PH1978|gamma:BP1970|Mg2Si:Feufel1997": {
+    "measured_eV_per_atom": {
+     "beta": -0.012644408996799637,
+     "gamma": -0.03938422474413002,
+     "Mg2Si": -0.23008678666307536
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": -0.007621247805838902,
+       "gamma": 0.01586609920472733,
+       "Mg2Si": 0.07011875681572666
+      },
+      "mae": 0.031202034608764296,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.6951212357356911,
+      "beta_gamma_step_computed": -0.0032524687367641476,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": -0.0023199845810243404,
+       "gamma": 0.027288500827010315,
+       "Mg2Si": 0.10033740941254199
+      },
+      "mae": 0.043315298273525545,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.5584390828494966,
+      "beta_gamma_step_computed": 0.002868669660704275,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.03342968798419765,
+       "gamma": 0.007218127434304396,
+       "Mg2Si": 0.1488149281966873
+      },
+      "mae": 0.06315424787172978,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.37600454707867975,
+      "beta_gamma_step_computed": 0.013907999671171664,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.03354649700803585,
+       "gamma": 0.007297889650365312,
+       "Mg2Si": 0.14761662489542177
+      },
+      "mae": 0.06282033718460765,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.38101908893416625,
+      "beta_gamma_step_computed": 0.014104570911070785,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": 0.12086531409107826,
+       "gamma": 0.0937437177772467,
+       "Mg2Si": 0.27363317589108616
+      },
+      "mae": 0.16274740258647039,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.24754830760306806,
+      "beta_gamma_step_computed": -0.053861412061161934,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.01900845318268994,
+       "gamma": 0.01669582010166765,
+       "Mg2Si": 0.3188458434204062
+      },
+      "mae": 0.11818337223492127,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.35001215938406416,
+      "beta_gamma_step_computed": 0.008964457537027213,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": 0.14106434070871415,
+       "gamma": 0.08702280816650897,
+       "Mg2Si": 0.27237254918554665
+      },
+      "mae": 0.16681989935358996,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.24207087800544413,
+      "beta_gamma_step_computed": -0.08078134828953557,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.020150543395778486,
+       "gamma": 0.0170379123198976,
+       "Mg2Si": 0.31817959061815326
+      },
+      "mae": 0.11845601544460978,
+      "kendall_tau": -1.0,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.34718944452793465,
+      "beta_gamma_step_computed": 0.010448639968345708,
+      "beta_gamma_step_measured": -0.026739815747330378
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.0024773539967995577,
+       "gamma": 0.03005250457171615,
+       "Mg2Si": 0.12148802332974218
+      },
+      "mae": 0.05133929396608596,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.46629070283318486,
+      "beta_gamma_step_computed": 0.0008353348275862132,
+      "beta_gamma_step_measured": -0.026739815747330378
+     }
+    }
+   },
+   "beta:PH1978|gamma:PH1978|Mg2Si:JANAF": {
+    "measured_eV_per_atom": {
+     "beta": -0.012644408996799637,
+     "gamma": -0.010467912366202979,
+     "Mg2Si": -0.26885606474014795
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": -0.007621247805838902,
+       "gamma": -0.013050213173199708,
+       "Mg2Si": 0.10888803489279925
+      },
+      "mae": 0.04318649862394595,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.5997103199319803,
+      "beta_gamma_step_computed": -0.0032524687367641476,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": -0.0023199845810243404,
+       "gamma": -0.0016278115509167235,
+       "Mg2Si": 0.13910668748961458
+      },
+      "mae": 0.047684827873851886,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.4851587056847902,
+      "beta_gamma_step_computed": 0.002868669660704275,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.03342968798419765,
+       "gamma": -0.02169818494362264,
+       "Mg2Si": 0.18758420627375988
+      },
+      "mae": 0.08090402640052673,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.3138355482517959,
+      "beta_gamma_step_computed": 0.013907999671171664,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.03354649700803585,
+       "gamma": -0.021618422727561724,
+       "Mg2Si": 0.18638590297249436
+      },
+      "mae": 0.0805169409026973,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.31828488819742173,
+      "beta_gamma_step_computed": 0.014104570911070785,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": 0.12086531409107826,
+       "gamma": 0.06482740539931967,
+       "Mg2Si": 0.31240245396815874
+      },
+      "mae": 0.16603172448618556,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.18807110350379055,
+      "beta_gamma_step_computed": -0.053861412061161934,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.01900845318268994,
+       "gamma": -0.012220492276259388,
+       "Mg2Si": 0.3576151214974788
+      },
+      "mae": 0.12961468898547604,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.32011998617459164,
+      "beta_gamma_step_computed": 0.008964457537027213,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": 0.14106434070871415,
+       "gamma": 0.05810649578858193,
+       "Mg2Si": 0.31114182726261924
+      },
+      "mae": 0.17010422125330513,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.18595022379644188,
+      "beta_gamma_step_computed": -0.08078134828953557,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.020150543395778486,
+       "gamma": -0.011878400058029438,
+       "Mg2Si": 0.35694886869522585
+      },
+      "mae": 0.1296592707163446,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.3175014030499549,
+      "beta_gamma_step_computed": 0.010448639968345708,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.0024773539967995577,
+       "gamma": 0.0011361921937891126,
+       "Mg2Si": 0.16025730140681477
+      },
+      "mae": 0.054623615865801146,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.40554710650002856,
+      "beta_gamma_step_computed": 0.0008353348275862132,
+      "beta_gamma_step_measured": 0.002176496630596658
+     }
+    }
+   },
+   "beta:PH1978|gamma:PH1978|Mg2Si:Feufel1997": {
+    "measured_eV_per_atom": {
+     "beta": -0.012644408996799637,
+     "gamma": -0.010467912366202979,
+     "Mg2Si": -0.23008678666307536
+    },
+    "sources": {
+     "qe_pbe": {
+      "error": {
+       "beta": -0.007621247805838902,
+       "gamma": -0.013050213173199708,
+       "Mg2Si": 0.07011875681572666
+      },
+      "mae": 0.03026340593158842,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": 0.7011725660436112,
+      "beta_gamma_step_computed": -0.0032524687367641476,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "qe_hse06": {
+      "error": {
+       "beta": -0.0023199845810243404,
+       "gamma": -0.0016278115509167235,
+       "Mg2Si": 0.10033740941254199
+      },
+      "mae": 0.03476173518149435,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.5669948762376364,
+      "beta_gamma_step_computed": 0.002868669660704275,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "mace_relax": {
+      "error": {
+       "beta": -0.03342968798419765,
+       "gamma": -0.02169818494362264,
+       "Mg2Si": 0.1488149281966873
+      },
+      "mae": 0.0679809337081692,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.36871073387139247,
+      "beta_gamma_step_computed": 0.013907999671171664,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "mace_md": {
+      "error": {
+       "beta": -0.03354649700803585,
+       "gamma": -0.021618422727561724,
+       "Mg2Si": 0.14761662489542177
+      },
+      "mae": 0.06759384821033977,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.3739044751517707,
+      "beta_gamma_step_computed": 0.014104570911070785,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "lammps_meam_md": {
+      "error": {
+       "beta": 0.12086531409107826,
+       "gamma": 0.06482740539931967,
+       "Mg2Si": 0.27363317589108616
+      },
+      "mae": 0.15310863179382803,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.22471351557100067,
+      "beta_gamma_step_computed": -0.053861412061161934,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "gpumd_nep89_md": {
+      "error": {
+       "beta": -0.01900845318268994,
+       "gamma": -0.012220492276259388,
+       "Mg2Si": 0.3188458434204062
+      },
+      "mae": 0.11669159629311852,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.371824504243719,
+      "beta_gamma_step_computed": 0.008964457537027213,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "lammps_meam_relax": {
+      "error": {
+       "beta": 0.14106434070871415,
+       "gamma": 0.05810649578858193,
+       "Mg2Si": 0.27237254918554665
+      },
+      "mae": 0.15718112856094757,
+      "kendall_tau": 0.33333333333333337,
+      "beta_gamma_order_agrees": false,
+      "binding_scale": -0.2227401290803343,
+      "beta_gamma_step_computed": -0.08078134828953557,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "gpumd_nep89_relax": {
+      "error": {
+       "beta": -0.020150543395778486,
+       "gamma": -0.011878400058029438,
+       "Mg2Si": 0.31817959061815326
+      },
+      "mae": 0.11673617802398706,
+      "kendall_tau": -0.33333333333333337,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": -0.36873940896292523,
+      "beta_gamma_step_computed": 0.010448639968345708,
+      "beta_gamma_step_measured": 0.002176496630596658
+     },
+     "archive_mp": {
+      "error": {
+       "beta": 0.0024773539967995577,
+       "gamma": 0.0011361921937891126,
+       "Mg2Si": 0.12148802332974218
+      },
+      "mae": 0.04170052317344362,
+      "kendall_tau": 1.0,
+      "beta_gamma_order_agrees": true,
+      "binding_scale": 0.47385210820946977,
+      "beta_gamma_step_computed": 0.0008353348275862132,
+      "beta_gamma_step_measured": 0.002176496630596658
+     }
+    }
+   }
+  }
+ },
+ "summary": {
+  "beta_hull": {
+   "qe_pbe": {
+    "label": "QE PBE, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.029587733452520734,
+    "mae_max": 0.044038413605258536,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.5960732209868715,
+    "scale_max": 0.7006908759012448
+   },
+   "qe_hse06": {
+    "label": "QE HSE06, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.03462503814260997,
+    "mae_max": 0.05914687731304619,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.48192490591270964,
+    "scale_max": 0.5695330390209832
+   },
+   "mace_relax": {
+    "label": "MACE-MP-0, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.060069614116090464,
+    "mae_max": 0.0821378383405157,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.3144806275925343,
+    "scale_max": 0.3851685885113874
+   },
+   "mace_md": {
+    "label": "MACE-MP-0 MD, 300 K",
+    "n_combinations": 8,
+    "mae_min": 0.05920997407320074,
+    "mae_max": 0.0812250234869187,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.3186550981393209,
+    "scale_max": 0.3894333651383219
+   },
+   "lammps_meam_md": {
+    "label": "MEAM MD, 300 K",
+    "n_combinations": 8,
+    "mae_min": 0.14194650449393847,
+    "mae_max": 0.16882681367456664,
+    "tau_values": [
+     -0.333,
+     0.333
+    ],
+    "tau_mean": 0.0,
+    "order_agrees_in": 4,
+    "scale_min": -0.19637007288491373,
+    "scale_max": -0.12846964386976545
+   },
+   "gpumd_nep89_md": {
+    "label": "NEP89 MD, 300 K",
+    "n_combinations": 8,
+    "mae_min": 0.11127138019063502,
+    "mae_max": 0.1300046945204236,
+    "tau_values": [
+     -1.0,
+     -0.333
+    ],
+    "tau_mean": -0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": -0.3726099616370191,
+    "scale_max": -0.2986191586761865
+   },
+   "lammps_meam_relax": {
+    "label": "MEAM, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.13961618862497063,
+    "mae_max": 0.1664964978055988,
+    "tau_values": [
+     -0.333,
+     0.333
+    ],
+    "tau_mean": 0.0,
+    "order_agrees_in": 4,
+    "scale_min": -0.18599007027935502,
+    "scale_max": -0.12251962708111681
+   },
+   "gpumd_nep89_relax": {
+    "label": "NEP89, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.11127620813268015,
+    "mae_max": 0.13023758394128868,
+    "tau_values": [
+     -1.0,
+     -0.333
+    ],
+    "tau_mean": -0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": -0.3695532070224375,
+    "scale_max": -0.29604381828644755
+   },
+   "archive_mp": {
+    "label": "MP archive",
+    "n_combinations": 8,
+    "mae_min": 0.04131213899586,
+    "mae_max": 0.06819244817648816,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.4007926060577109,
+    "scale_max": 0.47412898914748164
+   }
+  },
+  "beta_epsilon": {
+   "qe_pbe": {
+    "label": "QE PBE, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.02950101975665745,
+    "mae_max": 0.04412512730112183,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.5967698393043217,
+    "scale_max": 0.7011725660436112
+   },
+   "qe_hse06": {
+    "label": "QE HSE06, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.03476173518149435,
+    "mae_max": 0.05901018027416181,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.47984091104779547,
+    "scale_max": 0.5669948762376364
+   },
+   "mace_relax": {
+    "label": "MACE-MP-0, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.05883580217610149,
+    "mae_max": 0.08090402640052673,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.3138355482517959,
+    "scale_max": 0.3834503289657041
+   },
+   "mace_md": {
+    "label": "MACE-MP-0 MD, 300 K",
+    "n_combinations": 8,
+    "mae_min": 0.05850189148897935,
+    "mae_max": 0.0805169409026973,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.31828488819742173,
+    "scale_max": 0.38844725889308535
+   },
+   "lammps_meam_md": {
+    "label": "MEAM MD, 300 K",
+    "n_combinations": 8,
+    "mae_min": 0.15310863179382803,
+    "mae_max": 0.17998894097445617,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": -0.2707481303426428,
+    "scale_max": -0.18807110350379055
+   },
+   "gpumd_nep89_md": {
+    "label": "NEP89 MD, 300 K",
+    "n_combinations": 8,
+    "mae_min": 0.11237315059749022,
+    "mae_max": 0.13110646492727882,
+    "tau_values": [
+     -1.0,
+     -0.333
+    ],
+    "tau_mean": -0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": -0.371824504243719,
+    "scale_max": -0.29748323340052796
+   },
+   "lammps_meam_relax": {
+    "label": "MEAM, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.15718112856094757,
+    "mae_max": 0.18406143774157577,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": -0.27006519520443156,
+    "scale_max": -0.18595022379644188
+   },
+   "gpumd_nep89_relax": {
+    "label": "NEP89, 0 K",
+    "n_combinations": 8,
+    "mae_min": 0.11241773232835878,
+    "mae_max": 0.13137910813696732,
+    "tau_values": [
+     -1.0,
+     -0.333
+    ],
+    "tau_mean": -0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": -0.36873940896292523,
+    "scale_max": -0.2948669068550103
+   },
+   "archive_mp": {
+    "label": "MP archive",
+    "n_combinations": 8,
+    "mae_min": 0.04170052317344362,
+    "mae_max": 0.0685808323540718,
+    "tau_values": [
+     0.333,
+     1.0
+    ],
+    "tau_mean": 0.6666666666666667,
+    "order_agrees_in": 4,
+    "scale_min": 0.4003921819754901,
+    "scale_max": 0.47385210820946977
+   }
+  }
+ }
+}

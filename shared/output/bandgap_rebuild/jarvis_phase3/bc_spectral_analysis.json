@@ -1,0 +1,154 @@
+{
+  "engine_labels": [
+    "gga_band_gap_difference_theoretical",
+    "gga_band_gap_intersection_theoretical",
+    "mbj_band_gap_theoretical",
+    "optb88vdw_band_gap_theoretical",
+    "snumat_gga_band_gap_theoretical",
+    "snumat_hse_band_gap_theoretical"
+  ],
+  "policy_labels": [
+    "diamond",
+    "perovskite",
+    "rocksalt",
+    "rutile",
+    "wurtzite",
+    "zincblende"
+  ],
+  "pair_labels": [
+    "diamond_vs_perovskite",
+    "diamond_vs_rocksalt",
+    "diamond_vs_rutile",
+    "diamond_vs_wurtzite",
+    "diamond_vs_zincblende",
+    "perovskite_vs_rocksalt",
+    "perovskite_vs_rutile",
+    "perovskite_vs_wurtzite",
+    "perovskite_vs_zincblende",
+    "rocksalt_vs_rutile",
+    "rocksalt_vs_wurtzite",
+    "rocksalt_vs_zincblende",
+    "rutile_vs_wurtzite",
+    "rutile_vs_zincblende",
+    "wurtzite_vs_zincblende"
+  ],
+  "singular_values": [
+    0.4909710406920543,
+    0.4503357065873697,
+    0.17824023978305922,
+    0.16605392292684854,
+    0.1310899809208242,
+    0.04992099557993629
+  ],
+  "variance_explained": [
+    0.4610137566305326,
+    0.3878599148981425,
+    0.060759423883817915,
+    0.052735177459652956,
+    0.032865567236003604,
+    0.004766159891850564
+  ],
+  "global_bc_fraction": 0.4610137566305326,
+  "per_engine_global_alignment": {
+    "gga_band_gap_difference_theoretical": 0.20282853174477591,
+    "gga_band_gap_intersection_theoretical": 0.7419042935117304,
+    "mbj_band_gap_theoretical": 0.22297858275072266,
+    "optb88vdw_band_gap_theoretical": 0.0014551027707443611,
+    "snumat_gga_band_gap_theoretical": 0.5982698203170848,
+    "snumat_hse_band_gap_theoretical": 0.028111605917966166
+  },
+  "pairwise_shared_mass": {
+    "gga_band_gap_difference_theoretical->gga_band_gap_intersection_theoretical": 0.7230445643065802,
+    "gga_band_gap_difference_theoretical->mbj_band_gap_theoretical": -0.09949585119486996,
+    "gga_band_gap_difference_theoretical->optb88vdw_band_gap_theoretical": 0.31208610136871867,
+    "gga_band_gap_difference_theoretical->snumat_gga_band_gap_theoretical": 0.44809889955136195,
+    "gga_band_gap_difference_theoretical->snumat_hse_band_gap_theoretical": 0.17594678312430814,
+    "gga_band_gap_intersection_theoretical->gga_band_gap_difference_theoretical": 0.7230445643065802,
+    "gga_band_gap_intersection_theoretical->mbj_band_gap_theoretical": 0.05736832793898284,
+    "gga_band_gap_intersection_theoretical->optb88vdw_band_gap_theoretical": 0.10219492088960143,
+    "gga_band_gap_intersection_theoretical->snumat_gga_band_gap_theoretical": 0.10249013220337583,
+    "gga_band_gap_intersection_theoretical->snumat_hse_band_gap_theoretical": 0.06208939951699587,
+    "mbj_band_gap_theoretical->gga_band_gap_difference_theoretical": -0.09949585119486996,
+    "mbj_band_gap_theoretical->gga_band_gap_intersection_theoretical": 0.05736832793898284,
+    "mbj_band_gap_theoretical->optb88vdw_band_gap_theoretical": 0.08960512269189919,
+    "mbj_band_gap_theoretical->snumat_gga_band_gap_theoretical": -0.6842128346418981,
+    "mbj_band_gap_theoretical->snumat_hse_band_gap_theoretical": 0.02393163717136704,
+    "optb88vdw_band_gap_theoretical->gga_band_gap_difference_theoretical": 0.31208610136871867,
+    "optb88vdw_band_gap_theoretical->gga_band_gap_intersection_theoretical": 0.10219492088960143,
+    "optb88vdw_band_gap_theoretical->mbj_band_gap_theoretical": 0.08960512269189919,
+    "optb88vdw_band_gap_theoretical->snumat_gga_band_gap_theoretical": -0.15375090103126834,
+    "optb88vdw_band_gap_theoretical->snumat_hse_band_gap_theoretical": -0.18656707093263847,
+    "snumat_gga_band_gap_theoretical->gga_band_gap_difference_theoretical": 0.44809889955136195,
+    "snumat_gga_band_gap_theoretical->gga_band_gap_intersection_theoretical": 0.10249013220337583,
+    "snumat_gga_band_gap_theoretical->mbj_band_gap_theoretical": -0.6842128346418981,
+    "snumat_gga_band_gap_theoretical->optb88vdw_band_gap_theoretical": -0.15375090103126834,
+    "snumat_gga_band_gap_theoretical->snumat_hse_band_gap_theoretical": 0.08282483441879977,
+    "snumat_hse_band_gap_theoretical->gga_band_gap_difference_theoretical": 0.17594678312430814,
+    "snumat_hse_band_gap_theoretical->gga_band_gap_intersection_theoretical": 0.06208939951699587,
+    "snumat_hse_band_gap_theoretical->mbj_band_gap_theoretical": 0.02393163717136704,
+    "snumat_hse_band_gap_theoretical->optb88vdw_band_gap_theoretical": -0.18656707093263847,
+    "snumat_hse_band_gap_theoretical->snumat_gga_band_gap_theoretical": 0.08282483441879977
+  },
+  "pair_stability": {
+    "diamond_vs_perovskite": 0.05713777063717977,
+    "diamond_vs_rocksalt": 0.048328992742888564,
+    "diamond_vs_rutile": 0.07477583109461677,
+    "diamond_vs_wurtzite": 0.05798561495338028,
+    "diamond_vs_zincblende": 0.13684936945279227,
+    "perovskite_vs_rocksalt": 0.05162707636306695,
+    "perovskite_vs_rutile": 0.03425298569760713,
+    "perovskite_vs_wurtzite": 0.04336055072461565,
+    "perovskite_vs_zincblende": 0.14307769467382808,
+    "rocksalt_vs_rutile": 0.06782037165533009,
+    "rocksalt_vs_wurtzite": 0.037824832685813436,
+    "rocksalt_vs_zincblende": 0.10248705526196111,
+    "rutile_vs_wurtzite": 0.03713250492674128,
+    "rutile_vs_zincblende": 0.11090399998963349,
+    "wurtzite_vs_zincblende": 0.028145442619706588
+  },
+  "most_stable_pairs": [
+    {
+      "pair": "wurtzite_vs_zincblende",
+      "std": 0.028145442619706588
+    },
+    {
+      "pair": "perovskite_vs_rutile",
+      "std": 0.03425298569760713
+    },
+    {
+      "pair": "rutile_vs_wurtzite",
+      "std": 0.03713250492674128
+    },
+    {
+      "pair": "rocksalt_vs_wurtzite",
+      "std": 0.037824832685813436
+    },
+    {
+      "pair": "perovskite_vs_wurtzite",
+      "std": 0.04336055072461565
+    }
+  ],
+  "most_fragile_pairs": [
+    {
+      "pair": "perovskite_vs_zincblende",
+      "std": 0.14307769467382808
+    },
+    {
+      "pair": "diamond_vs_zincblende",
+      "std": 0.13684936945279227
+    },
+    {
+      "pair": "rutile_vs_zincblende",
+      "std": 0.11090399998963349
+    },
+    {
+      "pair": "rocksalt_vs_zincblende",
+      "std": 0.10248705526196111
+    },
+    {
+      "pair": "diamond_vs_rutile",
+      "std": 0.07477583109461677
+    }
+  ],
+  "interpretation": "BC pairwise intransitivity is partially shared (fraction=0.46). Some matchup outcomes transfer; others are engine-specific."
+}

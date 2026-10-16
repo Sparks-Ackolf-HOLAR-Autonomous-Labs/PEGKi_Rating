@@ -1,0 +1,81 @@
+{
+ "n_receiver": 180,
+ "donors": {
+  "qe_pbe": {
+   "label": "QE PBE",
+   "n": 168,
+   "tau": 0.9277159965782721,
+   "mad_eV_atom": 0.0289945042852524,
+   "top10_overlap": 9
+  },
+  "qe_hse06": {
+   "label": "QE HSE06",
+   "n": 168,
+   "tau": 0.8947818648417453,
+   "mad_eV_atom": 0.012037267411584332,
+   "top10_overlap": 9
+  },
+  "mace_relax": {
+   "label": "MACE-MP-0, 0 K",
+   "n": 168,
+   "tau": 0.8646991730824067,
+   "mad_eV_atom": 0.03887277646243004,
+   "top10_overlap": 7
+  },
+  "mace_md": {
+   "label": "MACE-MP-0 MD, 300 K",
+   "n": 16,
+   "tau": 0.5833333333333334,
+   "mad_eV_atom": 0.0165724752126792,
+   "top10_overlap": 10
+  },
+  "gpumd_nep89_md": {
+   "label": "NEP89 MD, 300 K",
+   "n": 168,
+   "tau": -0.11548331907613345,
+   "mad_eV_atom": 0.13083343774701559,
+   "top10_overlap": 4
+  },
+  "lammps_meam_md": {
+   "label": "MEAM MD, 300 K",
+   "n": 165,
+   "tau": 0.4712490761271249,
+   "mad_eV_atom": 0.059067768814532864,
+   "top10_overlap": 1
+  }
+ },
+ "mp_r2scan_vs_gpaw": {
+  "n": 15,
+  "tau": 0.9047619047619049,
+  "mad_eV_atom": 0.01163026872930296,
+  "top10_overlap": 9
+ },
+ "gpaw_pbe_vs_qe_pbe": {
+  "n": 168,
+  "tau": 0.8943541488451668,
+  "mad_eV_atom": 0.012565061762079943,
+  "top10_overlap": 9
+ },
+ "mg2si": {
+  "gpaw_r2scan": -0.19691402116777823,
+  "mp_r2scan": -0.19429969500000036,
+  "calorimetric": -0.26885698986025464
+ },
+ "receiver_top10": [
+  "mp_1367_Mg2Si",
+  "mp_1101851_Mg2Si",
+  "mp_1074652_Mg2Si",
+  "mp_1094116_MgAl2",
+  "mp_3833_Mg(AlSi)2",
+  "mp_4499_MgAlSi",
+  "fcc_MgAl7_19",
+  "mp_1073794_MgSi",
+  "fcc_MgAl7_112",
+  "fcc_MgAl3_02"
+ ],
+ "top10_not_archived": [
+  "fcc_MgAl7_19",
+  "fcc_MgAl7_112",
+  "fcc_MgAl3_02"
+ ]
+}

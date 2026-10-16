@@ -1,0 +1,33 @@
+{
+  "conjecture": "Physics-type causal analysis (Conjecture 6.2)",
+  "result": "NOT_SUPPORTED",
+  "f_statistic": 0.7815990415414871,
+  "p_value": 0.46775516151800384,
+  "eta_squared": 0.05472769815676955,
+  "grand_mean_delta": 0.46312849483891505,
+  "group_means_by_source_physics": {
+    "mixed": 0.4395518398774665,
+    "dft_meta_gga": 0.47253920351836876,
+    "dft_bandstructure": 0.47729444112091
+  },
+  "pair_group_means": {
+    "mixed->mixed": 0.5155038019554019,
+    "mixed->dft_meta_gga": 0.44013022494263054,
+    "mixed->dft_bandstructure": 0.40099747377333494,
+    "dft_meta_gga->mixed": 0.5006305134700231,
+    "dft_meta_gga->dft_bandstructure": 0.440780114267998,
+    "dft_meta_gga->dft_meta_gga": 0.4798747621158015,
+    "dft_bandstructure->mixed": 0.5234830646340147,
+    "dft_bandstructure->dft_meta_gga": 0.4754281726385275,
+    "dft_bandstructure->dft_bandstructure": 0.3886497310594654
+  },
+  "physics_type_map": {
+    "gga_band_gap_difference_theoretical": "mixed",
+    "gga_band_gap_intersection_theoretical": "mixed",
+    "mbj_band_gap_theoretical": "dft_meta_gga",
+    "optb88vdw_band_gap_theoretical": "dft_bandstructure",
+    "snumat_gga_band_gap_theoretical": "dft_bandstructure",
+    "snumat_hse_band_gap_theoretical": "dft_meta_gga"
+  },
+  "interpretation": "Physics type does not significantly predict transfer delta (F=0.78, p=0.468, eta^2=0.055). Transfer success is driven by gamut geometry or policy dynamics, not physics model class."
+}

@@ -1,0 +1,615 @@
+{
+  "analysis": "Transfer Delta Weight Sensitivity",
+  "sweep_values": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "default_weights": {
+    "alpha": 1.0,
+    "beta": 0.0,
+    "gamma": 1.0,
+    "delta": 1.0
+  },
+  "baseline": {
+    "top_source": "optb88vdw_band_gap_theoretical",
+    "n_asymmetric_pairs": 13,
+    "asymmetric_pairs": [
+      "gga_band_gap_difference_theoretical<->gga_band_gap_intersection_theoretical",
+      "gga_band_gap_difference_theoretical<->mbj_band_gap_theoretical",
+      "gga_band_gap_difference_theoretical<->optb88vdw_band_gap_theoretical",
+      "gga_band_gap_difference_theoretical<->snumat_gga_band_gap_theoretical",
+      "gga_band_gap_difference_theoretical<->snumat_hse_band_gap_theoretical",
+      "gga_band_gap_intersection_theoretical<->mbj_band_gap_theoretical",
+      "gga_band_gap_intersection_theoretical<->snumat_gga_band_gap_theoretical",
+      "gga_band_gap_intersection_theoretical<->snumat_hse_band_gap_theoretical",
+      "mbj_band_gap_theoretical<->snumat_gga_band_gap_theoretical",
+      "mbj_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+      "optb88vdw_band_gap_theoretical<->snumat_gga_band_gap_theoretical",
+      "optb88vdw_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+      "snumat_gga_band_gap_theoretical<->snumat_hse_band_gap_theoretical"
+    ],
+    "pair_ranking": [
+      "optb88vdw_band_gap_theoretical->gga_band_gap_difference_theoretical",
+      "gga_band_gap_intersection_theoretical->gga_band_gap_difference_theoretical",
+      "mbj_band_gap_theoretical->gga_band_gap_difference_theoretical",
+      "gga_band_gap_intersection_theoretical->optb88vdw_band_gap_theoretical",
+      "snumat_gga_band_gap_theoretical->gga_band_gap_difference_theoretical",
+      "optb88vdw_band_gap_theoretical->gga_band_gap_intersection_theoretical",
+      "mbj_band_gap_theoretical->gga_band_gap_intersection_theoretical",
+      "optb88vdw_band_gap_theoretical->mbj_band_gap_theoretical",
+      "mbj_band_gap_theoretical->optb88vdw_band_gap_theoretical",
+      "gga_band_gap_difference_theoretical->optb88vdw_band_gap_theoretical",
+      "snumat_hse_band_gap_theoretical->gga_band_gap_intersection_theoretical",
+      "mbj_band_gap_theoretical->snumat_hse_band_gap_theoretical",
+      "snumat_gga_band_gap_theoretical->snumat_hse_band_gap_theoretical",
+      "gga_band_gap_difference_theoretical->gga_band_gap_intersection_theoretical",
+      "gga_band_gap_difference_theoretical->mbj_band_gap_theoretical",
+      "gga_band_gap_intersection_theoretical->mbj_band_gap_theoretical",
+      "snumat_hse_band_gap_theoretical->mbj_band_gap_theoretical",
+      "optb88vdw_band_gap_theoretical->snumat_hse_band_gap_theoretical",
+      "snumat_hse_band_gap_theoretical->snumat_gga_band_gap_theoretical",
+      "snumat_gga_band_gap_theoretical->gga_band_gap_intersection_theoretical",
+      "snumat_hse_band_gap_theoretical->gga_band_gap_difference_theoretical",
+      "snumat_gga_band_gap_theoretical->mbj_band_gap_theoretical",
+      "snumat_gga_band_gap_theoretical->optb88vdw_band_gap_theoretical",
+      "snumat_hse_band_gap_theoretical->optb88vdw_band_gap_theoretical",
+      "gga_band_gap_intersection_theoretical->snumat_hse_band_gap_theoretical",
+      "gga_band_gap_difference_theoretical->snumat_hse_band_gap_theoretical",
+      "mbj_band_gap_theoretical->snumat_gga_band_gap_theoretical",
+      "optb88vdw_band_gap_theoretical->snumat_gga_band_gap_theoretical",
+      "gga_band_gap_intersection_theoretical->snumat_gga_band_gap_theoretical",
+      "gga_band_gap_difference_theoretical->snumat_gga_band_gap_theoretical"
+    ]
+  },
+  "sweeps": {
+    "alpha": {
+      "description": "structural compatibility (sigma)",
+      "default_value": 1.0,
+      "sweep_values": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "results": [
+        {
+          "value": 0.0,
+          "is_default": false,
+          "spearman_rho": 0.9933259176863181,
+          "spearman_p": 8.180421848475747e-28,
+          "mean_abs_delta_change": 0.07371267319270816,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 0.25,
+          "is_default": false,
+          "spearman_rho": 0.9964404894327029,
+          "spearman_p": 1.2559793499276374e-31,
+          "mean_abs_delta_change": 0.055284504894531114,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 0.5,
+          "is_default": false,
+          "spearman_rho": 0.9968854282536151,
+          "spearman_p": 1.9420895910807767e-32,
+          "mean_abs_delta_change": 0.03685633659635408,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 0.75,
+          "is_default": false,
+          "spearman_rho": 0.9986651835372636,
+          "spearman_p": 1.384484298629843e-37,
+          "mean_abs_delta_change": 0.018428168298177047,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 1.0,
+          "is_default": true,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 1.5,
+          "is_default": false,
+          "spearman_rho": 0.9968854282536151,
+          "spearman_p": 1.9420895910807767e-32,
+          "mean_abs_delta_change": 0.03685633659635408,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 2.0,
+          "is_default": false,
+          "spearman_rho": 0.9924360400444937,
+          "spearman_p": 4.692788715713185e-27,
+          "mean_abs_delta_change": 0.07371267319270818,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 3.0,
+          "is_default": false,
+          "spearman_rho": 0.986206896551724,
+          "spearman_p": 2.0310472328018422e-23,
+          "mean_abs_delta_change": 0.14742534638541638,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        }
+      ],
+      "stability": "STABLE",
+      "min_spearman_rho": 0.9862,
+      "top_source_changes": 0,
+      "total_asym_flips": 0,
+      "max_mean_abs_delta_change": 0.1474,
+      "stability_note": "Ranking unchanged across all sweep values (min Spearman rho=0.986). Weight has no material effect on conclusions."
+    },
+    "beta": {
+      "description": "source quality (mu)",
+      "default_value": 0.0,
+      "sweep_values": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "results": [
+        {
+          "value": 0.0,
+          "is_default": true,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 0.25,
+          "is_default": false,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 0.5,
+          "is_default": false,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 0.75,
+          "is_default": false,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 1.0,
+          "is_default": false,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 1.5,
+          "is_default": false,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 2.0,
+          "is_default": false,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 3.0,
+          "is_default": false,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        }
+      ],
+      "stability": "STABLE",
+      "min_spearman_rho": 1.0,
+      "top_source_changes": 0,
+      "total_asym_flips": 0,
+      "max_mean_abs_delta_change": 0.0,
+      "stability_note": "Ranking unchanged across all sweep values (min Spearman rho=1.0). Weight has no material effect on conclusions."
+    },
+    "gamma": {
+      "description": "mapping efficiency (rho)",
+      "default_value": 1.0,
+      "sweep_values": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "results": [
+        {
+          "value": 0.0,
+          "is_default": false,
+          "spearman_rho": 0.7935483870967741,
+          "spearman_p": 1.6834276517994305e-07,
+          "mean_abs_delta_change": 0.44375291073986806,
+          "top_source": "gga_band_gap_intersection_theoretical",
+          "top_source_changed": true,
+          "n_asymmetric_pairs": 5,
+          "newly_asymmetric": [],
+          "newly_symmetric": [
+            "gga_band_gap_intersection_theoretical<->mbj_band_gap_theoretical",
+            "gga_band_gap_intersection_theoretical<->snumat_gga_band_gap_theoretical",
+            "gga_band_gap_intersection_theoretical<->snumat_hse_band_gap_theoretical",
+            "mbj_band_gap_theoretical<->snumat_gga_band_gap_theoretical",
+            "mbj_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+            "optb88vdw_band_gap_theoretical<->snumat_gga_band_gap_theoretical",
+            "optb88vdw_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+            "snumat_gga_band_gap_theoretical<->snumat_hse_band_gap_theoretical"
+          ],
+          "asymmetry_flips": 8
+        },
+        {
+          "value": 0.25,
+          "is_default": false,
+          "spearman_rho": 0.8981090100111234,
+          "spearman_p": 1.6909985509273403e-11,
+          "mean_abs_delta_change": 0.3328146830549011,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 10,
+          "newly_asymmetric": [],
+          "newly_symmetric": [
+            "mbj_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+            "optb88vdw_band_gap_theoretical<->snumat_hse_band_gap_theoretical",
+            "snumat_gga_band_gap_theoretical<->snumat_hse_band_gap_theoretical"
+          ],
+          "asymmetry_flips": 3
+        },
+        {
+          "value": 0.5,
+          "is_default": false,
+          "spearman_rho": 0.9621802002224694,
+          "spearman_p": 2.3795131671493825e-17,
+          "mean_abs_delta_change": 0.22187645536993406,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 12,
+          "newly_asymmetric": [],
+          "newly_symmetric": [
+            "snumat_gga_band_gap_theoretical<->snumat_hse_band_gap_theoretical"
+          ],
+          "asymmetry_flips": 1
+        },
+        {
+          "value": 0.75,
+          "is_default": false,
+          "spearman_rho": 0.9884315906562846,
+          "spearman_p": 1.7545979661844176e-24,
+          "mean_abs_delta_change": 0.11093822768496701,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 1.0,
+          "is_default": true,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 1.5,
+          "is_default": false,
+          "spearman_rho": 0.9826473859844269,
+          "spearman_p": 4.944445418518742e-22,
+          "mean_abs_delta_change": 0.221876455369934,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 14,
+          "newly_asymmetric": [
+            "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical"
+          ],
+          "newly_symmetric": [],
+          "asymmetry_flips": 1
+        },
+        {
+          "value": 2.0,
+          "is_default": false,
+          "spearman_rho": 0.9470522803114572,
+          "spearman_p": 2.4077371662628642e-15,
+          "mean_abs_delta_change": 0.44375291073986806,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 14,
+          "newly_asymmetric": [
+            "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical"
+          ],
+          "newly_symmetric": [],
+          "asymmetry_flips": 1
+        },
+        {
+          "value": 3.0,
+          "is_default": false,
+          "spearman_rho": 0.896774193548387,
+          "spearman_p": 2.0118490395666493e-11,
+          "mean_abs_delta_change": 0.887505821479736,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [
+            "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical"
+          ],
+          "newly_symmetric": [
+            "gga_band_gap_difference_theoretical<->snumat_hse_band_gap_theoretical"
+          ],
+          "asymmetry_flips": 2
+        }
+      ],
+      "stability": "MODERATE",
+      "min_spearman_rho": 0.7935,
+      "top_source_changes": 1,
+      "total_asym_flips": 16,
+      "max_mean_abs_delta_change": 0.8875,
+      "stability_note": "Ranking mostly preserved (min rho=0.794). Top source changes 1 time(s); 16 asymmetry flip(s) across sweep."
+    },
+    "delta": {
+      "description": "transfer overhead (omega)",
+      "default_value": 1.0,
+      "sweep_values": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "results": [
+        {
+          "value": 0.0,
+          "is_default": false,
+          "spearman_rho": 0.7517241379310345,
+          "spearman_p": 1.6806785652410077e-06,
+          "mean_abs_delta_change": 0.05433708909366105,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 14,
+          "newly_asymmetric": [
+            "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical"
+          ],
+          "newly_symmetric": [],
+          "asymmetry_flips": 1
+        },
+        {
+          "value": 0.25,
+          "is_default": false,
+          "spearman_rho": 0.885650723025584,
+          "spearman_p": 7.853239539247909e-11,
+          "mean_abs_delta_change": 0.040752816820245806,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [
+            "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical"
+          ],
+          "newly_symmetric": [
+            "gga_band_gap_difference_theoretical<->snumat_hse_band_gap_theoretical"
+          ],
+          "asymmetry_flips": 2
+        },
+        {
+          "value": 0.5,
+          "is_default": false,
+          "spearman_rho": 0.9590656284760846,
+          "spearman_p": 7.068084459776344e-17,
+          "mean_abs_delta_change": 0.027168544546830525,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 14,
+          "newly_asymmetric": [
+            "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical"
+          ],
+          "newly_symmetric": [],
+          "asymmetry_flips": 1
+        },
+        {
+          "value": 0.75,
+          "is_default": false,
+          "spearman_rho": 0.9919911012235817,
+          "spearman_p": 1.0418011687206823e-26,
+          "mean_abs_delta_change": 0.013584272273415262,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 1.0,
+          "is_default": true,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0,
+          "mean_abs_delta_change": 0.0,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 1.5,
+          "is_default": false,
+          "spearman_rho": 0.9853170189098998,
+          "spearman_p": 4.847212526013202e-23,
+          "mean_abs_delta_change": 0.02716854454683053,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 2.0,
+          "is_default": false,
+          "spearman_rho": 0.9684093437152391,
+          "spearman_p": 1.9902478826039496e-18,
+          "mean_abs_delta_change": 0.05433708909366106,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [],
+          "newly_symmetric": [],
+          "asymmetry_flips": 0
+        },
+        {
+          "value": 3.0,
+          "is_default": false,
+          "spearman_rho": 0.9385984427141268,
+          "spearman_p": 1.8172297078097952e-14,
+          "mean_abs_delta_change": 0.10867417818732211,
+          "top_source": "optb88vdw_band_gap_theoretical",
+          "top_source_changed": false,
+          "n_asymmetric_pairs": 13,
+          "newly_asymmetric": [
+            "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical"
+          ],
+          "newly_symmetric": [
+            "optb88vdw_band_gap_theoretical<->snumat_hse_band_gap_theoretical"
+          ],
+          "asymmetry_flips": 2
+        }
+      ],
+      "stability": "MODERATE",
+      "min_spearman_rho": 0.7517,
+      "top_source_changes": 0,
+      "total_asym_flips": 6,
+      "max_mean_abs_delta_change": 0.1087,
+      "stability_note": "Ranking mostly preserved (min rho=0.752). Top source changes 0 time(s); 6 asymmetry flip(s) across sweep.",
+      "practical_stability": "MODERATE",
+      "practical_stability_note": "Practical range delta in [0.25, 3.0]: min Spearman rho=0.886, top_source_changes=0, asym_flips=5 -> MODERATE. delta=0 tests omega removal (expected to change rankings: omega is orthogonal to rho, Spearman(rho,omega)~-0.17, p>0.25)."
+    }
+  },
+  "overall_stability": "MODERATE",
+  "summary": "Transfer delta weight sensitivity analysis. alpha (structural compatibility (sigma)): STABLE -- Ranking unchanged across all sweep values (min Spearman rho=0.986). Weight has no material effect on conclusions. beta (source quality (mu)): STABLE -- Ranking unchanged across all sweep values (min Spearman rho=1.0). Weight has no material effect on conclusions. gamma (mapping efficiency (rho)): MODERATE -- Ranking mostly preserved (min rho=0.794). Top source changes 1 time(s); 16 asymmetry flip(s) across sweep. delta (transfer overhead (omega)): MODERATE -- Ranking mostly preserved (min rho=0.752). Top source changes 0 time(s); 6 asymmetry flip(s) across sweep. Overall stability: MODERATE"
+}

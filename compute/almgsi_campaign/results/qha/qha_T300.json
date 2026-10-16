@@ -1,0 +1,474 @@
+{
+ "mp_1094961_Mg3Al": {
+  "property": "formation_energy",
+  "value": 0.0120419028332579,
+  "sem": 0.0,
+  "wall_s": 2.7033427017740905,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_3833_Mg(AlSi)2": {
+  "property": "formation_energy",
+  "value": -0.0012867280219892585,
+  "sem": 0.0,
+  "wall_s": 5.596232237759978,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_149_Si": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 1.277937195263803,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1094122_Mg": {
+  "property": "formation_energy",
+  "value": 0.0008900608747834937,
+  "sem": 0.0,
+  "wall_s": 4.037973942235112,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1023509_Mg15Si": {
+  "property": "formation_energy",
+  "value": 0.021035886115935876,
+  "sem": 0.0,
+  "wall_s": 5.593506547156721,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1094987_MgAl": {
+  "property": "formation_energy",
+  "value": 0.0021170825006944227,
+  "sem": 0.0,
+  "wall_s": 2.455455645918846,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_102": {
+  "property": "formation_energy",
+  "value": 0.016858769530665008,
+  "sem": 0.0,
+  "wall_s": 6.619289034046233,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al5_134": {
+  "property": "formation_energy",
+  "value": 0.00859816684467507,
+  "sem": 0.0,
+  "wall_s": 2.4594262121245265,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1094970_Mg3Al": {
+  "property": "formation_energy",
+  "value": 0.004360551351461517,
+  "sem": 0.0,
+  "wall_s": 2.8973956909030676,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_140": {
+  "property": "formation_energy",
+  "value": 0.03165078201880478,
+  "sem": 0.0,
+  "wall_s": 1.8205912914127111,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl7_112": {
+  "property": "formation_energy",
+  "value": 0.002240315640409385,
+  "sem": 0.0,
+  "wall_s": 2.5621712212450802,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl3_48": {
+  "property": "formation_energy",
+  "value": 0.0051277218083622955,
+  "sem": 0.0,
+  "wall_s": 3.2940857438370585,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl7_19": {
+  "property": "formation_energy",
+  "value": 0.0032558955859327554,
+  "sem": 0.0,
+  "wall_s": 5.605044489726424,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_100": {
+  "property": "formation_energy",
+  "value": 0.009718641275664908,
+  "sem": 0.0,
+  "wall_s": 6.349211437162012,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_153_Mg": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 1.501700391061604,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_4499_MgAlSi": {
+  "property": "formation_energy",
+  "value": -0.0783725938926656,
+  "sem": 0.0,
+  "wall_s": 12.559883216861635,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1016271_Mg7Al": {
+  "property": "formation_energy",
+  "value": 0.010828327637332436,
+  "sem": 0.0,
+  "wall_s": 5.9684862098656595,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_978271_Mg3Al": {
+  "property": "formation_energy",
+  "value": 0.008140745609544808,
+  "sem": 0.0,
+  "wall_s": 2.349031401798129,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_141": {
+  "property": "formation_energy",
+  "value": 0.03228891145322521,
+  "sem": 0.0,
+  "wall_s": 1.8586751911789179,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1056702_Mg": {
+  "property": "formation_energy",
+  "value": -0.00017848576826828833,
+  "sem": 0.0,
+  "wall_s": 1.712896276731044,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_2647008_Al": {
+  "property": "formation_energy",
+  "value": -0.001404814302524926,
+  "sem": 0.0,
+  "wall_s": 1.8185572549700737,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_101": {
+  "property": "formation_energy",
+  "value": 0.010223353182163386,
+  "sem": 0.0,
+  "wall_s": 19.18964271992445,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1101851_Mg2Si": {
+  "property": "formation_energy",
+  "value": -0.04476937373864054,
+  "sem": 0.0,
+  "wall_s": 9.308428110089153,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1094116_MgAl2": {
+  "property": "formation_energy",
+  "value": -0.04750186556000546,
+  "sem": 0.0,
+  "wall_s": 6.565478303004056,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al5_133": {
+  "property": "formation_energy",
+  "value": 0.022220437864391762,
+  "sem": 0.0,
+  "wall_s": 5.06710000988096,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1016233_Mg3Al": {
+  "property": "formation_energy",
+  "value": 0.018595349801853622,
+  "sem": 0.0,
+  "wall_s": 2.456075472291559,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al5_81": {
+  "property": "formation_energy",
+  "value": 0.008900179927453067,
+  "sem": 0.0,
+  "wall_s": 9.47812994197011,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al4Si_90": {
+  "property": "formation_energy",
+  "value": 0.017782097876968717,
+  "sem": 0.0,
+  "wall_s": 10.075073633808643,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1079297_Si": {
+  "property": "formation_energy",
+  "value": 0.05051401951687495,
+  "sem": 0.0,
+  "wall_s": 11.106315080076456,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_165_Si": {
+  "property": "formation_energy",
+  "value": -0.0015267807686392132,
+  "sem": 0.0,
+  "wall_s": 6.031375912949443,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1074652_Mg2Si": {
+  "property": "formation_energy",
+  "value": -0.02008999417879398,
+  "sem": 0.0,
+  "wall_s": 4.273149508051574,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1039019_MgAl": {
+  "property": "formation_energy",
+  "value": 0.028318163079509073,
+  "sem": 0.0,
+  "wall_s": 3.197144189849496,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al5_82": {
+  "property": "formation_energy",
+  "value": 0.004480385717863022,
+  "sem": 0.0,
+  "wall_s": 4.942268345039338,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1023506_Mg15Al": {
+  "property": "formation_energy",
+  "value": 0.005498978784035824,
+  "sem": 0.0,
+  "wall_s": 6.7193518821150064,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1367_Mg2Si": {
+  "property": "formation_energy",
+  "value": -0.07236670490361874,
+  "sem": 0.0,
+  "wall_s": 1.5947960373014212,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl3_02": {
+  "property": "formation_energy",
+  "value": -0.0027140308000923596,
+  "sem": 0.0,
+  "wall_s": 2.616498462855816,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg2Al5Si_50": {
+  "property": "formation_energy",
+  "value": 0.009157290329377066,
+  "sem": 0.0,
+  "wall_s": 23.70926979696378,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al4Si_85": {
+  "property": "formation_energy",
+  "value": 0.013163487353900383,
+  "sem": 0.0,
+  "wall_s": 13.452335588168353,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_142": {
+  "property": "formation_energy",
+  "value": 0.019375437427095576,
+  "sem": 0.0,
+  "wall_s": 3.346235810779035,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_04": {
+  "property": "formation_energy",
+  "value": 0.004950669784862249,
+  "sem": 0.0,
+  "wall_s": 3.492879666853696,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_99": {
+  "property": "formation_energy",
+  "value": 0.008473796832793035,
+  "sem": 0.0,
+  "wall_s": 2.684445214923471,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al5_84": {
+  "property": "formation_energy",
+  "value": 0.004741426343086275,
+  "sem": 0.0,
+  "wall_s": 5.266980389133096,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_134_Al": {
+  "property": "formation_energy",
+  "value": 0.0,
+  "sem": 0.0,
+  "wall_s": 5.948760279919952,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl3_49": {
+  "property": "formation_energy",
+  "value": 0.009143687146696777,
+  "sem": 0.0,
+  "wall_s": 2.876388644333929,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1038779_MgAl": {
+  "property": "formation_energy",
+  "value": 0.02949324848219881,
+  "sem": 0.0,
+  "wall_s": 0.872005314566195,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl3_47": {
+  "property": "formation_energy",
+  "value": 0.0065607683513064785,
+  "sem": 0.0,
+  "wall_s": 8.54212300106883,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_104": {
+  "property": "formation_energy",
+  "value": 0.015878706905811946,
+  "sem": 0.0,
+  "wall_s": 2.848604636732489,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1183144_Al": {
+  "property": "formation_energy",
+  "value": 0.0014901415225807568,
+  "sem": 0.0,
+  "wall_s": 4.8887718711048365,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al5_83": {
+  "property": "formation_energy",
+  "value": 0.012782581631717527,
+  "sem": 0.0,
+  "wall_s": 6.654228860978037,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_Mg3Al4Si_93": {
+  "property": "formation_energy",
+  "value": 0.024684171862841442,
+  "sem": 0.0,
+  "wall_s": 11.65839665895328,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl_103": {
+  "property": "formation_energy",
+  "value": 0.010857397862645612,
+  "sem": 0.0,
+  "wall_s": 4.67271398101002,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1222013_MgAl2": {
+  "property": "formation_energy",
+  "value": 0.02593665589042793,
+  "sem": 0.0,
+  "wall_s": 2.9967892873100936,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1039119_MgAl3": {
+  "property": "formation_energy",
+  "value": -0.005770865507351175,
+  "sem": 0.0,
+  "wall_s": 4.556930644903332,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_973364_Mg": {
+  "property": "formation_energy",
+  "value": 0.0012709167817064326,
+  "sem": 0.0,
+  "wall_s": 1.9768247129395604,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "fcc_MgAl3_123": {
+  "property": "formation_energy",
+  "value": 0.011099005022526143,
+  "sem": 0.0,
+  "wall_s": 1.6146575501188636,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1073794_MgSi": {
+  "property": "formation_energy",
+  "value": -0.012283546220847708,
+  "sem": 0.0,
+  "wall_s": 11.460888559930027,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1102064_MgAl2": {
+  "property": "formation_energy",
+  "value": 0.0032160760802204535,
+  "sem": 0.0,
+  "wall_s": 10.437004844658077,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1038916_MgAl3": {
+  "property": "formation_energy",
+  "value": 0.008768057417388064,
+  "sem": 0.0,
+  "wall_s": 3.2083532479591668,
+  "status": "ok",
+  "device": "cuda"
+ },
+ "mp_1028210_Mg14AlSi": {
+  "property": "formation_energy",
+  "value": 0.02596188322634152,
+  "sem": 0.0,
+  "wall_s": 9.907509257085621,
+  "status": "ok",
+  "device": "cuda"
+ }
+}

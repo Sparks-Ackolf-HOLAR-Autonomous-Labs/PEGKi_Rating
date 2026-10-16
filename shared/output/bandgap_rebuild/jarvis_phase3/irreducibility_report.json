@@ -1,0 +1,10 @@
+{
+  "conjecture": "Design Conjecture 2.3 (Information Irreducibility)",
+  "result": "AMBIGUOUS",
+  "n_pairs_tested": 0,
+  "n_supported": 0,
+  "n_not_supported": 0,
+  "n_ambiguous": 0,
+  "pair_results": {},
+  "summary": "No (K_E, K_T) pairs found in the loaded databases. Conjecture 2.3 requires at least one empirical (K_E) and one theoretical (K_T) database to be loaded."
+}

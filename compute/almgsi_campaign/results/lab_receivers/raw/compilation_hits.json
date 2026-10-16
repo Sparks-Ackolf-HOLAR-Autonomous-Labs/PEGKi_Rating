@@ -1,0 +1,276 @@
+{
+ "kingsbury_matminer": {
+  "url": "https://ndownloader.figshare.com/files/28232538",
+  "sha256": "a2d2ced98d40349abd2041f169d9ed9c7f49453e86a77f82cab8c61c70dcb7ca",
+  "n_entries": 2135,
+  "rows_with_two_or_more_of_Al_Mg_Si": [
+   {
+    "formula": "Al2SiO5",
+    "expt_form_e": -3.3547845343613623,
+    "uncertainty": 0.0027206207847688207,
+    "phaseinfo": "kyanit",
+    "reference": "O. Kubaschewski, C. Alcock, P. Spencer, Materials Thermochemistry, 6th ed., Oxford, Pergamom Press, 1993.",
+    "likely_mpid": "mp-5065"
+   },
+   {
+    "formula": "Mg2Si",
+    "expt_form_e": -0.26885606439654497,
+    "uncertainty": null,
+    "phaseinfo": "cr",
+    "reference": "https://janaf.nist.gov/tables/Mg-034.html",
+    "likely_mpid": "mp-1367"
+   },
+   {
+    "formula": "Mg2SiO4",
+    "expt_form_e": -3.223139802102447,
+    "uncertainty": 0.0037015248772364904,
+    "phaseinfo": "forst",
+    "reference": "O. Kubaschewski, C. Alcock, P. Spencer, Materials Thermochemistry, 6th ed., Oxford, Pergamom Press, 1993.",
+    "likely_mpid": "mp-2895"
+   },
+   {
+    "formula": "MgAl2O4",
+    "expt_form_e": -3.404085144201275,
+    "uncertainty": null,
+    "phaseinfo": "cr",
+    "reference": "https://janaf.nist.gov/tables/Al-089.html",
+    "likely_mpid": "mp-3536"
+   },
+   {
+    "formula": "MgSiO3",
+    "expt_form_e": -3.2098143125443954,
+    "uncertainty": 0.007876844938759252,
+    "phaseinfo": "clino",
+    "reference": "O. Kubaschewski, C. Alcock, P. Spencer, Materials Thermochemistry, 6th ed., Oxford, Pergamom Press, 1993.",
+    "likely_mpid": "mp-3470"
+   },
+   {
+    "formula": "Al6Si2O13",
+    "expt_form_e": -3.36553006107998,
+    "uncertainty": null,
+    "phaseinfo": "cr",
+    "reference": "https://janaf.nist.gov/tables/Al-112.html",
+    "likely_mpid": null
+   },
+   {
+    "formula": "Al3FeSi2",
+    "expt_form_e": -0.2123,
+    "uncertainty": 0.0124,
+    "phaseinfo": "I4/mcm",
+    "reference": "Kim, G., Meschel, S., Nash, P. et al. Experimental formation enthalpies for intermetallic phases and other inorganic compounds. Sci Data 4, 170162 (2017). https://doi.org/10.1038/sdata.2017.162",
+    "likely_mpid": "mp-505229"
+   },
+   {
+    "formula": "Al2Fe3Si4",
+    "expt_form_e": -0.3716,
+    "uncertainty": 0.0187,
+    "phaseinfo": "Cmcm",
+    "reference": "Kim, G., Meschel, S., Nash, P. et al. Experimental formation enthalpies for intermetallic phases and other inorganic compounds. Sci Data 4, 170162 (2017). https://doi.org/10.1038/sdata.2017.162",
+    "likely_mpid": "mp-29111"
+   },
+   {
+    "formula": "Al71Fe19Si10",
+    "expt_form_e": -0.255,
+    "uncertainty": 0.0137,
+    "phaseinfo": "P6_3/mmc",
+    "reference": "Kim, G., Meschel, S., Nash, P. et al. Experimental formation enthalpies for intermetallic phases and other inorganic compounds. Sci Data 4, 170162 (2017). https://doi.org/10.1038/sdata.2017.162",
+    "likely_mpid": null
+   }
+  ]
+ },
+ "kim2017_figshare": {
+  "url": "https://ndownloader.figshare.com/files/9218491",
+  "n_entries": 1276,
+  "rows_with_two_or_more_of_Al_Mg_Si": [
+   {
+    "calorimetry_method": "Direct synthesis",
+    "cas_reg_no": "12043-33-3",
+    "citation": "Du, Y. et al. An Approach to Determine Enthalpies of Formation For Ternary Compounds. J.Min.Metall.Sect.B-metall 46, 1-9 (2010)",
+    "composition": {
+     "Al": 0.5,
+     "Fe": 0.1667,
+     "Si": 0.3333
+    },
+    "enthalpy_formation": null,
+    "formula": "Al3FeSi2",
+    "id": "808",
+    "materials_project": {
+     "mp_e_above_hull": null,
+     "mp_formation_energy": null,
+     "mp_id": null
+    },
+    "notes": null,
+    "oqmd": {
+     "oqmd_e_above_hull": null,
+     "oqmd_formation_energy": null,
+     "oqmd_id": null
+    },
+    "pearson_symbol": "tI24",
+    "ref_temp": 298,
+    "space_group": "I4/mcm",
+    "standard_enthalpy_formation": [
+     [
+      -20.48,
+      "kJ/mol of atom"
+     ],
+     [
+      -0.2123,
+      "eV/atom"
+     ]
+    ],
+    "uncertainty": {
+     "experimental_error": null,
+     "standard_deviation": [
+      [
+       1.2,
+       "kJ/mol of atom"
+      ],
+      [
+       0.0124,
+       "eV/atom"
+      ]
+     ],
+     "standard_error": null
+    }
+   },
+   {
+    "calorimetry_method": "Direct synthesis",
+    "cas_reg_no": "186313-24-6  ",
+    "citation": "Du, Y. et al. An Approach to Determine Enthalpies of Formation For Ternary Compounds. J.Min.Metall.Sect.B-metall 46, 1-9 (2010)",
+    "composition": {
+     "Al": 0.2222,
+     "Fe": 0.3333,
+     "Si": 0.4444
+    },
+    "enthalpy_formation": null,
+    "formula": "Al2Fe3Si4",
+    "id": "809",
+    "materials_project": {
+     "mp_e_above_hull": [
+      [
+       0.91846084,
+       "kJ/mol of atom"
+      ],
+      [
+       0.00951918,
+       "eV/atom"
+      ]
+     ],
+     "mp_formation_energy": [
+      [
+       -41.50789009,
+       "kJ/mol of atom"
+      ],
+      [
+       -0.43019911,
+       "eV/atom"
+      ]
+     ],
+     "mp_id": "mp-29111"
+    },
+    "notes": null,
+    "oqmd": {
+     "oqmd_e_above_hull": [
+      [
+       0.66364374,
+       "kJ/mol of atom"
+      ],
+      [
+       0.00687818,
+       "eV/atom"
+      ]
+     ],
+     "oqmd_formation_energy": [
+      [
+       -41.77953384,
+       "kJ/mol of atom"
+      ],
+      [
+       -0.4330145,
+       "eV/atom"
+      ]
+     ],
+     "oqmd_id": "14987"
+    },
+    "pearson_symbol": "oS36",
+    "ref_temp": 298,
+    "space_group": "Cmcm",
+    "standard_enthalpy_formation": [
+     [
+      -35.85,
+      "kJ/mol of atom"
+     ],
+     [
+      -0.3716,
+      "eV/atom"
+     ]
+    ],
+    "uncertainty": {
+     "experimental_error": null,
+     "standard_deviation": [
+      [
+       1.8,
+       "kJ/mol of atom"
+      ],
+      [
+       0.0187,
+       "eV/atom"
+      ]
+     ],
+     "standard_error": null
+    }
+   },
+   {
+    "calorimetry_method": "Direct synthesis",
+    "cas_reg_no": "109301-56-6",
+    "citation": "Du, Y. et al. An Approach to Determine Enthalpies of Formation For Ternary Compounds. J.Min.Metall.Sect.B-metall 46, 1-9 (2010)",
+    "composition": {
+     "Al": 0.71,
+     "Fe": 0.19,
+     "Si": 0.1
+    },
+    "enthalpy_formation": null,
+    "formula": "Al0.71Fe0.19Si0.10",
+    "id": "810",
+    "materials_project": {
+     "mp_e_above_hull": null,
+     "mp_formation_energy": null,
+     "mp_id": null
+    },
+    "notes": null,
+    "oqmd": {
+     "oqmd_e_above_hull": null,
+     "oqmd_formation_energy": null,
+     "oqmd_id": null
+    },
+    "pearson_symbol": "hP245",
+    "ref_temp": 298,
+    "space_group": "P63/mmc",
+    "standard_enthalpy_formation": [
+     [
+      -24.6,
+      "kJ/mol of atom"
+     ],
+     [
+      -0.255,
+      "eV/atom"
+     ]
+    ],
+    "uncertainty": {
+     "experimental_error": null,
+     "standard_deviation": [
+      [
+       1.32,
+       "kJ/mol of atom"
+      ],
+      [
+       0.0137,
+       "eV/atom"
+      ]
+     ],
+     "standard_error": null
+    }
+   }
+  ]
+ }
+}

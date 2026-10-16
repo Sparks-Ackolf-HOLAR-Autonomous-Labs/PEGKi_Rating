@@ -1,0 +1,1149 @@
+{
+ "measured_enthalpy": {
+  "n_compounds": 1,
+  "kendall_tau": null,
+  "note": "n = 1: no rank statistic is defined; error per source only",
+  "per_source": {
+   "qe_pbe": {
+    "value": -0.1599680298473487,
+    "error": 0.10888803489279925,
+    "abs_error": 0.10888803489279925,
+    "n": 1
+   },
+   "qe_hse06": {
+    "value": -0.12974937725053337,
+    "error": 0.13910668748961458,
+    "abs_error": 0.13910668748961458,
+    "n": 1
+   },
+   "mace_relax": {
+    "value": -0.08127185846638807,
+    "error": 0.18758420627375988,
+    "abs_error": 0.18758420627375988,
+    "n": 1
+   },
+   "mace_md": {
+    "value": -0.08247016176765361,
+    "error": 0.18638590297249436,
+    "abs_error": 0.18638590297249436,
+    "n": 1
+   },
+   "lammps_meam_md": {
+    "value": 0.043546389228010796,
+    "error": 0.31240245396815874,
+    "abs_error": 0.31240245396815874,
+    "n": 1
+   },
+   "gpumd_nep89_md": {
+    "value": 0.08875905675733087,
+    "error": 0.3576151214974788,
+    "abs_error": 0.3576151214974788,
+    "n": 1
+   },
+   "lammps_meam_relax": {
+    "value": 0.04228576252247129,
+    "error": 0.31114182726261924,
+    "abs_error": 0.31114182726261924,
+    "n": 1
+   },
+   "gpumd_nep89_relax": {
+    "value": 0.0880928039550779,
+    "error": 0.35694886869522585,
+    "abs_error": 0.35694886869522585,
+    "n": 1
+   },
+   "qe_hse06_qhalf": {
+    "value": 0.061207274044008386,
+    "error": 0.33006333878415633,
+    "abs_error": 0.33006333878415633,
+    "n": 1
+   },
+   "archive_mp": {
+    "value": -0.10859876333333318,
+    "error": 0.16025730140681477,
+    "abs_error": 0.16025730140681477,
+    "n": 1
+   }
+  },
+  "lowest_polymorph_rule": {
+   "qe_pbe": {
+    "cid": "mp_1367_Mg2Si",
+    "value": -0.1599680298473487,
+    "abs_error": 0.10888803489279925
+   },
+   "qe_hse06": {
+    "cid": "mp_1367_Mg2Si",
+    "value": -0.12974937725053337,
+    "abs_error": 0.13910668748961458
+   },
+   "mace_relax": {
+    "cid": "mp_1367_Mg2Si",
+    "value": -0.08127185846638807,
+    "abs_error": 0.18758420627375988
+   },
+   "lammps_meam_md": {
+    "cid": "mp_1101851_Mg2Si",
+    "value": 0.023423681297892074,
+    "abs_error": 0.29227974603804
+   },
+   "gpumd_nep89_md": {
+    "cid": "mp_1074652_Mg2Si",
+    "value": -0.07395965773341029,
+    "abs_error": 0.19489640700673766
+   },
+   "lammps_meam_relax": {
+    "cid": "mp_1101851_Mg2Si",
+    "value": 0.022102251890601776,
+    "abs_error": 0.2909583166307497
+   },
+   "gpumd_nep89_relax": {
+    "cid": "mp_1101851_Mg2Si",
+    "value": -0.1257826487223308,
+    "abs_error": 0.14307341601781715
+   }
+  }
+ },
+ "age_hardening": {
+  "mapping_rule": "item = alloy; donor prediction = that donor's formation energy (eV/atom) of the most stable Mg- and Si-containing candidate whose atomic Mg/Si ratio is closest (in log ratio) to the alloy's; at% from Table 1 wt% with Al as balance",
+  "agreement_sign": {
+   "peak_hardness_HV": -1,
+   "time_to_peak_h": 1,
+   "dsc_beta_dprime_peak_C": 1
+  },
+  "subsets": {
+   "sn_free": {
+    "peak_hardness_HV": {
+     "n": 3,
+     "measured": {
+      "H-M": 117.5,
+      "B-M": 128,
+      "L-M": 119.6
+     },
+     "donors": {
+      "qe_pbe": {
+       "label": "QE PBE, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1599680298473487,
+        "B-M": -0.05183357507642938,
+        "L-M": 0.027040956386454953
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "qe_hse06": {
+       "label": "QE HSE06, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.12974937725053337,
+        "B-M": -0.028688170853868655,
+        "L-M": 0.10729410016591084
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "mace_relax": {
+       "label": "MACE-MP-0, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08127185846638807,
+        "B-M": -0.0754659778541551,
+        "L-M": 0.052242158183211984
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "mace_md": {
+       "label": "MACE-MP-0 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08247016176765361,
+        "B-M": -0.06664227190370949,
+        "L-M": 0.05178778869937097
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "lammps_meam_md": {
+       "label": "MEAM MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": 0.019749794528021614,
+        "B-M": -0.00885952218717223,
+        "L-M": 0.13857287461801543
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_126",
+        "B-M": "fcc_MgAl6Si_114",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": 0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "gpumd_nep89_md": {
+       "label": "NEP89 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.07395965773341029,
+        "B-M": -0.11354102812391931,
+        "L-M": -0.13766816790460723
+       },
+       "picked_cid": {
+        "H-M": "mp_1074652_Mg2Si",
+        "B-M": "mp_1073794_MgSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": 0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "lammps_meam_relax": {
+       "label": "MEAM, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.0056007025781138475,
+        "B-M": -0.040181341746701627,
+        "L-M": 0.13677608801978636
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_54",
+        "B-M": "fcc_MgAl2Si_64",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": 0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "gpumd_nep89_relax": {
+       "label": "NEP89, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1257826487223308,
+        "B-M": -0.13297238349914542,
+        "L-M": -0.1379148309881037
+       },
+       "picked_cid": {
+        "H-M": "mp_1101851_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": 0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      }
+     }
+    },
+    "time_to_peak_h": {
+     "n": 3,
+     "measured": {
+      "H-M": 12,
+      "B-M": 8,
+      "L-M": 5
+     },
+     "donors": {
+      "qe_pbe": {
+       "label": "QE PBE, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1599680298473487,
+        "B-M": -0.05183357507642938,
+        "L-M": 0.027040956386454953
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -1.0,
+       "agreement": -1.0,
+       "p_value": 0.3333333333333333,
+       "n": 3
+      },
+      "qe_hse06": {
+       "label": "QE HSE06, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.12974937725053337,
+        "B-M": -0.028688170853868655,
+        "L-M": 0.10729410016591084
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -1.0,
+       "agreement": -1.0,
+       "p_value": 0.3333333333333333,
+       "n": 3
+      },
+      "mace_relax": {
+       "label": "MACE-MP-0, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08127185846638807,
+        "B-M": -0.0754659778541551,
+        "L-M": 0.052242158183211984
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -1.0,
+       "agreement": -1.0,
+       "p_value": 0.3333333333333333,
+       "n": 3
+      },
+      "mace_md": {
+       "label": "MACE-MP-0 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08247016176765361,
+        "B-M": -0.06664227190370949,
+        "L-M": 0.05178778869937097
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -1.0,
+       "agreement": -1.0,
+       "p_value": 0.3333333333333333,
+       "n": 3
+      },
+      "lammps_meam_md": {
+       "label": "MEAM MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": 0.019749794528021614,
+        "B-M": -0.00885952218717223,
+        "L-M": 0.13857287461801543
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_126",
+        "B-M": "fcc_MgAl6Si_114",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "gpumd_nep89_md": {
+       "label": "NEP89 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.07395965773341029,
+        "B-M": -0.11354102812391931,
+        "L-M": -0.13766816790460723
+       },
+       "picked_cid": {
+        "H-M": "mp_1074652_Mg2Si",
+        "B-M": "mp_1073794_MgSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 1.0,
+       "agreement": 1.0,
+       "p_value": 0.3333333333333333,
+       "n": 3
+      },
+      "lammps_meam_relax": {
+       "label": "MEAM, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.0056007025781138475,
+        "B-M": -0.040181341746701627,
+        "L-M": 0.13677608801978636
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_54",
+        "B-M": "fcc_MgAl2Si_64",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "gpumd_nep89_relax": {
+       "label": "NEP89, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1257826487223308,
+        "B-M": -0.13297238349914542,
+        "L-M": -0.1379148309881037
+       },
+       "picked_cid": {
+        "H-M": "mp_1101851_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 1.0,
+       "agreement": 1.0,
+       "p_value": 0.3333333333333333,
+       "n": 3
+      }
+     }
+    },
+    "dsc_beta_dprime_peak_C": {
+     "n": 3,
+     "measured": {
+      "H-M": 249.6,
+      "B-M": 252.8,
+      "L-M": 244.7
+     },
+     "donors": {
+      "qe_pbe": {
+       "label": "QE PBE, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1599680298473487,
+        "B-M": -0.05183357507642938,
+        "L-M": 0.027040956386454953
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "qe_hse06": {
+       "label": "QE HSE06, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.12974937725053337,
+        "B-M": -0.028688170853868655,
+        "L-M": 0.10729410016591084
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "mace_relax": {
+       "label": "MACE-MP-0, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08127185846638807,
+        "B-M": -0.0754659778541551,
+        "L-M": 0.052242158183211984
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "mace_md": {
+       "label": "MACE-MP-0 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08247016176765361,
+        "B-M": -0.06664227190370949,
+        "L-M": 0.05178778869937097
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.33333333333333337,
+       "agreement": -0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "lammps_meam_md": {
+       "label": "MEAM MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": 0.019749794528021614,
+        "B-M": -0.00885952218717223,
+        "L-M": 0.13857287461801543
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_126",
+        "B-M": "fcc_MgAl6Si_114",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -1.0,
+       "agreement": -1.0,
+       "p_value": 0.3333333333333333,
+       "n": 3
+      },
+      "gpumd_nep89_md": {
+       "label": "NEP89 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.07395965773341029,
+        "B-M": -0.11354102812391931,
+        "L-M": -0.13766816790460723
+       },
+       "picked_cid": {
+        "H-M": "mp_1074652_Mg2Si",
+        "B-M": "mp_1073794_MgSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.33333333333333337,
+       "agreement": 0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      },
+      "lammps_meam_relax": {
+       "label": "MEAM, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.0056007025781138475,
+        "B-M": -0.040181341746701627,
+        "L-M": 0.13677608801978636
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_54",
+        "B-M": "fcc_MgAl2Si_64",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -1.0,
+       "agreement": -1.0,
+       "p_value": 0.3333333333333333,
+       "n": 3
+      },
+      "gpumd_nep89_relax": {
+       "label": "NEP89, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1257826487223308,
+        "B-M": -0.13297238349914542,
+        "L-M": -0.1379148309881037
+       },
+       "picked_cid": {
+        "H-M": "mp_1101851_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.33333333333333337,
+       "agreement": 0.33333333333333337,
+       "p_value": 1.0,
+       "n": 3
+      }
+     }
+    }
+   },
+   "all_six": {
+    "peak_hardness_HV": {
+     "n": 6,
+     "measured": {
+      "H-M": 117.5,
+      "H-M-Sn": 126,
+      "B-M": 128,
+      "B-M-Sn": 128,
+      "L-M": 119.6,
+      "L-M-Sn": 116
+     },
+     "donors": {
+      "qe_pbe": {
+       "label": "QE PBE, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1599680298473487,
+        "H-M-Sn": -0.1599680298473487,
+        "B-M": -0.05183357507642938,
+        "B-M-Sn": -0.05183357507642938,
+        "L-M": 0.027040956386454953,
+        "L-M-Sn": 0.027040956386454953
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.15430334996209194,
+       "agreement": 0.15430334996209194,
+       "p_value": 0.68636977866041,
+       "n": 6
+      },
+      "qe_hse06": {
+       "label": "QE HSE06, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.12974937725053337,
+        "H-M-Sn": -0.12974937725053337,
+        "B-M": -0.028688170853868655,
+        "B-M-Sn": -0.028688170853868655,
+        "L-M": 0.10729410016591084,
+        "L-M-Sn": 0.10729410016591084
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.15430334996209194,
+       "agreement": 0.15430334996209194,
+       "p_value": 0.68636977866041,
+       "n": 6
+      },
+      "mace_relax": {
+       "label": "MACE-MP-0, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08127185846638807,
+        "H-M-Sn": -0.08127185846638807,
+        "B-M": -0.0754659778541551,
+        "B-M-Sn": -0.0754659778541551,
+        "L-M": 0.052242158183211984,
+        "L-M-Sn": 0.052242158183211984
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.15430334996209194,
+       "agreement": 0.15430334996209194,
+       "p_value": 0.68636977866041,
+       "n": 6
+      },
+      "mace_md": {
+       "label": "MACE-MP-0 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08247016176765361,
+        "H-M-Sn": -0.08247016176765361,
+        "B-M": -0.06664227190370949,
+        "B-M-Sn": -0.06664227190370949,
+        "L-M": 0.05178778869937097,
+        "L-M-Sn": 0.05178778869937097
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.15430334996209194,
+       "agreement": 0.15430334996209194,
+       "p_value": 0.68636977866041,
+       "n": 6
+      },
+      "lammps_meam_md": {
+       "label": "MEAM MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": 0.019749794528021614,
+        "H-M-Sn": 0.019749794528021614,
+        "B-M": -0.00885952218717223,
+        "B-M-Sn": -0.00885952218717223,
+        "L-M": 0.13857287461801543,
+        "L-M-Sn": 0.13857287461801543
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_126",
+        "H-M-Sn": "fcc_Mg2Al5Si_126",
+        "B-M": "fcc_MgAl6Si_114",
+        "B-M-Sn": "fcc_MgAl6Si_114",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.7715167498104596,
+       "agreement": 0.7715167498104596,
+       "p_value": 0.043494273900596035,
+       "n": 6
+      },
+      "gpumd_nep89_md": {
+       "label": "NEP89 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.07395965773341029,
+        "H-M-Sn": -0.07395965773341029,
+        "B-M": -0.11354102812391931,
+        "B-M-Sn": -0.11354102812391931,
+        "L-M": -0.13766816790460723,
+        "L-M-Sn": -0.13766816790460723
+       },
+       "picked_cid": {
+        "H-M": "mp_1074652_Mg2Si",
+        "H-M-Sn": "mp_1074652_Mg2Si",
+        "B-M": "mp_1073794_MgSi",
+        "B-M-Sn": "mp_1073794_MgSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.15430334996209194,
+       "agreement": -0.15430334996209194,
+       "p_value": 0.68636977866041,
+       "n": 6
+      },
+      "lammps_meam_relax": {
+       "label": "MEAM, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.0056007025781138475,
+        "H-M-Sn": -0.0056007025781138475,
+        "B-M": -0.040181341746701627,
+        "B-M-Sn": -0.040181341746701627,
+        "L-M": 0.13677608801978636,
+        "L-M-Sn": 0.13677608801978636
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_54",
+        "H-M-Sn": "fcc_Mg2Al5Si_54",
+        "B-M": "fcc_MgAl2Si_64",
+        "B-M-Sn": "fcc_MgAl2Si_64",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.7715167498104596,
+       "agreement": 0.7715167498104596,
+       "p_value": 0.043494273900596035,
+       "n": 6
+      },
+      "gpumd_nep89_relax": {
+       "label": "NEP89, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1257826487223308,
+        "H-M-Sn": -0.1257826487223308,
+        "B-M": -0.13297238349914542,
+        "B-M-Sn": -0.13297238349914542,
+        "L-M": -0.1379148309881037,
+        "L-M-Sn": -0.1379148309881037
+       },
+       "picked_cid": {
+        "H-M": "mp_1101851_Mg2Si",
+        "H-M-Sn": "mp_1101851_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.15430334996209194,
+       "agreement": -0.15430334996209194,
+       "p_value": 0.68636977866041,
+       "n": 6
+      }
+     }
+    },
+    "time_to_peak_h": {
+     "n": 6,
+     "measured": {
+      "H-M": 12,
+      "H-M-Sn": 8,
+      "B-M": 8,
+      "B-M-Sn": 8,
+      "L-M": 5,
+      "L-M-Sn": 3
+     },
+     "donors": {
+      "qe_pbe": {
+       "label": "QE PBE, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1599680298473487,
+        "H-M-Sn": -0.1599680298473487,
+        "B-M": -0.05183357507642938,
+        "B-M-Sn": -0.05183357507642938,
+        "L-M": 0.027040956386454953,
+        "L-M-Sn": 0.027040956386454953
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.8333333333333335,
+       "agreement": -0.8333333333333335,
+       "p_value": 0.034073382465455715,
+       "n": 6
+      },
+      "qe_hse06": {
+       "label": "QE HSE06, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.12974937725053337,
+        "H-M-Sn": -0.12974937725053337,
+        "B-M": -0.028688170853868655,
+        "B-M-Sn": -0.028688170853868655,
+        "L-M": 0.10729410016591084,
+        "L-M-Sn": 0.10729410016591084
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.8333333333333335,
+       "agreement": -0.8333333333333335,
+       "p_value": 0.034073382465455715,
+       "n": 6
+      },
+      "mace_relax": {
+       "label": "MACE-MP-0, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08127185846638807,
+        "H-M-Sn": -0.08127185846638807,
+        "B-M": -0.0754659778541551,
+        "B-M-Sn": -0.0754659778541551,
+        "L-M": 0.052242158183211984,
+        "L-M-Sn": 0.052242158183211984
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.8333333333333335,
+       "agreement": -0.8333333333333335,
+       "p_value": 0.034073382465455715,
+       "n": 6
+      },
+      "mace_md": {
+       "label": "MACE-MP-0 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08247016176765361,
+        "H-M-Sn": -0.08247016176765361,
+        "B-M": -0.06664227190370949,
+        "B-M-Sn": -0.06664227190370949,
+        "L-M": 0.05178778869937097,
+        "L-M-Sn": 0.05178778869937097
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.8333333333333335,
+       "agreement": -0.8333333333333335,
+       "p_value": 0.034073382465455715,
+       "n": 6
+      },
+      "lammps_meam_md": {
+       "label": "MEAM MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": 0.019749794528021614,
+        "H-M-Sn": 0.019749794528021614,
+        "B-M": -0.00885952218717223,
+        "B-M-Sn": -0.00885952218717223,
+        "L-M": 0.13857287461801543,
+        "L-M-Sn": 0.13857287461801543
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_126",
+        "H-M-Sn": "fcc_Mg2Al5Si_126",
+        "B-M": "fcc_MgAl6Si_114",
+        "B-M-Sn": "fcc_MgAl6Si_114",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.5000000000000001,
+       "agreement": -0.5000000000000001,
+       "p_value": 0.20354324767901744,
+       "n": 6
+      },
+      "gpumd_nep89_md": {
+       "label": "NEP89 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.07395965773341029,
+        "H-M-Sn": -0.07395965773341029,
+        "B-M": -0.11354102812391931,
+        "B-M-Sn": -0.11354102812391931,
+        "L-M": -0.13766816790460723,
+        "L-M-Sn": -0.13766816790460723
+       },
+       "picked_cid": {
+        "H-M": "mp_1074652_Mg2Si",
+        "H-M-Sn": "mp_1074652_Mg2Si",
+        "B-M": "mp_1073794_MgSi",
+        "B-M-Sn": "mp_1073794_MgSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.8333333333333335,
+       "agreement": 0.8333333333333335,
+       "p_value": 0.034073382465455715,
+       "n": 6
+      },
+      "lammps_meam_relax": {
+       "label": "MEAM, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.0056007025781138475,
+        "H-M-Sn": -0.0056007025781138475,
+        "B-M": -0.040181341746701627,
+        "B-M-Sn": -0.040181341746701627,
+        "L-M": 0.13677608801978636,
+        "L-M-Sn": 0.13677608801978636
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_54",
+        "H-M-Sn": "fcc_Mg2Al5Si_54",
+        "B-M": "fcc_MgAl2Si_64",
+        "B-M-Sn": "fcc_MgAl2Si_64",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.5000000000000001,
+       "agreement": -0.5000000000000001,
+       "p_value": 0.20354324767901744,
+       "n": 6
+      },
+      "gpumd_nep89_relax": {
+       "label": "NEP89, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1257826487223308,
+        "H-M-Sn": -0.1257826487223308,
+        "B-M": -0.13297238349914542,
+        "B-M-Sn": -0.13297238349914542,
+        "L-M": -0.1379148309881037,
+        "L-M-Sn": -0.1379148309881037
+       },
+       "picked_cid": {
+        "H-M": "mp_1101851_Mg2Si",
+        "H-M-Sn": "mp_1101851_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.8333333333333335,
+       "agreement": 0.8333333333333335,
+       "p_value": 0.034073382465455715,
+       "n": 6
+      }
+     }
+    },
+    "dsc_beta_dprime_peak_C": {
+     "n": 6,
+     "measured": {
+      "H-M": 249.6,
+      "H-M-Sn": 243.9,
+      "B-M": 252.8,
+      "B-M-Sn": 242.3,
+      "L-M": 244.7,
+      "L-M-Sn": 236.7
+     },
+     "donors": {
+      "qe_pbe": {
+       "label": "QE PBE, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1599680298473487,
+        "H-M-Sn": -0.1599680298473487,
+        "B-M": -0.05183357507642938,
+        "B-M-Sn": -0.05183357507642938,
+        "L-M": 0.027040956386454953,
+        "L-M-Sn": 0.027040956386454953
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.29814239699997197,
+       "agreement": -0.29814239699997197,
+       "p_value": 0.42677673653298354,
+       "n": 6
+      },
+      "qe_hse06": {
+       "label": "QE HSE06, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.12974937725053337,
+        "H-M-Sn": -0.12974937725053337,
+        "B-M": -0.028688170853868655,
+        "B-M-Sn": -0.028688170853868655,
+        "L-M": 0.10729410016591084,
+        "L-M-Sn": 0.10729410016591084
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.29814239699997197,
+       "agreement": -0.29814239699997197,
+       "p_value": 0.42677673653298354,
+       "n": 6
+      },
+      "mace_relax": {
+       "label": "MACE-MP-0, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08127185846638807,
+        "H-M-Sn": -0.08127185846638807,
+        "B-M": -0.0754659778541551,
+        "B-M-Sn": -0.0754659778541551,
+        "L-M": 0.052242158183211984,
+        "L-M-Sn": 0.052242158183211984
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.29814239699997197,
+       "agreement": -0.29814239699997197,
+       "p_value": 0.42677673653298354,
+       "n": 6
+      },
+      "mace_md": {
+       "label": "MACE-MP-0 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.08247016176765361,
+        "H-M-Sn": -0.08247016176765361,
+        "B-M": -0.06664227190370949,
+        "B-M-Sn": -0.06664227190370949,
+        "L-M": 0.05178778869937097,
+        "L-M-Sn": 0.05178778869937097
+       },
+       "picked_cid": {
+        "H-M": "mp_1367_Mg2Si",
+        "H-M-Sn": "mp_1367_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.29814239699997197,
+       "agreement": -0.29814239699997197,
+       "p_value": 0.42677673653298354,
+       "n": 6
+      },
+      "lammps_meam_md": {
+       "label": "MEAM MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": 0.019749794528021614,
+        "H-M-Sn": 0.019749794528021614,
+        "B-M": -0.00885952218717223,
+        "B-M-Sn": -0.00885952218717223,
+        "L-M": 0.13857287461801543,
+        "L-M-Sn": 0.13857287461801543
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_126",
+        "H-M-Sn": "fcc_Mg2Al5Si_126",
+        "B-M": "fcc_MgAl6Si_114",
+        "B-M-Sn": "fcc_MgAl6Si_114",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.29814239699997197,
+       "agreement": -0.29814239699997197,
+       "p_value": 0.42677673653298354,
+       "n": 6
+      },
+      "gpumd_nep89_md": {
+       "label": "NEP89 MD, 300 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.07395965773341029,
+        "H-M-Sn": -0.07395965773341029,
+        "B-M": -0.11354102812391931,
+        "B-M-Sn": -0.11354102812391931,
+        "L-M": -0.13766816790460723,
+        "L-M-Sn": -0.13766816790460723
+       },
+       "picked_cid": {
+        "H-M": "mp_1074652_Mg2Si",
+        "H-M-Sn": "mp_1074652_Mg2Si",
+        "B-M": "mp_1073794_MgSi",
+        "B-M-Sn": "mp_1073794_MgSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.29814239699997197,
+       "agreement": 0.29814239699997197,
+       "p_value": 0.42677673653298354,
+       "n": 6
+      },
+      "lammps_meam_relax": {
+       "label": "MEAM, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.0056007025781138475,
+        "H-M-Sn": -0.0056007025781138475,
+        "B-M": -0.040181341746701627,
+        "B-M-Sn": -0.040181341746701627,
+        "L-M": 0.13677608801978636,
+        "L-M-Sn": 0.13677608801978636
+       },
+       "picked_cid": {
+        "H-M": "fcc_Mg2Al5Si_54",
+        "H-M-Sn": "fcc_Mg2Al5Si_54",
+        "B-M": "fcc_MgAl2Si_64",
+        "B-M-Sn": "fcc_MgAl2Si_64",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": -0.29814239699997197,
+       "agreement": -0.29814239699997197,
+       "p_value": 0.42677673653298354,
+       "n": 6
+      },
+      "gpumd_nep89_relax": {
+       "label": "NEP89, 0 K",
+       "prediction_eV_per_atom": {
+        "H-M": -0.1257826487223308,
+        "H-M-Sn": -0.1257826487223308,
+        "B-M": -0.13297238349914542,
+        "B-M-Sn": -0.13297238349914542,
+        "L-M": -0.1379148309881037,
+        "L-M-Sn": -0.1379148309881037
+       },
+       "picked_cid": {
+        "H-M": "mp_1101851_Mg2Si",
+        "H-M-Sn": "mp_1101851_Mg2Si",
+        "B-M": "mp_4499_MgAlSi",
+        "B-M-Sn": "mp_4499_MgAlSi",
+        "L-M": "mp_568306_Mg5Si6",
+        "L-M-Sn": "mp_568306_Mg5Si6"
+       },
+       "kendall_tau_b": 0.29814239699997197,
+       "agreement": 0.29814239699997197,
+       "p_value": 0.42677673653298354,
+       "n": 6
+      }
+     }
+    }
+   }
+  }
+ }
+}

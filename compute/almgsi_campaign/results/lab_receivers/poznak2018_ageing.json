@@ -1,0 +1,17 @@
+{
+ "doi": "10.3390/met8050309",
+ "citation": "A. Poznak, V. Thole, P. Sanders, The Natural Aging Effect on Hardenability in Al-Mg-Si: A Complex Interaction between Composition and Heat Treatment Parameters, Metals 8 (2018) 309",
+ "license": "CC BY 4.0",
+ "source_file": "Kinston_projects/singular_obj/poznak2018.pdf (uploaded by the operator, 4 Oct 2026)",
+ "processing": "Section 2: homogenised 144 h at 575 C, extruded to 22 mm rod, solution treated 1.25 h at 560 C, water quenched (WQ), naturally aged 0.5 h or 4 h, artificially aged at 175 C; Vickers macro-hardness, 20 kg load, at least six indents; error bars 95% confidence",
+ "digitisation": "Peak hardness and time to peak read by eye from 300 dpi renders of Fig. 3 (high-solute, WQ) and Fig. 10 (low-solute, WQ); reading uncertainty about +-1 HV and one data point in time. Peak = highest plotted mean of the 0.5 h NA curve; NA loss = peak(0.5 h NA) - peak(4 h NA).",
+ "ageing_temperature_C": 175,
+ "alloys": [
+  {"name": "HS Si-rich",  "Mg_wt": 0.30, "Si_wt": 1.18, "figure": "3a", "peak_HV_NA05": 93.5, "peak_HV_NA4": 93.0, "time_to_peak_h": 6},
+  {"name": "HS balanced", "Mg_wt": 0.57, "Si_wt": 0.84, "figure": "3b", "peak_HV_NA05": 110.0, "peak_HV_NA4": 108.0, "time_to_peak_h": 8},
+  {"name": "HS Mg-rich",  "Mg_wt": 1.01, "Si_wt": 0.41, "figure": "3c", "peak_HV_NA05": 98.0, "peak_HV_NA4": 89.5, "time_to_peak_h": 20},
+  {"name": "LS Si-rich",  "Mg_wt": 0.15, "Si_wt": 0.58, "figure": "10a", "peak_HV_NA05": 52.0, "peak_HV_NA4": 50.0, "time_to_peak_h": 48},
+  {"name": "LS balanced", "Mg_wt": 0.31, "Si_wt": 0.39, "figure": "10b", "peak_HV_NA05": 53.3, "peak_HV_NA4": 57.0, "time_to_peak_h": 90},
+  {"name": "LS Mg-rich",  "Mg_wt": 0.47, "Si_wt": 0.20, "figure": "10c", "peak_HV_NA05": 45.3, "peak_HV_NA4": 45.8, "time_to_peak_h": 48}
+ ]
+}

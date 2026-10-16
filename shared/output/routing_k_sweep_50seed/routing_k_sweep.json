@@ -1,0 +1,292 @@
+{
+  "universe_sha256_16": "f2158ecdc78e0229",
+  "n_seeds": {
+    "3": 50,
+    "4": 50,
+    "5": 50,
+    "6": 50
+  },
+  "pairwise_arm_identical_across_runs": true,
+  "by_k": {
+    "2": {
+      "routing_mean": {
+        "lp_fixed": 0.2306189410794383,
+        "lp_learned": 0.20934457721383298,
+        "learned_from_lp_fixed_score": 0.339708159270493,
+        "learned_from_lp_learned_score": 0.3475037490445675,
+        "uniform": 0.2311326530612245,
+        "oracle": 0.42432619047619047
+      },
+      "mean_cell_gain": 0.23113265306122452,
+      "spearman_fixed": 0.34175021183643123,
+      "spearman_learned": 0.34870925080260834,
+      "top_donor_hits_fixed": 2,
+      "per_receiver": {
+        "expt_zhuo": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_mbj": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_optb88vdw": {
+          "best_donor": "mp_gga",
+          "top_donor_fixed": "mp_r2scan",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga": {
+          "best_donor": "jarvis_mbj",
+          "top_donor_fixed": "jarvis_optb88vdw",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga_expsynth": {
+          "best_donor": "jarvis_mbj",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "mp_r2scan": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "jarvis_mbj",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_gga": {
+          "best_donor": "snumat_hse",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_hse": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        }
+      }
+    },
+    "3": {
+      "routing_mean": {
+        "lp_fixed": 0.1847791604596874,
+        "lp_learned": 0.12729506768697135,
+        "learned_from_lp_fixed_score": 0.280021367774976,
+        "learned_from_lp_learned_score": 0.2861502208250505,
+        "uniform": 0.18428945578231293,
+        "oracle": 0.35535952380952385
+      },
+      "mean_cell_gain": 0.18428945578231293,
+      "spearman_fixed": 0.35075958646338684,
+      "spearman_learned": 0.37803011993940605,
+      "top_donor_hits_fixed": 2,
+      "per_receiver": {
+        "expt_zhuo": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_mbj": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_optb88vdw": {
+          "best_donor": "mp_gga",
+          "top_donor_fixed": "mp_r2scan",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga": {
+          "best_donor": "jarvis_mbj",
+          "top_donor_fixed": "jarvis_optb88vdw",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga_expsynth": {
+          "best_donor": "jarvis_mbj",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "mp_r2scan": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "jarvis_mbj",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_gga": {
+          "best_donor": "snumat_hse",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_hse": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        }
+      }
+    },
+    "4": {
+      "routing_mean": {
+        "lp_fixed": 0.14667119805071735,
+        "lp_learned": 0.09912494252372267,
+        "learned_from_lp_fixed_score": 0.23396453830526312,
+        "learned_from_lp_learned_score": 0.24315879083210026,
+        "uniform": 0.1467292517006803,
+        "oracle": 0.3073166666666667
+      },
+      "mean_cell_gain": 0.14672925170068027,
+      "spearman_fixed": 0.35964775629276613,
+      "spearman_learned": 0.3061167293205297,
+      "top_donor_hits_fixed": 2,
+      "per_receiver": {
+        "expt_zhuo": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_mbj": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_optb88vdw": {
+          "best_donor": "mp_gga",
+          "top_donor_fixed": "mp_r2scan",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga": {
+          "best_donor": "jarvis_mbj",
+          "top_donor_fixed": "jarvis_optb88vdw",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga_expsynth": {
+          "best_donor": "mp_r2scan",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "mp_r2scan": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "jarvis_mbj",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_gga": {
+          "best_donor": "snumat_hse",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_hse": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        }
+      }
+    },
+    "5": {
+      "routing_mean": {
+        "lp_fixed": 0.13442287359370966,
+        "lp_learned": 0.09285547203077707,
+        "learned_from_lp_fixed_score": 0.21986239812248465,
+        "learned_from_lp_learned_score": 0.22227808499406954,
+        "uniform": 0.13497108843537414,
+        "oracle": 0.28808333333333336
+      },
+      "mean_cell_gain": 0.13497108843537414,
+      "spearman_fixed": 0.34625489914990903,
+      "spearman_learned": 0.2969457482968058,
+      "top_donor_hits_fixed": 2,
+      "per_receiver": {
+        "expt_zhuo": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_mbj": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_optb88vdw": {
+          "best_donor": "mp_gga",
+          "top_donor_fixed": "mp_r2scan",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga": {
+          "best_donor": "jarvis_mbj",
+          "top_donor_fixed": "jarvis_optb88vdw",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga_expsynth": {
+          "best_donor": "mp_r2scan",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "mp_r2scan": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "jarvis_mbj",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_gga": {
+          "best_donor": "snumat_hse",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_hse": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        }
+      }
+    },
+    "6": {
+      "routing_mean": {
+        "lp_fixed": 0.13000632995724204,
+        "lp_learned": 0.07765619954136005,
+        "learned_from_lp_fixed_score": 0.21212697469245226,
+        "learned_from_lp_learned_score": 0.21719707805492783,
+        "uniform": 0.13047619047619047,
+        "oracle": 0.2805714285714286
+      },
+      "mean_cell_gain": 0.13047619047619047,
+      "spearman_fixed": 0.35964775629276613,
+      "spearman_learned": 0.30177364840382026,
+      "top_donor_hits_fixed": 2,
+      "per_receiver": {
+        "expt_zhuo": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_mbj": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "jarvis_optb88vdw": {
+          "best_donor": "mp_gga",
+          "top_donor_fixed": "mp_r2scan",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga": {
+          "best_donor": "jarvis_mbj",
+          "top_donor_fixed": "jarvis_optb88vdw",
+          "eta_fixed_score": 1.0
+        },
+        "mp_gga_expsynth": {
+          "best_donor": "mp_r2scan",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        },
+        "mp_r2scan": {
+          "best_donor": "mp_gga_expsynth",
+          "top_donor_fixed": "jarvis_mbj",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_gga": {
+          "best_donor": "snumat_hse",
+          "top_donor_fixed": "snumat_hse",
+          "eta_fixed_score": 1.0
+        },
+        "snumat_hse": {
+          "best_donor": "snumat_gga",
+          "top_donor_fixed": "snumat_gga",
+          "eta_fixed_score": 1.0
+        }
+      }
+    }
+  }
+}

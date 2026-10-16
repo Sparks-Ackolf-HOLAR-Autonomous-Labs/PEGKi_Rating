@@ -1,0 +1,154 @@
+{
+ "MG2SI": {
+  "name": "beta Mg2Si",
+  "formula": "Mg2Si",
+  "cids": [
+   "mp_1367_Mg2Si"
+  ],
+  "x": {
+   "Al": 0.0,
+   "Mg": 0.6666666666666666,
+   "Si": 0.3333333333333333
+  },
+  "T300": {
+   "dG_f_eV_per_atom": -0.21703166776966906,
+   "wall_s": 0.11600565910339355,
+   "above_equilibrium_eV_per_atom": 0.0,
+   "equilibrium_phases_at_composition": [
+    "MG2SI"
+   ]
+  },
+  "T453": {
+   "dG_f_eV_per_atom": -0.2120842859992765,
+   "wall_s": 0.12899422645568848,
+   "above_equilibrium_eV_per_atom": -5.551115123125783e-17,
+   "equilibrium_phases_at_composition": [
+    "MG2SI"
+   ]
+  },
+  "T803": {
+   "dG_f_eV_per_atom": -0.19742790460581322,
+   "wall_s": 0.0927894115447998,
+   "above_equilibrium_eV_per_atom": 0.0,
+   "equilibrium_phases_at_composition": [
+    "MG2SI"
+   ]
+  }
+ },
+ "ALMG_BETA": {
+  "name": "beta Al3Mg2 (Al140Mg89 model)",
+  "formula": "Al140Mg89",
+  "cids": [],
+  "x": {
+   "Al": 0.611353711790393,
+   "Mg": 0.388646288209607,
+   "Si": 0.0
+  },
+  "T300": {
+   "dG_f_eV_per_atom": -0.020313968526970712,
+   "wall_s": 0.19583773612976074,
+   "above_equilibrium_eV_per_atom": 0.0,
+   "equilibrium_phases_at_composition": [
+    "ALMG_BETA"
+   ]
+  },
+  "T453": {
+   "dG_f_eV_per_atom": -0.024991881636485146,
+   "wall_s": 0.1627202033996582,
+   "above_equilibrium_eV_per_atom": 0.0,
+   "equilibrium_phases_at_composition": [
+    "ALMG_BETA"
+   ]
+  },
+  "T803": {
+   "dG_f_eV_per_atom": -0.03569299005694303,
+   "wall_s": 0.2034740447998047,
+   "above_equilibrium_eV_per_atom": 0.009217139926321713,
+   "equilibrium_phases_at_composition": [
+    "LIQUID"
+   ]
+  }
+ },
+ "ALMG_EPS": {
+  "name": "epsilon Al30Mg23",
+  "formula": "Al30Mg23",
+  "cids": [
+   "mp_17659_Mg23Al30"
+  ],
+  "x": {
+   "Al": 0.5660377358490566,
+   "Mg": 0.4339622641509434,
+   "Si": 0.0
+  },
+  "T300": {
+   "dG_f_eV_per_atom": -0.020438857976332967,
+   "wall_s": 0.09865689277648926,
+   "above_equilibrium_eV_per_atom": 0.0008508884020499534,
+   "equilibrium_phases_at_composition": [
+    "ALMG_BETA",
+    "ALMG_GAMMA"
+   ]
+  },
+  "T453": {
+   "dG_f_eV_per_atom": -0.02562024139509176,
+   "wall_s": 0.03751063346862793,
+   "above_equilibrium_eV_per_atom": 0.00018913087888594582,
+   "equilibrium_phases_at_composition": [
+    "ALMG_BETA",
+    "ALMG_GAMMA"
+   ]
+  },
+  "T803": {
+   "dG_f_eV_per_atom": -0.03747307928114125,
+   "wall_s": 0.07301735877990723,
+   "above_equilibrium_eV_per_atom": 0.009234366962316574,
+   "equilibrium_phases_at_composition": [
+    "LIQUID"
+   ]
+  }
+ },
+ "ALMG_GAMMA": {
+  "name": "gamma Al12Mg17",
+  "formula": "Al12Mg17",
+  "cids": [
+   "mp_2151_Mg17Al12"
+  ],
+  "x": {
+   "Al": 0.41379310344827586,
+   "Mg": 0.5862068965517241,
+   "Si": 0.0
+  },
+  "T300": {
+   "dG_f_eV_per_atom": -0.02432361253932913,
+   "wall_s": 0.11869215965270996,
+   "above_equilibrium_eV_per_atom": 4.3984270165636774e-07,
+   "equilibrium_phases_at_composition": [
+    "ALMG_GAMMA",
+    "HCP_A3"
+   ]
+  },
+  "T453": {
+   "dG_f_eV_per_atom": -0.027452749070184763,
+   "wall_s": 0.04748129844665527,
+   "above_equilibrium_eV_per_atom": -1.3850838878615157e-10,
+   "equilibrium_phases_at_composition": [
+    "ALMG_GAMMA"
+   ]
+  },
+  "T803": {
+   "dG_f_eV_per_atom": -0.03924777150716567,
+   "wall_s": 0.10033798217773438,
+   "above_equilibrium_eV_per_atom": 0.007080574167250747,
+   "equilibrium_phases_at_composition": [
+    "LIQUID"
+   ]
+  }
+ },
+ "_not_in_database": [
+  "beta'' Mg5Si6",
+  "beta' Mg9Si5",
+  "U1 MgAl2Si2",
+  "U2 MgAlSi",
+  "B' / Q-type ternary precipitates"
+ ]
+}

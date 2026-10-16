@@ -1,0 +1,1208 @@
+{
+  "config": {
+    "universe": "output/bandgap_archive_build/bandgap_universe.jsonl",
+    "paired": "output/bandgap_cluster_run2/paired_campaign_k4/paired_campaign.json",
+    "n_events": 300,
+    "min_class_size": 30,
+    "n_boot": 30,
+    "seed": 0,
+    "output_dir": "output/learned_transfer_weights"
+  },
+  "universe_sha256_16": "f2158ecdc78e0229",
+  "sources": [
+    "expt_zhuo",
+    "jarvis_mbj",
+    "jarvis_optb88vdw",
+    "mp_gga",
+    "mp_gga_expsynth",
+    "mp_r2scan",
+    "snumat_gga",
+    "snumat_hse"
+  ],
+  "spaces": {
+    "expt_zhuo": {
+      "classes": [
+        "boride",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "theta": {
+        "boride": 0.19913895118550867,
+        "chalcogenide": -0.5135298384059769,
+        "halide": 1.1199574117438782,
+        "nitride": 0.8874877583617814,
+        "other": -1.503865399811242,
+        "oxide": 0.999480179478678,
+        "pnictide": -1.1886690625526275
+      },
+      "theta_sd": {
+        "boride": 0.05518902183848602,
+        "chalcogenide": 0.06897184177873573,
+        "halide": 0.08802267353562687,
+        "nitride": 0.0786702796091865,
+        "other": 0.08525222387885481,
+        "oxide": 0.07496645086970533,
+        "pnictide": 0.07297601475778015
+      },
+      "class_l1_dispersion": {
+        "boride": 1.0229032258064514,
+        "chalcogenide": 0.7602027027027027,
+        "halide": 1.4794761904761902,
+        "nitride": 0.9164788732394368,
+        "other": 0.48817307692307693,
+        "oxide": 1.167949183303085,
+        "pnictide": 0.5676363636363636
+      },
+      "n_events": 300
+    },
+    "jarvis_mbj": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "theta": {
+        "boride": 0.417464698381723,
+        "carbide": -0.08927414690979692,
+        "chalcogenide": -0.29756763705368694,
+        "halide": 0.5393292593875281,
+        "nitride": 0.37249266540625925,
+        "other": -0.6829735496659822,
+        "oxide": 0.6162471784183118,
+        "pnictide": -0.875718467964356
+      },
+      "theta_sd": {
+        "boride": 0.07705702395285659,
+        "carbide": 0.06906825108493345,
+        "chalcogenide": 0.05432095387999864,
+        "halide": 0.05727305375938108,
+        "nitride": 0.08627915608340975,
+        "other": 0.09628392526696061,
+        "oxide": 0.05907684034014241,
+        "pnictide": 0.04501050637003897
+      },
+      "class_l1_dispersion": {
+        "boride": 3.213179487179487,
+        "carbide": 1.3711999999999998,
+        "chalcogenide": 0.9031058002148228,
+        "halide": 2.0072578283855225,
+        "nitride": 1.6601141649048625,
+        "other": 2.7264434389140275,
+        "oxide": 1.722698548812665,
+        "pnictide": 0.6207482876712328
+      },
+      "n_events": 300
+    },
+    "jarvis_optb88vdw": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "theta": {
+        "boride": 0.19710731830052158,
+        "carbide": 0.25593946679800494,
+        "chalcogenide": -0.26582437436427375,
+        "halide": 0.33492851604204,
+        "nitride": 0.2299903148821987,
+        "other": -0.3479974183443783,
+        "oxide": 0.23674790956468358,
+        "pnictide": -0.640891732878797
+      },
+      "theta_sd": {
+        "boride": 0.08348880502779686,
+        "carbide": 0.047513495478404666,
+        "chalcogenide": 0.05069039670356937,
+        "halide": 0.06193971083513287,
+        "nitride": 0.049060141806503726,
+        "other": 0.07371471927926616,
+        "oxide": 0.07934851411882256,
+        "pnictide": 0.05095312468030704
+      },
+      "class_l1_dispersion": {
+        "boride": 2.4299097744360902,
+        "carbide": 1.3645851063829788,
+        "chalcogenide": 0.623340825927862,
+        "halide": 1.5122037805440294,
+        "nitride": 1.279559686888454,
+        "other": 1.8002185628742513,
+        "oxide": 1.4225089888808065,
+        "pnictide": 0.3938179611650486
+      },
+      "n_events": 300
+    },
+    "mp_gga": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "theta": {
+        "boride": 0.2292940425443421,
+        "carbide": 0.06506205717412065,
+        "chalcogenide": -0.04787670419095363,
+        "halide": 0.46839564640156967,
+        "nitride": 0.07895753074926205,
+        "other": -0.6405276404105679,
+        "oxide": 0.28550403634797167,
+        "pnictide": -0.43880896861574414
+      },
+      "theta_sd": {
+        "boride": 0.07918138045835645,
+        "carbide": 0.07431924956911587,
+        "chalcogenide": 0.06298906452008425,
+        "halide": 0.07808262345786088,
+        "nitride": 0.05063415803350577,
+        "other": 0.06866294517052568,
+        "oxide": 0.07145686651860265,
+        "pnictide": 0.03717135427952037
+      },
+      "class_l1_dispersion": {
+        "boride": 2.2538702875399363,
+        "carbide": 1.21492154340836,
+        "chalcogenide": 0.6857523217053131,
+        "halide": 1.400826864481159,
+        "nitride": 1.159074130700934,
+        "other": 1.0053441754916794,
+        "oxide": 1.2369344165721854,
+        "pnictide": 0.4405161120263592
+      },
+      "n_events": 300
+    },
+    "mp_gga_expsynth": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "theta": {
+        "boride": 0.5867187701679656,
+        "carbide": 0.132242078717488,
+        "chalcogenide": -0.30597026560136403,
+        "halide": 0.4473025788031528,
+        "nitride": 0.3610262083175412,
+        "other": -0.7337355576298907,
+        "oxide": 0.3648171752504539,
+        "pnictide": -0.8524009880253464
+      },
+      "theta_sd": {
+        "boride": 0.09163349737740659,
+        "carbide": 0.05360950754976586,
+        "chalcogenide": 0.05434636652612013,
+        "halide": 0.0746494337533581,
+        "nitride": 0.07440383227555017,
+        "other": 0.05741757400889867,
+        "oxide": 0.08851697515737743,
+        "pnictide": 0.06258359376835843
+      },
+      "class_l1_dispersion": {
+        "boride": 1.9783299319727892,
+        "carbide": 1.0864350282485875,
+        "chalcogenide": 0.6267925314937013,
+        "halide": 1.438772558902854,
+        "nitride": 1.2559658611360733,
+        "other": 1.4594773584905663,
+        "oxide": 1.338872379730347,
+        "pnictide": 0.3901886058981234
+      },
+      "n_events": 300
+    },
+    "mp_r2scan": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "theta": {
+        "boride": 0.17277056863654394,
+        "carbide": 0.13385807203300476,
+        "chalcogenide": -0.1659274186449612,
+        "halide": 0.4768275412171023,
+        "nitride": 0.26725090882151303,
+        "other": -0.49535188677469794,
+        "oxide": 0.47836521825306266,
+        "pnictide": -0.8677930035415675
+      },
+      "theta_sd": {
+        "boride": 0.08889353541347753,
+        "carbide": 0.06526136562361796,
+        "chalcogenide": 0.04508688428402945,
+        "halide": 0.06956967241662156,
+        "nitride": 0.06489456315065197,
+        "other": 0.0751536103735904,
+        "oxide": 0.0777715947392597,
+        "pnictide": 0.061317728804621725
+      },
+      "class_l1_dispersion": {
+        "boride": 2.3320590163934427,
+        "carbide": 0.9643019736842108,
+        "chalcogenide": 0.6878154372623574,
+        "halide": 1.7338908343125734,
+        "nitride": 1.182039894736842,
+        "other": 1.8808756892230576,
+        "oxide": 1.4737866231647634,
+        "pnictide": 0.42170807537012117
+      },
+      "n_events": 300
+    },
+    "snumat_gga": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "theta": {
+        "boride": 0.27478024229424786,
+        "carbide": 0.09802773281973476,
+        "chalcogenide": -0.24702025859332513,
+        "halide": 0.40349059257479514,
+        "nitride": 0.5902746318102748,
+        "other": -0.6893897444268711,
+        "oxide": 0.4223387774170452,
+        "pnictide": -0.852501973895902
+      },
+      "theta_sd": {
+        "boride": 0.0686086062220844,
+        "carbide": 0.05940167686420294,
+        "chalcogenide": 0.08426535613970822,
+        "halide": 0.07204903247615592,
+        "nitride": 0.057434708629348685,
+        "other": 0.09558640024568174,
+        "oxide": 0.05701967997544862,
+        "pnictide": 0.045161016185850146
+      },
+      "class_l1_dispersion": {
+        "boride": 1.336707575,
+        "carbide": 0.7343007674418605,
+        "chalcogenide": 0.6133721615136133,
+        "halide": 0.9819683191181785,
+        "nitride": 0.9602215300207039,
+        "other": 1.500104757709251,
+        "oxide": 0.820847252876639,
+        "pnictide": 0.35368247256637164
+      },
+      "n_events": 300
+    },
+    "snumat_hse": {
+      "classes": [
+        "boride",
+        "carbide",
+        "chalcogenide",
+        "halide",
+        "nitride",
+        "other",
+        "oxide",
+        "pnictide"
+      ],
+      "theta": {
+        "boride": -0.05321196112023648,
+        "carbide": 0.04380396754417364,
+        "chalcogenide": -0.28185377905795056,
+        "halide": 0.6361149805345434,
+        "nitride": 0.6540017983767921,
+        "other": -0.7633858008335881,
+        "oxide": 0.7051457665685407,
+        "pnictide": -0.9406149720122746
+      },
+      "theta_sd": {
+        "boride": 0.08026513184181715,
+        "carbide": 0.06317351145274262,
+        "chalcogenide": 0.05988688793624374,
+        "halide": 0.06523757190080959,
+        "nitride": 0.04849757657973937,
+        "other": 0.07296104754119678,
+        "oxide": 0.05238021252350743,
+        "pnictide": 0.04517342482888618
+      },
+      "class_l1_dispersion": {
+        "boride": 1.5924233636363638,
+        "carbide": 0.9955166774193548,
+        "chalcogenide": 0.7702263791887125,
+        "halide": 1.1722192709077914,
+        "nitride": 1.1657949181636726,
+        "other": 1.7891245019305018,
+        "oxide": 0.9924738779099844,
+        "pnictide": 0.48324140092165896
+      },
+      "n_events": 300
+    }
+  },
+  "components": {
+    "expt_zhuo->jarvis_mbj": {
+      "sigma": 0.8916717961118176,
+      "rho": 0.32781955466271195,
+      "omega": 0.21932465042406177,
+      "delta_fixed": 1.0001667003504677
+    },
+    "expt_zhuo->jarvis_optb88vdw": {
+      "sigma": 0.8656153574810931,
+      "rho": 0.27544681111549674,
+      "omega": 0.19811632430085266,
+      "delta_fixed": 0.9429458442957371
+    },
+    "expt_zhuo->mp_gga": {
+      "sigma": 0.8708531569314418,
+      "rho": 0.2788658704094743,
+      "omega": 0.14458955338041973,
+      "delta_fixed": 1.0051294739604963
+    },
+    "expt_zhuo->mp_gga_expsynth": {
+      "sigma": 0.8538395110013355,
+      "rho": 0.3287833850093895,
+      "omega": 0.1804696904657497,
+      "delta_fixed": 1.0021532055449753
+    },
+    "expt_zhuo->mp_r2scan": {
+      "sigma": 0.878498302910348,
+      "rho": 0.3089566231090601,
+      "omega": 0.2024833145221145,
+      "delta_fixed": 0.9849716114972937
+    },
+    "expt_zhuo->snumat_gga": {
+      "sigma": 0.895290275784208,
+      "rho": 0.32243197855498,
+      "omega": 0.20621447159580977,
+      "delta_fixed": 1.0115077827433783
+    },
+    "expt_zhuo->snumat_hse": {
+      "sigma": 0.9101825644675052,
+      "rho": 0.32580697751817916,
+      "omega": 0.1963143513268766,
+      "delta_fixed": 1.0396751906588078
+    },
+    "jarvis_mbj->expt_zhuo": {
+      "sigma": 0.8974864601551975,
+      "rho": 0.31350401463780114,
+      "omega": 0.25343442597377414,
+      "delta_fixed": 0.9575560488192245
+    },
+    "jarvis_mbj->jarvis_optb88vdw": {
+      "sigma": 0.8624324948918202,
+      "rho": 0.3367938925442888,
+      "omega": 0.04529771177106958,
+      "delta_fixed": 1.1539286756650395
+    },
+    "jarvis_mbj->mp_gga": {
+      "sigma": 0.8653477130902607,
+      "rho": 0.3493635233090354,
+      "omega": 0.09472778100100984,
+      "delta_fixed": 1.1199834553982861
+    },
+    "jarvis_mbj->mp_gga_expsynth": {
+      "sigma": 0.9048700005664032,
+      "rho": 0.4767081866033221,
+      "omega": 0.06464893640022329,
+      "delta_fixed": 1.316929250769502
+    },
+    "jarvis_mbj->mp_r2scan": {
+      "sigma": 0.9044439562579701,
+      "rho": 0.41931565309839713,
+      "omega": 0.035755384873998215,
+      "delta_fixed": 1.288004224482369
+    },
+    "jarvis_mbj->snumat_gga": {
+      "sigma": 0.9032338802745477,
+      "rho": 0.45473713900801943,
+      "omega": 0.07698272177955921,
+      "delta_fixed": 1.2809882975030078
+    },
+    "jarvis_mbj->snumat_hse": {
+      "sigma": 0.8790699606858516,
+      "rho": 0.45093497388639275,
+      "omega": 0.10074957667987741,
+      "delta_fixed": 1.229255357892367
+    },
+    "jarvis_optb88vdw->expt_zhuo": {
+      "sigma": 0.8743134764020499,
+      "rho": 0.20176468701310538,
+      "omega": 0.28139566465461113,
+      "delta_fixed": 0.7946824987605441
+    },
+    "jarvis_optb88vdw->jarvis_mbj": {
+      "sigma": 0.8672701591591951,
+      "rho": 0.3595254151112846,
+      "omega": 0.054798158162283506,
+      "delta_fixed": 1.1719974161081963
+    },
+    "jarvis_optb88vdw->mp_gga": {
+      "sigma": 0.8154771324416434,
+      "rho": 0.45980771943292376,
+      "omega": 0.08646939131935992,
+      "delta_fixed": 1.1888154605552073
+    },
+    "jarvis_optb88vdw->mp_gga_expsynth": {
+      "sigma": 0.893993703226749,
+      "rho": 0.3629622720068599,
+      "omega": 0.06017615902755277,
+      "delta_fixed": 1.1967798162060561
+    },
+    "jarvis_optb88vdw->mp_r2scan": {
+      "sigma": 0.9078293148854555,
+      "rho": 0.4141211206051765,
+      "omega": 0.056562370955792717,
+      "delta_fixed": 1.2653880645348392
+    },
+    "jarvis_optb88vdw->snumat_gga": {
+      "sigma": 0.8915110912697711,
+      "rho": 0.3710753197148122,
+      "omega": 0.12282591233672038,
+      "delta_fixed": 1.1397604986478629
+    },
+    "jarvis_optb88vdw->snumat_hse": {
+      "sigma": 0.8490480911274835,
+      "rho": 0.3117487537910505,
+      "omega": 0.13415546175541726,
+      "delta_fixed": 1.0266413831631167
+    },
+    "mp_gga->expt_zhuo": {
+      "sigma": 0.8797240142960575,
+      "rho": 0.21343449607120882,
+      "omega": 0.19567633302701126,
+      "delta_fixed": 0.897482177340255
+    },
+    "mp_gga->jarvis_mbj": {
+      "sigma": 0.8675685344329263,
+      "rho": 0.35730938208568674,
+      "omega": 0.0728876030239975,
+      "delta_fixed": 1.1519903134946154
+    },
+    "mp_gga->jarvis_optb88vdw": {
+      "sigma": 0.8130095315342075,
+      "rho": 0.42288045645631817,
+      "omega": 0.055128766951133626,
+      "delta_fixed": 1.180761221039392
+    },
+    "mp_gga->mp_gga_expsynth": {
+      "sigma": 0.8672224999571774,
+      "rho": 0.37209775911784754,
+      "omega": 0.06050779110464835,
+      "delta_fixed": 1.1788124679703766
+    },
+    "mp_gga->mp_r2scan": {
+      "sigma": 0.8555368312686531,
+      "rho": 0.43691107584985067,
+      "omega": 0.07900385759509738,
+      "delta_fixed": 1.2134440495234062
+    },
+    "mp_gga->snumat_gga": {
+      "sigma": 0.8370232346541959,
+      "rho": 0.3928859120486182,
+      "omega": 0.1113008269585885,
+      "delta_fixed": 1.1186083197442258
+    },
+    "mp_gga->snumat_hse": {
+      "sigma": 0.8183596525811321,
+      "rho": 0.3211084231687815,
+      "omega": 0.1226303763772853,
+      "delta_fixed": 1.0168376993726282
+    },
+    "mp_gga_expsynth->expt_zhuo": {
+      "sigma": 0.8561719196313048,
+      "rho": 0.3085296221964899,
+      "omega": 0.21923045101527996,
+      "delta_fixed": 0.9454710908125148
+    },
+    "mp_gga_expsynth->jarvis_mbj": {
+      "sigma": 0.9035174193160576,
+      "rho": 0.4916029430624777,
+      "omega": 0.048335990841214815,
+      "delta_fixed": 1.3467843715373204
+    },
+    "mp_gga_expsynth->jarvis_optb88vdw": {
+      "sigma": 0.8876781045441402,
+      "rho": 0.34127686711818045,
+      "omega": 0.03436276707733029,
+      "delta_fixed": 1.1945922045849904
+    },
+    "mp_gga_expsynth->mp_gga": {
+      "sigma": 0.8637095761826893,
+      "rho": 0.3495285417288592,
+      "omega": 0.06603502352265221,
+      "delta_fixed": 1.1472030943888962
+    },
+    "mp_gga_expsynth->mp_r2scan": {
+      "sigma": 0.8785203991974334,
+      "rho": 0.4148145223970006,
+      "omega": 0.03475262109226977,
+      "delta_fixed": 1.2585823005021644
+    },
+    "mp_gga_expsynth->snumat_gga": {
+      "sigma": 0.8996185092592797,
+      "rho": 0.45957632920208213,
+      "omega": 0.09043517003835161,
+      "delta_fixed": 1.26875966842301
+    },
+    "mp_gga_expsynth->snumat_hse": {
+      "sigma": 0.8201670112488643,
+      "rho": 0.46313395115907485,
+      "omega": 0.10279566671069082,
+      "delta_fixed": 1.1805052956972482
+    },
+    "mp_r2scan->expt_zhuo": {
+      "sigma": 0.883354244713866,
+      "rho": 0.26162489908517744,
+      "omega": 0.2343392025638608,
+      "delta_fixed": 0.9106399412351827
+    },
+    "mp_r2scan->jarvis_mbj": {
+      "sigma": 0.9040652425241229,
+      "rho": 0.4292209473367324,
+      "omega": 0.04192033072756342,
+      "delta_fixed": 1.291365859133292
+    },
+    "mp_r2scan->jarvis_optb88vdw": {
+      "sigma": 0.9023873992989049,
+      "rho": 0.37557042541889357,
+      "omega": 0.053226870418144,
+      "delta_fixed": 1.2247309542996545
+    },
+    "mp_r2scan->mp_gga": {
+      "sigma": 0.8529894908928264,
+      "rho": 0.3780895782556916,
+      "omega": 0.10700898142567496,
+      "delta_fixed": 1.1240700877228431
+    },
+    "mp_r2scan->mp_gga_expsynth": {
+      "sigma": 0.8794671499040496,
+      "rho": 0.45943104731731077,
+      "omega": 0.05723051250484346,
+      "delta_fixed": 1.281667684716517
+    },
+    "mp_r2scan->snumat_gga": {
+      "sigma": 0.8989175967137337,
+      "rho": 0.4578997562894609,
+      "omega": 0.11287927796210524,
+      "delta_fixed": 1.2439380750410893
+    },
+    "mp_r2scan->snumat_hse": {
+      "sigma": 0.8946089428495007,
+      "rho": 0.3672201748650208,
+      "omega": 0.13664613286242344,
+      "delta_fixed": 1.125182984852098
+    },
+    "snumat_gga->expt_zhuo": {
+      "sigma": 0.9005474697833906,
+      "rho": 0.29141737924455213,
+      "omega": 0.20590353961961444,
+      "delta_fixed": 0.9860613094083283
+    },
+    "snumat_gga->jarvis_mbj": {
+      "sigma": 0.9037461537653704,
+      "rho": 0.48860183876436597,
+      "omega": 0.04156197588081157,
+      "delta_fixed": 1.3507860166489247
+    },
+    "snumat_gga->jarvis_optb88vdw": {
+      "sigma": 0.8870410146679687,
+      "rho": 0.35218989878886026,
+      "omega": 0.07790472004675884,
+      "delta_fixed": 1.16132619341007
+    },
+    "snumat_gga->mp_gga": {
+      "sigma": 0.8353541104506839,
+      "rho": 0.355201128441439,
+      "omega": 0.09772025903685323,
+      "delta_fixed": 1.0928349798552697
+    },
+    "snumat_gga->mp_gga_expsynth": {
+      "sigma": 0.9014762406018969,
+      "rho": 0.5060977193394186,
+      "omega": 0.07132736969861248,
+      "delta_fixed": 1.3362465902427032
+    },
+    "snumat_gga->mp_r2scan": {
+      "sigma": 0.8998041931501212,
+      "rho": 0.4387043264716821,
+      "omega": 0.07129358620979245,
+      "delta_fixed": 1.2672149334120109
+    },
+    "snumat_gga->snumat_hse": {
+      "sigma": 0.9000409689582283,
+      "rho": 0.41553106397866935,
+      "omega": 0.028704798179856626,
+      "delta_fixed": 1.286867234757041
+    },
+    "snumat_hse->expt_zhuo": {
+      "sigma": 0.9223985851069829,
+      "rho": 0.3617192863801161,
+      "omega": 0.19341651898827358,
+      "delta_fixed": 1.0907013524988254
+    },
+    "snumat_hse->jarvis_mbj": {
+      "sigma": 0.8849522299414889,
+      "rho": 0.4552708757611879,
+      "omega": 0.050627987482401667,
+      "delta_fixed": 1.2895951182202752
+    },
+    "snumat_hse->jarvis_optb88vdw": {
+      "sigma": 0.8499617581280197,
+      "rho": 0.33908576070242635,
+      "omega": 0.07453342616672758,
+      "delta_fixed": 1.1145140926637185
+    },
+    "snumat_hse->mp_gga": {
+      "sigma": 0.8217268076960943,
+      "rho": 0.3461497238168731,
+      "omega": 0.09434896515682195,
+      "delta_fixed": 1.0735275663561454
+    },
+    "snumat_hse->mp_gga_expsynth": {
+      "sigma": 0.8268911533107952,
+      "rho": 0.4313901741044117,
+      "omega": 0.0689870230722236,
+      "delta_fixed": 1.1892943043429833
+    },
+    "snumat_hse->mp_r2scan": {
+      "sigma": 0.9009724508462504,
+      "rho": 0.4110281906473876,
+      "omega": 0.08035959781138255,
+      "delta_fixed": 1.2316410436822554
+    },
+    "snumat_hse->snumat_gga": {
+      "sigma": 0.9055499779854845,
+      "rho": 0.44066318145069594,
+      "omega": 0.014003954881128555,
+      "delta_fixed": 1.3322092045550518
+    }
+  },
+  "arms": {
+    "pair": {
+      "per_receiver": {
+        "expt_zhuo": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.48155303358733254,
+            -0.1717541343712685,
+            0.34669283204139895
+          ],
+          "spearman_fixed": 0.594618725379069,
+          "spearman_learned": 0.198206241793023,
+          "best_donor_measured": "snumat_gga",
+          "top_donor_fixed": "snumat_hse",
+          "top_donor_learned": "mp_gga",
+          "routing": {
+            "lp_fixed": 0.0406776092824699,
+            "lp_learned": 0.059156617710663814,
+            "learned_from_lp_fixed_score": 0.15695196326238034,
+            "learned_from_lp_learned_score": -0.032703412203950864,
+            "uniform": 0.010634013605442182,
+            "oracle": 0.15695238095238095
+          }
+        },
+        "jarvis_mbj": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.44268785539773803,
+            -0.03752266119354692,
+            0.5197894834087151
+          ],
+          "spearman_fixed": -0.12613124477737828,
+          "spearman_learned": -0.07207499701564472,
+          "best_donor_measured": "mp_gga_expsynth",
+          "top_donor_fixed": "snumat_gga",
+          "top_donor_learned": "mp_r2scan",
+          "routing": {
+            "lp_fixed": 0.23534141979226825,
+            "lp_learned": 0.08449523809523812,
+            "learned_from_lp_fixed_score": 0.23419568721739165,
+            "learned_from_lp_learned_score": 0.3070960787508283,
+            "uniform": 0.27474557823129253,
+            "oracle": 0.4573904761904762
+          }
+        },
+        "jarvis_optb88vdw": {
+          "lam": Infinity,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.33333333333333337,
+            0.33333333333333337,
+            0.33333333333333337
+          ],
+          "spearman_fixed": 0.6847124716486249,
+          "spearman_learned": 0.6847124716486249,
+          "best_donor_measured": "mp_gga",
+          "top_donor_fixed": "mp_r2scan",
+          "top_donor_learned": "mp_r2scan",
+          "routing": {
+            "lp_fixed": 0.2893236049290232,
+            "lp_learned": 0.21651428571428571,
+            "learned_from_lp_fixed_score": 0.4009765835017443,
+            "learned_from_lp_learned_score": 0.3945915741515883,
+            "uniform": 0.31235102040816326,
+            "oracle": 0.4205142857142857
+          }
+        },
+        "mp_gga": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.4578976137195786,
+            -0.09538603883301246,
+            0.44671634744740885
+          ],
+          "spearman_fixed": 0.6306562238868914,
+          "spearman_learned": 0.5585812268712466,
+          "best_donor_measured": "jarvis_mbj",
+          "top_donor_fixed": "jarvis_optb88vdw",
+          "top_donor_learned": "mp_gga_expsynth",
+          "routing": {
+            "lp_fixed": 0.26718075312618417,
+            "lp_learned": 0.03668571428571428,
+            "learned_from_lp_fixed_score": 0.4112335626116308,
+            "learned_from_lp_learned_score": 0.42689823731808485,
+            "uniform": 0.2750149659863945,
+            "oracle": 0.4800190476190476
+          }
+        },
+        "mp_gga_expsynth": {
+          "lam": 0.1,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.3830975955235215,
+            0.14710220510284916,
+            0.46980019937362943
+          ],
+          "spearman_fixed": 0.14414999403128945,
+          "spearman_learned": 0.4684874806016907,
+          "best_donor_measured": "jarvis_mbj",
+          "top_donor_fixed": "snumat_gga",
+          "top_donor_learned": "jarvis_mbj",
+          "routing": {
+            "lp_fixed": 0.23776842829725936,
+            "lp_learned": 0.08624761904761905,
+            "learned_from_lp_fixed_score": 0.13135547649921384,
+            "learned_from_lp_learned_score": 0.27500243738125124,
+            "uniform": 0.2563401360544218,
+            "oracle": 0.43390476190476185
+          }
+        },
+        "mp_r2scan": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.4431709389631233,
+            -0.06388458389660018,
+            0.4929444771402765
+          ],
+          "spearman_fixed": 0.2702812388086677,
+          "spearman_learned": 0.594618725379069,
+          "best_donor_measured": "mp_gga_expsynth",
+          "top_donor_fixed": "jarvis_mbj",
+          "top_donor_learned": "jarvis_mbj",
+          "routing": {
+            "lp_fixed": 0.3261379993054361,
+            "lp_learned": 0.19885714285714287,
+            "learned_from_lp_fixed_score": 0.39449806033052376,
+            "learned_from_lp_learned_score": 0.4164015021335524,
+            "uniform": 0.31246802721088435,
+            "oracle": 0.45302857142857145
+          }
+        },
+        "snumat_gga": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.4286099581237022,
+            -0.01518165710950168,
+            0.5562083847667962
+          ],
+          "spearman_fixed": 0.14285714285714288,
+          "spearman_learned": 0.14285714285714288,
+          "best_donor_measured": "snumat_hse",
+          "top_donor_fixed": "snumat_hse",
+          "top_donor_learned": "snumat_hse",
+          "routing": {
+            "lp_fixed": 0.23424565102252667,
+            "lp_learned": 0.5157904761904762,
+            "learned_from_lp_fixed_score": 0.5127053603077756,
+            "learned_from_lp_learned_score": 0.5157375286994504,
+            "uniform": 0.22059863945578234,
+            "oracle": 0.5157904761904762
+          }
+        },
+        "snumat_hse": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.3090694445857499,
+            -0.05475149233002465,
+            0.6361790630842254
+          ],
+          "spearman_fixed": 0.39285714285714296,
+          "spearman_learned": 0.21428571428571433,
+          "best_donor_measured": "snumat_gga",
+          "top_donor_fixed": "snumat_gga",
+          "top_donor_learned": "snumat_gga",
+          "routing": {
+            "lp_fixed": 0.21427606288033882,
+            "lp_learned": 0.4770095238095239,
+            "learned_from_lp_fixed_score": 0.47574858043328294,
+            "learned_from_lp_learned_score": 0.47700604612573455,
+            "uniform": 0.18690884353741496,
+            "oracle": 0.4770095238095239
+          }
+        }
+      },
+      "arm": "pair",
+      "mse_fixed_calibrated": 0.024726013512159226,
+      "mse_learned": 0.024283328083996764,
+      "sign_acc_fixed_raw": 0.875,
+      "sign_acc_fixed_calibrated": 0.875,
+      "sign_acc_learned": 0.875,
+      "spearman_pooled_fixed": 0.31722323029674604,
+      "spearman_pooled_learned": 0.3608025448779712,
+      "mean_within_receiver_spearman_fixed": 0.34175021183643123,
+      "mean_within_receiver_spearman_learned": 0.34870925080260834,
+      "top_donor_hits_fixed": 2,
+      "top_donor_hits_learned": 3,
+      "routing_mean": {
+        "lp_fixed": 0.2306189410794383,
+        "lp_learned": 0.209344577213833,
+        "learned_from_lp_fixed_score": 0.3397081592704929,
+        "learned_from_lp_learned_score": 0.3475037490445674,
+        "uniform": 0.2311326530612245,
+        "oracle": 0.42432619047619047
+      },
+      "n_receivers": 8,
+      "all_cells": {
+        "lam": 0.01,
+        "cv_mse_by_lam": {
+          "0.0": 0.02414887613061307,
+          "0.01": 0.023807940512410204,
+          "0.1": 0.024052412650575675,
+          "1.0": 0.02465309047457287,
+          "10.0": 0.024719641564296433,
+          "100.0": 0.02472538805515218,
+          "inf": 0.024726013512159226
+        },
+        "intercept": -0.6068055619111262,
+        "v": [
+          1.2198484777701575,
+          -0.20889489885804877,
+          1.4169566862853615
+        ],
+        "weights_normalised_alpha_gamma_delta": [
+          0.4286637561237626,
+          -0.07340720885537455,
+          0.4979290350208629
+        ],
+        "cold_start_calibration": {
+          "b": -0.4713510710137982,
+          "c": 0.6125531541073206
+        }
+      }
+    },
+    "kway": {
+      "per_receiver": {
+        "expt_zhuo": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.3935502021553043,
+            -0.22889351522339,
+            0.37755628262130586
+          ],
+          "spearman_fixed": 0.594618725379069,
+          "spearman_learned": 0.23424374030084535,
+          "best_donor_measured": "snumat_gga",
+          "top_donor_fixed": "snumat_hse",
+          "top_donor_learned": "mp_gga",
+          "routing": {
+            "lp_fixed": 0.005721352822355896,
+            "lp_learned": 0.0494125682320314,
+            "learned_from_lp_fixed_score": 0.10377106845021504,
+            "learned_from_lp_learned_score": -0.1193758584331661,
+            "uniform": -0.018927891156462557,
+            "oracle": 0.10377142857142861
+          }
+        },
+        "jarvis_mbj": {
+          "lam": 0.0,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.3934499392351349,
+            -0.1339205982303543,
+            0.4726294625345108
+          ],
+          "spearman_fixed": -0.054056247761733546,
+          "spearman_learned": -0.01801874925391118,
+          "best_donor_measured": "mp_gga_expsynth",
+          "top_donor_fixed": "snumat_gga",
+          "top_donor_learned": "mp_r2scan",
+          "routing": {
+            "lp_fixed": 0.1040092148184859,
+            "lp_learned": 0.06421247853004944,
+            "learned_from_lp_fixed_score": 0.10248730209656653,
+            "learned_from_lp_learned_score": 0.22488752363538794,
+            "uniform": 0.14293877551020412,
+            "oracle": 0.28352380952380957
+          }
+        },
+        "jarvis_optb88vdw": {
+          "lam": 0.1,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.44009958076091027,
+            0.10915570882161416,
+            0.4507447104174756
+          ],
+          "spearman_fixed": 0.6847124716486249,
+          "spearman_learned": 0.4684874806016907,
+          "best_donor_measured": "mp_gga",
+          "top_donor_fixed": "mp_r2scan",
+          "top_donor_learned": "mp_r2scan",
+          "routing": {
+            "lp_fixed": 0.251852578593995,
+            "lp_learned": 0.18085714285714283,
+            "learned_from_lp_fixed_score": 0.3434165871712581,
+            "learned_from_lp_learned_score": 0.32804391084012346,
+            "uniform": 0.2654149659863945,
+            "oracle": 0.35180952380952385
+          }
+        },
+        "mp_gga": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.4020345078382551,
+            -0.16238448323678514,
+            0.4355810089249597
+          ],
+          "spearman_fixed": 0.6306562238868914,
+          "spearman_learned": 0.4684874806016907,
+          "best_donor_measured": "jarvis_mbj",
+          "top_donor_fixed": "jarvis_optb88vdw",
+          "top_donor_learned": "mp_gga_expsynth",
+          "routing": {
+            "lp_fixed": 0.18625558165078487,
+            "lp_learned": -0.01723809523809524,
+            "learned_from_lp_fixed_score": 0.29506883338395373,
+            "learned_from_lp_learned_score": 0.3263701937749096,
+            "uniform": 0.1905170068027211,
+            "oracle": 0.372952380952381
+          }
+        },
+        "mp_gga_expsynth": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.36067541720368895,
+            -0.13913213676648403,
+            0.500192446029827
+          ],
+          "spearman_fixed": 0.10811249552346709,
+          "spearman_learned": 0.5225437283634242,
+          "best_donor_measured": "mp_r2scan",
+          "top_donor_fixed": "snumat_gga",
+          "top_donor_learned": "jarvis_optb88vdw",
+          "routing": {
+            "lp_fixed": 0.14074971376977014,
+            "lp_learned": 0.08310051667331655,
+            "learned_from_lp_fixed_score": 0.050653783889604016,
+            "learned_from_lp_learned_score": 0.18865372868892286,
+            "uniform": 0.16068027210884359,
+            "oracle": 0.3125714285714286
+          }
+        },
+        "mp_r2scan": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.37635195505741115,
+            -0.1430229449617954,
+            0.48062509998079345
+          ],
+          "spearman_fixed": 0.2702812388086677,
+          "spearman_learned": 0.594618725379069,
+          "best_donor_measured": "mp_gga_expsynth",
+          "top_donor_fixed": "jarvis_mbj",
+          "top_donor_learned": "jarvis_mbj",
+          "routing": {
+            "lp_fixed": 0.2385769548921886,
+            "lp_learned": 0.16031128332561223,
+            "learned_from_lp_fixed_score": 0.28854081908983986,
+            "learned_from_lp_learned_score": 0.3053217899510334,
+            "uniform": 0.225578231292517,
+            "oracle": 0.3424761904761904
+          }
+        },
+        "snumat_gga": {
+          "lam": 0.01,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.352738711651124,
+            -0.11132409499765747,
+            0.5359371933512186
+          ],
+          "spearman_fixed": 0.14285714285714288,
+          "spearman_learned": 0.10714285714285716,
+          "best_donor_measured": "snumat_hse",
+          "top_donor_fixed": "snumat_hse",
+          "top_donor_learned": "snumat_hse",
+          "routing": {
+            "lp_fixed": 0.14295943408012413,
+            "lp_learned": 0.17159091509952934,
+            "learned_from_lp_fixed_score": 0.3821057790610524,
+            "learned_from_lp_learned_score": 0.38470406303769356,
+            "uniform": 0.1304761904761905,
+            "oracle": 0.3847619047619048
+          }
+        },
+        "snumat_hse": {
+          "lam": 0.0,
+          "eta_fixed_score": 1.0,
+          "tau_fixed_score": 0.01,
+          "eta_learned_score": 1.0,
+          "tau_learned_score": 0.01,
+          "weights_learned": [
+            0.24765216602956916,
+            -0.19096253804919858,
+            0.5613852959212323
+          ],
+          "spearman_fixed": 0.5,
+          "spearman_learned": 0.07142857142857144,
+          "best_donor_measured": "snumat_gga",
+          "top_donor_fixed": "snumat_gga",
+          "top_donor_learned": "snumat_gga",
+          "routing": {
+            "lp_fixed": 0.10324475377803431,
+            "lp_learned": 0.10075273071019472,
+            "learned_from_lp_fixed_score": 0.30567213329961423,
+            "learned_from_lp_learned_score": 0.30666497516189717,
+            "uniform": 0.07715646258503403,
+            "oracle": 0.3066666666666667
+          }
+        }
+      },
+      "arm": "kway",
+      "mse_fixed_calibrated": 0.019908844529020586,
+      "mse_learned": 0.018239972930860587,
+      "sign_acc_fixed_raw": 0.7857142857142857,
+      "sign_acc_fixed_calibrated": 0.7857142857142857,
+      "sign_acc_learned": 0.7857142857142857,
+      "spearman_pooled_fixed": 0.2538879597720321,
+      "spearman_pooled_learned": 0.3884540472279408,
+      "mean_within_receiver_spearman_fixed": 0.35964775629276613,
+      "mean_within_receiver_spearman_learned": 0.3061167293205297,
+      "top_donor_hits_fixed": 2,
+      "top_donor_hits_learned": 2,
+      "routing_mean": {
+        "lp_fixed": 0.14667119805071738,
+        "lp_learned": 0.09912494252372266,
+        "learned_from_lp_fixed_score": 0.233964538305263,
+        "learned_from_lp_learned_score": 0.24315879083210026,
+        "uniform": 0.1467292517006803,
+        "oracle": 0.3073166666666667
+      },
+      "n_receivers": 8,
+      "all_cells": {
+        "lam": 0.01,
+        "cv_mse_by_lam": {
+          "0.0": 0.018012597004469017,
+          "0.01": 0.017914815190614438,
+          "0.1": 0.018726586781475294,
+          "1.0": 0.01973365835215637,
+          "10.0": 0.019890905273725785,
+          "100.0": 0.01990704684837501,
+          "inf": 0.019908844529020586
+        },
+        "intercept": -0.4500266528343987,
+        "v": [
+          1.0169746591616715,
+          -0.40321088678204486,
+          1.3234075591789887
+        ],
+        "weights_normalised_alpha_gamma_delta": [
+          0.3706725524505895,
+          -0.14696453567738924,
+          0.48236291187202135
+        ],
+        "cold_start_calibration": {
+          "b": -0.383557808444348,
+          "c": 0.46240076480326403
+        }
+      }
+    }
+  }
+}

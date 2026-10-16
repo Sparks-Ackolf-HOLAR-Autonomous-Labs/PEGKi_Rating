@@ -1,0 +1,209 @@
+{
+  "engines_analyzed": [
+    "gga_band_gap_difference_theoretical",
+    "gga_band_gap_intersection_theoretical",
+    "mbj_band_gap_theoretical",
+    "optb88vdw_band_gap_theoretical",
+    "snumat_gga_band_gap_theoretical",
+    "snumat_hse_band_gap_theoretical"
+  ],
+  "common_policies": [
+    "diamond",
+    "perovskite",
+    "rocksalt",
+    "rutile",
+    "wurtzite",
+    "zincblende"
+  ],
+  "all_cluster_keys": [
+    "0",
+    "1"
+  ],
+  "argmax_per_engine": {
+    "gga_band_gap_difference_theoretical": {
+      "rocksalt": 0,
+      "rutile": 1,
+      "zincblende": 0
+    },
+    "gga_band_gap_intersection_theoretical": {
+      "diamond": 1,
+      "perovskite": 0,
+      "rocksalt": 0,
+      "rutile": 0,
+      "wurtzite": 1,
+      "zincblende": 1
+    },
+    "mbj_band_gap_theoretical": {
+      "diamond": 1,
+      "perovskite": 0,
+      "rocksalt": 1,
+      "rutile": 0,
+      "wurtzite": 0,
+      "zincblende": 1
+    },
+    "optb88vdw_band_gap_theoretical": {
+      "diamond": 1,
+      "perovskite": 0,
+      "rocksalt": 0,
+      "rutile": 0,
+      "wurtzite": 1,
+      "zincblende": 1
+    },
+    "snumat_gga_band_gap_theoretical": {
+      "diamond": 1,
+      "perovskite": 0,
+      "rocksalt": 0,
+      "rutile": 0,
+      "wurtzite": 1,
+      "zincblende": 1
+    },
+    "snumat_hse_band_gap_theoretical": {
+      "diamond": 1,
+      "perovskite": 0,
+      "rocksalt": 0,
+      "rutile": 0,
+      "wurtzite": 1,
+      "zincblende": 1
+    }
+  },
+  "membership_agreement": {
+    "diamond": 1.0,
+    "perovskite": 1.0,
+    "rocksalt": 0.6666666666666666,
+    "rutile": 0.6666666666666666,
+    "wurtzite": 0.6,
+    "zincblende": 0.6666666666666666
+  },
+  "mean_membership_agreement": 0.7666666666666666,
+  "cluster_log_pi_spearman_rho": {
+    "cluster_0": {
+      "gga_band_gap_difference_theoretical<->gga_band_gap_intersection_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_difference_theoretical<->mbj_band_gap_theoretical": {
+        "rho": -1.0,
+        "p_value": 0.0
+      },
+      "gga_band_gap_difference_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_difference_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_difference_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_intersection_theoretical<->mbj_band_gap_theoretical": {
+        "rho": 0.48571428571428577,
+        "p_value": 0.32872303206997083
+      },
+      "gga_band_gap_intersection_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": 0.942857142857143,
+        "p_value": 0.004804664723032056
+      },
+      "gga_band_gap_intersection_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": 0.942857142857143,
+        "p_value": 0.004804664723032056
+      },
+      "gga_band_gap_intersection_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 1.0,
+        "p_value": 0.0
+      },
+      "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": 0.6,
+        "p_value": 0.20800000000000002
+      },
+      "mbj_band_gap_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": 0.4285714285714286,
+        "p_value": 0.3965014577259474
+      },
+      "mbj_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 0.48571428571428577,
+        "p_value": 0.32872303206997083
+      },
+      "optb88vdw_band_gap_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": 0.8857142857142858,
+        "p_value": 0.018845481049562664
+      },
+      "optb88vdw_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 0.942857142857143,
+        "p_value": 0.004804664723032056
+      },
+      "snumat_gga_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 0.942857142857143,
+        "p_value": 0.004804664723032056
+      }
+    },
+    "cluster_1": {
+      "gga_band_gap_difference_theoretical<->gga_band_gap_intersection_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_difference_theoretical<->mbj_band_gap_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_difference_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_difference_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_difference_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": -0.5,
+        "p_value": 0.6666666666666666
+      },
+      "gga_band_gap_intersection_theoretical<->mbj_band_gap_theoretical": {
+        "rho": 0.14285714285714288,
+        "p_value": 0.7871720116618076
+      },
+      "gga_band_gap_intersection_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": 0.942857142857143,
+        "p_value": 0.004804664723032056
+      },
+      "gga_band_gap_intersection_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": 0.942857142857143,
+        "p_value": 0.004804664723032056
+      },
+      "gga_band_gap_intersection_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 1.0,
+        "p_value": 0.0
+      },
+      "mbj_band_gap_theoretical<->optb88vdw_band_gap_theoretical": {
+        "rho": 0.2571428571428572,
+        "p_value": 0.6227871720116619
+      },
+      "mbj_band_gap_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": 0.2571428571428572,
+        "p_value": 0.6227871720116619
+      },
+      "mbj_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 0.14285714285714288,
+        "p_value": 0.7871720116618076
+      },
+      "optb88vdw_band_gap_theoretical<->snumat_gga_band_gap_theoretical": {
+        "rho": 0.8857142857142858,
+        "p_value": 0.018845481049562664
+      },
+      "optb88vdw_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 0.942857142857143,
+        "p_value": 0.004804664723032056
+      },
+      "snumat_gga_band_gap_theoretical<->snumat_hse_band_gap_theoretical": {
+        "rho": 0.942857142857143,
+        "p_value": 0.004804664723032056
+      }
+    }
+  },
+  "mean_rho_per_cluster": {
+    "cluster_0": 0.3104761904761905,
+    "cluster_1": 0.2638095238095238
+  },
+  "interpretation": "Mean cluster membership agreement: 0.77 (2 policies stable, 0 unstable). Mean within-cluster log_pi rank correlation: 0.287 -- weak cross-engine rank alignment within clusters."
+}

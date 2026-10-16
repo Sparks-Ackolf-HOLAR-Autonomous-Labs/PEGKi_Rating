@@ -1,0 +1,403 @@
+{
+ "database": "COST507_pycalphad.tdb",
+ "phases_all": [
+  "AL5FE4",
+  "ALCE_AMORPHOUS",
+  "ALCUZN_T",
+  "ALCU_THETA",
+  "ALLI",
+  "ALMG_BETA",
+  "ALMG_EPS",
+  "ALMG_GAMMA",
+  "ALMO",
+  "ALM_D019",
+  "ALND_AMORPHOUS",
+  "ALTI",
+  "BCC_B2",
+  "BCT_A5",
+  "CBCC_A12",
+  "CR3SI_A15",
+  "CRSI2",
+  "CUB_A13",
+  "CUB_A15",
+  "DIAMOND_A4",
+  "FCC_A1",
+  "HCP_A3",
+  "HCP_ZN",
+  "LAVES_C14",
+  "LAVES_C15",
+  "LAVES_C36",
+  "LIQUID",
+  "MG24Y5",
+  "MG2SI",
+  "MG2Y",
+  "MG2ZN11",
+  "MG2ZN3",
+  "MGY_GAMMA",
+  "MGZN",
+  "PHI",
+  "SIV3",
+  "TAU"
+ ],
+ "phases_assessed": [
+  "LIQUID",
+  "FCC_A1",
+  "HCP_A3",
+  "DIAMOND_A4",
+  "MG2SI",
+  "ALMG_BETA",
+  "ALMG_EPS",
+  "ALMG_GAMMA"
+ ],
+ "excluded": [
+  "AL12MG17",
+  "GAS"
+ ],
+ "n_pool": 180,
+ "n_pool_distinct_compositions": 27,
+ "n_observed_extra": 4,
+ "per_T": {
+  "300": {
+   "ref_GM_J_per_mol": {
+    "AL": -8490.140162876052,
+    "MG": -9801.442223257736,
+    "SI": -5643.124865464155
+   },
+   "n_distinct_evaluated": 31,
+   "wall_s_total": 67.2657482624054,
+   "max_abs_diff_all_vs_assessed_eV": 9.590040567220015e-12,
+   "n_compositions_phase_set_differs": 0,
+   "kendall_tau_vs_qe_pbe": 0.06462139147451686,
+   "p_value": 0.2143063522936396,
+   "n_shared": 179,
+   "kendall_tau_vs_qe_hse06": 0.0836622051077751,
+   "kendall_tau_vs_min_qe_pbe_per_composition": 0.17241379310344826,
+   "p_value_per_composition": 0.21027650121588926,
+   "n_compositions_shared": 27,
+   "n_compositions_with_liquid": 0,
+   "lowest10": [
+    {
+     "cid": "mp_1367_Mg2Si",
+     "value": -0.21703166776966906,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.1599680298473487
+    },
+    {
+     "cid": "mp_1101851_Mg2Si",
+     "value": -0.21703166776966906,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.10405205521131222
+    },
+    {
+     "cid": "mp_1074652_Mg2Si",
+     "value": -0.21703166776966906,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.07239986143447652
+    },
+    {
+     "cid": "mp_1073794_MgSi",
+     "value": -0.16277375082725182,
+     "phases": [
+      "DIAMOND_A4",
+      "MG2SI"
+     ],
+     "qe_pbe": -0.04214389522427808
+    },
+    {
+     "cid": "mp_4499_MgAlSi",
+     "value": -0.1085158354922242,
+     "phases": [
+      "DIAMOND_A4",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": -0.05183357507642938
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_85",
+     "value": -0.08796014034653557,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.03231838520246555
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_86",
+     "value": -0.08796014034653557,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.06270850354695234
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_87",
+     "value": -0.08796014034653557,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.06914792503806133
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_88",
+     "value": -0.08796014034653557,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.05481157218008015
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_89",
+     "value": -0.08796014034653557,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.020855044518548027
+    }
+   ]
+  },
+  "453": {
+   "ref_GM_J_per_mol": {
+    "AL": -13687.082074050162,
+    "MG": -15683.358532812703,
+    "SI": -9252.546524179159
+   },
+   "n_distinct_evaluated": 31,
+   "wall_s_total": 65.6905586719513,
+   "max_abs_diff_all_vs_assessed_eV": 1.3850838878615157e-10,
+   "n_compositions_phase_set_differs": 0,
+   "kendall_tau_vs_qe_pbe": 0.06462139147451686,
+   "p_value": 0.2143063522936396,
+   "n_shared": 179,
+   "kendall_tau_vs_qe_hse06": 0.0836622051077751,
+   "kendall_tau_vs_min_qe_pbe_per_composition": 0.17241379310344826,
+   "p_value_per_composition": 0.21027650121588926,
+   "n_compositions_shared": 27,
+   "n_compositions_with_liquid": 0,
+   "lowest10": [
+    {
+     "cid": "mp_1367_Mg2Si",
+     "value": -0.21208428599927645,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.1599680298473487
+    },
+    {
+     "cid": "mp_1101851_Mg2Si",
+     "value": -0.21208428599927645,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.10405205521131222
+    },
+    {
+     "cid": "mp_1074652_Mg2Si",
+     "value": -0.21208428599927645,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.07239986143447652
+    },
+    {
+     "cid": "mp_1073794_MgSi",
+     "value": -0.15906321449945734,
+     "phases": [
+      "DIAMOND_A4",
+      "MG2SI"
+     ],
+     "qe_pbe": -0.04214389522427808
+    },
+    {
+     "cid": "mp_4499_MgAlSi",
+     "value": -0.10604315847448192,
+     "phases": [
+      "DIAMOND_A4",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": -0.05183357507642938
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_85",
+     "value": -0.08792070819237574,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.03231838520246555
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_86",
+     "value": -0.08792070819237574,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.06270850354695234
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_87",
+     "value": -0.08792070819237574,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.06914792503806133
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_88",
+     "value": -0.08792070819237574,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.05481157218008015
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_89",
+     "value": -0.08792070819237574,
+     "phases": [
+      "ALMG_BETA",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.020855044518548027
+    }
+   ]
+  },
+  "803": {
+   "ref_GM_J_per_mol": {
+    "AL": -30338.371258622545,
+    "MG": -33938.86611462251,
+    "SI": -21600.3118251798
+   },
+   "n_distinct_evaluated": 31,
+   "wall_s_total": 54.38265371322632,
+   "max_abs_diff_all_vs_assessed_eV": 0.0,
+   "n_compositions_phase_set_differs": 0,
+   "kendall_tau_vs_qe_pbe": 0.17495377732202697,
+   "p_value": 0.000773697870101855,
+   "n_shared": 179,
+   "kendall_tau_vs_qe_hse06": 0.18956042887630728,
+   "kendall_tau_vs_min_qe_pbe_per_composition": 0.24712643678160914,
+   "p_value_per_composition": 0.07254417102777584,
+   "n_compositions_shared": 27,
+   "n_compositions_with_liquid": 12,
+   "lowest10": [
+    {
+     "cid": "mp_1367_Mg2Si",
+     "value": -0.19742790460581322,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.1599680298473487
+    },
+    {
+     "cid": "mp_1101851_Mg2Si",
+     "value": -0.19742790460581322,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.10405205521131222
+    },
+    {
+     "cid": "mp_1074652_Mg2Si",
+     "value": -0.19742790460581322,
+     "phases": [
+      "MG2SI"
+     ],
+     "qe_pbe": -0.07239986143447652
+    },
+    {
+     "cid": "mp_1073794_MgSi",
+     "value": -0.14807092845435993,
+     "phases": [
+      "DIAMOND_A4",
+      "MG2SI"
+     ],
+     "qe_pbe": -0.04214389522427808
+    },
+    {
+     "cid": "mp_4499_MgAlSi",
+     "value": -0.09907818949679575,
+     "phases": [
+      "DIAMOND_A4",
+      "FCC_A1",
+      "MG2SI"
+     ],
+     "qe_pbe": -0.05183357507642938
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_85",
+     "value": -0.09181084384963242,
+     "phases": [
+      "FCC_A1",
+      "LIQUID",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.03231838520246555
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_86",
+     "value": -0.09181084384963242,
+     "phases": [
+      "FCC_A1",
+      "LIQUID",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.06270850354695234
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_87",
+     "value": -0.09181084384963242,
+     "phases": [
+      "FCC_A1",
+      "LIQUID",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.06914792503806133
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_88",
+     "value": -0.09181084384963242,
+     "phases": [
+      "FCC_A1",
+      "LIQUID",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.05481157218008015
+    },
+    {
+     "cid": "fcc_Mg3Al4Si_89",
+     "value": -0.09181084384963242,
+     "phases": [
+      "FCC_A1",
+      "LIQUID",
+      "MG2SI"
+     ],
+     "qe_pbe": 0.020855044518548027
+    }
+   ]
+  }
+ }
+}

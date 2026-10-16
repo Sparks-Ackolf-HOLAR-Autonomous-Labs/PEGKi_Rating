@@ -1,0 +1,67 @@
+{
+  "per_engine": {
+    "gga_band_gap_difference_theoretical": {
+      "best_k": 1,
+      "cluster_weights": [
+        1.0
+      ],
+      "cluster_entropy": -0.0,
+      "max_possible_entropy": 0.0,
+      "n_entities": 3
+    },
+    "gga_band_gap_intersection_theoretical": {
+      "best_k": 1,
+      "cluster_weights": [
+        1.0
+      ],
+      "cluster_entropy": -0.0,
+      "max_possible_entropy": 0.0,
+      "n_entities": 6
+    },
+    "mbj_band_gap_theoretical": {
+      "best_k": 1,
+      "cluster_weights": [
+        1.0
+      ],
+      "cluster_entropy": -0.0,
+      "max_possible_entropy": 0.0,
+      "n_entities": 6
+    },
+    "optb88vdw_band_gap_theoretical": {
+      "best_k": 1,
+      "cluster_weights": [
+        1.0
+      ],
+      "cluster_entropy": -0.0,
+      "max_possible_entropy": 0.0,
+      "n_entities": 6
+    },
+    "snumat_gga_band_gap_theoretical": {
+      "best_k": 1,
+      "cluster_weights": [
+        1.0
+      ],
+      "cluster_entropy": -0.0,
+      "max_possible_entropy": 0.0,
+      "n_entities": 6
+    },
+    "snumat_hse_band_gap_theoretical": {
+      "best_k": 1,
+      "cluster_weights": [
+        1.0
+      ],
+      "cluster_entropy": -0.0,
+      "max_possible_entropy": 0.0,
+      "n_entities": 6
+    }
+  },
+  "engines_analyzed": [
+    "gga_band_gap_difference_theoretical",
+    "gga_band_gap_intersection_theoretical",
+    "mbj_band_gap_theoretical",
+    "optb88vdw_band_gap_theoretical",
+    "snumat_gga_band_gap_theoretical",
+    "snumat_hse_band_gap_theoretical"
+  ],
+  "interpretation": "Most complex: gga_band_gap_difference_theoretical (K=1, H=-0.000).  Simplest: gga_band_gap_difference_theoretical (K=1, H=-0.000).  Cluster count and entropy agree: gga_band_gap_difference_theoretical is the most multi-modal engine."
+}

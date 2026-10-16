@@ -1,0 +1,309 @@
+{
+ "receiver": "A. Poznak, V. Thole, P. Sanders, The Natural Aging Effect on Hardenability in Al-Mg-Si: A Complex Interaction between Composition and Heat Treatment Parameters, Metals 8 (2018) 309",
+ "doi": "10.3390/met8050309",
+ "n_alloys": 6,
+ "measured": {
+  "HS Si-rich": {
+   "peak_HV": 93.5,
+   "NA_loss_HV": 0.5,
+   "time_to_peak_h": 6,
+   "x_Mg": 0.00333,
+   "x_Si": 0.01134
+  },
+  "HS balanced": {
+   "peak_HV": 110.0,
+   "NA_loss_HV": 2.0,
+   "time_to_peak_h": 8,
+   "x_Mg": 0.00633,
+   "x_Si": 0.00807
+  },
+  "HS Mg-rich": {
+   "peak_HV": 98.0,
+   "NA_loss_HV": 8.5,
+   "time_to_peak_h": 20,
+   "x_Mg": 0.0112,
+   "x_Si": 0.00394
+  },
+  "LS Si-rich": {
+   "peak_HV": 52.0,
+   "NA_loss_HV": 2.0,
+   "time_to_peak_h": 48,
+   "x_Mg": 0.00167,
+   "x_Si": 0.00557
+  },
+  "LS balanced": {
+   "peak_HV": 53.3,
+   "NA_loss_HV": -3.7,
+   "time_to_peak_h": 90,
+   "x_Mg": 0.00344,
+   "x_Si": 0.00375
+  },
+  "LS Mg-rich": {
+   "peak_HV": 45.3,
+   "NA_loss_HV": -0.5,
+   "time_to_peak_h": 48,
+   "x_Mg": 0.00522,
+   "x_Si": 0.00192
+  }
+ },
+ "donors": {
+  "qe_pbe": {
+   "label": "QE PBE, 0 K",
+   "driving_force_eV_per_alloy_atom": {
+    "HS Si-rich": -0.000799,
+    "HS balanced": -0.001518,
+    "HS Mg-rich": -0.001889,
+    "LS Si-rich": -0.0004,
+    "LS balanced": -0.000826,
+    "LS Mg-rich": -0.000922
+   },
+   "phase_used": {
+    "HS Si-rich": "mp_1367_Mg2Si",
+    "HS balanced": "mp_1367_Mg2Si",
+    "HS Mg-rich": "mp_1367_Mg2Si",
+    "LS Si-rich": "mp_1367_Mg2Si",
+    "LS balanced": "mp_1367_Mg2Si",
+    "LS Mg-rich": "mp_1367_Mg2Si"
+   },
+   "agreement_peak_HV": 0.3333333333333333,
+   "agreement_peak_HV_ci90": [
+    -0.33333333333333337,
+    0.8461538461538463
+   ],
+   "within_level_pairs_agreeing": "3/6",
+   "closest_ratio_rule_agreement_peak_HV": -0.07161148740394328
+  },
+  "qe_hse06": {
+   "label": "QE HSE06, 0 K",
+   "driving_force_eV_per_alloy_atom": {
+    "HS Si-rich": -0.000648,
+    "HS balanced": -0.001231,
+    "HS Mg-rich": -0.001532,
+    "LS Si-rich": -0.000324,
+    "LS balanced": -0.00067,
+    "LS Mg-rich": -0.000748
+   },
+   "phase_used": {
+    "HS Si-rich": "mp_1367_Mg2Si",
+    "HS balanced": "mp_1367_Mg2Si",
+    "HS Mg-rich": "mp_1367_Mg2Si",
+    "LS Si-rich": "mp_1367_Mg2Si",
+    "LS balanced": "mp_1367_Mg2Si",
+    "LS Mg-rich": "mp_1367_Mg2Si"
+   },
+   "agreement_peak_HV": 0.3333333333333333,
+   "agreement_peak_HV_ci90": [
+    -0.33333333333333337,
+    0.8461538461538463
+   ],
+   "within_level_pairs_agreeing": "3/6",
+   "closest_ratio_rule_agreement_peak_HV": -0.07161148740394328
+  },
+  "mace_relax": {
+   "label": "MACE-MP-0, 0 K",
+   "driving_force_eV_per_alloy_atom": {
+    "HS Si-rich": -0.000406,
+    "HS balanced": -0.000771,
+    "HS Mg-rich": -0.000959,
+    "LS Si-rich": -0.000203,
+    "LS balanced": -0.000419,
+    "LS Mg-rich": -0.000468
+   },
+   "phase_used": {
+    "HS Si-rich": "mp_1367_Mg2Si",
+    "HS balanced": "mp_1367_Mg2Si",
+    "HS Mg-rich": "mp_1367_Mg2Si",
+    "LS Si-rich": "mp_1367_Mg2Si",
+    "LS balanced": "mp_1367_Mg2Si",
+    "LS Mg-rich": "mp_1367_Mg2Si"
+   },
+   "agreement_peak_HV": 0.3333333333333333,
+   "agreement_peak_HV_ci90": [
+    -0.33333333333333337,
+    0.8461538461538463
+   ],
+   "within_level_pairs_agreeing": "3/6",
+   "closest_ratio_rule_agreement_peak_HV": -0.07161148740394328
+  },
+  "mace_md": {
+   "label": "MACE-MP-0 MD, 300 K",
+   "driving_force_eV_per_alloy_atom": {
+    "HS Si-rich": -0.000412,
+    "HS balanced": -0.000783,
+    "HS Mg-rich": -0.000974,
+    "LS Si-rich": -0.000206,
+    "LS balanced": -0.000426,
+    "LS Mg-rich": -0.000475
+   },
+   "phase_used": {
+    "HS Si-rich": "mp_1367_Mg2Si",
+    "HS balanced": "mp_1367_Mg2Si",
+    "HS Mg-rich": "mp_1367_Mg2Si",
+    "LS Si-rich": "mp_1367_Mg2Si",
+    "LS balanced": "mp_1367_Mg2Si",
+    "LS Mg-rich": "mp_1367_Mg2Si"
+   },
+   "agreement_peak_HV": 0.3333333333333333,
+   "agreement_peak_HV_ci90": [
+    -0.33333333333333337,
+    0.8461538461538463
+   ],
+   "within_level_pairs_agreeing": "3/6",
+   "closest_ratio_rule_agreement_peak_HV": -0.3580574370197165
+  },
+  "lammps_meam_md": {
+   "label": "MEAM MD, 300 K",
+   "driving_force_eV_per_alloy_atom": {
+    "HS Si-rich": 0.000218,
+    "HS balanced": 0.000413,
+    "HS Mg-rich": 0.000514,
+    "LS Si-rich": 0.000109,
+    "LS balanced": 0.000225,
+    "LS Mg-rich": 0.000251
+   },
+   "phase_used": {
+    "HS Si-rich": "mp_1367_Mg2Si",
+    "HS balanced": "mp_1367_Mg2Si",
+    "HS Mg-rich": "mp_1367_Mg2Si",
+    "LS Si-rich": "mp_1367_Mg2Si",
+    "LS balanced": "mp_1367_Mg2Si",
+    "LS Mg-rich": "mp_1367_Mg2Si"
+   },
+   "agreement_peak_HV": -0.3333333333333333,
+   "agreement_peak_HV_ci90": [
+    -0.8461538461538463,
+    0.33333333333333337
+   ],
+   "within_level_pairs_agreeing": "3/6",
+   "closest_ratio_rule_agreement_peak_HV": -0.3580574370197165
+  },
+  "gpumd_nep89_md": {
+   "label": "NEP89 MD, 300 K",
+   "driving_force_eV_per_alloy_atom": {
+    "HS Si-rich": -0.001009,
+    "HS balanced": -0.001916,
+    "HS Mg-rich": -0.000993,
+    "LS Si-rich": -0.000504,
+    "LS balanced": -0.000945,
+    "LS Mg-rich": -0.000485
+   },
+   "phase_used": {
+    "HS Si-rich": "mp_568306_Mg5Si6",
+    "HS balanced": "mp_568306_Mg5Si6",
+    "HS Mg-rich": "mp_568306_Mg5Si6",
+    "LS Si-rich": "mp_568306_Mg5Si6",
+    "LS balanced": "mp_568306_Mg5Si6",
+    "LS Mg-rich": "mp_568306_Mg5Si6"
+   },
+   "agreement_peak_HV": 0.8666666666666666,
+   "agreement_peak_HV_ci90": [
+    0.5000000000000001,
+    1.0
+   ],
+   "within_level_pairs_agreeing": "5/6",
+   "closest_ratio_rule_agreement_peak_HV": 0.3580574370197165
+  },
+  "lammps_meam_relax": {
+   "label": "MEAM, 0 K",
+   "driving_force_eV_per_alloy_atom": {
+    "HS Si-rich": 0.000211,
+    "HS balanced": 0.000401,
+    "HS Mg-rich": 0.000499,
+    "LS Si-rich": 0.000106,
+    "LS balanced": 0.000218,
+    "LS Mg-rich": 0.000244
+   },
+   "phase_used": {
+    "HS Si-rich": "mp_1367_Mg2Si",
+    "HS balanced": "mp_1367_Mg2Si",
+    "HS Mg-rich": "mp_1367_Mg2Si",
+    "LS Si-rich": "mp_1367_Mg2Si",
+    "LS balanced": "mp_1367_Mg2Si",
+    "LS Mg-rich": "mp_1367_Mg2Si"
+   },
+   "agreement_peak_HV": -0.3333333333333333,
+   "agreement_peak_HV_ci90": [
+    -0.8461538461538463,
+    0.33333333333333337
+   ],
+   "within_level_pairs_agreeing": "3/6",
+   "closest_ratio_rule_agreement_peak_HV": -0.3580574370197165
+  },
+  "gpumd_nep89_relax": {
+   "label": "NEP89, 0 K",
+   "driving_force_eV_per_alloy_atom": {
+    "HS Si-rich": -0.001011,
+    "HS balanced": -0.001919,
+    "HS Mg-rich": -0.0014,
+    "LS Si-rich": -0.000505,
+    "LS balanced": -0.000947,
+    "LS Mg-rich": -0.000683
+   },
+   "phase_used": {
+    "HS Si-rich": "mp_568306_Mg5Si6",
+    "HS balanced": "mp_568306_Mg5Si6",
+    "HS Mg-rich": "mp_542854_Mg9Si5",
+    "LS Si-rich": "mp_568306_Mg5Si6",
+    "LS balanced": "mp_568306_Mg5Si6",
+    "LS Mg-rich": "mp_542854_Mg9Si5"
+   },
+   "agreement_peak_HV": 0.8666666666666666,
+   "agreement_peak_HV_ci90": [
+    0.45454545454545453,
+    1.0
+   ],
+   "within_level_pairs_agreeing": "5/6",
+   "closest_ratio_rule_agreement_peak_HV": 0.3580574370197165
+  }
+ },
+ "composition_only_beta_dprime": {
+  "agreement_peak_HV": 0.8666666666666666,
+  "agreement_peak_HV_ci90": [
+   0.5000000000000001,
+   1.0
+  ],
+  "note": "ordering by Mg5Si6 solute available, identical for every source with a negative beta'' formation energy"
+ },
+ "phase_energies_eV_per_atom": {
+  "qe_pbe": {
+   "mp_568306_Mg5Si6": 0.027040956386454953,
+   "mp_542854_Mg9Si5": -0.11777685645925626,
+   "mp_1367_Mg2Si": -0.1599680298473487
+  },
+  "qe_hse06": {
+   "mp_568306_Mg5Si6": 0.10729410016591084,
+   "mp_542854_Mg9Si5": -0.08766487735556439,
+   "mp_1367_Mg2Si": -0.12974937725053337
+  },
+  "mace_relax": {
+   "mp_568306_Mg5Si6": 0.052242158183211984,
+   "mp_542854_Mg9Si5": -0.03901197473572842,
+   "mp_1367_Mg2Si": -0.08127185846638807
+  },
+  "mace_md": {
+   "mp_568306_Mg5Si6": 0.05178778869937097,
+   "mp_542854_Mg9Si5": -0.03886540715656547,
+   "mp_1367_Mg2Si": -0.08247016176765361
+  },
+  "lammps_meam_md": {
+   "mp_568306_Mg5Si6": 0.13857287461801543,
+   "mp_542854_Mg9Si5": 0.06297098885113021,
+   "mp_1367_Mg2Si": 0.043546389228010796
+  },
+  "gpumd_nep89_md": {
+   "mp_568306_Mg5Si6": -0.13766816790460723,
+   "mp_542854_Mg9Si5": -0.08854420044345192,
+   "mp_1367_Mg2Si": 0.08875905675733087
+  },
+  "lammps_meam_relax": {
+   "mp_568306_Mg5Si6": 0.13677608801978636,
+   "mp_542854_Mg9Si5": 0.06295711866775987,
+   "mp_1367_Mg2Si": 0.04228576252247129
+  },
+  "gpumd_nep89_relax": {
+   "mp_568306_Mg5Si6": -0.1379148309881037,
+   "mp_542854_Mg9Si5": -0.12702536582946777,
+   "mp_1367_Mg2Si": 0.0880928039550779
+  }
+ }
+}
