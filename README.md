@@ -30,7 +30,7 @@ Figures: run a script from the folder root, for example `python writings/papers_
 | `set_operations.png` | `writings/papers_2026/regen_figs/pegki_set_operations.py` | `shared/output/set_operation_study/set_operation_study.json` |
 | `routing_k_sweep.png` | `writings/papers_2026/regen_figs/pegki_routing_k_sweep.py` | `shared/output/routing_k_sweep_50seed/routing_k_sweep.json`, `shared/output/routing_k_sweep_50seed/routing_k_sweep_bootstrap.json` |
 | `decision_body_cycles.png` | `writings/papers_2026/regen_figs/pegki_decision_body_cycles.py` | `shared/output/decision_body_cycles/decision_body_cycles.json` |
-| `live_transfer.png` | `writings/papers_2026/regen_figs/live_almgsi_figs.py` | `compute/almgsi_campaign/results/analysis/source_agreement.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_pbe_all/summary.json`, `compute/almgsi_campaign/results_T/analysis/temperature_study.json` |
+| `live_transfer.png` | `writings/papers_2026/regen_figs/live_almgsi_figs.py` | `compute/almgsi_campaign/candidates_index.json`, `compute/almgsi_campaign/results/analysis/source_agreement.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_pbe_all/summary.json` and 11 more |
 | `bridge_budget.png` | `writings/papers_2026/regen_figs/pegki_bridge_budget.py` | `shared/output/bridge_budget/bridge_budget.json` |
 | `pair_combinatorics.png` | `writings/papers_2026/regen_figs/pegki_pair_combinatorics.py` | `shared/output/pair_combinatorics/pair_combinatorics.json` |
 | `local_cycles.png` | `writings/papers_2026/regen_figs/pegki_local_cycles.py` | `shared/output/campaign_loop_bands/campaign_loop_bands.json`, `shared/output/decision_body_cycles/decision_body_cycles.json` |
@@ -124,7 +124,7 @@ Some results in the paper come from campaign protocols and analyses that also se
 ## Contents by role
 
 - code: 152 files
-- input data: 3456 files
+- input data: 3458 files
 - figure data: 5522 files
 - result named in paper: 19 files
 - environment: 4 files

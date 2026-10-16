@@ -7173,8 +7173,10 @@ input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_all_combine
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_all_combined/summary.json
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/alloy_hits.json
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/campaign_runs.csv
+input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/coalitions.json
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/summary.json
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide_combined/campaign_runs.csv
+input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide_combined/coalitions.json
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide_combined/summary.json
 input data	compute/semiconductor_campaign/results/hse_qconv/arc_GaAs_mp-2534.q1.json
 input data	compute/semiconductor_campaign/results/hse_qconv/arc_GaAs_mp-2534.q2.json
