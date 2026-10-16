@@ -1,5 +1,7 @@
 # PEGKi
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23413455.svg)](https://doi.org/10.5281/zenodo.23413455)
+
 **Paper.** Evaluating transfer across modalities in autonomous materials systems (submitted to Digital Discovery (RSC)).
 
 This repository holds the code and data behind the paper: the scripts that draw its figures, the result files they read, the code that produced those results, and the archived or computed inputs that code reads. The manuscript itself is not part of the repository. Every script runs unchanged from the repository root.
