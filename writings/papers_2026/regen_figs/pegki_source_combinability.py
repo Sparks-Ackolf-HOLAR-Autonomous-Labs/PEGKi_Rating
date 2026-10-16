@@ -31,7 +31,7 @@ OUT = ROOT / "writings/papers_2026/pegki_digital_discovery/figures/source_combin
 
 SHORT = {"expt_zhuo": "Experiment", "snumat_hse": "SNUMAT HSE06",
          "jarvis_mbj": "JARVIS TB-mBJ", "mp_r2scan": "MP r$^2$SCAN",
-         "snumat_gga": "SNUMAT GGA", "jarvis_optb88vdw": "JARVIS OptB88",
+         "snumat_gga": "SNUMAT GGA", "jarvis_optb88vdw": "JARVIS OptB88vdW",
          "mp_gga": "MP GGA", "mp_gga_expsynth": "MP GGA (ICSD)"}
 GGA = {"snumat_gga", "jarvis_optb88vdw", "mp_gga", "mp_gga_expsynth"}
 
@@ -44,8 +44,16 @@ def relation(a, b):
     return "different DFT levels"
 
 
-COL = {"both GGA level": MP_BLUE, "different DFT levels": SNUMAT_PURPLE,
-       "with experiment": EXPT_GOLD}
+# pair type by marker shape and neutral shades (the database palette is kept
+# for sources, not pair types)
+COL = {"both GGA level": INK, "different DFT levels": "#777777",
+       "with experiment": "#AAAAAA"}
+MK = {"both GGA level": "o", "different DFT levels": "s", "with experiment": "^"}
+# pairs discussed in the text
+LABEL = {frozenset({"snumat_gga", "snumat_hse"}): ("SNUMAT GGA/HSE06", (3, 6), "left"),
+         frozenset({"mp_gga", "expt_zhuo"}): ("MP GGA/Exp.", (6, -2), "left"),
+         frozenset({"jarvis_optb88vdw", "jarvis_mbj"}): ("OptB88vdW/TB-mBJ", (4, -10), "left"),
+         frozenset({"mp_gga", "snumat_gga"}): ("MP/SNUMAT GGA", (4, -9), "left")}
 
 
 def main():
@@ -57,7 +65,7 @@ def main():
     def get(a, b):
         return P.get(f"{a}|{b}") or P.get(f"{b}|{a}")
 
-    fig = plt.figure(figsize=(RSC_FULL, 2.75))
+    fig = plt.figure(figsize=(RSC_FULL, 3.0))
     gs = fig.add_gridspec(1, 3, width_ratios=[1.25, 1.0, 0.85])
     ax0, ax1, ax2 = (fig.add_subplot(gs[0, i]) for i in range(3))
 
@@ -72,10 +80,9 @@ def main():
     for i in range(n):
         for j in range(i):
             r = get(order[i], order[j])
-            ax0.text(j, i - 0.12, f"{r['tau']:.2f}", ha="center", va="center", fontsize=5.6,
+            ax0.text(j, i, f"{r['tau']:.2f}", ha="center", va="center", fontsize=6.5,
                      color="white" if r["tau"] > 0.72 else INK)
-            ax0.text(j, i + 0.26, f"{r['n_shared'] / 1000:.1f}k", ha="center", va="center",
-                     fontsize=4.6, color="white" if r["tau"] > 0.72 else GREY)
+            # shared-compound counts are given in the caption (0.5k to 24k)
     ax0.set_xticks(range(n))
     ax0.set_xticklabels([SHORT[s] for s in order], rotation=55, ha="right", fontsize=6)
     ax0.set_yticks(range(n))
@@ -99,15 +106,19 @@ def main():
         x, y = r["value_agree_frac"], r["tau"]
         xe = np.array([[x - r["value_agree_ci90"][0]], [r["value_agree_ci90"][1] - x]])
         ye = np.array([[y - r["tau_ci90"][0]], [r["tau_ci90"][1] - y]])
-        ax1.errorbar(x, y, xerr=xe, yerr=ye, fmt="o", ms=3.2, color=COL[rel],
+        ax1.errorbar(x, y, xerr=xe, yerr=ye, fmt=MK[rel], ms=3.4, color=COL[rel],
                      ecolor=COL[rel], elinewidth=0.6, capsize=0, label=rel)
+        lab_ = LABEL.get(frozenset({r["a"], r["b"]}))
+        if lab_:
+            ax1.annotate(lab_[0], (x, y), xytext=lab_[1], textcoords="offset points", fontsize=6,
+                         color=INK, ha=lab_[2])
     h, lab = ax1.get_legend_handles_labels()
     uniq = dict(zip(lab, h))
     ax1.legend(uniq.values(), uniq.keys(), loc="lower right", fontsize=6,
                handletextpad=0.2, borderaxespad=0.2)
     ax1.set_xlim(0.2, 1.0)
     ax1.set_ylim(0.5, 1.0)
-    ax1.set_xlabel("gaps within 0.3 eV after scissor shift", fontsize=7)
+    ax1.set_xlabel("fraction of shared compounds\nwithin 0.3 eV after scissor shift", fontsize=7)
     ax1.set_ylabel("Kendall $\\tau$ on shared compounds", fontsize=7)
     ax1.set_title("(b) values versus ordering", fontsize=8, loc="left")
 

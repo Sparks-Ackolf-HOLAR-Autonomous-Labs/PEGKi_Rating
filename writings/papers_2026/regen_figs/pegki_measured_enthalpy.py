@@ -25,9 +25,16 @@ DATA = ROOT / "compute" / "almgsi_campaign" / "results" / "lab_receivers" / "mea
 OUT = ROOT / "writings" / "papers_2026" / "pegki_digital_discovery" / "figures" / "measured_enthalpy.png"
 KJ = 96.485332
 
-SHOW = [("qe_pbe", "QE PBE", MP_BLUE, "o"), ("qe_hse06", "QE HSE06", SNUMAT_PURPLE, "s"),
-        ("archive_mp", "MP archive", GREY, "D"), ("mace_relax", "MACE-MP-0", JARVIS_GREEN, "^"),
-        ("gpumd_nep89_md", "NEP89 MD", ACCENT_RED, "v")]
+from paper_fig_style import ALMGSI_COLOURS as AC  # noqa: E402
+# all nine sources of panel (b), same labels and the Al-Mg-Si palette
+SHOW = [("qe_pbe", "QE PBE, 0 K", AC["qe_pbe"], "o"), ("qe_hse06", "QE HSE06, 0 K", AC["qe_hse06"], "s"),
+        ("archive_mp", "MP archive", AC["archive_mp"], "D"),
+        ("mace_relax", "MACE-MP-0, 0 K", AC["mace_relax"], "^"),
+        ("mace_md", "MACE-MP-0 MD, 300 K", AC["mace_md"], "^"),
+        ("lammps_meam_relax", "MEAM, 0 K", AC["lammps_meam_md"], "<"),
+        ("lammps_meam_md", "MEAM MD, 300 K", AC["lammps_meam_md"], ">"),
+        ("gpumd_nep89_relax", "NEP89, 0 K", AC["gpumd_nep89_md"], "v"),
+        ("gpumd_nep89_md", "NEP89 MD, 300 K", AC["gpumd_nep89_md"], "P")]
 COMPOUNDS = [("Mg2Si", "Mg$_2$Si", "Mg2Si"), ("gamma", "$\\gamma$ Al$_{12}$Mg$_{17}$", "gamma"),
              ("beta", "$\\beta$ Al$_3$Mg$_2$", "beta_hull")]
 MLABEL = {"BP1970": "B&P", "PH1978": "P&H", "JANAF": "JANAF", "Feufel1997": "Feufel"}
@@ -37,13 +44,13 @@ def main():
     apply_style()
     d = json.loads(DATA.read_text())
     meas, comp = d["measured_kJ_per_mol_atoms"], d["computed_eV_per_atom"]
-    fig, (a, b) = plt.subplots(1, 2, figsize=(RSC_FULL, 2.5), gridspec_kw={"width_ratios": [1.35, 1]})
+    fig, (a, b) = plt.subplots(1, 2, figsize=(RSC_FULL, 3.1), gridspec_kw={"width_ratios": [1.35, 1]})
     for y, (key, lab, ckey) in enumerate(COMPOUNDS):
         vals = {k: v / KJ for k, v in meas[key].items()}
         lo, hi = min(vals.values()), max(vals.values())
         a.fill_betweenx([y - 0.28, y + 0.28], lo, hi, color=EXPT_GOLD, alpha=0.35, lw=0)
         for i, (s, sl, col, mk) in enumerate(SHOW):
-            a.scatter(comp[s][ckey], y + (i - 2) * 0.09, color=col, marker=mk, s=16, zorder=3,
+            a.scatter(comp[s][ckey], y + (i - 4) * 0.055, color=col, marker=mk, s=14, zorder=3,
                       label=sl if y == 0 else None, lw=0)
     a.axvline(0, color=GREY, lw=0.6, ls=":")
     a.set_yticks(range(len(COMPOUNDS)))
@@ -51,7 +58,8 @@ def main():
     a.set_ylim(-0.6, len(COMPOUNDS) - 0.25)
     a.set_xlabel("formation enthalpy (eV/atom)")
     a.set_title("(a) measured band and computed values", loc="left")
-    a.legend(loc="upper left", fontsize=6, handletextpad=0.2, borderaxespad=0.2)
+    a.legend(loc="upper center", bbox_to_anchor=(0.45, -0.28), ncol=3, fontsize=6,
+             handletextpad=0.2, columnspacing=0.8, labelspacing=0.25)
     a.grid(axis="y", visible=False)
 
     summ = d["summary"]["beta_hull"]

@@ -21,7 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from paper_fig_style import (  # noqa: E402
-    RSC_FULL, SOURCE_COLOURS, SOURCE_NAMES, INK, GREY, apply_style, save,
+    RSC_FULL, SOURCE_COLOURS, PEGKI_SOURCE_NAMES, INK, GREY, apply_style, save,
 )
 import matplotlib.pyplot as plt  # noqa: E402
 
@@ -51,7 +51,7 @@ def main():
                      ha="left" if v >= 0 else "right", fontsize=7)
     axL.set_xlim(min(vals) - 0.8, max(vals) + 0.8)
     axL.set_yticks(ys)
-    axL.set_yticklabels([SOURCE_NAMES[c] for c in order])
+    axL.set_yticklabels([PEGKI_SOURCE_NAMES[c] for c in order])
     axL.set_xlabel("offset $\\delta$ (log units; higher = wider gaps)")
     axL.set_title("(a) Rung position", loc="left")
     axL.grid(axis="y", visible=False)

@@ -22,7 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from paper_fig_style import (  # noqa: E402
-    RSC_FULL, SOURCE_NAMES, GREY, INK, apply_style, save,
+    RSC_FULL, PEGKI_SOURCE_NAMES, GREY, INK, apply_style, save,
 )
 import matplotlib.pyplot as plt  # noqa: E402
 
@@ -44,7 +44,7 @@ SPACING_ORDER = ["hse_minus_gga_snumat", "mbj_minus_optb88_jarvis", "expt_minus_
 SPACING_LABELS = {
     "hse_minus_gga_snumat": "HSE06\nvs GGA\n(SNUMAT)",
     "mbj_minus_optb88_jarvis": "TB-mBJ vs\nOptB88vdW\n(JARVIS)",
-    "expt_minus_gga_mp": "Experiment\nvs GGA\n(Zhuo / MP)",
+    "expt_minus_gga_mp": "Experiment\nvs GGA\n(MP)",
 }
 
 
@@ -79,7 +79,7 @@ def main():
                    fams[fam]["offset_ref_ci"][src],
                    FAMILY_COLOURS[fam], FAMILY_MARKERS[fam])
     axL.set_xticks(range(len(sources)))
-    axL.set_xticklabels([SOURCE_NAMES[s] for s in sources],
+    axL.set_xticklabels([PEGKI_SOURCE_NAMES[s] for s in sources],
                         rotation=32, ha="right", rotation_mode="anchor")
     axL.set_ylabel("offset vs MP GGA (log units)")
     axL.set_title("Per-source offsets refitted within one anion family", fontsize=8.5)

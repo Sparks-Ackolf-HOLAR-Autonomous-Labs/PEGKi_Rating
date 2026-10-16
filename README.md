@@ -28,9 +28,9 @@ Figures: run a script from the folder root, for example `python writings/papers_
 | `family_offsets.png` | `writings/papers_2026/regen_figs/pegki_family_offsets.py` | `shared/output/family_offsets/family_offsets.json` |
 | `omega_regret.png` | `writings/papers_2026/regen_figs/pegki_omega_regret.py` | `shared/output/omega_regret/omega_regret.json` |
 | `set_operations.png` | `writings/papers_2026/regen_figs/pegki_set_operations.py` | `shared/output/set_operation_study/set_operation_study.json` |
-| `routing_k_sweep.png` | `writings/papers_2026/regen_figs/pegki_routing_k_sweep.py` | `shared/output/routing_k_sweep_50seed/routing_k_sweep.json` |
+| `routing_k_sweep.png` | `writings/papers_2026/regen_figs/pegki_routing_k_sweep.py` | `shared/output/routing_k_sweep_50seed/routing_k_sweep.json`, `shared/output/routing_k_sweep_50seed/routing_k_sweep_bootstrap.json` |
 | `decision_body_cycles.png` | `writings/papers_2026/regen_figs/pegki_decision_body_cycles.py` | `shared/output/decision_body_cycles/decision_body_cycles.json` |
-| `live_transfer.png` | `writings/papers_2026/regen_figs/live_almgsi_figs.py` | `compute/almgsi_campaign/results/analysis/source_agreement.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_shapley/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_shapley_combined/summary.json` and 3 more |
+| `live_transfer.png` | `writings/papers_2026/regen_figs/live_almgsi_figs.py` | `compute/almgsi_campaign/results/analysis/source_agreement.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_pbe_all/summary.json`, `compute/almgsi_campaign/results_T/analysis/temperature_study.json` |
 | `bridge_budget.png` | `writings/papers_2026/regen_figs/pegki_bridge_budget.py` | `shared/output/bridge_budget/bridge_budget.json` |
 | `pair_combinatorics.png` | `writings/papers_2026/regen_figs/pegki_pair_combinatorics.py` | `shared/output/pair_combinatorics/pair_combinatorics.json` |
 | `local_cycles.png` | `writings/papers_2026/regen_figs/pegki_local_cycles.py` | `shared/output/campaign_loop_bands/campaign_loop_bands.json`, `shared/output/decision_body_cycles/decision_body_cycles.json` |
@@ -39,6 +39,7 @@ Figures: run a script from the folder root, for example `python writings/papers_
 | `measured_enthalpy.png` | `writings/papers_2026/regen_figs/pegki_measured_enthalpy.py` | `compute/almgsi_campaign/results/lab_receivers/measured_enthalpy_combinations.json` |
 | `receiver_matrix.png` | `writings/papers_2026/regen_figs/pegki_receiver_matrix.py` | `compute/almgsi_campaign/candidates_index.json`, `compute/almgsi_campaign/results/analysis/hull_receiver.json`, `compute/almgsi_campaign/results/analysis/vacancy_binding_n3.json`, `compute/almgsi_campaign/results/calphad/calphad_T300.json` and 9 more |
 | `poznak_ageing.png` | `writings/papers_2026/regen_figs/pegki_poznak_ageing.py` | `compute/almgsi_campaign/results/lab_receivers/poznak2018_ageing.json`, `compute/almgsi_campaign/results/lab_receivers/poznak_receiver.json` |
+| `almgsi_campaign.png` | `writings/papers_2026/regen_figs/pegki_almgsi_campaign.py` | `compute/almgsi_campaign/results/analysis/prisms_comparison/prisms_comparison_qe_hse06.json`, `compute/almgsi_campaign/results/analysis/prisms_comparison/prisms_comparison_qe_pbe.json`, `compute/almgsi_campaign/results/campaigns/gpaw_r2scan_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json` and 1 more |
 
 ## Producing code
 
@@ -122,9 +123,9 @@ Some results in the paper come from campaign protocols and analyses that also se
 
 ## Contents by role
 
-- code: 151 files
-- input data: 3455 files
-- figure data: 5521 files
+- code: 152 files
+- input data: 3456 files
+- figure data: 5522 files
 - result named in paper: 19 files
 - environment: 4 files
 - code (carried over): 5 files

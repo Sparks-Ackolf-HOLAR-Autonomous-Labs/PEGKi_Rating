@@ -34,13 +34,13 @@ OUT = ROOT / "writings/papers_2026/pegki_digital_discovery/figures/omega_regret.
 # short reader-facing names so the axis labels stay legible in-column
 SHORT_NAMES = {
     "expt_zhuo": "Experiment",
-    "jarvis_mbj": "TB-mBJ",
-    "jarvis_optb88vdw": "OptB88vdW",
+    "jarvis_mbj": "JARVIS TB-mBJ",
+    "jarvis_optb88vdw": "JARVIS OptB88vdW",
     "mp_gga": "MP GGA",
     "mp_gga_expsynth": "MP GGA (ICSD)",
-    "mp_r2scan": "r$^2$SCAN",
+    "mp_r2scan": "MP r$^2$SCAN",
     "snumat_gga": "SNUMAT GGA",
-    "snumat_hse": "SNUMAT HSE",
+    "snumat_hse": "SNUMAT HSE06",
 }
 # heatmap order: experiment first, then grouped by database of origin
 HEAT_ORDER = [
@@ -100,8 +100,7 @@ def main():
         linewidth=1.1, zorder=4))
 
     cb = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
-    cb.set_label("early harm of blind reuse,\n"
-                 "$\\omega_{\\mathrm{regret}}$ (Kendall $\\tau$ units)",
+    cb.set_label("early overhead of fixed-trust\nreuse (Kendall $\\tau$)",
                  fontsize=7)
     cb.ax.tick_params(labelsize=6.5)
     save(fig, OUT)

@@ -7171,6 +7171,7 @@ input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_all/campaig
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_all/summary.json
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_all_combined/campaign_runs.csv
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_all_combined/summary.json
+input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/alloy_hits.json
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/campaign_runs.csv
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/summary.json
 input data	compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide_combined/campaign_runs.csv
@@ -9105,6 +9106,7 @@ figure data	shared/output/pair_combinatorics/pair_combinatorics.md
 result named in paper	shared/output/property_family_receivers/results.json
 figure data	shared/output/routing_k_sweep_50seed/routing_k_sweep.json
 figure data	shared/output/routing_k_sweep_50seed/routing_k_sweep.md
+figure data	shared/output/routing_k_sweep_50seed/routing_k_sweep_bootstrap.json
 figure data	shared/output/set_operation_study/set_operation_study.json
 figure data	shared/output/set_operation_study/set_operation_study.md
 figure data	shared/output/source_combinability/source_combinability.json
@@ -9162,6 +9164,7 @@ code	shared/src/utils/simulation_seed.py
 environment	shared/uv.lock
 code	writings/papers_2026/paper_fig_style.py
 code	writings/papers_2026/regen_figs/live_almgsi_figs.py
+code	writings/papers_2026/regen_figs/pegki_almgsi_campaign.py
 code	writings/papers_2026/regen_figs/pegki_bridge_budget.py
 code	writings/papers_2026/regen_figs/pegki_cluster_transfer.py
 code	writings/papers_2026/regen_figs/pegki_decision_body_cycles.py

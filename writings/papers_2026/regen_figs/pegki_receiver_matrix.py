@@ -108,7 +108,7 @@ def main():
     fig.tight_layout()
     out = HERE.parent / "pegki_digital_discovery" / "figures" / "receiver_matrix.png"
     Path(out).parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(out, dpi=300)
+    fig.savefig(out, dpi=600)
     json.dump({"columns": [c[0].replace("\n", " ") for c in cols], "n": ns, "rows": [r[1] for r in ROWS],
                "tau": [[None if not np.isfinite(x) else round(float(x), 3) for x in r] for r in M]},
               open(out.with_suffix(".json"), "w", encoding="utf-8"), indent=1)
